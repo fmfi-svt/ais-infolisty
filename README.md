@@ -1,6 +1,5 @@
 XML 2 HTML convertor
 =========
-Autor: Kristian Valentin <valentin.kristian@gmail.com>
 
 Vygeneruje HTML dokumenty zo zdrojovych XML suborov.
 
@@ -10,11 +9,9 @@ Vygeneruje HTML dokumenty zo zdrojovych XML suborov.
 * lynx
 
 ## Instalacia ##
-spustit `./update_infolists.sh`, pripadne to spustat v cron-e
+Ak su splnene poziadavky vyssie, staci spustit `./update_infolists.sh`, pripadne to spustat v cron-e.
 
 ## Dokumentacia ##
-Zdroj XML:
-https://ais2.uniba.sk/repo2/repository/default/ais/informacnelisty
 
 Pokus o DTD:
 <!DOCTYPE obsah [
