@@ -41,6 +41,9 @@ SP = {'FYZ': u'Fyzika', 'BMF': u'Biomedicínska fyzika',
       'MPG': u'mAIN - aplikovaná informatika','IKV': u'Kognitívna veda'
       }
 
+# translations
+trans = {'sk': {'a': 'a'}, 'en': {'a': 'and'}}
+
 def extract_courses(filename, courses):
     xmldoc = ET.parse(filename)
     root = xmldoc.getroot()
@@ -87,7 +90,7 @@ def process_file(filename, output_path=None, courses=None, lang='sk'):
         
         # uprava kodov predmetov
         d['kod'] = utils.parse_code(d['kod'])
-        d['podmienujucePredmety'] = utils.replace_codes(d['podmienujucePredmety'], lang, add_links=True, courses=courses)
+        d['podmienujucePredmety'] = utils.replace_codes(d['podmienujucePredmety'], lang, add_links=True, courses=courses, glue=' %s ' % trans[lang]['a'])
         d['vylucujucePredmety'] = utils.replace_codes(d['vylucujucePredmety'], lang, add_links=True, courses=courses)
         d['_O_'] = utils.replace_codes(d['_O_'], lang, add_links=True, courses=courses)
 

@@ -10,7 +10,7 @@ def parse_code(code):
     else:
         return ''
 
-def replace_codes(text, lang='sk', add_links=False, courses={}):
+def replace_codes(text, lang='sk', add_links=False, courses={}, glue=', '):
     """
     Replace all occurences of full course codes with short course codes.
     """
@@ -22,11 +22,11 @@ def replace_codes(text, lang='sk', add_links=False, courses={}):
         np = parse_code(p)
         if np is not '':
             if add_links:
-                title = '%s &ndash; %s' % (np, courses[np]) if np in courses else np
+                title = '%s %s' % (np, courses[np]) if np in courses else np
                 np = make_link_from_code(np, lang=lang, title=title)
             new_parts.append(np)
 
-    return ', '.join(new_parts)
+    return glue.join(new_parts)
 
 def get_text(node):
     """
