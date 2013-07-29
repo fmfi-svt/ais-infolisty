@@ -1,32 +1,32 @@
 import re
 
+code_regexp = r'[\w]+\.[^/]+/([^/]*)/[\d]{2}'
+
 def parse_code(code):
     """
     Get the shor course code from the full course code.
     """
-    m = re.match(r'.*/(.*)/.*', code)
+    m = re.match(code_regexp, code)
     if m:
         return m.group(1)
     else:
         return ''
 
-def replace_codes(text, lang='sk', add_links=False, courses={}, glue=', '):
+def replace_codes(text, lang='sk', add_links=False, courses={}, and_symbol=', '):
     """
     Replace all occurences of full course codes with short course codes.
     """
+    def repl(m):
+        code = m.group(1)
+        if not add_links:
+            return code
+        title = '%s %s' % (code, courses[code]) if code in courses else code
+        return make_link_from_code(code, lang=lang, title=title)
+    
     if len(text) == 0:
         return ''
-    parts = text.split(' ')
-    new_parts = []
-    for p in parts:
-        np = parse_code(p)
-        if np is not '':
-            if add_links:
-                title = '%s %s' % (np, courses[np]) if np in courses else np
-                np = make_link_from_code(np, lang=lang, title=title)
-            new_parts.append(np)
-
-    return glue.join(new_parts)
+    
+    return re.sub(code_regexp, repl, text).replace(',', and_symbol) 
 
 def get_text(node):
     """
