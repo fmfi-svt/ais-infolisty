@@ -118,7 +118,7 @@ def process_file(filename, output_path=None, courses=None, lang='sk'):
         data.append(d)
 
     # nacitanie HTML sablony
-    tpl = open('template_table.html', 'r')
+    tpl = open(os.path.join(sys.path[0], 'template_table.html'), 'r')
     html_tpl = Template(tpl.read().decode('utf8'))
     tpl.close()
 
