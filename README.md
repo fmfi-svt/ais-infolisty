@@ -8,6 +8,7 @@ Vygeneruje HTML dokumenty zo zdrojovych XML suborov.
 * pripojenie na internet :)
 * Python >=2.7.x (starsie verzie nie su otestovane)
 * lynx
+* wget
 
 ## Instalacia ##
 spustit `./update_infolists.sh`, pripadne to spustat v cron-e
