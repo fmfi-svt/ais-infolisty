@@ -43,7 +43,7 @@ def get_text(node):
 def get_url(code, lang='sk'):
     lang = lang.upper()
     if code == '' or not lang in ['SK', 'EN']:
-        return false
+        return False
     return "https://sluzby.fmph.uniba.sk/infolist/%s/%s.html" % (lang, code)
 
 def make_link_from_code(code, title='', lang='sk'):
@@ -54,3 +54,4 @@ def make_link(href, text, title=''):
     if not title == '':
         title = ' title="%s"' % title
     return '<a href="%s"%s>%s</a>' % (href, title, text)
+
