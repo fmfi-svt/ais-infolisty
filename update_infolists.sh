@@ -6,7 +6,7 @@ DIR="/var/www/sluzby/infolist"
 
 LAST_YEAR=$(date +%Y -d "last year")
 THIS_YEAR=$(date +%Y)
-SEASON="$LAST_YEAR%252F$THIS_YEAR"
+SEASON="$LAST_YEAR-$THIS_YEAR"
 URL="https://ais2.uniba.sk/repo2/repository/default/ais/informacnelisty"
 
 
