@@ -72,7 +72,7 @@ def process_file(filename, output_path=None, courses=None, lang='sk'):
                 'rozsahTyzdenny', 'rozsahSemestranly', 'obdobie', 'jazyk',
                 'studijnyProgram', 'podmienujucePredmety', 'doplujuceUdaje',
                 'zabezpecuju', 'datumSchvalenia', '_VH_', '_SO_', '_C_',
-                '_Z_', 'garantiPredmetu', '_L_', '_P_', '_O_', '_S_',
+                '_Z_', 'garanti', '_L_', '_P_', '_O_', '_S_',
                 'vylucujucePredmety')
     data = []
 
