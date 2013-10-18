@@ -4,7 +4,7 @@
 """
 Convertor from AIS XML format to HTML.
 
-Autor: Kristian Valentin <valentin.kristian@gmail.com>
+Author: Kristian Valentin <valentin.kristian@gmail.com>
 Docs: see README
 
 """
@@ -13,7 +13,7 @@ from xml.dom import minidom
 import xml.etree.ElementTree as ET
 from jinja2 import Template, Environment, FileSystemLoader
 import sys
-import glob 
+import glob
 import os.path
 
 import utils
@@ -41,7 +41,7 @@ def process_file(filename, output_path=None, lang='sk'):
                     d[e] = il.find(e).text
             else:
                 d[e] = ''
-        
+
         # jazyk
         if d['jazyk'] == '':
             d['jazyk'] = u'slovenský'
@@ -79,6 +79,7 @@ def main(filenames, output_path=None, lang='sk'):
         print "Spracuvam subor '%s'..." % f
         process_file(f, output_path, lang=lang)
     print "Hotovo."
+
 
 if __name__ == "__main__":
 

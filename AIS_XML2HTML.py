@@ -4,7 +4,7 @@
 """
 Convertor from AIS XML format to HTML.
 
-Autor: Kristian Valentin <valentin.kristian@gmail.com>
+Author: Kristian Valentin <valentin.kristian@gmail.com>
 Docs: see README
 
 # TODO ak je predmet vo viacerych informacnych listoch, prepisuje sa viac krat
@@ -15,7 +15,7 @@ import xml.etree.ElementTree as ET
 import re
 from jinja2 import Template, Environment, FileSystemLoader
 import sys
-import glob 
+import glob
 import os.path
 
 import utils
@@ -59,7 +59,6 @@ def extract_courses(filename, courses):
 
     return courses
 
-
 def process_file(filename, output_path=None, courses=None, lang='sk'):
     xmldoc = ET.parse(filename)
     root = xmldoc.getroot()
@@ -87,7 +86,7 @@ def process_file(filename, output_path=None, courses=None, lang='sk'):
                     d[e] = il.find(e).text
             else:
                 d[e] = ''
-        
+
         # uprava kodov predmetov
         d['kod'] = utils.parse_code(d['kod'])
         d['podmienujucePredmety'] = utils.replace_codes(d['podmienujucePredmety'], lang, add_links=True, courses=courses, and_symbol=trans[lang]['a'])
