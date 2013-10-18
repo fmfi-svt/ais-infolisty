@@ -20,26 +20,6 @@ import os.path
 
 import utils
 
-SP = {'FYZ': u'Fyzika', 'BMF': u'Biomedicínska fyzika',
-      'OZE': u'Obnoviteľné zdroje energie a environmentálna fyzika',
-      'MAT': 'Matematika', 'EFM': u'EFM - ekonomická a finančná matematika',
-      'MMN': u'Manažérska matematika', 'PMA': 'Poistná matematika',
-      'INF': u'Informatika', 'AIN': u'Aplikovaná informatika',
-      'UXX': u'Spoločný pedagogicko-psychologický základ',
-      'UDG': u'Deskriptívna geometria','UFY': u'Fyzika','UIN': u'Informatika',
-      'UMA': u'Matematika',
-      # Mgr.
-      'FMB': u'Biomedicínska fyzika','FAA': u'Astronómia a astrofyzika',
-      'FBF': u'Biofyzika a chemická fyzika',
-      'FOZ': u'Environmentálna fyzika a obnoviteľné zdroje energie',
-      'FFP': u'Fyzika plazmy','FTP': u'Fyzika tuhých látok',
-      'FFZ': u'Fyzika Zeme a planét','FJF': u'Jadrová a subjadrová fyzika',
-      'FMK': u'Meteorológia a klimatológia',
-      'FOL': u'Optika, lasery a optická spektroskopia',
-      'FTF': u'Teoretická fyzika',
-      'PMS': u'Pravdepodobnosť a matematická štatistika',
-      'MPG': u'mAIN - aplikovaná informatika','IKV': u'Kognitívna veda'
-      }
 
 # translations
 trans = {'sk': {'a': 'a'}, 'en': {'a': 'and'}}
