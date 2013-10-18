@@ -66,6 +66,8 @@ def process_file(filename, output_path=None, lang='sk'):
 	filename = '%s.html' % kod_predmetu
         if output_path is not None:
 	    path = os.path.join(output_path, filename)
+            if not os.path.exists(output_path):
+                os.mkdir(output_path)
         else:
 	    path = filename
         f = open(path, 'w')
