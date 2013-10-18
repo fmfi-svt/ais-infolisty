@@ -13,7 +13,7 @@ Docs: see README
 from xml.dom import minidom
 import xml.etree.ElementTree as ET
 import re
-from string import Template
+from jinja2 import Template, Environment, FileSystemLoader
 import sys
 import glob 
 import os.path
@@ -94,39 +94,19 @@ def process_file(filename, output_path=None, courses=None, lang='sk'):
         d['vylucujucePredmety'] = utils.replace_codes(d['vylucujucePredmety'], lang, add_links=True, courses=courses)
         d['_O_'] = utils.replace_codes(d['_O_'], lang, add_links=True, courses=courses)
 
-        # pridavam -- (pomlcka) ak je prazdna hodnota
-        #for k in d.iterkeys():
-        #    if d[k] == '':
-        #        d[k] = '&nbsp;&ndash;'
-
-	# niektore polia sa maju schovat ak su prazdne
-	hide = {'podmienujucePredmety': u'Podmieňujúce predmety',
-                'vylucujucePredmety': u'Vylučujúce predmety',
-                '_O_': u'Obsahová prerekvizita',
-                '_S_': 'Sylabus predmetu'}
-        for e in hide.iterkeys():
-            if not (d[e].strip() == '' or d[e] == None):
-                d[e] = u"""
-            <tr>
-                <td colspan="3"><strong>%s</strong>: %s</td>
-            </tr>""" % (hide[e], d[e])
-        
-        # uprava _VH_
-        if not d['_VH_'] == '':
-            d['_VH_'] = d['_VH_'] + u' (priebežné/záverečné)'
-
         data.append(d)
 
     # nacitanie HTML sablony
-    tpl = open(os.path.join(sys.path[0], 'template_table.html'), 'r')
-    html_tpl = Template(tpl.read().decode('utf8'))
-    tpl.close()
+    env = Environment(loader=FileSystemLoader('templates'))
+
+    tpl_name = 'template_table_%s.html' % lang
+    html_tpl = env.get_template(tpl_name)
 
     # zapis do suborov
     for i in xrange(len(data)):
         kod_predmetu = data[i]['kod']
 
-        html = html_tpl.safe_substitute(data[i])
+        html = html_tpl.render(data[i])
 
 	filename = '%s.html' % kod_predmetu
         if output_path is not None:
