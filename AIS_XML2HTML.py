@@ -76,7 +76,9 @@ def process_file(filename, output_path=None, courses=None, lang='sk'):
         data.append(d)
 
     # nacitanie HTML sablony
-    env = Environment(loader=FileSystemLoader('templates'))
+    script_abs_path = os.path.dirname(os.path.abspath(__file__))
+    tpl_path = os.path.join(script_abs_path, 'templates')
+    env = Environment(loader=FileSystemLoader(tpl_path))
 
     tpl_name = 'template_table_%s.html' % lang
     html_tpl = env.get_template(tpl_name)
