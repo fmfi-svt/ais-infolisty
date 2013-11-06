@@ -61,7 +61,10 @@ def process_file(filename, output_path=None, courses=None, lang='sk'):
         for e in elements:
             if il.find(e) is not None:
                 if e.startswith('_'):
-                    d[e] = utils.get_text(il.find(e))
+                    if e == '_VH_':
+                        d[e] = il.find(e).findtext('texty/p')
+                    else:
+                        d[e] = ET.tostring(il.find(e).find('texty'))
                 else:
                     d[e] = il.find(e).text
             else:

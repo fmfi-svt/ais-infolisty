@@ -4,7 +4,7 @@ code_regexp = r'[\w]+\.[^/]+/([^/]*)/[\d]{2}'
 
 def parse_code(code):
     """
-    Get the shor course code from the full course code.
+    Get the short course code from the full course code.
     """
     m = re.match(code_regexp, code)
     if m:
@@ -22,23 +22,11 @@ def replace_codes(text, lang='sk', add_links=False, courses={}, and_symbol=', ')
             return code
         title = '%s %s' % (code, courses[code]) if code in courses else code
         return make_link_from_code(code, lang=lang, title=title)
-    
+
     if len(text) == 0:
         return ''
-    
-    return re.sub(code_regexp, repl, text).replace(',', and_symbol) 
 
-def get_text(node):
-    """
-    Get text from elements with multiple <p>.
-    """
-    t = []
-    for n in node.findall('p'):
-        if node.tag == '_VH_':
-            t.append(n.text)
-        else:
-            t.append('<p>'+n.text+'</p>')
-    return ''.join(t)
+    return re.sub(code_regexp, repl, text).replace(',', and_symbol)
 
 def get_url(code, lang='sk'):
     lang = lang.upper()
