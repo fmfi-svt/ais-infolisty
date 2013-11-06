@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+    <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="{{ lang }}" lang="{{ lang }}">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>Course Information Sheet {{ nazov }} ({{ kod }})</title>
+        <style type="text/css">
+            body {font-family: serif; max-width: 50em;}
+            h1 {
+                font-size: 110%;
+                text-align: center;
+            }
+            table {width: 100%; border-collapse: collapse;}
+            table td {padding: 0.3em; border: thin solid black;}
+            table tr + tr > td:first-child {width: 30%;}
+            p {margin: 0;}
+            h1 + p {margin-bottom: 1.5em;}
+            #skola {text-align: center; margin-bottom: 1em;}
+        </style>
+    </head>
+    <body>
+        <p id="skola"><strong>Name of university, name of faculty:</strong><br/>{{ organizacnaJednotka }}</p>
+        <table>
+        <tbody>
+            <tr>
+                <td colspan="3"><h1>Syllabus of the state examination subject</h1></td>
+            </tr>
+            <tr>
+                <td><strong>Code</strong>: {{ kod }}</td>
+                <td colspan="2"><strong>Name</strong>: {{ nazov }}</td>
+            </tr>
+            <tr>
+                <td colspan="3"><strong>Study programme</strong>: {{ studijnyProgram }}</td>
+            </tr>
+            <tr>
+                <td colspan="3"><strong>Guaranteed by</strong>: {{ garanti }}</td>
+            </tr>
+            <tr>
+                <td colspan="3">
+                    <strong>Method of assessment and course completion</strong>: {{ sposobUkoncenia }} {% if _VH_ %}{{ _VH_ }} (during the course/ on completion){% endif %}
+                </td>
+            </tr>
+            {% if _ON_ %}
+            <tr>
+                <td colspan="3"><strong>Syllabus of the state examination subjec</strong>
+                {{ _ON_ }}
+            </tr>
+            {% endif %}
+            </tbody>
+        </table>
+    </body>
+</html>
