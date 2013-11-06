@@ -4,8 +4,15 @@
 FAKULTA="FMFI"
 DIR="/var/www/sluzby/infolist"
 
-LAST_YEAR=$(date +%Y -d "last year")
-THIS_YEAR=$(date +%Y)
+if [ `date +%m` -gt 8 ]; then
+    # zimny semester
+    LAST_YEAR=$(date +%Y)
+    THIS_YEAR=$(date +%Y -d "next year")
+else
+    # letny semester
+    LAST_YEAR=$(date +%Y -d "last year")
+    THIS_YEAR=$(date +%Y)
+fi
 SEASON="$LAST_YEAR-$THIS_YEAR"
 URL="https://ais2.uniba.sk/repo2/repository/default/ais/informacnelisty"
 
