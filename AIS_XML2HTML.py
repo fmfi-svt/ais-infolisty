@@ -48,7 +48,7 @@ def process_file(filename, output_path=None, courses=None, lang='sk'):
 
     # elementy, ktore sa budu parsovat z XML-ka
     elements = ('kod', 'nazov', 'kredit', 'sposobUkoncenia', 'sposobVyucby',
-                'rozsahTyzdenny', 'rozsahSemestranly', 'obdobie', 'jazyk',
+                'rozsahTyzdenny', 'rozsahSemestranly', 'rokRocnikStudPlan', 'kodSemesterStudPlan', 'jazyk',
                 'studijnyProgram', 'podmienujucePredmety', 'doplujuceUdaje',
                 'zabezpecuju', 'datumSchvalenia', '_VH_', '_SO_', '_C_',
                 '_Z_', 'garanti', '_L_', '_P_', '_O_', '_S_',
