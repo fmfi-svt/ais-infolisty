@@ -2,7 +2,8 @@
 
 # nastavenia
 FAKULTA="FMFI"
-DIR="/var/www/sluzby/infolist"
+SCRIPTS="$(readlink -f "$(dirname $0)")"
+TARGET_DIR="/var/www/sluzby/infolist"
 
 if [ `date +%m` -gt 8 ]; then
     # zimny semester
@@ -16,24 +17,31 @@ fi
 SEASON="$LAST_YEAR-$THIS_YEAR"
 URL="https://ais2.uniba.sk/repo2/repository/default/ais/informacnelisty"
 
+download_data() {
+    lang="$1"
+    filelist="$SCRIPTS/files_${lang,,}.txt"
+    xmldir="$SCRIPTS/xml_files_${lang,,}"
 
-# spracovanie SK informacnych listov
-lynx --dump "$URL/$SEASON/$FAKULTA/SK/" | awk '/http/{print $2}' | grep xml > "$DIR/scripts/files_sk.txt";
-
-mkdir -p "$DIR/scripts/xml_files_sk";
-wget -N -q -i "$DIR/scripts/files_sk.txt" -P "$DIR/scripts/xml_files_sk";
-
-python "$DIR/scripts/AIS_XML2HTML.py" "$DIR/scripts/xml_files_sk" "$DIR/public/SK";
-
-# spracovanie EN informacnych listov
-lynx --dump "$URL/$SEASON/$FAKULTA/EN/" | awk '/http/{print $2}' | grep xml > "$DIR/scripts/files_en.txt";
-
-mkdir -p "$DIR/scripts/xml_files_en";
-
-wget -N -q -i "$DIR/scripts/files_en.txt" -P "$DIR/scripts/xml_files_en";
-python "$DIR/scripts/AIS_XML2HTML.py" --lang en "$DIR/scripts/xml_files_en" "$DIR/public/EN";
+    lynx --dump "$URL/$SEASON/$FAKULTA/${lang^^}/" | awk '/http/{print $2}' | grep xml > "$filelist";
+    
+    mkdir -p "$xmldir";
+    wget -N -q -i "$filelist" -P "$xmldir";
+}
 
 
-# predmety statnych skusok maju inu sablonu aj ine XML, preto sa spracuvaju samostatne
-sh "$DIR/scripts/vygeneruj_statne-skusky.sh";
+process_data() {
+    # Spracujeme stiahnute subory
+    python "$SCRIPTS/AIS_XML2HTML.py" "$SCRIPTS/xml_files_sk" "$TARGET_DIR/public/SK";
+    python "$SCRIPTS/AIS_XML2HTML.py" --lang en "$SCRIPTS/xml_files_en" "$TARGET_DIR/public/EN";
 
+    # predmety statnych skusok maju inu sablonu aj ine XML, preto sa spracuvaju samostatne
+    sh "$SCRIPTS/vygeneruj_statne-skusky.sh";
+}
+
+download_data sk
+download_data en
+
+if [ "$1" != "--download-only" ]
+then
+    process_data
+fi
