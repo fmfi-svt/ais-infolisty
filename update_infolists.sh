@@ -1,7 +1,11 @@
 #!/bin/bash
 
 # nastavenia
-FAKULTA="FMFI"
+if [[ -z "$FAKULTA" ]]
+then
+  FAKULTA="FMFI"
+fi
+
 SCRIPTS="$(readlink -f "$(dirname $0)")"
 TARGET_DIR="/var/www/sluzby/infolist"
 
@@ -19,8 +23,11 @@ URL="https://ais2.uniba.sk/repo2/repository/default/ais/informacnelisty"
 
 download_data() {
     lang="$1"
-    filelist="$SCRIPTS/files_${lang,,}.txt"
-    xmldir="$SCRIPTS/xml_files_${lang,,}"
+    datadir="$SCRIPTS/$FAKULTA"
+    filelist="$datadir/files_${lang,,}.txt"
+    xmldir="$datadir/xml_files_${lang,,}"
+    
+    mkdir -p "$datadir"
 
     lynx --dump "$URL/$SEASON/$FAKULTA/${lang^^}/" | awk '/http/{print $2}' | grep xml > "$filelist";
     
@@ -31,8 +38,8 @@ download_data() {
 
 process_data() {
     # Spracujeme stiahnute subory
-    python "$SCRIPTS/AIS_XML2HTML.py" "$SCRIPTS/xml_files_sk" "$TARGET_DIR/public/SK";
-    python "$SCRIPTS/AIS_XML2HTML.py" --lang en "$SCRIPTS/xml_files_en" "$TARGET_DIR/public/EN";
+    python "$SCRIPTS/AIS_XML2HTML.py" "$SCRIPTS/$FAKULTA/xml_files_sk" "$TARGET_DIR/public/SK";
+    python "$SCRIPTS/AIS_XML2HTML.py" --lang en "$SCRIPTS/$FAKULTA/xml_files_en" "$TARGET_DIR/public/EN";
 
     # predmety statnych skusok maju inu sablonu aj ine XML, preto sa spracuvaju samostatne
     sh "$SCRIPTS/vygeneruj_statne-skusky.sh";
