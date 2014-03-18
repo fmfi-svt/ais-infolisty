@@ -9,6 +9,9 @@ Vygeneruje HTML dokumenty zo zdrojovych XML suborov.
 * lynx
 * wget
 
+Python verzia stahovaca:
+* `pip install requests`
+
 ## Instalacia ##
 Ak su splnene poziadavky vyssie, staci spustit `./update_infolists.sh`, pripadne to spustat v cron-e.
 
