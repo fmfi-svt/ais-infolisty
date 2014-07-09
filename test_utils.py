@@ -19,7 +19,8 @@ class UtilsTests(unittest.TestCase):
     def test_replace_codes(self):
         data = {
             'FMFI.KJP/1-MXX-151/00': '1-MXX-151',
-            u'(FMFI.KMANM/1-MAT-150/00 alebo FMFI.KMANM/1-MMN-150/00 alebo FMFI.KAMŠ/1-EFM-130/00) , (FMFI.KAGDM/1-MAT-120/00 alebo FMFI.KAGDM/1-MMN-120/00)': u'(1-MAT-150 alebo 1-MMN-150 alebo 1-EFM-130) a (1-MAT-120 alebo 1-MMN-120)'
+            u'(FMFI.KMANM/1-MAT-150/00 alebo FMFI.KMANM/1-MMN-150/00 alebo FMFI.KAMŠ/1-EFM-130/00) , (FMFI.KAGDM/1-MAT-120/00 alebo FMFI.KAGDM/1-MMN-120/00)': u'(1-MAT-150 alebo 1-MMN-150 alebo 1-EFM-130) a (1-MAT-120 alebo 1-MMN-120)',
+            None: ''
         }
         data_links = {
             u'(FMFI.KMANM/1-MAT-150/00 alebo FMFI.KMANM/1-MMN-150/00 alebo FMFI.KAMŠ/1-EFM-130/00) , (FMFI.KAGDM/1-MAT-120/00 alebo FMFI.KAGDM/1-MMN-120/00)': u'(<a href="https://sluzby.fmph.uniba.sk/infolist/SK/1-MAT-150.html">1-MAT-150</a> alebo <a href="https://sluzby.fmph.uniba.sk/infolist/SK/1-MMN-150.html">1-MMN-150</a> alebo <a href="https://sluzby.fmph.uniba.sk/infolist/SK/1-EFM-130.html">1-EFM-130</a>) a (<a href="https://sluzby.fmph.uniba.sk/infolist/SK/1-MAT-120.html">1-MAT-120</a> alebo <a href="https://sluzby.fmph.uniba.sk/infolist/SK/1-MMN-120.html">1-MMN-120</a>)'
