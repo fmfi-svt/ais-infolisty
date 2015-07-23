@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?><obsah>
+<organizacnaJednotka>Univerzita Komenského v Bratislave - Fakulta matematiky, fyziky a informatiky</organizacnaJednotka>
+<vysokaSkola>Univerzita Komenského v Bratislave</vysokaSkola>
+<fakulta>Fakulta matematiky, fyziky a informatiky</fakulta>
+<informacneListy>
+<informacnyList>
+<id>28129</id>
+<kodTypPredmetu>B</kodTypPredmetu>
+<skratka>1-BMF-215</skratka>
+<kod>FMFI.KEF/1-BMF-215/00</kod>
+<nazov>Vlny a optika</nazov>
+<kredit>5</kredit>
+<sposobUkoncenia>Hodnotenie</sposobUkoncenia>
+<sposobVyucby>Prednáška / Cvičenie</sposobVyucby>
+<rozsahTyzdenny>3 / 1</rozsahTyzdenny>
+<rozsahSemestranly>42 / 14</rozsahSemestranly>
+<obdobie>3</obdobie>
+<doplnujuceUdaje>(Jednoodborové štúdium, bakalársky I. st., denná forma)</doplnujuceUdaje>
+<kodSemesterStudPlan>Z</kodSemesterStudPlan>
+<rokRocnikStudPlan>2</rokRocnikStudPlan>
+<zabezpecuju>prof. RNDr. Pavel Veis, CSc., RNDr. Radoslav Böhm, PhD.</zabezpecuju>
+<datumSchvalenia>10.03.2014</datumSchvalenia>
+<garanti>
+<garant>
+<typGaranta>garant</typGaranta>
+<plneMeno>doc. RNDr. Ivan Sýkora, PhD.</plneMeno>
+</garant>
+</garanti>
+<sposobyVyucbyRozsahMetoda>
+<sposobVyucbyRozsahMetoda>
+<sposobVyucby>Prednáška</sposobVyucby>
+<rozsahTyzdenny>3</rozsahTyzdenny>
+<rozsahSemestralny>42</rozsahSemestralny>
+<metodaStudia>prezenčná</metodaStudia>
+</sposobVyucbyRozsahMetoda>
+<sposobVyucbyRozsahMetoda>
+<sposobVyucby>Cvičenie</sposobVyucby>
+<rozsahTyzdenny>1</rozsahTyzdenny>
+<rozsahSemestralny>14</rozsahSemestralny>
+<metodaStudia>prezenčná</metodaStudia>
+</sposobVyucbyRozsahMetoda>
+</sposobyVyucbyRozsahMetoda>
+<podmienujucePredmetyStrukt/>
+<kodyTypovVyucby>
+<kodtypVyucby>A</kodtypVyucby>
+</kodyTypovVyucby>
+<studijneProgramy>
+<studijnyProgram>
+<id>2988</id>
+<skratka>OZE</skratka>
+<popis>obnoviteľné zdroje energie a environmentálna fyzika</popis>
+<kodSemester>Z</kodSemester>
+<rokRocnik>2</rokRocnik>
+<metodaStudia>prezenčná</metodaStudia>
+<semesterPoradie>3</semesterPoradie>
+</studijnyProgram>
+<studijnyProgram>
+<id>975</id>
+<skratka>BMF</skratka>
+<popis>biomedicínska fyzika</popis>
+<kodSemester>Z</kodSemester>
+<rokRocnik>2</rokRocnik>
+<metodaStudia>prezenčná</metodaStudia>
+<semesterPoradie>3</semesterPoradie>
+</studijnyProgram>
+</studijneProgramy>
+<stupneStudijnychProgramov>I.</stupneStudijnychProgramov>
+<metodyStudia>
+<metodaStudia>prezenčná</metodaStudia>
+</metodyStudia>
+<jeZaradenyVStudijnomPlane>true</jeZaradenyVStudijnomPlane>
+<stupenPredmetu>I.</stupenPredmetu>
+<vyucujuciAll>
+<vyucujuci>
+<poradie>1</poradie>
+<typ>P</typ>
+<typPopis>prednášajúci</typPopis>
+<meno>Pavel</meno>
+<priezvisko>Veis</priezvisko>
+<plneMeno>prof. RNDr. Pavel Veis, CSc.</plneMeno>
+<jazykyPredmetu>slovenský</jazykyPredmetu>
+</vyucujuci>
+<vyucujuci>
+<poradie>2</poradie>
+<typ>C</typ>
+<typPopis>cvičiaci</typPopis>
+<meno>Radoslav</meno>
+<priezvisko>Böhm</priezvisko>
+<plneMeno>RNDr. Radoslav Böhm, PhD.</plneMeno>
+<jazykyPredmetu>slovenský</jazykyPredmetu>
+</vyucujuci>
+</vyucujuciAll>
+<rocniky>
+<semester>Z</semester>
+<rocnik>
+<semesterPoradie>3</semesterPoradie>
+</rocnik>
+</rocniky>
+<_VH_>
+<popisTypuTextu>Váha hodnotenia predmetu (priebežné/záverečné)</popisTypuTextu>
+<texty>
+<p>30/70</p>
+</texty>
+</_VH_>
+<_SO_>
+<popisTypuTextu>Stručná osnova predmetu</popisTypuTextu>
+<texty>
+<p>Kmity a kmitajúce systémy (módy, rezonátory, kmity a vlny, Fourierova analýza kmitov). Vlny (harmonické vlny, komplexný zápis, superpozícia vĺn, polarizácia vĺn, Dopplerov jav, difrakcia vĺn, vlny vo fyzike, vlny na rozhraniach). Vlnová optika (interferencia svetla, difrakcia svetla, holografia, disperzia svetla v dielektriku, rozptyl, polarizácia odrazom a lomom, šírenie svetla v anizotr´pnych prostrediach). Geometrická optika a základy optického zobrazovania. Fotometria. Niektoré problémy súčasnej optiky.
+</p>
+</texty>
+</_SO_>
+<_L_>
+<popisTypuTextu>Odporúčaná literatúra</popisTypuTextu>
+<texty>
+<p>Main I. G., Kmity a vlny ve fyzice, Academia Praha 1990
+</p>
+<p>Feynman R. P., Leighton R. B., Sands M.: Feynmanove prednášky z fyziky 2, Alfa Bratislava 1982
+</p>
+<p>Z. Chorvátová, Knity a vlny, skriptum MFF UK, Bratislava 1994
+</p>
+<p>Štrba A., Mesaroš V., Senderáková D., Optika s príkladmi I, skriptum MFF UK, Bratislava 1996
+</p>
+<p>Hecht E., Optics, Addison-Wenslez Publishing Company, Inc. 1987
+</p>
+</texty>
+</_L_>
+<_C_>
+<popisTypuTextu>Cieľ</popisTypuTextu>
+<texty>
+<p>Cieľom predmetu je poskytnúť základy optiky tak, aby bolo možné tieto vedomosti využívať pri využívaní spektroskopických metód. Základy získané v časti kmity a vlny sú potrebné pre lepšie pochopenie zvuku ako ekologickej záťaže.
+</p>
+</texty>
+</_C_>
+<_P_>
+<popisTypuTextu>Priebežné hodnotenie</popisTypuTextu>
+<texty>
+<p>test</p>
+</texty>
+</_P_>
+<_Z_>
+<popisTypuTextu>Záverečné hodnotenie</popisTypuTextu>
+<texty>
+<p>skúška</p>
+</texty>
+</_Z_>
+<hodnoteniaPredmetu>
+<hodnoteniePredmetu>
+<kod>A</kod>
+<pocetHodnoteni>28</pocetHodnoteni>
+<percentualneVyjadrenieZCelkPoctuHodnoteni>20.0</percentualneVyjadrenieZCelkPoctuHodnoteni>
+</hodnoteniePredmetu>
+<hodnoteniePredmetu>
+<kod>B</kod>
+<pocetHodnoteni>28</pocetHodnoteni>
+<percentualneVyjadrenieZCelkPoctuHodnoteni>20.0</percentualneVyjadrenieZCelkPoctuHodnoteni>
+</hodnoteniePredmetu>
+<hodnoteniePredmetu>
+<kod>C</kod>
+<pocetHodnoteni>41</pocetHodnoteni>
+<percentualneVyjadrenieZCelkPoctuHodnoteni>29.29</percentualneVyjadrenieZCelkPoctuHodnoteni>
+</hodnoteniePredmetu>
+<hodnoteniePredmetu>
+<kod>D</kod>
+<pocetHodnoteni>24</pocetHodnoteni>
+<percentualneVyjadrenieZCelkPoctuHodnoteni>17.14</percentualneVyjadrenieZCelkPoctuHodnoteni>
+</hodnoteniePredmetu>
+<hodnoteniePredmetu>
+<kod>E</kod>
+<pocetHodnoteni>17</pocetHodnoteni>
+<percentualneVyjadrenieZCelkPoctuHodnoteni>12.14</percentualneVyjadrenieZCelkPoctuHodnoteni>
+</hodnoteniePredmetu>
+<hodnoteniePredmetu>
+<kod>FX</kod>
+<pocetHodnoteni>2</pocetHodnoteni>
+<percentualneVyjadrenieZCelkPoctuHodnoteni>1.43</percentualneVyjadrenieZCelkPoctuHodnoteni>
+</hodnoteniePredmetu>
+<celkovyPocetHodnotenychStudentov>140</celkovyPocetHodnotenychStudentov>
+<pocetTypovHodnoteni>6</pocetTypovHodnoteni>
+</hodnoteniaPredmetu>
+</informacnyList>
+</informacneListy>
+</obsah>

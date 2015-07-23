@@ -31,20 +31,20 @@
                 <td colspan="2"><strong>Názov</strong>: {{ nazov }}</td>
             </tr>
             <tr>
-                <td colspan="3"><strong>Študijný program</strong>: {{ studijnyProgram }}</td>
+                <td colspan="3"><strong>Študijný program</strong>: {{ studijnyProgram|join(', ') }}</td>
             </tr>
             <tr>
                 <td colspan="3"><strong>Garantuje</strong>: {{ garanti }}</td>
             </tr>
             <tr>
                 <td colspan="3">
-                    <strong>Spôsob hodnotenia a skončenia štúdia predmetu</strong>: {{ sposobUkoncenia }} {% if _VH_ %}{{ _VH_ }} (priebežné/záverečné){% endif %}
+                    <strong>Spôsob hodnotenia a skončenia štúdia predmetu</strong>: {{ sposobUkoncenia }} {% if vahaHodnotenia %}{{ vahaHodnotenia }} (priebežné/záverečné){% endif %}
                 </td>
             </tr>
-            {% if _ON_ %}
+            {% if obsahovaNapln %}
             <tr>
                 <td colspan="3"><strong>Obsahová náplň predmetu štátnej skúšky</strong>
-                {{ _ON_ }}
+                {{ obsahovaNapln }}
             </tr>
             {% endif %}
             </tbody>

@@ -4,7 +4,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="{{ lang }}" lang="{{ lang }}">
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-        <title>Informačný list predmetu {{ nazov }} ({{ kod }})</title>
+        <title>Informacny list predmetu {{ nazov }} ({{ kod }})</title>
         <style type="text/css">
             body {font-family: serif; max-width: 50em;}
             h1 {
@@ -35,14 +35,14 @@
                 <td colspan="2"><strong>Názov</strong>: {{ nazov }}</td>
             </tr>
             <tr>
-                <td colspan="3"><strong>Študijný program</strong>: {{ studijnyProgram|join(', ') }}</td>
+                <td colspan="3"><strong>Študijný program</strong>: {{ studijnyProgram }}</td>
             </tr>
             <tr>
                 <td><strong>Garantuje</strong>: {{ garanti }}</td>
                 <td colspan="2"><strong>Zabezpečuje</strong>: {{ zabezpecuju }}</td>
             </tr>
             <tr>
-                <td><strong>Obdobie štúdia predmetu</strong>: {{ rokRocnikStudPlan }}/{{ kodSemesterStudPlan }}</td>
+                <td><strong>Obdobie štúdia predmetu</strong>: {{ obdobie }}</td>
                 <td>
                     <dl>
                     <dt>Forma výučby</dt><dd>{{ sposobVyucby }}</dd>
@@ -53,48 +53,32 @@
                 </td>
                 <td id="kredity"><strong>Počet kreditov</strong>: {{ kredit }}</td>
             </tr>
-            {% if podmienujucePredmety %}
-            <tr>
-                <td colspan="3"><strong>Podmieňujúce predmety</strong>: {{ podmienujucePredmety }}</td>
-            </tr>
-            {% endif %}
-            {% if vylucujucePredmety %}
-            <tr>
-                <td colspan="3"><strong>Vylučujúce predmety</strong>: {{ vylucujucePredmety }}</td>
-            </tr>
-            {% endif %}
-            {% if obsahovaPrerekvizita %}
-            <tr>
-                <td colspan="3"><strong>Obsahová prerekvizita</strong>: {{ obsahovaPrerekvizita }}</td>
-            </tr>
-            {% endif %}
+                $podmienujucePredmety
+                $vylucujucePredmety
+                $_O_
             <tr>
                 <td colspan="3">
                     <dl>
-                        <dt>Spôsob hodnotenia a skončenia štúdia predmetu</dt><dd>{{ sposobUkoncenia }} {% if vahaHodnotenia %}{{ vahaHodnotenia }} (priebežné/záverečné){% endif %}</dd>
-                    <dt>Priebežné hodnotenie (napr. test, samostatná práca)</dt><dd>{{ priebezneHodnotenie }}</dd>
-                    <dt>Záverečné hodnotenie (napr. skúška, záverečná práca)</dt><dd>{{ zaverecneHodnotenie }}</dd>
+                        <dt>Spôsob hodnotenia a skončenia štúdia predmetu</dt><dd>{{ sposobUkoncenia }} {{ _VH_ }}</dd>
+                    <dt>Priebežné hodnotenie (napr. test, samostatná práca)</dt><dd>{{ _P_ }}</dd>
+                    <dt>Záverečné hodnotenie (napr. skúška, záverečná práca)</dt><dd>{{ _Z_ }}</dd>
                 </dl>
                 </td>
             </tr>
             <tr>
-                <td colspan="3"><strong>Cieľ predmetu</strong>:{{ ciel }}</td>
+                <td colspan="3"><strong>Cieľ predmetu</strong>:{{ _C_ }}</td>
             </tr>
             <tr>
-                <td colspan="3"><strong>Stručná osnova predmetu</strong>:{{ strucnaOsnova }}</td>
+                <td colspan="3"><strong>Stručná osnova predmetu</strong>:{{ _SO_}}</td>
             </tr>
-            {% if sylabus %}
+            <!-- sylabus -->
+            $_S_
             <tr>
-                <td><strong>Sylabus predmetu</strong></td>
-                <td colspan="3">{{ sylabus }}</td>
-            </tr>
-            {% endif %}
-            <tr>
-                <td colspan="3" id="literatura"><strong>Literatúra</strong>:{{ literatura }}</td>
+                <td colspan="3" id="literatura"><strong>Literatúra</strong>:{{ _L_ }}</td>
             </tr>
 
             <tr>
-                <td><strong>Jazyk, v ktorom sa predmet vyučuje</strong>: {{ jazyk|join(', ') }}</td>
+                <td><strong>Jazyk, v ktorom sa predmet vyučuje</strong>: {{ jazyk }}</td>
                 <td colspan="2"><strong>Dátum poslednej úpravy listu</strong>: {{ datumSchvalenia }}</td>
             </tr>
             </tbody>

@@ -31,20 +31,20 @@
                 <td colspan="2"><strong>Name</strong>: {{ nazov }}</td>
             </tr>
             <tr>
-                <td colspan="3"><strong>Study programme</strong>: {{ studijnyProgram }}</td>
+                <td colspan="3"><strong>Study programme</strong>: {{ studijnyProgram|join(', ') }}</td>
             </tr>
             <tr>
                 <td colspan="3"><strong>Guaranteed by</strong>: {{ garanti }}</td>
             </tr>
             <tr>
                 <td colspan="3">
-                    <strong>Method of assessment and course completion</strong>: {{ sposobUkoncenia }} {% if _VH_ %}{{ _VH_ }} (during the course/ on completion){% endif %}
+                    <strong>Method of assessment and course completion</strong>: {{ sposobUkoncenia }} {% if vahaHodnotenia %}{{ vahaHodnotenia }} (during the course/ on completion){% endif %}
                 </td>
             </tr>
-            {% if _ON_ %}
+            {% if obsahovaNapln %}
             <tr>
                 <td colspan="3"><strong>Syllabus of the state examination subjec</strong>
-                {{ _ON_ }}
+                {{ obsahovaNapln }}
             </tr>
             {% endif %}
             </tbody>

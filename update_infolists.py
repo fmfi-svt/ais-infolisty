@@ -8,7 +8,7 @@ import re
 def current_season():
   today = date.today()
   start_year = today.year
-  if today.month <= 8:
+  if today.month <= 7:
     start_year -= 1
   return '{}-{}'.format(start_year, start_year + 1)
   

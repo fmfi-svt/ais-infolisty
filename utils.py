@@ -28,6 +28,14 @@ def replace_codes(text, lang='sk', add_links=False, courses={}, and_symbol=', ')
 
     return re.sub(code_regexp, repl, text).replace(',', and_symbol)
 
+def get_text(node):
+    """
+    Get text from elements with multiple <p> tags.
+    """
+    if not node.findall('p'):
+        return node.text
+    return ''.join('<p>'+n.text+'</p>' for n in node.findall('p'))
+
 def get_url(code, lang='sk'):
     lang = lang.upper()
     if code == '' or not lang in ['SK', 'EN']:

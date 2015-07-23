@@ -18,36 +18,40 @@ import os.path
 
 import utils
 
-def process_file(filename, output_path=None, lang='sk'):
+
+def process_file(filename, output_path=None, lang='sk', verbose=True):
     xmldoc = ET.parse(filename)
     root = xmldoc.getroot()
     organizacnaJednotka = root.find('organizacnaJednotka').text
     ilisty = root.find('informacneListy')
-    print "  Nasiel som %d informacnych listov." % len(ilisty.findall('informacnyList'))
+    if verbose:
+        print "  Nasiel som %d informacnych listov." % len(ilisty.findall('informacnyList'))
 
     # elementy, ktore sa budu parsovat z XML-ka
-    elements = ('kod', 'nazov', 'kredit', 'sposobUkoncenia', 'studijnyProgram',
-                'datumSchvalenia', '_ON_', '_VH_', 'garanti', 'jazyk')
+    # kluc => XPath (kluc sa pouziva neskor v template)
+    elements = {'kod': 'kod', 'nazov': 'nazov', 'kredit': 'kredit',
+                'sposobUkoncenia': 'sposobUkoncenia',
+                'studijnyProgram': 'studijneProgramy/studijnyProgram/popis',
+                'datumSchvalenia': 'datumSchvalenia', 'obsahovaNapln': '_ON_/texty',
+                'vahaHodnotenia': '_VH_/texty', 'garanti': 'garanti/garant/plneMeno'}
     data = []
 
     # spracovanie informacnych listov jednotlivych predmetov
     for il in ilisty.findall('informacnyList'):
+        # preskocime predmety, ktore nie su statne skusky
+        if il.find('_ON_') is None:
+            continue
         d = {'lang' : lang, 'organizacnaJednotka': organizacnaJednotka}
-        for e in elements:
-            if il.find(e) is not None:
-                if e.startswith('_'):
-                    if e == '_VH_':
-                        d[e] = il.find(e).findtext('texty')
-                    else:
-                        d[e] = ET.tostring(il.find(e).find('texty/*'))
+        for key, path in elements.iteritems():
+            if il.find(path) is not None:
+                if path.startswith('_'):
+                    d[key] = utils.get_text(il.find(path))
+                elif key == 'studijnyProgram':
+                    d[key] = [el.text for el in il.findall(path)]
                 else:
-                    d[e] = il.find(e).text
+                    d[key] = il.find(path).text
             else:
-                d[e] = ''
-
-        # jazyk
-        if d['jazyk'] == '':
-            d['jazyk'] = u'slovenský'
+                d[key] = ''
 
         # uprava kodov predmetov
         d['kod'] = utils.parse_code(d['kod'])
@@ -63,10 +67,10 @@ def process_file(filename, output_path=None, lang='sk'):
     html_tpl = env.get_template(tpl_name)
 
     # zapis do suborov
-    for i in xrange(len(data)):
-        kod_predmetu = data[i]['kod']
+    for course in data:
+        kod_predmetu = course['kod']
 
-        html = html_tpl.render(data[i])
+        html = html_tpl.render(course)
 
 	filename = '%s.html' % kod_predmetu
         if output_path is not None:
@@ -75,19 +79,22 @@ def process_file(filename, output_path=None, lang='sk'):
                 os.mkdir(output_path)
         else:
 	    path = filename
-        f = open(path, 'w')
-        f.write(html.encode('utf8'))
-        f.close()
+        with open(path, 'w') as f:
+            f.write(html.encode('utf8'))
 
-def main(filenames, output_path=None, lang='sk'):
+
+def main(filenames, output_path=None, lang='sk', verbose=True):
+    if verbose:
+        print "=== Spracuvam statne skusky ==="
     for f in filenames:
-        print "Spracuvam subor '%s'..." % f
-        process_file(f, output_path, lang=lang)
-    print "Hotovo."
+        if verbose:
+            print "Spracuvam subor '%s'..." % f
+        process_file(f, output_path, lang=lang, verbose=verbose)
+    if verbose:
+        print "Hotovo."
 
 
 if __name__ == "__main__":
-
     import argparse
 
     parser = argparse.ArgumentParser(description='Coverts AIS XMLs into HTMLs.')
