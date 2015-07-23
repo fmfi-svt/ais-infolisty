@@ -7,7 +7,7 @@ then
 fi
 
 SCRIPTS="$(readlink -f "$(dirname $0)")"
-TARGET_DIR="/var/www/sluzby/infolist"
+TARGET_DIR="../infolist"
 
 if [ `date +%m` -gt 7 ]; then
     # zimny semester
