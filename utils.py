@@ -23,6 +23,9 @@ def replace_codes(text, lang='sk', add_links=False, courses={}, and_symbol=', ')
         title = '%s %s' % (code, courses[code]) if code in courses else code
         return make_link_from_code(code, lang=lang, title=title)
 
+    if text == None:
+        return ''
+
     if len(text) == 0:
         return ''
 
