@@ -1,16 +1,23 @@
 import re
 
-code_regexp = r'[\w]+\.[^/]+/([^/]*)/[\d]{2}'
+code_regexp = r'[\w]+\.[^/]+/([^/]*/[\d]{2})'
 
 def parse_code(code):
     """
     Get the short course code from the full course code.
     """
+    newcode = ''
+
     m = re.match(code_regexp, code)
+
     if m:
-        return m.group(1)
+        newcode = m.group(1)
     else:
-        return ''
+        newcode = ''
+
+    newcode = newcode.replace("/","_")
+
+    return newcode
 
 def replace_codes(text, lang='sk', add_links=False, courses={}, and_symbol=', '):
     """
