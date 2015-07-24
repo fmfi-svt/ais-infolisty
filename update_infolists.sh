@@ -42,12 +42,17 @@ download_data_py() {
 
 process_data() {
     # Spracujeme stiahnute subory
-    python "$SCRIPTS/AIS_XML2HTML.py" "$SCRIPTS/$FAKULTA/xml_files_sk" "$TARGET_DIR/public/SK";
-    python "$SCRIPTS/AIS_XML2HTML.py" --lang en "$SCRIPTS/$FAKULTA/xml_files_en" "$TARGET_DIR/public/EN";
+    python "$SCRIPTS/AIS_XML2HTML.py" "$SCRIPTS/$FAKULTA/xml_files_sk" "$TARGET_DIR/public/SK" "templates/template_table_sk.html";
+    python "$SCRIPTS/AIS_XML2HTML.py" --lang en "$SCRIPTS/$FAKULTA/xml_files_en" "$TARGET_DIR/public/EN" "templates/template_table_en.html";
+
+    python "$SCRIPTS/AIS_XML2HTML.py" --mode statnice "$SCRIPTS/$FAKULTA/xml_files_sk" "$TARGET_DIR/public/SK" "templates/template_statne-skusky_table_sk.html";
+    python "$SCRIPTS/AIS_XML2HTML.py" --mode statnice --lang en "$SCRIPTS/$FAKULTA/xml_files_en" "$TARGET_DIR/public/EN" "templates/template_statne-skusky_table_en.html";
+
+    # statnice
 
     # predmety statnych skusok maju inu sablonu aj ine XML, preto sa spracuvaju samostatne
-    python "$SCRIPTS/AIS_XML2HTML_statne-skusky.py" "$SCRIPTS/$FAKULTA/xml_files_sk" "$TARGET_DIR/public/SK";
-    python "$SCRIPTS/AIS_XML2HTML_statne-skusky.py" --lang en "$SCRIPTS/$FAKULTA/xml_files_en" "$TARGET_DIR/public/EN";
+    # python "$SCRIPTS/AIS_XML2HTML_statne-skusky.py" "$SCRIPTS/$FAKULTA/xml_files_sk" "$TARGET_DIR/public/SK";
+    # python "$SCRIPTS/AIS_XML2HTML_statne-skusky.py" --lang en "$SCRIPTS/$FAKULTA/xml_files_en" "$TARGET_DIR/public/EN";
 }
 
 download_data_py sk

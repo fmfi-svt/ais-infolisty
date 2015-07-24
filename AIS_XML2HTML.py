@@ -52,7 +52,7 @@ def extract_courses(filename, courses):
         return courses
 
 
-def extract_infolists(filename, lang='sk', verbose=True):
+def extract_infolists(filename, lang='sk', mode='regular', verbose=True):
     """Extract all infolists with all of their courses from a study program XML file.
 
     Params:
@@ -95,14 +95,18 @@ def extract_infolists(filename, lang='sk', verbose=True):
                 'datumSchvalenia': 'datumSchvalenia', 
                 'vahaHodnotenia': '_VH_/texty/p',
                 'garanti': 'garanti/garant/plneMeno',
-                'jazyk': 'vyucujuciAll/vyucujuci/jazykyPredmetu'}
+                'jazyk': 'vyucujuciAll/vyucujuci/jazykyPredmetu',
+                'obsahovaNapln': '_ON_/texty'   }
     data = []
 
     # spracovanie informacnych listov jednotlivych predmetov
     for il in ilisty.findall('informacnyList'):
         # preskocime statne skusky, tie sa spracuvaju inym skriptom
-        if il.find('_ON_') is not None:
+        if mode=='regular' and (il.find('_ON_') is not None):
             continue
+        if mode=='statnice' and (il.find('_ON_') is None):
+            continue
+
         d = {'lang' : lang, 'organizacnaJednotka': organizacnaJednotka}
         for key, path in elements.iteritems():
             if il.find(path) is not None:
@@ -125,7 +129,7 @@ def extract_infolists(filename, lang='sk', verbose=True):
     return data
 
 
-def render_HTML(data, output_path=None, courses=None, lang='sk'):
+def render_HTML(data, tpl_name, output_path=None, courses=None, lang='sk', mode='regular'):
     """Render the course data into separate HTML files named by the course codes.
 
     Params:
@@ -135,10 +139,7 @@ def render_HTML(data, output_path=None, courses=None, lang='sk'):
     """
     # nacitanie HTML sablony
     script_abs_path = os.path.dirname(os.path.abspath(__file__))
-    tpl_path = os.path.join(script_abs_path, 'templates')
-    env = Environment(loader=FileSystemLoader(tpl_path))
-
-    tpl_name = 'template_table_%s.html' % lang
+    env = Environment(loader=FileSystemLoader(script_abs_path))
     html_tpl = env.get_template(tpl_name)
 
     # zapis do HTML suborov
@@ -162,7 +163,7 @@ def render_HTML(data, output_path=None, courses=None, lang='sk'):
             f.write(html.encode('utf8'))
 
 
-def main(filenames, output_path=None, lang='sk', verbose=True):
+def main(filenames, tpl_name, output_path=None, lang='sk', mode='regular', verbose=True):
     if verbose:
         print "Extrahujem nazvy predmetov...",
     courses = {}
@@ -175,8 +176,8 @@ def main(filenames, output_path=None, lang='sk', verbose=True):
     for f in filenames:
         if verbose:
             print "Spracuvam subor '%s'..." % f
-        data = extract_infolists(f, lang=lang, verbose=verbose)
-        render_HTML(data, output_path, courses, lang=lang)
+        data = extract_infolists(f, lang=lang, mode=mode, verbose=verbose)
+        render_HTML(data, tpl_name, output_path, courses, mode=mode, lang=lang)
     if verbose:
         print "Hotovo."
 
@@ -184,14 +185,16 @@ def main(filenames, output_path=None, lang='sk', verbose=True):
 if __name__ == "__main__":
     import argparse
 
-    parser = argparse.ArgumentParser(description='Coverts AIS XMLs into HTMLs.')
+    parser = argparse.ArgumentParser(description='Converts AIS XMLs into HTMLs.')
     parser.add_argument('input_path', metavar='input-path', help='path to input XMLs')
     parser.add_argument('output_path', metavar='output-path', help='path for HTML files to be stored')
+    parser.add_argument('tpl_name', metavar='tpl-name', help='file with template')
     parser.add_argument('--lang', dest='lang', nargs='?', default='sk', help='language')
+    parser.add_argument('--mode', dest='mode', nargs='?', default='regular', help='mode of work regular/statnice')
 
     args = parser.parse_args()
 
     xml_path = os.path.join(args.input_path, '*.xml')
     filenames = glob.glob(xml_path)
-    main(filenames, args.output_path, lang=args.lang)
+    main(filenames, args.tpl_name, args.output_path, lang=args.lang, mode=args.mode)
 
