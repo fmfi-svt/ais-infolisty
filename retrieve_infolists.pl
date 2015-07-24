@@ -12,7 +12,7 @@ my $fakulta = "FMFI";
 my $target_directory = shift or die $usage;
 my $xmlurl = "https://ais2.uniba.sk/repo2/repository/default/ais/informacnelisty";
 
-my $tempdir = tempdir( CLEANUP=>0 );
+my $tempdir = tempdir( CLEANUP=>1 );
 
 download_data("sk");
 download_data("en");
