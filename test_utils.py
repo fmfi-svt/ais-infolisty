@@ -7,34 +7,36 @@ import utils
 
 class UtilsTests(unittest.TestCase):
 
+    maxDiff = None
+
     def test_parse_code(self):
         data = {
-            'FMFI.KJP/1-MXX-151/00': '1-MXX-151',
-            u'FMFI.KAMŠ/2-PMS-119/10': '2-PMS-119',
-            'FMFI.KI/1-INF-160/00': '1-INF-160'
+            'FMFI.KJP/1-MXX-151/00': '1-MXX-151_00',
+            u'FMFI.KAMŠ/2-PMS-119/10': u'2-PMS-119_10',
+            'FMFI.KI/1-INF-160/00': '1-INF-160_00'
         }
         for string, code in data.iteritems():
             self.assertEqual(utils.parse_code(string), code)
 
     def test_replace_codes(self):
         data = {
-            'FMFI.KJP/1-MXX-151/00': '1-MXX-151',
-            u'(FMFI.KMANM/1-MAT-150/00 alebo FMFI.KMANM/1-MMN-150/00 alebo FMFI.KAMŠ/1-EFM-130/00) , (FMFI.KAGDM/1-MAT-120/00 alebo FMFI.KAGDM/1-MMN-120/00)': u'(1-MAT-150 alebo 1-MMN-150 alebo 1-EFM-130) a (1-MAT-120 alebo 1-MMN-120)',
+            'FMFI.KJP/1-MXX-151/00': '1-MXX-151_00',
+            u'(FMFI.KMANM/1-MAT-150/00 alebo FMFI.KMANM/1-MMN-150/00 alebo FMFI.KAMŠ/1-EFM-130/00) , (FMFI.KAGDM/1-MAT-120/00 alebo FMFI.KAGDM/1-MMN-120/00)': u'(1-MAT-150_00 alebo 1-MMN-150_00 alebo 1-EFM-130_00) a (1-MAT-120_00 alebo 1-MMN-120_00)',
             None: '',
             '1-INF-210 Úvod do matematickej logiky a 1-AIN-411 Úvod do výpočtovej logiky': '1-INF-210 Úvod do matematickej logiky a 1-AIN-411 Úvod do výpočtovej logiky'
         }
         data_links = {
-            u'(FMFI.KMANM/1-MAT-150/00 alebo FMFI.KMANM/1-MMN-150/00 alebo FMFI.KAMŠ/1-EFM-130/00) , (FMFI.KAGDM/1-MAT-120/00 alebo FMFI.KAGDM/1-MMN-120/00)': u'(<a href="https://sluzby.fmph.uniba.sk/infolist/SK/1-MAT-150.html">1-MAT-150</a> alebo <a href="https://sluzby.fmph.uniba.sk/infolist/SK/1-MMN-150.html">1-MMN-150</a> alebo <a href="https://sluzby.fmph.uniba.sk/infolist/SK/1-EFM-130.html">1-EFM-130</a>) a (<a href="https://sluzby.fmph.uniba.sk/infolist/SK/1-MAT-120.html">1-MAT-120</a> alebo <a href="https://sluzby.fmph.uniba.sk/infolist/SK/1-MMN-120.html">1-MMN-120</a>)'
+            u'(FMFI.KMANM/1-MAT-150/00 alebo FMFI.KMANM/1-MMN-150/00 alebo FMFI.KAMŠ/1-EFM-130/00) , (FMFI.KAGDM/1-MAT-120/00 alebo FMFI.KAGDM/1-MMN-120/00)': u'(<a href="https://sluzby.fmph.uniba.sk/infolist/SK/1-MAT-150_00.html">1-MAT-150_00</a> alebo <a href="https://sluzby.fmph.uniba.sk/infolist/SK/1-MMN-150_00.html">1-MMN-150_00</a> alebo <a href="https://sluzby.fmph.uniba.sk/infolist/SK/1-EFM-130_00.html">1-EFM-130_00</a>) a (<a href="https://sluzby.fmph.uniba.sk/infolist/SK/1-MAT-120_00.html">1-MAT-120_00</a> alebo <a href="https://sluzby.fmph.uniba.sk/infolist/SK/1-MMN-120_00.html">1-MMN-120_00</a>)'
         }
         data_links_courses = {
-            u'(FMFI.KMANM/1-MAT-150/00 alebo FMFI.KMANM/1-MMN-150/00 alebo FMFI.KAMŠ/1-EFM-130/00) , (FMFI.KAGDM/1-MAT-120/00 alebo FMFI.KAGDM/1-MMN-120/00)': u'(<a href="https://sluzby.fmph.uniba.sk/infolist/SK/1-MAT-150.html">1-MAT-150 Matematická analýza (2)</a> alebo <a href="https://sluzby.fmph.uniba.sk/infolist/SK/1-MMN-150.html">1-MMN-150 Matematická analýza (2)</a> alebo <a href="https://sluzby.fmph.uniba.sk/infolist/SK/1-EFM-130.html">1-EFM-130 Matematická analýza (2)</a>) a (<a href="https://sluzby.fmph.uniba.sk/infolist/SK/1-MAT-120.html">1-MAT-120 Lineárna algebra a geometria (1)</a> alebo <a href="https://sluzby.fmph.uniba.sk/infolist/SK/1-MMN-120.html">1-MMN-120 Lineárna algebra a geometria (1)</a>)'
+            u'(FMFI.KMANM/1-MAT-150/00 alebo FMFI.KMANM/1-MMN-150/00 alebo FMFI.KAMŠ/1-EFM-130/00) , (FMFI.KAGDM/1-MAT-120/00 alebo FMFI.KAGDM/1-MMN-120/00)': u'(<a href="https://sluzby.fmph.uniba.sk/infolist/SK/1-MAT-150_00.html">1-MAT-150_00 Matematická analýza (2)</a> alebo <a href="https://sluzby.fmph.uniba.sk/infolist/SK/1-MMN-150_00.html">1-MMN-150_00 Matematická analýza (2)</a> alebo <a href="https://sluzby.fmph.uniba.sk/infolist/SK/1-EFM-130_00.html">1-EFM-130_00 Matematická analýza (2)</a>) a (<a href="https://sluzby.fmph.uniba.sk/infolist/SK/1-MAT-120_00.html">1-MAT-120_00 Lineárna algebra a geometria (1)</a> alebo <a href="https://sluzby.fmph.uniba.sk/infolist/SK/1-MMN-120_00.html">1-MMN-120_00 Lineárna algebra a geometria (1)</a>)'
         }
         courses = {
-            '1-MMN-150': u'Matematická analýza (2)',
-            '1-MAT-150': u'Matematická analýza (2)',
-            '1-EFM-130': u'Matematická analýza (2)',
-            '1-MAT-120': u'Lineárna algebra a geometria (1)',
-            '1-MMN-120': u'Lineárna algebra a geometria (1)'
+            '1-MMN-150_00': u'Matematická analýza (2)',
+            '1-MAT-150_00': u'Matematická analýza (2)',
+            '1-EFM-130_00': u'Matematická analýza (2)',
+            '1-MAT-120_00': u'Lineárna algebra a geometria (1)',
+            '1-MMN-120_00': u'Lineárna algebra a geometria (1)'
         }
 
         for in_data, out_data in data.iteritems():

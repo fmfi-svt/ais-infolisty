@@ -24,7 +24,7 @@ def replace_codes(text, lang='sk', add_links=False, courses={}, and_symbol=', ')
     Replace all occurences of full course codes with short course codes.
     """
     def repl(m):
-        code = m.group(1)
+        code = m.group(1).replace("/","_")
         if not add_links:
             return code
         title = '%s %s' % (code, courses[code]) if code in courses else code
