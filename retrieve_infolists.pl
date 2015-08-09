@@ -15,12 +15,12 @@ my $xmlurl = "https://ais2.uniba.sk/repo2/repository/default/ais/informacnelisty
 
 my $tempdir = tempdir( CLEANUP=>1 );
 
-#download_data("sk");
-#download_data("en");
-#process_data("sk","regular","template_2015_sk.html");
-#process_data("en","regular","template_2015_en.html");
-#process_data("sk","statnice","template_2015_sk.html");
-#process_data("en","statnice","template_2015_en.html");
+download_data("sk");
+download_data("en");
+process_data("sk","regular","template_2015_sk.html");
+process_data("en","regular","template_2015_en.html");
+process_data("sk","statnice","template_2015_sk.html");
+process_data("en","statnice","template_2015_en.html");
 create_links("sk");
 create_links("en");
 
