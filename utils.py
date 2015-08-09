@@ -47,7 +47,8 @@ def get_url(code, lang='sk'):
     lang = lang.upper()
     if code == '' or not lang in ['SK', 'EN']:
         return False
-    return "https://sluzby.fmph.uniba.sk/infolist/%s/%s.html" % (lang, code)
+    # return "https://sluzby.fmph.uniba.sk/infolist/%s/%s.html" % (lang, code)
+    return "%s.html" % (code)
 
 def make_link_from_code(code, title='', lang='sk'):
     url = get_url(code, lang)

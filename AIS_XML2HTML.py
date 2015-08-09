@@ -65,6 +65,8 @@ def extract_infolists(filename, lang='sk', mode='regular', verbose=True):
     xmldoc = ET.parse(filename)
     root = xmldoc.getroot()
     organizacnaJednotka = root.find('organizacnaJednotka').text
+    vysokaSkola = root.find('vysokaSkola').text
+    fakulta = root.find('fakulta').text
     ilisty = root.find('informacneListy')
     if verbose:
         print "  Nasiel som %d informacnych listov." % len(ilisty.findall('informacnyList'))
@@ -95,8 +97,10 @@ def extract_infolists(filename, lang='sk', mode='regular', verbose=True):
                 'datumSchvalenia': 'datumSchvalenia', 
                 'vahaHodnotenia': '_VH_/texty/p',
                 'garanti': 'garanti/garant/plneMeno',
-                'jazyk': 'vyucujuciAll/vyucujuci/jazykyPredmetu',
-                'obsahovaNapln': '_ON_/texty'   }
+                'jazyk': '_PJ_/texty/p',
+                'obsahovaNapln': '_ON_/texty',
+                'podmienkyAbsolvovania': '_PA_/texty',
+                'vysledkyVzdelavania': '_VV_/texty'   }
     data = []
 
     # spracovanie informacnych listov jednotlivych predmetov
@@ -107,7 +111,10 @@ def extract_infolists(filename, lang='sk', mode='regular', verbose=True):
         if mode=='statnice' and (il.find('_ON_') is None):
             continue
 
-        d = {'lang' : lang, 'organizacnaJednotka': organizacnaJednotka}
+        d = {'lang' : lang, 
+             'organizacnaJednotka': organizacnaJednotka,
+             'vysokaSkola': vysokaSkola,
+             'fakulta': fakulta }
         for key, path in elements.iteritems():
             if il.find(path) is not None:
                 if key != 'vahaHodnotenia' and path.startswith('_'):

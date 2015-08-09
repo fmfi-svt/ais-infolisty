@@ -1,6 +1,7 @@
 #! /usr/bin/perl -w
 use strict;
 use File::Temp qw/ tempfile tempdir /;
+use File::Basename;
 use FindBin qw($Bin);
 
 my $usage = "
@@ -14,15 +15,30 @@ my $xmlurl = "https://ais2.uniba.sk/repo2/repository/default/ais/informacnelisty
 
 my $tempdir = tempdir( CLEANUP=>1 );
 
-download_data("sk");
-download_data("en");
-process_data("sk","regular","template_table_sk.html");
-process_data("en","regular","template_table_en.html");
-process_data("sk","statnice","template_statne-skusky_table_sk.html");
-process_data("en","statnice","template_statne-skusky_table_en.html");
+#download_data("sk");
+#download_data("en");
+#process_data("sk","regular","template_2015_sk.html");
+#process_data("en","regular","template_2015_en.html");
+#process_data("sk","statnice","template_2015_sk.html");
+#process_data("en","statnice","template_2015_en.html");
+create_links("sk");
+create_links("en");
 
 
+sub create_links {
+    my ($lang) = @_;
 
+    my $ultimatetarget = "$target_directory/$season/$lang";
+    # make links
+    my @allfiles = sort(glob("$ultimatetarget/*.html"));
+    foreach my $file (@allfiles) {
+	my $newfile = $file;
+	my $oldfile = fileparse($file);
+	$newfile =~ s/_\d+\.html/\.html/g;
+	next if $newfile eq $file;
+	my_run("ln -fs $oldfile $newfile");
+    }
+}
 
 sub process_data {
     my ($lang,$mode,$sablona) = @_;
@@ -32,6 +48,7 @@ sub process_data {
 
     my_run("mkdir -p $ultimatetarget");
     my_run("python $Bin/AIS_XML2HTML.py --lang $lang --mode $mode $tempdir/$fakulta/xml_files_$lang $ultimatetarget templates/$sablona");
+
 }
 
 
