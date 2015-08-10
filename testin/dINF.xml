@@ -1,0 +1,568 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="studijnePlany.xsl"?>
+<obsah>
+<studijnePlany>
+<studijnyPlan>
+<schvaleny>Neschválený</schvaleny>
+<studijneOdbory>
+<studijnyOdbor>
+<nazov>9.2.1. - informatika</nazov>
+<garanti>
+<garant>
+<meno>prof. RNDr. Rastislav Kráľovič, PhD.</meno>
+<typGaranta>garant</typGaranta>
+<idTypGaranta>1</idTypGaranta>
+<podprogram>Informatika</podprogram>
+</garant>
+<garant>
+<meno>prof. RNDr. Branislav Rovan, PhD.</meno>
+<typGaranta>predseda odborovej komisie</typGaranta>
+<idTypGaranta>6</idTypGaranta>
+<podprogram>Informatika</podprogram>
+</garant>
+</garanti>
+</studijnyOdbor>
+</studijneOdbory>
+<akademickyRok>2015/2016</akademickyRok>
+<co typ="STUDIJNY_PROGRAM">
+<kodTypStudia>J</kodTypStudia>
+<nazov>dINF - informatika - (Jednoodborové štúdium, doktorandské III. st., denná forma)</nazov>
+</co>
+<castiStudijnehoPlanu>
+<cast>
+<kod>SC</kod>
+<nazov>Študijná časť</nazov>
+<typyVyucby>
+<typ>
+<skratka>A</skratka>
+<nazov>Povinné predmety</nazov>
+<obmedzenie/>
+<bloky>
+<blok>
+<skratka>3INF-A1</skratka>
+<nazov>Povinné predmety</nazov>
+<predmety>
+<predmet>
+<skratka>FMFI.KI/3-INF-001/15</skratka>
+<skratkaPredmet>3-INF-001</skratkaPredmet>
+<nazov>Teoretické základy informatiky</nazov>
+<aktualnost/>
+<kredit>8</kredit>
+<rozsah>2S</rozsah>
+<ukoncenie>H</ukoncenie>
+<rocnik>1</rocnik>
+<semester>Z</semester>
+<maxPocetPrihlStudentov/>
+<vyucujuci>Ďuriš, Rovan</vyucujuci>
+<vyucujuci2>P. Ďuriš, B. Rovan</vyucujuci2>
+<vyucujuciAll>
+<vyucujuci>
+<poradie>1</poradie>
+<typ>P</typ>
+<typPopis>prednášajúci</typPopis>
+<meno>Pavol</meno>
+<priezvisko>Ďuriš</priezvisko>
+<plneMeno>prof. RNDr. Pavol Ďuriš, CSc.</plneMeno>
+<jazykyPredmetu>slovenský</jazykyPredmetu>
+</vyucujuci>
+<vyucujuci>
+<poradie>2</poradie>
+<typ>P</typ>
+<typPopis>prednášajúci</typPopis>
+<meno>Branislav</meno>
+<priezvisko>Rovan</priezvisko>
+<plneMeno>prof. RNDr. Branislav Rovan, PhD.</plneMeno>
+<jazykyPredmetu>slovenský</jazykyPredmetu>
+</vyucujuci>
+</vyucujuciAll>
+<podmienujucePredmety/>
+</predmet>
+<predmet>
+<skratka>FMFI.KI/3-INF-002/15</skratka>
+<skratkaPredmet>3-INF-002</skratkaPredmet>
+<nazov>Teória a metodológia informatiky</nazov>
+<aktualnost/>
+<kredit>10</kredit>
+<rozsah>4K</rozsah>
+<ukoncenie>H</ukoncenie>
+<rocnik>1</rocnik>
+<semester>L</semester>
+<maxPocetPrihlStudentov/>
+<vyucujuciAll/>
+<podmienujucePredmety/>
+</predmet>
+<predmet>
+<skratka>FMFI.KI/3-INF-003/00</skratka>
+<skratkaPredmet>3-INF-003</skratkaPredmet>
+<nazov>Predmet špecializácie</nazov>
+<aktualnost/>
+<kredit>20</kredit>
+<rozsah>4S</rozsah>
+<ukoncenie>H</ukoncenie>
+<rocnik>1</rocnik>
+<semester/>
+<maxPocetPrihlStudentov/>
+<vyucujuciAll/>
+<podmienujucePredmety/>
+</predmet>
+</predmety>
+<obmedzenie>
+<kredit>0</kredit>
+<poznamkaPredKontrola>poznamkaPred je neprazdna</poznamkaPredKontrola>
+<poznamkaZaKontrola/>
+<poznamkyPred>
+<poznamkaPred>predmety pre študentov začínajúcich štúdium v akademickom roku 2014/15 alebo skôr</poznamkaPred>
+</poznamkyPred>
+</obmedzenie>
+</blok>
+<blok>
+<skratka>3INF-A2</skratka>
+<nazov>Povinné predmety</nazov>
+<predmety>
+<predmet>
+<skratka>FMFI.KI/3-INF-001/15</skratka>
+<skratkaPredmet>3-INF-001</skratkaPredmet>
+<nazov>Teoretické základy informatiky</nazov>
+<aktualnost/>
+<kredit>8</kredit>
+<rozsah>2S</rozsah>
+<ukoncenie>H</ukoncenie>
+<rocnik>1</rocnik>
+<semester>Z</semester>
+<maxPocetPrihlStudentov/>
+<vyucujuci>Ďuriš, Rovan</vyucujuci>
+<vyucujuci2>P. Ďuriš, B. Rovan</vyucujuci2>
+<vyucujuciAll>
+<vyucujuci>
+<poradie>1</poradie>
+<typ>P</typ>
+<typPopis>prednášajúci</typPopis>
+<meno>Pavol</meno>
+<priezvisko>Ďuriš</priezvisko>
+<plneMeno>prof. RNDr. Pavol Ďuriš, CSc.</plneMeno>
+<jazykyPredmetu>slovenský</jazykyPredmetu>
+</vyucujuci>
+<vyucujuci>
+<poradie>2</poradie>
+<typ>P</typ>
+<typPopis>prednášajúci</typPopis>
+<meno>Branislav</meno>
+<priezvisko>Rovan</priezvisko>
+<plneMeno>prof. RNDr. Branislav Rovan, PhD.</plneMeno>
+<jazykyPredmetu>slovenský</jazykyPredmetu>
+</vyucujuci>
+</vyucujuciAll>
+<podmienujucePredmety/>
+</predmet>
+<predmet>
+<skratka>FMFI.KI/3-INF-002/15</skratka>
+<skratkaPredmet>3-INF-002</skratkaPredmet>
+<nazov>Teória a metodológia informatiky</nazov>
+<aktualnost/>
+<kredit>10</kredit>
+<rozsah>4K</rozsah>
+<ukoncenie>H</ukoncenie>
+<rocnik>1</rocnik>
+<semester>L</semester>
+<maxPocetPrihlStudentov/>
+<vyucujuciAll/>
+<podmienujucePredmety/>
+</predmet>
+<predmet>
+<skratka>FMFI.KI/3-INF-027/15</skratka>
+<skratkaPredmet>3-INF-027</skratkaPredmet>
+<nazov>Oblasť špecializácie</nazov>
+<aktualnost/>
+<kredit>14</kredit>
+<rozsah>4K</rozsah>
+<ukoncenie>H</ukoncenie>
+<rocnik>1</rocnik>
+<semester>Z</semester>
+<maxPocetPrihlStudentov/>
+<vyucujuciAll/>
+<podmienujucePredmety/>
+</predmet>
+<predmet>
+<skratka>FMFI.KI/3-INF-023/15</skratka>
+<skratkaPredmet>3-INF-023</skratkaPredmet>
+<nazov>Sledovanie a spracovanie literatúry</nazov>
+<aktualnost/>
+<kredit>10</kredit>
+<rozsah>10D</rozsah>
+<ukoncenie>H</ukoncenie>
+<rocnik>1</rocnik>
+<semester/>
+<maxPocetPrihlStudentov/>
+<vyucujuciAll/>
+<podmienujucePredmety/>
+</predmet>
+</predmety>
+<obmedzenie>
+<kredit>0</kredit>
+<poznamkaPredKontrola>poznamkaPred je neprazdna</poznamkaPredKontrola>
+<poznamkaZaKontrola/>
+<poznamkyPred>
+<poznamkaPred>predmety pre študentov začínajúcich štúdium v akademickom roku 2015/16 alebo neskôr</poznamkaPred>
+</poznamkyPred>
+</obmedzenie>
+</blok>
+</bloky>
+</typ>
+<typ>
+<skratka>B</skratka>
+<nazov>Povinne voliteľné predmety</nazov>
+<obmedzenie/>
+</typ>
+<typ>
+<skratka>C</skratka>
+<nazov>Výberové predmety</nazov>
+<obmedzenie/>
+<bloky>
+<blok>
+<skratka>3INF-C</skratka>
+<nazov>Výberové predmety</nazov>
+<predmety>
+<predmet>
+<skratka>FMFI.KJP/3-MXX-101/15</skratka>
+<skratkaPredmet>3-MXX-101</skratkaPredmet>
+<nazov>Anglický jazyk pre doktorandov (1)</nazov>
+<aktualnost/>
+<kredit>5</kredit>
+<rozsah>2C</rozsah>
+<ukoncenie>H</ukoncenie>
+<semester>Z</semester>
+<maxPocetPrihlStudentov/>
+<vyucujuci>Zemanová</vyucujuci>
+<vyucujuci2>A. Zemanová</vyucujuci2>
+<vyucujuciAll>
+<vyucujuci>
+<poradie>1</poradie>
+<typ>C</typ>
+<typPopis>cvičiaci</typPopis>
+<meno>Alena</meno>
+<priezvisko>Zemanová</priezvisko>
+<plneMeno>PhDr. Alena Zemanová</plneMeno>
+<jazykyPredmetu>slovenský</jazykyPredmetu>
+</vyucujuci>
+</vyucujuciAll>
+<podmienujucePredmety/>
+</predmet>
+<predmet>
+<skratka>FMFI.KJP/3-MXX-102/15</skratka>
+<skratkaPredmet>3-MXX-102</skratkaPredmet>
+<nazov>Anglický jazyk pre doktorandov (2)</nazov>
+<aktualnost/>
+<kredit>5</kredit>
+<rozsah>2C</rozsah>
+<ukoncenie>H</ukoncenie>
+<semester>L</semester>
+<maxPocetPrihlStudentov/>
+<vyucujuci>Zemanová</vyucujuci>
+<vyucujuci2>A. Zemanová</vyucujuci2>
+<vyucujuciAll>
+<vyucujuci>
+<poradie>1</poradie>
+<typ>C</typ>
+<typPopis>cvičiaci</typPopis>
+<meno>Alena</meno>
+<priezvisko>Zemanová</priezvisko>
+<plneMeno>PhDr. Alena Zemanová</plneMeno>
+<jazykyPredmetu>slovenský</jazykyPredmetu>
+</vyucujuci>
+</vyucujuciAll>
+<podmienujuce>
+<podmienujuci>FMFI.KJP/3-MXX-101/15</podmienujuci>
+<pocet>1</pocet>
+</podmienujuce>
+<podmienujucePredmety>FMFI.KJP/3-MXX-101/15</podmienujucePredmety>
+</predmet>
+<predmet>
+<skratka>FMFI.KI/3-INF-120/15</skratka>
+<skratkaPredmet>3-INF-120</skratkaPredmet>
+<nazov>Štúdium literatúry</nazov>
+<aktualnost/>
+<kredit>4</kredit>
+<rozsah>5D</rozsah>
+<ukoncenie>H</ukoncenie>
+<semester/>
+<maxPocetPrihlStudentov/>
+<vyucujuciAll/>
+<podmienujucePredmety/>
+</predmet>
+</predmety>
+<obmedzenie>
+<kredit>0</kredit>
+<poznamkaPredKontrola/>
+<poznamkaZaKontrola>poznamkaZa je neprazdna</poznamkaZaKontrola>
+<poznamkyZa>
+<poznamkaZa>Predmet Štúdium literatúry je možné absolvovať aj viackrát.</poznamkaZa>
+</poznamkyZa>
+</obmedzenie>
+</blok>
+</bloky>
+</typ>
+</typyVyucby>
+</cast>
+<cast>
+<kod>VC</kod>
+<nazov>Vedecká časť</nazov>
+<bloky>
+<blok>
+<skratka>3INF-VVC1</skratka>
+<nazov>Vedecká činnosť - povinne voliteľné predmety</nazov>
+<predmety>
+<predmet>
+<skratka>FMFI.KI/3-INF-401/15</skratka>
+<skratkaPredmet>3-INF-401</skratkaPredmet>
+<nazov>Vedecká činnosť I</nazov>
+<aktualnost/>
+<kredit>6</kredit>
+<rozsah/>
+<ukoncenie>H</ukoncenie>
+<semester/>
+<maxPocetPrihlStudentov/>
+<vyucujuciAll/>
+<podmienujucePredmety/>
+</predmet>
+<predmet>
+<skratka>FMFI.KI/3-INF-402/15</skratka>
+<skratkaPredmet>3-INF-402</skratkaPredmet>
+<nazov>Vedecká činnosť II</nazov>
+<aktualnost/>
+<kredit>10</kredit>
+<rozsah/>
+<ukoncenie>H</ukoncenie>
+<semester/>
+<maxPocetPrihlStudentov/>
+<vyucujuciAll/>
+<podmienujucePredmety/>
+</predmet>
+<predmet>
+<skratka>FMFI.KI/3-INF-403/15</skratka>
+<skratkaPredmet>3-INF-403</skratkaPredmet>
+<nazov>Vedecká činnosť III</nazov>
+<aktualnost/>
+<kredit>20</kredit>
+<rozsah/>
+<ukoncenie>H</ukoncenie>
+<semester/>
+<maxPocetPrihlStudentov/>
+<vyucujuciAll/>
+<podmienujucePredmety/>
+</predmet>
+</predmety>
+<obmedzenie>
+<kredit>50</kredit>
+<poznamkaPredKontrola/>
+<poznamkaZaKontrola>poznamkaZa je neprazdna</poznamkaZaKontrola>
+<poznamkyZa>
+<poznamkaZa>Študentom začínajúcim štúdium 2014/15 alebo skôr sa do splnenia tohto bloku počítajú aj predmety 3-INF-005 Projekt (1), 3-INF-006 Projekt (2), 3-INF-007 Projekt (3), 3-INF-008 Projekt (4).</poznamkaZa>
+</poznamkyZa>
+</obmedzenie>
+</blok>
+<blok>
+<skratka>3INF-VVC2</skratka>
+<nazov>Vedecká činnosť - povinne voliteľné predmety</nazov>
+<predmety>
+<predmet>
+<skratka>FMFI.KI/3-INF-601/15</skratka>
+<skratkaPredmet>3-INF-601</skratkaPredmet>
+<nazov>Seminár pracoviska</nazov>
+<aktualnost/>
+<kredit>3</kredit>
+<rozsah>2S</rozsah>
+<ukoncenie>H</ukoncenie>
+<semester/>
+<maxPocetPrihlStudentov/>
+<vyucujuciAll/>
+<podmienujucePredmety/>
+</predmet>
+<predmet>
+<skratka>FMFI.KI/3-INF-602/15</skratka>
+<skratkaPredmet>3-INF-602</skratkaPredmet>
+<nazov>Mobilita doktorandov</nazov>
+<aktualnost/>
+<kredit>10</kredit>
+<rozsah/>
+<ukoncenie>H</ukoncenie>
+<semester/>
+<maxPocetPrihlStudentov/>
+<vyucujuciAll/>
+<podmienujucePredmety/>
+</predmet>
+</predmety>
+<obmedzenie>
+<kredit>0</kredit>
+<poznamkaPredKontrola/>
+<poznamkaZaKontrola>poznamkaZa je neprazdna</poznamkaZaKontrola>
+<poznamkyZa>
+<poznamkaZa>Študenti v dennej forme štúdia začínajúci štúdium v školskom roku 2015/16 alebo neskôr musia v aspoň siedmich semestroch absolvovať jeden z predmetov bloku v súlade so zameraním dizertačnej práce. Študenti v dennej forme štúdia začínajúci štúdium v školskom roku 2014/15 alebo skôr musia absolvovať seminár v aspoň 4 semestroch, pričom do absolvovania bloku sa im počítajú aj bývalé predmety 3-INF-11[1-8] Seminár pracoviska (1)-(8).</poznamkaZa>
+</poznamkyZa>
+</obmedzenie>
+</blok>
+<blok>
+<skratka>3INF-VVC3</skratka>
+<nazov>Vedecká činnosť - výberové predmety</nazov>
+<predmety>
+<predmet>
+<skratka>FMFI.KI/3-INF-804/15</skratka>
+<skratkaPredmet>3-INF-804</skratkaPredmet>
+<nazov>Organizácia vedeckých podujatí</nazov>
+<aktualnost/>
+<kredit>2</kredit>
+<rozsah/>
+<ukoncenie>H</ukoncenie>
+<semester/>
+<maxPocetPrihlStudentov/>
+<vyucujuciAll/>
+<podmienujucePredmety/>
+</predmet>
+</predmety>
+<obmedzenie>
+<kredit>0</kredit>
+<poznamkaPredKontrola/>
+<poznamkaZaKontrola/>
+</obmedzenie>
+</blok>
+</bloky>
+</cast>
+<cast>
+<kod>DA</kod>
+<nazov>Ďalšie aktivity</nazov>
+<bloky>
+<blok>
+<skratka>3INF-DPC</skratka>
+<nazov>Pedagogická činnosť</nazov>
+<predmety>
+<predmet>
+<skratka>FMFI.KI/3-INF-803/15</skratka>
+<skratkaPredmet>3-INF-803</skratkaPredmet>
+<nazov>Pedagogická činnosť</nazov>
+<aktualnost/>
+<kredit>6</kredit>
+<rozsah>4I</rozsah>
+<ukoncenie>H</ukoncenie>
+<semester/>
+<maxPocetPrihlStudentov/>
+<vyucujuciAll/>
+<podmienujucePredmety/>
+</predmet>
+<predmet>
+<skratka>FMFI.KI/3-INF-805/15</skratka>
+<skratkaPredmet>3-INF-805</skratkaPredmet>
+<nazov>Vedenie záverečnej práce alebo práce ŠVK</nazov>
+<aktualnost/>
+<kredit>5</kredit>
+<rozsah/>
+<ukoncenie>H</ukoncenie>
+<semester/>
+<maxPocetPrihlStudentov/>
+<vyucujuciAll/>
+<podmienujucePredmety/>
+</predmet>
+</predmety>
+<obmedzenie>
+<kredit>0</kredit>
+<poznamkaPredKontrola/>
+<poznamkaZaKontrola>poznamkaZa je neprazdna</poznamkaZaKontrola>
+<poznamkyZa>
+<poznamkaZa>Predmety tohto bloku hodnotí vedúci katedry.</poznamkaZa>
+<poznamkaZa>Predmety môžu byť zapisované opakovane.</poznamkaZa>
+</poznamkyZa>
+</obmedzenie>
+</blok>
+</bloky>
+</cast>
+<cast>
+<kod>SS</kod>
+<nazov>Štátne skúšky</nazov>
+<typyVyucby>
+<typ>
+<skratka>A</skratka>
+<nazov>Povinné predmety</nazov>
+<obmedzenie/>
+<bloky>
+<blok>
+<skratka>3INF-SA</skratka>
+<nazov>Štátne skúšky</nazov>
+<predmety>
+<predmet>
+<skratka>FMFI.KI/3-INF-950/15</skratka>
+<skratkaPredmet>3-INF-950</skratkaPredmet>
+<nazov>Dizertačná skúška</nazov>
+<aktualnost/>
+<kredit>20</kredit>
+<rozsah/>
+<ukoncenie>SS</ukoncenie>
+<rocnik>2</rocnik>
+<semester/>
+<maxPocetPrihlStudentov/>
+<vyucujuciAll/>
+<podmienujucePredmety/>
+</predmet>
+<predmet>
+<skratka>FMFI.KI/3-INF-990/15</skratka>
+<skratkaPredmet>3-INF-990</skratkaPredmet>
+<nazov>Obhajoba dizertačnej práce</nazov>
+<aktualnost/>
+<kredit>30</kredit>
+<rozsah/>
+<ukoncenie>OB</ukoncenie>
+<rocnik>4</rocnik>
+<semester/>
+<maxPocetPrihlStudentov/>
+<vyucujuciAll/>
+<podmienujucePredmety/>
+</predmet>
+</predmety>
+<obmedzenie>
+<kredit>0</kredit>
+<poznamkaPredKontrola/>
+<poznamkaZaKontrola/>
+</obmedzenie>
+</blok>
+</bloky>
+</typ>
+<typ>
+<skratka>B</skratka>
+<nazov>Povinne voliteľné predmety</nazov>
+<obmedzenie/>
+</typ>
+</typyVyucby>
+</cast>
+</castiStudijnehoPlanu>
+</studijnyPlan>
+</studijnePlany>
+<rozsahy>
+<rozsah>
+<popis>dní za semester</popis>
+<skratka>d</skratka>
+</rozsah>
+<rozsah>
+<popis>hodín za týždeň</popis>
+<skratka>h</skratka>
+</rozsah>
+<rozsah>
+<popis>hodín za semester</popis>
+<skratka>s</skratka>
+</rozsah>
+<rozsah>
+<popis>týždňov za semester</popis>
+<skratka>t</skratka>
+</rozsah>
+</rozsahy>
+<aktualnosti>
+<aktualnost>
+<popis>v danom akademickom roku sa predmet nerealizuje</popis>
+<skratka>!</skratka>
+</aktualnost>
+<aktualnost>
+<popis>predmet sa nerealizuje, možno od nasledujúceho akademického roku</popis>
+<skratka>+</skratka>
+</aktualnost>
+<aktualnost>
+<popis>predmet sa realizuje ostatný krát</popis>
+<skratka>-</skratka>
+</aktualnost>
+</aktualnosti>
+</obsah>

@@ -1,0 +1,5625 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="studijnePlany.xsl"?>
+<obsah>
+<studijnePlany>
+<studijnyPlan>
+<schvaleny>Neschválený</schvaleny>
+<studijneOdbory>
+<studijnyOdbor>
+<nazov>9.2.9. - aplikovaná informatika</nazov>
+<garanti>
+<garant>
+<meno>doc. RNDr. Damas Gruska, PhD.</meno>
+<typGaranta>garant</typGaranta>
+<idTypGaranta>1</idTypGaranta>
+<podprogram>Aplikovaná informatika</podprogram>
+</garant>
+</garanti>
+</studijnyOdbor>
+</studijneOdbory>
+<akademickyRok>2015/2016</akademickyRok>
+<co typ="STUDIJNY_PROGRAM">
+<kodTypStudia>J</kodTypStudia>
+<nazov>AIN - aplikovaná informatika - (Jednoodborové štúdium, bakalársky I. st., denná forma)</nazov>
+</co>
+<castiStudijnehoPlanu>
+<cast>
+<kod>SC</kod>
+<nazov>Študijná časť</nazov>
+<typyVyucby>
+<typ>
+<skratka>A</skratka>
+<nazov>Povinné predmety</nazov>
+<obmedzenie/>
+<bloky>
+<blok>
+<skratka>1MXX-ATV</skratka>
+<nazov>Telovýchovné aktivity - povinné</nazov>
+<predmety>
+<predmet>
+<skratka>FMFI.KTV/1-MXX-110/00</skratka>
+<skratkaPredmet>1-MXX-110</skratkaPredmet>
+<nazov>Telesná výchova a šport (1)</nazov>
+<aktualnost/>
+<kredit>0</kredit>
+<rozsah>2C</rozsah>
+<ukoncenie>H</ukoncenie>
+<rocnik>1</rocnik>
+<semester>Z</semester>
+<maxPocetPrihlStudentov/>
+<vyucujuci>Mašlejová, Mókus, Podkonický, Potočný, Leginusová, Kuchár, Ortutay, Sládok, Dovičák</vyucujuci>
+<vyucujuci2>D. Mašlejová, L. Mókus, O. Podkonický, V. Potočný, J. Leginusová, T. Kuchár, M. Ortutay, V. Sládok, M. Dovičák</vyucujuci2>
+<vyucujuciAll>
+<vyucujuci>
+<poradie>1</poradie>
+<typ>C</typ>
+<typPopis>cvičiaci</typPopis>
+<meno>Dana</meno>
+<priezvisko>Mašlejová</priezvisko>
+<plneMeno>PaedDr. Dana Mašlejová</plneMeno>
+<jazykyPredmetu>anglický, slovenský</jazykyPredmetu>
+</vyucujuci>
+<vyucujuci>
+<poradie>2</poradie>
+<typ>C</typ>
+<typPopis>cvičiaci</typPopis>
+<meno>Ladislav</meno>
+<priezvisko>Mókus</priezvisko>
+<plneMeno>Mgr. Ladislav Mókus</plneMeno>
+<jazykyPredmetu>anglický, slovenský</jazykyPredmetu>
+</vyucujuci>
+<vyucujuci>
+<poradie>3</poradie>
+<typ>C</typ>
+<typPopis>cvičiaci</typPopis>
+<meno>Ondrej</meno>
+<priezvisko>Podkonický</priezvisko>
+<plneMeno>Mgr. Ondrej Podkonický</plneMeno>
+<jazykyPredmetu>anglický, slovenský</jazykyPredmetu>
+</vyucujuci>
+<vyucujuci>
+<poradie>4</poradie>
+<typ>C</typ>
+<typPopis>cvičiaci</typPopis>
+<meno>Vojtech</meno>
+<priezvisko>Potočný</priezvisko>
+<plneMeno>doc. PhDr. Vojtech Potočný, CSc.</plneMeno>
+<jazykyPredmetu>anglický, slovenský</jazykyPredmetu>
+</vyucujuci>
+<vyucujuci>
+<poradie>5</poradie>
+<typ>C</typ>
+<typPopis>cvičiaci</typPopis>
+<meno>Jana</meno>
+<priezvisko>Leginusová</priezvisko>
+<plneMeno>Mgr. Jana Leginusová</plneMeno>
+<jazykyPredmetu>anglický, slovenský</jazykyPredmetu>
+</vyucujuci>
+<vyucujuci>
+<poradie>6</poradie>
+<typ>C</typ>
+<typPopis>cvičiaci</typPopis>
+<meno>Tomáš</meno>
+<priezvisko>Kuchár</priezvisko>
+<plneMeno>Mgr. Tomáš Kuchár, PhD.</plneMeno>
+<jazykyPredmetu>anglický, slovenský</jazykyPredmetu>
+</vyucujuci>
+<vyucujuci>
+<poradie>7</poradie>
+<typ>C</typ>
+<typPopis>cvičiaci</typPopis>
+<meno>Mikuláš</meno>
+<priezvisko>Ortutay</priezvisko>
+<plneMeno>PaedDr. Mikuláš Ortutay</plneMeno>
+<jazykyPredmetu>anglický, slovenský</jazykyPredmetu>
+</vyucujuci>
+<vyucujuci>
+<poradie>8</poradie>
+<typ>C</typ>
+<typPopis>cvičiaci</typPopis>
+<meno>Viktor</meno>
+<priezvisko>Sládok</priezvisko>
+<plneMeno>Mgr. Viktor Sládok</plneMeno>
+<jazykyPredmetu>anglický, slovenský</jazykyPredmetu>
+</vyucujuci>
+<vyucujuci>
+<poradie>9</poradie>
+<typ>C</typ>
+<typPopis>cvičiaci</typPopis>
+<meno>Martin</meno>
+<priezvisko>Dovičák</priezvisko>
+<plneMeno>Mgr. Martin Dovičák</plneMeno>
+<jazykyPredmetu>anglický, slovenský</jazykyPredmetu>
+</vyucujuci>
+</vyucujuciAll>
+<podmienujucePredmety/>
+</predmet>
+<predmet>
+<skratka>FMFI.KTV/1-MXX-120/00</skratka>
+<skratkaPredmet>1-MXX-120</skratkaPredmet>
+<nazov>Telesná výchova a šport (2)</nazov>
+<aktualnost/>
+<kredit>0</kredit>
+<rozsah>2C</rozsah>
+<ukoncenie>H</ukoncenie>
+<rocnik>1</rocnik>
+<semester>L</semester>
+<maxPocetPrihlStudentov/>
+<vyucujuci>Kuchár, Podkonický, Mašlejová, Mókus, Leginusová, Potočný, Ortutay, Sládok, Dovičák</vyucujuci>
+<vyucujuci2>T. Kuchár, O. Podkonický, D. Mašlejová, L. Mókus, J. Leginusová, V. Potočný, M. Ortutay, V. Sládok, M. Dovičák</vyucujuci2>
+<vyucujuciAll>
+<vyucujuci>
+<poradie>1</poradie>
+<typ>P</typ>
+<typPopis>prednášajúci</typPopis>
+<meno>Tomáš</meno>
+<priezvisko>Kuchár</priezvisko>
+<plneMeno>Mgr. Tomáš Kuchár, PhD.</plneMeno>
+<jazykyPredmetu>anglický, slovenský</jazykyPredmetu>
+</vyucujuci>
+<vyucujuci>
+<poradie>2</poradie>
+<typ>C</typ>
+<typPopis>cvičiaci</typPopis>
+<meno>Ondrej</meno>
+<priezvisko>Podkonický</priezvisko>
+<plneMeno>Mgr. Ondrej Podkonický</plneMeno>
+<jazykyPredmetu>anglický, slovenský</jazykyPredmetu>
+</vyucujuci>
+<vyucujuci>
+<poradie>3</poradie>
+<typ>C</typ>
+<typPopis>cvičiaci</typPopis>
+<meno>Dana</meno>
+<priezvisko>Mašlejová</priezvisko>
+<plneMeno>PaedDr. Dana Mašlejová</plneMeno>
+<jazykyPredmetu>anglický, slovenský</jazykyPredmetu>
+</vyucujuci>
+<vyucujuci>
+<poradie>4</poradie>
+<typ>C</typ>
+<typPopis>cvičiaci</typPopis>
+<meno>Ladislav</meno>
+<priezvisko>Mókus</priezvisko>
+<plneMeno>Mgr. Ladislav Mókus</plneMeno>
+<jazykyPredmetu>anglický, slovenský</jazykyPredmetu>
+</vyucujuci>
+<vyucujuci>
+<poradie>5</poradie>
+<typ>C</typ>
+<typPopis>cvičiaci</typPopis>
+<meno>Jana</meno>
+<priezvisko>Leginusová</priezvisko>
+<plneMeno>Mgr. Jana Leginusová</plneMeno>
+<jazykyPredmetu>anglický, slovenský</jazykyPredmetu>
+</vyucujuci>
+<vyucujuci>
+<poradie>6</poradie>
+<typ>C</typ>
+<typPopis>cvičiaci</typPopis>
+<meno>Vojtech</meno>
+<priezvisko>Potočný</priezvisko>
+<plneMeno>doc. PhDr. Vojtech Potočný, CSc.</plneMeno>
+<jazykyPredmetu>anglický, slovenský</jazykyPredmetu>
+</vyucujuci>
+<vyucujuci>
+<poradie>7</poradie>
+<typ>C</typ>
+<typPopis>cvičiaci</typPopis>
+<meno>Mikuláš</meno>
+<priezvisko>Ortutay</priezvisko>
+<plneMeno>PaedDr. Mikuláš Ortutay</plneMeno>
+<jazykyPredmetu>anglický, slovenský</jazykyPredmetu>
+</vyucujuci>
+<vyucujuci>
+<poradie>8</poradie>
+<typ>C</typ>
+<typPopis>cvičiaci</typPopis>
+<meno>Viktor</meno>
+<priezvisko>Sládok</priezvisko>
+<plneMeno>Mgr. Viktor Sládok</plneMeno>
+<jazykyPredmetu>anglický, slovenský</jazykyPredmetu>
+</vyucujuci>
+<vyucujuci>
+<poradie>9</poradie>
+<typ>P</typ>
+<typPopis>prednášajúci</typPopis>
+<meno>Martin</meno>
+<priezvisko>Dovičák</priezvisko>
+<plneMeno>Mgr. Martin Dovičák</plneMeno>
+<jazykyPredmetu>anglický, slovenský</jazykyPredmetu>
+</vyucujuci>
+<vyucujuci>
+<poradie>10</poradie>
+<typ>P</typ>
+<typPopis>prednášajúci</typPopis>
+<meno>Jana</meno>
+<priezvisko>Leginusová</priezvisko>
+<plneMeno>Mgr. Jana Leginusová</plneMeno>
+<jazykyPredmetu>anglický, slovenský</jazykyPredmetu>
+</vyucujuci>
+<vyucujuci>
+<poradie>11</poradie>
+<typ>P</typ>
+<typPopis>prednášajúci</typPopis>
+<meno>Dana</meno>
+<priezvisko>Mašlejová</priezvisko>
+<plneMeno>PaedDr. Dana Mašlejová</plneMeno>
+<jazykyPredmetu>anglický, slovenský</jazykyPredmetu>
+</vyucujuci>
+<vyucujuci>
+<poradie>12</poradie>
+<typ>P</typ>
+<typPopis>prednášajúci</typPopis>
+<meno>Ladislav</meno>
+<priezvisko>Mókus</priezvisko>
+<plneMeno>Mgr. Ladislav Mókus</plneMeno>
+<jazykyPredmetu>anglický, slovenský</jazykyPredmetu>
+</vyucujuci>
+<vyucujuci>
+<poradie>13</poradie>
+<typ>P</typ>
+<typPopis>prednášajúci</typPopis>
+<meno>Ondrej</meno>
+<priezvisko>Podkonický</priezvisko>
+<plneMeno>Mgr. Ondrej Podkonický</plneMeno>
+<jazykyPredmetu>anglický, slovenský</jazykyPredmetu>
+</vyucujuci>
+</vyucujuciAll>
+<podmienujucePredmety/>
+</predmet>
+</predmety>
+<obmedzenie>
+<kredit>0</kredit>
+<poznamkaPredKontrola/>
+<poznamkaZaKontrola/>
+</obmedzenie>
+</blok>
+<blok>
+<skratka>1MXX-ACJ</skratka>
+<nazov>Cudzie jazyky - povinné</nazov>
+<predmety>
+<predmet>
+<skratka>FMFI.KJP/1-MXX-232/10</skratka>
+<skratkaPredmet>1-MXX-232</skratkaPredmet>
+<nazov>Anglický jazyk (4)</nazov>
+<aktualnost/>
+<kredit>2</kredit>
+<rozsah>2C</rozsah>
+<ukoncenie>H</ukoncenie>
+<rocnik>2</rocnik>
+<semester>L</semester>
+<maxPocetPrihlStudentov/>
+<vyucujuciAll>
+<vyucujuci>
+<poradie>1</poradie>
+<typ>S</typ>
+<typPopis>skúšajúci</typPopis>
+<meno>Ladislav</meno>
+<priezvisko>Erdélyi</priezvisko>
+<plneMeno>PaedDr. Ladislav Erdélyi</plneMeno>
+<jazykyPredmetu>anglický, slovenský</jazykyPredmetu>
+</vyucujuci>
+<vyucujuci>
+<poradie>2</poradie>
+<typ>S</typ>
+<typPopis>skúšajúci</typPopis>
+<meno>Elena</meno>
+<priezvisko>Klátiková</priezvisko>
+<plneMeno>PhDr. Elena Klátiková</plneMeno>
+<jazykyPredmetu>anglický, slovenský</jazykyPredmetu>
+</vyucujuci>
+<vyucujuci>
+<poradie>3</poradie>
+<typ>S</typ>
+<typPopis>skúšajúci</typPopis>
+<meno>Alena</meno>
+<priezvisko>Zemanová</priezvisko>
+<plneMeno>PhDr. Alena Zemanová</plneMeno>
+<jazykyPredmetu>anglický, slovenský</jazykyPredmetu>
+</vyucujuci>
+<vyucujuci>
+<poradie>4</poradie>
+<typ>S</typ>
+<typPopis>skúšajúci</typPopis>
+<meno>Jana</meno>
+<priezvisko>Kočvarová</priezvisko>
+<plneMeno>Mgr. Ing. Jana Kočvarová</plneMeno>
+<jazykyPredmetu>anglický, slovenský</jazykyPredmetu>
+</vyucujuci>
+<vyucujuci>
+<poradie>5</poradie>
+<typ>S</typ>
+<typPopis>skúšajúci</typPopis>
+<meno>Júlia</meno>
+<priezvisko>Jedináková</priezvisko>
+<plneMeno>Mgr. Júlia Jedináková</plneMeno>
+<jazykyPredmetu>anglický, slovenský</jazykyPredmetu>
+</vyucujuci>
+<vyucujuci>
+<poradie>6</poradie>
+<typ>S</typ>
+<typPopis>skúšajúci</typPopis>
+<meno>Eva</meno>
+<priezvisko>Vartíková</priezvisko>
+<plneMeno>Ing. Eva Vartíková</plneMeno>
+<jazykyPredmetu>anglický, slovenský</jazykyPredmetu>
+</vyucujuci>
+<vyucujuci>
+<poradie>7</poradie>
+<typ>S</typ>
+<typPopis>skúšajúci</typPopis>
+<meno>Alexandra</meno>
+<priezvisko>Maďarová</priezvisko>
+<plneMeno>Mgr. Alexandra Maďarová</plneMeno>
+<jazykyPredmetu>anglický, slovenský</jazykyPredmetu>
+</vyucujuci>
+</vyucujuciAll>
+<podmienujucePredmety/>
+</predmet>
+</predmety>
+<obmedzenie>
+<kredit>0</kredit>
+<poznamkaPredKontrola/>
+<poznamkaZaKontrola/>
+</obmedzenie>
+</blok>
+<blok>
+<skratka>1AIN-A1</skratka>
+<nazov>Povinné predmety (od AR 2014/15)</nazov>
+<predmety>
+<predmet>
+<skratka>FMFI.KAGDM/1-AIN-121/15</skratka>
+<skratkaPredmet>1-AIN-121</skratkaPredmet>
+<nazov>Matematika (1) - Úvod do matematického myslenia</nazov>
+<aktualnost/>
+<kredit>8</kredit>
+<rozsah>6K</rozsah>
+<ukoncenie>H</ukoncenie>
+<rocnik>1</rocnik>
+<semester>Z</semester>
+<maxPocetPrihlStudentov/>
+<vyucujuci>Jajcayová, Komara</vyucujuci>
+<vyucujuci2>T. Jajcayová, J. Komara</vyucujuci2>
+<vyucujuciAll>
+<vyucujuci>
+<poradie>1</poradie>
+<typ>P</typ>
+<typPopis>prednášajúci</typPopis>
+<meno>Tatiana</meno>
+<priezvisko>Jajcayová</priezvisko>
+<plneMeno>RNDr. Tatiana Jajcayová, PhD.</plneMeno>
+<jazykyPredmetu>slovenský</jazykyPredmetu>
+</vyucujuci>
+<vyucujuci>
+<poradie>2</poradie>
+<typ>P</typ>
+<typPopis>prednášajúci</typPopis>
+<meno>Ján</meno>
+<priezvisko>Komara</priezvisko>
+<plneMeno>Ing. Ján Komara, PhD.</plneMeno>
+<jazykyPredmetu>slovenský</jazykyPredmetu>
+</vyucujuci>
+</vyucujuciAll>
+<podmienujucePredmety/>
+</predmet>
+<predmet>
+<skratka>FMFI.KEF/1-AIN-140/15</skratka>
+<skratkaPredmet>1-AIN-140</skratkaPredmet>
+<nazov>Princípy počítačov - hardvér</nazov>
+<aktualnost/>
+<kredit>8</kredit>
+<rozsah>6K</rozsah>
+<ukoncenie>H</ukoncenie>
+<rocnik>1</rocnik>
+<semester>Z</semester>
+<maxPocetPrihlStudentov/>
+<vyucujuci>Kundracik, Greguš, Petrovič</vyucujuci>
+<vyucujuci2>F. Kundracik, J. Greguš, P. Petrovič</vyucujuci2>
+<vyucujuciAll>
+<vyucujuci>
+<poradie>1</poradie>
+<typ>P</typ>
+<typPopis>prednášajúci</typPopis>
+<meno>František</meno>
+<priezvisko>Kundracik</priezvisko>
+<plneMeno>doc. RNDr. František Kundracik, CSc.</plneMeno>
+<jazykyPredmetu>slovenský</jazykyPredmetu>
+</vyucujuci>
+<vyucujuci>
+<poradie>2</poradie>
+<typ>P</typ>
+<typPopis>prednášajúci</typPopis>
+<meno>Ján</meno>
+<priezvisko>Greguš</priezvisko>
+<plneMeno>RNDr. Ján Greguš, PhD.</plneMeno>
+<jazykyPredmetu>slovenský</jazykyPredmetu>
+</vyucujuci>
+<vyucujuci>
+<poradie>3</poradie>
+<typ>P</typ>
+<typPopis>prednášajúci</typPopis>
+<meno>Pavel</meno>
+<priezvisko>Petrovič</priezvisko>
+<plneMeno>Mgr. Pavel Petrovič, PhD.</plneMeno>
+<jazykyPredmetu>slovenský</jazykyPredmetu>
+</vyucujuci>
+</vyucujuciAll>
+<podmienujucePredmety/>
+</predmet>
+<predmet>
+<skratka>FMFI.KAI/1-AIN-130/13</skratka>
+<skratkaPredmet>1-AIN-130</skratkaPredmet>
+<nazov>Programovanie (1)</nazov>
+<aktualnost/>
+<kredit>8</kredit>
+<rozsah>4P + 2C</rozsah>
+<ukoncenie>H</ukoncenie>
+<rocnik>1</rocnik>
+<semester>Z</semester>
+<maxPocetPrihlStudentov/>
+<vyucujuci>Blaho</vyucujuci>
+<vyucujuci2>A. Blaho</vyucujuci2>
+<vyucujuciAll>
+<vyucujuci>
+<poradie>1</poradie>
+<typ>P</typ>
+<typPopis>prednášajúci</typPopis>
+<meno>Andrej</meno>
+<priezvisko>Blaho</priezvisko>
+<plneMeno>RNDr. Andrej Blaho, PhD.</plneMeno>
+<jazykyPredmetu>slovenský</jazykyPredmetu>
+</vyucujuci>
+</vyucujuciAll>
+<podmienujucePredmety/>
+</predmet>
+<predmet>
+<skratka>FMFI.KZVI/1-AIN-112/15</skratka>
+<skratkaPredmet>1-AIN-112</skratkaPredmet>
+<nazov>Úvod do webových technológií</nazov>
+<aktualnost/>
+<kredit>6</kredit>
+<rozsah>2P + 2C</rozsah>
+<ukoncenie>H</ukoncenie>
+<rocnik>1</rocnik>
+<semester>Z</semester>
+<maxPocetPrihlStudentov/>
+<vyucujuci>Hrušecký</vyucujuci>
+<vyucujuci2>R. Hrušecký</vyucujuci2>
+<vyucujuciAll>
+<vyucujuci>
+<poradie>1</poradie>
+<typ>P</typ>
+<typPopis>prednášajúci</typPopis>
+<meno>Roman</meno>
+<priezvisko>Hrušecký</priezvisko>
+<plneMeno>PaedDr. Roman Hrušecký, PhD.</plneMeno>
+<jazykyPredmetu>slovenský</jazykyPredmetu>
+</vyucujuci>
+</vyucujuciAll>
+<podmienujucePredmety/>
+</predmet>
+<predmet>
+<skratka>FMFI.KMANM/1-AIN-188/15</skratka>
+<skratkaPredmet>1-AIN-188</skratkaPredmet>
+<nazov>Matematika (2) - Matematická analýza</nazov>
+<aktualnost/>
+<kredit>7</kredit>
+<rozsah>2P + 2C</rozsah>
+<ukoncenie>H</ukoncenie>
+<rocnik>1</rocnik>
+<semester>L</semester>
+<maxPocetPrihlStudentov/>
+<vyucujuci>Kubáček</vyucujuci>
+<vyucujuci2>Z. Kubáček</vyucujuci2>
+<vyucujuciAll>
+<vyucujuci>
+<poradie>1</poradie>
+<typ>P</typ>
+<typPopis>prednášajúci</typPopis>
+<meno>Zbyněk</meno>
+<priezvisko>Kubáček</priezvisko>
+<plneMeno>doc. RNDr. Zbyněk Kubáček, CSc.</plneMeno>
+<jazykyPredmetu>slovenský</jazykyPredmetu>
+</vyucujuci>
+</vyucujuciAll>
+<podmienujucePredmety/>
+</predmet>
+<predmet>
+<skratka>FMFI.KI/1-INF-283/15</skratka>
+<skratkaPredmet>1-INF-283</skratkaPredmet>
+<nazov>Počítačové siete (1)</nazov>
+<aktualnost/>
+<kredit>4</kredit>
+<rozsah>2P + 1C</rozsah>
+<ukoncenie>H</ukoncenie>
+<rocnik>1</rocnik>
+<semester>L</semester>
+<maxPocetPrihlStudentov/>
+<vyucujuci>Janáček, Šiška</vyucujuci>
+<vyucujuci2>J. Janáček, J. Šiška</vyucujuci2>
+<vyucujuciAll>
+<vyucujuci>
+<poradie>1</poradie>
+<typ>P</typ>
+<typPopis>prednášajúci</typPopis>
+<meno>Jaroslav</meno>
+<priezvisko>Janáček</priezvisko>
+<plneMeno>RNDr. Jaroslav Janáček, PhD.</plneMeno>
+<jazykyPredmetu>slovenský</jazykyPredmetu>
+</vyucujuci>
+<vyucujuci>
+<poradie>2</poradie>
+<typ>C</typ>
+<typPopis>cvičiaci</typPopis>
+<meno>Jozef</meno>
+<priezvisko>Šiška</priezvisko>
+<plneMeno>RNDr. Jozef Šiška, PhD.</plneMeno>
+<jazykyPredmetu>slovenský</jazykyPredmetu>
+</vyucujuci>
+</vyucujuciAll>
+<podmienujucePredmety/>
+</predmet>
+<predmet>
+<skratka>FMFI.KZVI/1-AIN-186/15</skratka>
+<skratkaPredmet>1-AIN-186</skratkaPredmet>
+<nazov>Princípy počítačov – systémové programovanie</nazov>
+<aktualnost/>
+<kredit>5</kredit>
+<rozsah>2P + 1C</rozsah>
+<ukoncenie>H</ukoncenie>
+<rocnik>1</rocnik>
+<semester>L</semester>
+<maxPocetPrihlStudentov/>
+<vyucujuci>Tomcsányi</vyucujuci>
+<vyucujuci2>P. Tomcsányi</vyucujuci2>
+<vyucujuciAll>
+<vyucujuci>
+<poradie>1</poradie>
+<typ>P</typ>
+<typPopis>prednášajúci</typPopis>
+<meno>Peter</meno>
+<priezvisko>Tomcsányi</priezvisko>
+<plneMeno>RNDr. Peter Tomcsányi, PhD.</plneMeno>
+<jazykyPredmetu>slovenský</jazykyPredmetu>
+</vyucujuci>
+</vyucujuciAll>
+<podmienujuce>
+<podmienujuci>FMFI.KI/1-INF-130/00</podmienujuci>
+<podmienujuci>FMFI.KAI/1-AIN-130/13</podmienujuci>
+<podmienujuci>FMFI.KI/1-INF-127/15</podmienujuci>
+<podmienujuci>FMFI.KEF/1-AIN-140/15</podmienujuci>
+<pocet>4</pocet>
+</podmienujuce>
+<podmienujucePredmety>(FMFI.KEF/1-AIN-140/15 alebo FMFI.KI/1-INF-130/00)  a (FMFI.KAI/1-AIN-130/13 alebo FMFI.KI/1-INF-127/15)</podmienujucePredmety>
+</predmet>
+<predmet>
+<skratka>FMFI.KAI/1-AIN-170/13</skratka>
+<skratkaPredmet>1-AIN-170</skratkaPredmet>
+<nazov>Programovanie (2)</nazov>
+<aktualnost/>
+<kredit>6</kredit>
+<rozsah>2P + 2C</rozsah>
+<ukoncenie>H</ukoncenie>
+<rocnik>1</rocnik>
+<semester>L</semester>
+<maxPocetPrihlStudentov/>
+<vyucujuci>Blaho</vyucujuci>
+<vyucujuci2>A. Blaho</vyucujuci2>
+<vyucujuciAll>
+<vyucujuci>
+<poradie>1</poradie>
+<typ>P</typ>
+<typPopis>prednášajúci</typPopis>
+<meno>Andrej</meno>
+<priezvisko>Blaho</priezvisko>
+<plneMeno>RNDr. Andrej Blaho, PhD.</plneMeno>
+<jazykyPredmetu>slovenský</jazykyPredmetu>
+</vyucujuci>
+</vyucujuciAll>
+<podmienujuce>
+<podmienujuci>FMFI.KAI/1-AIN-130/13</podmienujuci>
+<pocet>1</pocet>
+</podmienujuce>
+<podmienujucePredmety>FMFI.KAI/1-AIN-130/13</podmienujucePredmety>
+</predmet>
+<predmet>
+<skratka>FMFI.KAI/1-AIN-232/15</skratka>
+<skratkaPredmet>1-AIN-232</skratkaPredmet>
+<nazov>Ročníkový projekt (1)</nazov>
+<aktualnost/>
+<kredit>0</kredit>
+<rozsah>1D</rozsah>
+<ukoncenie>H</ukoncenie>
+<rocnik>1</rocnik>
+<semester>L</semester>
+<maxPocetPrihlStudentov/>
+<vyucujuci>Gruska, Lúčan</vyucujuci>
+<vyucujuci2>D. Gruska, Ľ. Lúčan</vyucujuci2>
+<vyucujuciAll>
+<vyucujuci>
+<poradie>1</poradie>
+<typ>C</typ>
+<typPopis>cvičiaci</typPopis>
+<meno>Damas</meno>
+<priezvisko>Gruska</priezvisko>
+<plneMeno>doc. RNDr. Damas Gruska, PhD.</plneMeno>
+<jazykyPredmetu>slovenský</jazykyPredmetu>
+</vyucujuci>
+<vyucujuci>
+<poradie>2</poradie>
+<typ>C</typ>
+<typPopis>cvičiaci</typPopis>
+<meno>Ľubomír</meno>
+<priezvisko>Lúčan</priezvisko>
+<plneMeno>Ľubomír Lúčan, CSc.</plneMeno>
+<jazykyPredmetu>slovenský</jazykyPredmetu>
+</vyucujuci>
+</vyucujuciAll>
+<podmienujucePredmety/>
+</predmet>
+<predmet>
+<skratka>FMFI.KZVI/1-INF-175/00</skratka>
+<skratkaPredmet>1-INF-175</skratkaPredmet>
+<nazov>Spoločenské aspekty informatiky</nazov>
+<aktualnost/>
+<kredit>2</kredit>
+<rozsah>2K</rozsah>
+<ukoncenie>H</ukoncenie>
+<rocnik>1</rocnik>
+<semester>L</semester>
+<maxPocetPrihlStudentov/>
+<vyucujuci>Winczer</vyucujuci>
+<vyucujuci2>M. Winczer</vyucujuci2>
+<vyucujuciAll>
+<vyucujuci>
+<poradie>1</poradie>
+<typ>P</typ>
+<typPopis>prednášajúci</typPopis>
+<meno>Michal</meno>
+<priezvisko>Winczer</priezvisko>
+<plneMeno>RNDr. Michal Winczer, PhD.</plneMeno>
+<jazykyPredmetu>slovenský</jazykyPredmetu>
+</vyucujuci>
+</vyucujuciAll>
+<podmienujucePredmety/>
+</predmet>
+<predmet>
+<skratka>FMFI.KZVI/1-AIN-189/15</skratka>
+<skratkaPredmet>1-AIN-189</skratkaPredmet>
+<nazov>Webové aplikácie (1)</nazov>
+<aktualnost/>
+<kredit>6</kredit>
+<rozsah>2P + 2C</rozsah>
+<ukoncenie>H</ukoncenie>
+<rocnik>1</rocnik>
+<semester>L</semester>
+<maxPocetPrihlStudentov/>
+<vyucujuci>Hrušecký</vyucujuci>
+<vyucujuci2>R. Hrušecký</vyucujuci2>
+<vyucujuciAll>
+<vyucujuci>
+<poradie>1</poradie>
+<typ>P</typ>
+<typPopis>prednášajúci</typPopis>
+<meno>Roman</meno>
+<priezvisko>Hrušecký</priezvisko>
+<plneMeno>PaedDr. Roman Hrušecký, PhD.</plneMeno>
+<jazykyPredmetu>slovenský</jazykyPredmetu>
+</vyucujuci>
+</vyucujuciAll>
+<podmienujucePredmety/>
+</predmet>
+<predmet>
+<skratka>FMFI.KAI/1-AIN-221/15</skratka>
+<skratkaPredmet>1-AIN-221</skratkaPredmet>
+<nazov>Databázy (1)</nazov>
+<aktualnost/>
+<kredit>5</kredit>
+<rozsah>2P + 2C</rozsah>
+<ukoncenie>H</ukoncenie>
+<rocnik>2</rocnik>
+<semester>Z</semester>
+<maxPocetPrihlStudentov/>
+<vyucujuci>Šimko</vyucujuci>
+<vyucujuci2>A. Šimko</vyucujuci2>
+<vyucujuciAll>
+<vyucujuci>
+<poradie>1</poradie>
+<typ>P</typ>
+<typPopis>prednášajúci</typPopis>
+<meno>Alexander</meno>
+<priezvisko>Šimko</priezvisko>
+<plneMeno>Ing. Alexander Šimko, PhD.</plneMeno>
+<jazykyPredmetu>slovenský</jazykyPredmetu>
+</vyucujuci>
+</vyucujuciAll>
+<podmienujucePredmety/>
+</predmet>
+<predmet>
+<skratka>FMFI.KAGDM+KAI/1-AIN-160/15</skratka>
+<skratkaPredmet>1-AIN-160</skratkaPredmet>
+<nazov>Matematika (3) - Diskrétna matematika</nazov>
+<aktualnost>+</aktualnost>
+<kredit>6</kredit>
+<rozsah>4K</rozsah>
+<ukoncenie>H</ukoncenie>
+<rocnik>2</rocnik>
+<semester>Z</semester>
+<maxPocetPrihlStudentov/>
+<vyucujuci>Jajcayová, Komara</vyucujuci>
+<vyucujuci2>T. Jajcayová, J. Komara</vyucujuci2>
+<vyucujuciAll>
+<vyucujuci>
+<poradie>1</poradie>
+<typ>P</typ>
+<typPopis>prednášajúci</typPopis>
+<meno>Tatiana</meno>
+<priezvisko>Jajcayová</priezvisko>
+<plneMeno>RNDr. Tatiana Jajcayová, PhD.</plneMeno>
+<jazykyPredmetu>slovenský</jazykyPredmetu>
+</vyucujuci>
+<vyucujuci>
+<poradie>2</poradie>
+<typ>P</typ>
+<typPopis>prednášajúci</typPopis>
+<meno>Ján</meno>
+<priezvisko>Komara</priezvisko>
+<plneMeno>Ing. Ján Komara, PhD.</plneMeno>
+<jazykyPredmetu>slovenský</jazykyPredmetu>
+</vyucujuci>
+</vyucujuciAll>
+<podmienujuce>
+<podmienujuci>FMFI.KAGDM/1-AIN-121/15</podmienujuci>
+<pocet>1</pocet>
+</podmienujuce>
+<podmienujucePredmety>FMFI.KAGDM/1-AIN-121/15</podmienujucePredmety>
+</predmet>
+<predmet>
+<skratka>FMFI.KZVI/1-AIN-180/15</skratka>
+<skratkaPredmet>1-AIN-180</skratkaPredmet>
+<nazov>Princípy počítačov - operačné systémy</nazov>
+<aktualnost>+</aktualnost>
+<kredit>5</kredit>
+<rozsah>2P + 1C</rozsah>
+<ukoncenie>H</ukoncenie>
+<rocnik>2</rocnik>
+<semester>Z</semester>
+<maxPocetPrihlStudentov/>
+<vyucujuci>Tomcsányi</vyucujuci>
+<vyucujuci2>P. Tomcsányi</vyucujuci2>
+<vyucujuciAll>
+<vyucujuci>
+<poradie>1</poradie>
+<typ>P</typ>
+<typPopis>prednášajúci</typPopis>
+<meno>Peter</meno>
+<priezvisko>Tomcsányi</priezvisko>
+<plneMeno>RNDr. Peter Tomcsányi, PhD.</plneMeno>
+<jazykyPredmetu>slovenský</jazykyPredmetu>
+</vyucujuci>
+</vyucujuciAll>
+<podmienujuce>
+<podmienujuci>FMFI.KEF/1-AIN-140/15</podmienujuci>
+<podmienujuci>FMFI.KI/1-INF-130/00</podmienujuci>
+<podmienujuci>FMFI.KZVI/1-AIN-186/15</podmienujuci>
+<podmienujuci>FMFI.KI/1-INF-526/15</podmienujuci>
+<podmienujuci>FMFI.KAI/1-AIN-170/13</podmienujuci>
+<podmienujuci>FMFI.KI/1-INF-127/15</podmienujuci>
+<pocet>6</pocet>
+</podmienujuce>
+<podmienujucePredmety>(FMFI.KAI/1-AIN-170/13 alebo FMFI.KI/1-INF-127/15)  a (FMFI.KEF/1-AIN-140/15 alebo FMFI.KI/1-INF-130/00)  a (FMFI.KZVI/1-AIN-186/15 alebo FMFI.KI/1-INF-526/15)</podmienujucePredmety>
+</predmet>
+<predmet>
+<skratka>FMFI.KAI/1-AIN-171/10</skratka>
+<skratkaPredmet>1-AIN-171</skratkaPredmet>
+<nazov>Programovanie (3)</nazov>
+<aktualnost/>
+<kredit>5</kredit>
+<rozsah>4K</rozsah>
+<ukoncenie>H</ukoncenie>
+<rocnik>2</rocnik>
+<semester>Z</semester>
+<maxPocetPrihlStudentov/>
+<vyucujuci>Gyarfaš</vyucujuci>
+<vyucujuci2>F. Gyarfaš</vyucujuci2>
+<vyucujuciAll>
+<vyucujuci>
+<poradie>1</poradie>
+<typ>P</typ>
+<typPopis>prednášajúci</typPopis>
+<meno>František</meno>
+<priezvisko>Gyarfaš</priezvisko>
+<plneMeno>Ing. František Gyarfaš, CSc.</plneMeno>
+<jazykyPredmetu>slovenský</jazykyPredmetu>
+</vyucujuci>
+</vyucujuciAll>
+<podmienujucePredmety/>
+</predmet>
+<predmet>
+<skratka>FMFI.KZVI/1-AIN-211/10</skratka>
+<skratkaPredmet>1-AIN-211</skratkaPredmet>
+<nazov>Úvod do teoretickej informatiky</nazov>
+<aktualnost/>
+<kredit>6</kredit>
+<rozsah>2P + 2C</rozsah>
+<ukoncenie>H</ukoncenie>
+<rocnik>2</rocnik>
+<semester>Z</semester>
+<maxPocetPrihlStudentov/>
+<vyucujuci>Winczer</vyucujuci>
+<vyucujuci2>M. Winczer</vyucujuci2>
+<vyucujuciAll>
+<vyucujuci>
+<poradie>1</poradie>
+<typ>P</typ>
+<typPopis>prednášajúci</typPopis>
+<meno>Michal</meno>
+<priezvisko>Winczer</priezvisko>
+<plneMeno>RNDr. Michal Winczer, PhD.</plneMeno>
+<jazykyPredmetu>slovenský</jazykyPredmetu>
+</vyucujuci>
+</vyucujuciAll>
+<podmienujuce>
+<podmienujuci>FMFI.KAI/1-AIN-170/13</podmienujuci>
+<podmienujuci>FMFI.KAI/1-AIN-160/00</podmienujuci>
+<pocet>2</pocet>
+</podmienujuce>
+<podmienujucePredmety>FMFI.KAI/1-AIN-170/13  a FMFI.KAI/1-AIN-160/00</podmienujucePredmety>
+</predmet>
+<predmet>
+<skratka>FMFI.KZVI+KAI/1-AIN-210/15</skratka>
+<skratkaPredmet>1-AIN-210</skratkaPredmet>
+<nazov>Algoritmy a dátové štruktúry</nazov>
+<aktualnost/>
+<kredit>5</kredit>
+<rozsah>2P + 2C</rozsah>
+<ukoncenie>H</ukoncenie>
+<rocnik>2</rocnik>
+<semester>L</semester>
+<maxPocetPrihlStudentov/>
+<vyucujuci>Blaho</vyucujuci>
+<vyucujuci2>A. Blaho</vyucujuci2>
+<vyucujuciAll>
+<vyucujuci>
+<poradie>1</poradie>
+<typ>P</typ>
+<typPopis>prednášajúci</typPopis>
+<meno>Andrej</meno>
+<priezvisko>Blaho</priezvisko>
+<plneMeno>RNDr. Andrej Blaho, PhD.</plneMeno>
+<jazykyPredmetu>slovenský</jazykyPredmetu>
+</vyucujuci>
+</vyucujuciAll>
+<podmienujuce>
+<podmienujuci>FMFI.KAI/1-AIN-170/13</podmienujuci>
+<pocet>1</pocet>
+</podmienujuce>
+<podmienujucePredmety>FMFI.KAI/1-AIN-170/13</podmienujucePredmety>
+</predmet>
+<predmet>
+<skratka>FMFI.KAI/1-AIN-222/15</skratka>
+<skratkaPredmet>1-AIN-222</skratkaPredmet>
+<nazov>Databázy (2)</nazov>
+<aktualnost/>
+<kredit>5</kredit>
+<rozsah>4K</rozsah>
+<ukoncenie>H</ukoncenie>
+<rocnik>2</rocnik>
+<semester>L</semester>
+<maxPocetPrihlStudentov/>
+<vyucujuci>Šimko</vyucujuci>
+<vyucujuci2>A. Šimko</vyucujuci2>
+<vyucujuciAll>
+<vyucujuci>
+<poradie>1</poradie>
+<typ>P</typ>
+<typPopis>prednášajúci</typPopis>
+<meno>Alexander</meno>
+<priezvisko>Šimko</priezvisko>
+<plneMeno>Ing. Alexander Šimko, PhD.</plneMeno>
+<jazykyPredmetu>slovenský</jazykyPredmetu>
+</vyucujuci>
+</vyucujuciAll>
+<podmienujuce>
+<podmienujuci>FMFI.KAI/1-AIN-221/15</podmienujuci>
+<pocet>1</pocet>
+</podmienujuce>
+<podmienujucePredmety>FMFI.KAI/1-AIN-221/15</podmienujucePredmety>
+</predmet>
+<predmet>
+<skratka>FMFI.KAI/1-AIN-172/00</skratka>
+<skratkaPredmet>1-AIN-172</skratkaPredmet>
+<nazov>Programovanie (4)</nazov>
+<aktualnost/>
+<kredit>5</kredit>
+<rozsah>4K</rozsah>
+<ukoncenie>H</ukoncenie>
+<rocnik>2</rocnik>
+<semester>L</semester>
+<maxPocetPrihlStudentov/>
+<vyucujuci>Petrovič, Borovanský</vyucujuci>
+<vyucujuci2>P. Petrovič, P. Borovanský</vyucujuci2>
+<vyucujuciAll>
+<vyucujuci>
+<poradie>1</poradie>
+<typ>P</typ>
+<typPopis>prednášajúci</typPopis>
+<meno>Pavel</meno>
+<priezvisko>Petrovič</priezvisko>
+<plneMeno>Mgr. Pavel Petrovič, PhD.</plneMeno>
+<jazykyPredmetu/>
+</vyucujuci>
+<vyucujuci>
+<poradie>2</poradie>
+<typ>P</typ>
+<typPopis>prednášajúci</typPopis>
+<meno>Peter</meno>
+<priezvisko>Borovanský</priezvisko>
+<plneMeno>RNDr. Peter Borovanský, PhD.</plneMeno>
+<jazykyPredmetu/>
+</vyucujuci>
+</vyucujuciAll>
+<podmienujucePredmety/>
+</predmet>
+<predmet>
+<skratka>FMFI.KAGDM+KAI/1-AIN-412/15</skratka>
+<skratkaPredmet>1-AIN-412</skratkaPredmet>
+<nazov>Matematika (4)  - Logika pre informatikov</nazov>
+<aktualnost/>
+<kredit>7</kredit>
+<rozsah>2P + 4C</rozsah>
+<ukoncenie>H</ukoncenie>
+<rocnik>2</rocnik>
+<semester>L</semester>
+<maxPocetPrihlStudentov/>
+<vyucujuci>Kľuka, Šiška, Baláž, Šimko</vyucujuci>
+<vyucujuci2>J. Kľuka, J. Šiška, M. Baláž, A. Šimko</vyucujuci2>
+<vyucujuciAll>
+<vyucujuci>
+<poradie>1</poradie>
+<typ>P</typ>
+<typPopis>prednášajúci</typPopis>
+<meno>Ján</meno>
+<priezvisko>Kľuka</priezvisko>
+<plneMeno>Mgr. Ján Kľuka, PhD.</plneMeno>
+<jazykyPredmetu>slovenský</jazykyPredmetu>
+</vyucujuci>
+<vyucujuci>
+<poradie>2</poradie>
+<typ>P</typ>
+<typPopis>prednášajúci</typPopis>
+<meno>Jozef</meno>
+<priezvisko>Šiška</priezvisko>
+<plneMeno>RNDr. Jozef Šiška, PhD.</plneMeno>
+<jazykyPredmetu>slovenský</jazykyPredmetu>
+</vyucujuci>
+<vyucujuci>
+<poradie>3</poradie>
+<typ>P</typ>
+<typPopis>prednášajúci</typPopis>
+<meno>Martin</meno>
+<priezvisko>Baláž</priezvisko>
+<plneMeno>RNDr. Martin Baláž</plneMeno>
+<jazykyPredmetu>slovenský</jazykyPredmetu>
+</vyucujuci>
+<vyucujuci>
+<poradie>4</poradie>
+<typ>P</typ>
+<typPopis>prednášajúci</typPopis>
+<meno>Alexander</meno>
+<priezvisko>Šimko</priezvisko>
+<plneMeno>Ing. Alexander Šimko, PhD.</plneMeno>
+<jazykyPredmetu>slovenský</jazykyPredmetu>
+</vyucujuci>
+</vyucujuciAll>
+<podmienujuce>
+<podmienujuci>FMFI.KAGDM+KAI/1-AIN-160/15</podmienujuci>
+<pocet>1</pocet>
+</podmienujuce>
+<podmienujucePredmety>FMFI.KAGDM+KAI/1-AIN-160/15</podmienujucePredmety>
+</predmet>
+<predmet>
+<skratka>FMFI.KAI/1-AIN-262/15</skratka>
+<skratkaPredmet>1-AIN-262</skratkaPredmet>
+<nazov>Ročníkový projekt (2)</nazov>
+<aktualnost/>
+<kredit>0</kredit>
+<rozsah>1D</rozsah>
+<ukoncenie>H</ukoncenie>
+<rocnik>2</rocnik>
+<semester>L</semester>
+<maxPocetPrihlStudentov/>
+<vyucujuci>Gruska, Lúčan</vyucujuci>
+<vyucujuci2>D. Gruska, Ľ. Lúčan</vyucujuci2>
+<vyucujuciAll>
+<vyucujuci>
+<poradie>1</poradie>
+<typ>C</typ>
+<typPopis>cvičiaci</typPopis>
+<meno>Damas</meno>
+<priezvisko>Gruska</priezvisko>
+<plneMeno>doc. RNDr. Damas Gruska, PhD.</plneMeno>
+<jazykyPredmetu>slovenský</jazykyPredmetu>
+</vyucujuci>
+<vyucujuci>
+<poradie>2</poradie>
+<typ>C</typ>
+<typPopis>cvičiaci</typPopis>
+<meno>Ľubomír</meno>
+<priezvisko>Lúčan</priezvisko>
+<plneMeno>Ľubomír Lúčan, CSc.</plneMeno>
+<jazykyPredmetu>slovenský</jazykyPredmetu>
+</vyucujuci>
+</vyucujuciAll>
+<podmienujuce>
+<podmienujuci>FMFI.KAI/1-AIN-232/15</podmienujuci>
+<pocet>1</pocet>
+</podmienujuce>
+<podmienujucePredmety>FMFI.KAI/1-AIN-232/15</podmienujucePredmety>
+</predmet>
+<predmet>
+<skratka>FMFI.KAI/1-AIN-131/10</skratka>
+<skratkaPredmet>1-AIN-131</skratkaPredmet>
+<nazov>Tvorba informačných systémov</nazov>
+<aktualnost/>
+<kredit>6</kredit>
+<rozsah>4K</rozsah>
+<ukoncenie>H</ukoncenie>
+<rocnik>3</rocnik>
+<semester>Z</semester>
+<maxPocetPrihlStudentov/>
+<vyucujuci>Petrovič, Šefránek</vyucujuci>
+<vyucujuci2>P. Petrovič, J. Šefránek</vyucujuci2>
+<vyucujuciAll>
+<vyucujuci>
+<poradie>1</poradie>
+<typ>P</typ>
+<typPopis>prednášajúci</typPopis>
+<meno>Pavel</meno>
+<priezvisko>Petrovič</priezvisko>
+<plneMeno>Mgr. Pavel Petrovič, PhD.</plneMeno>
+<jazykyPredmetu>slovenský</jazykyPredmetu>
+</vyucujuci>
+<vyucujuci>
+<poradie>2</poradie>
+<typ>P</typ>
+<typPopis>prednášajúci</typPopis>
+<meno>Ján</meno>
+<priezvisko>Šefránek</priezvisko>
+<plneMeno>doc. Ing. Ján Šefránek, CSc.</plneMeno>
+<jazykyPredmetu>slovenský</jazykyPredmetu>
+</vyucujuci>
+</vyucujuciAll>
+<podmienujucePredmety/>
+</predmet>
+<predmet>
+<skratka>FMFI.KAI/1-AIN-132/12</skratka>
+<skratkaPredmet>1-AIN-132</skratkaPredmet>
+<nazov>Úvod do bakalárskej práce</nazov>
+<aktualnost/>
+<kredit>1</kredit>
+<rozsah>1S</rozsah>
+<ukoncenie>H</ukoncenie>
+<rocnik>3</rocnik>
+<semester>Z</semester>
+<maxPocetPrihlStudentov/>
+<vyucujuci>Petrovič, Blaho</vyucujuci>
+<vyucujuci2>P. Petrovič, A. Blaho</vyucujuci2>
+<vyucujuciAll>
+<vyucujuci>
+<poradie>1</poradie>
+<typ>P</typ>
+<typPopis>prednášajúci</typPopis>
+<meno>Pavel</meno>
+<priezvisko>Petrovič</priezvisko>
+<plneMeno>Mgr. Pavel Petrovič, PhD.</plneMeno>
+<jazykyPredmetu>slovenský</jazykyPredmetu>
+</vyucujuci>
+<vyucujuci>
+<poradie>2</poradie>
+<typ>P</typ>
+<typPopis>prednášajúci</typPopis>
+<meno>Andrej</meno>
+<priezvisko>Blaho</priezvisko>
+<plneMeno>RNDr. Andrej Blaho, PhD.</plneMeno>
+<jazykyPredmetu>slovenský</jazykyPredmetu>
+</vyucujuci>
+</vyucujuciAll>
+<podmienujucePredmety/>
+</predmet>
+<predmet>
+<skratka>FMFI.KAI/1-AIN-920/00</skratka>
+<skratkaPredmet>1-AIN-920</skratkaPredmet>
+<nazov>Bakalársky seminár</nazov>
+<aktualnost/>
+<kredit>1</kredit>
+<rozsah>1S</rozsah>
+<ukoncenie>H</ukoncenie>
+<rocnik>3</rocnik>
+<semester>L</semester>
+<maxPocetPrihlStudentov/>
+<vyucujuci>Petrovič, Blaho</vyucujuci>
+<vyucujuci2>P. Petrovič, A. Blaho</vyucujuci2>
+<vyucujuciAll>
+<vyucujuci>
+<poradie>1</poradie>
+<typ>P</typ>
+<typPopis>prednášajúci</typPopis>
+<meno>Pavel</meno>
+<priezvisko>Petrovič</priezvisko>
+<plneMeno>Mgr. Pavel Petrovič, PhD.</plneMeno>
+<jazykyPredmetu>slovenský</jazykyPredmetu>
+</vyucujuci>
+<vyucujuci>
+<poradie>2</poradie>
+<typ>P</typ>
+<typPopis>prednášajúci</typPopis>
+<meno>Andrej</meno>
+<priezvisko>Blaho</priezvisko>
+<plneMeno>RNDr. Andrej Blaho, PhD.</plneMeno>
+<jazykyPredmetu>slovenský</jazykyPredmetu>
+</vyucujuci>
+</vyucujuciAll>
+<podmienujucePredmety/>
+</predmet>
+<predmet>
+<skratka>FMFI.KAI/1-AIN-251/11</skratka>
+<skratkaPredmet>1-AIN-251</skratkaPredmet>
+<nazov>Základy podnikania a manažmentu</nazov>
+<aktualnost/>
+<kredit>2</kredit>
+<rozsah>2K</rozsah>
+<ukoncenie>H</ukoncenie>
+<rocnik>3</rocnik>
+<semester>L</semester>
+<maxPocetPrihlStudentov/>
+<vyucujuci>Holienka</vyucujuci>
+<vyucujuci2>M. Holienka</vyucujuci2>
+<vyucujuciAll>
+<vyucujuci>
+<poradie>1</poradie>
+<typ>P</typ>
+<typPopis>prednášajúci</typPopis>
+<meno>Marian</meno>
+<priezvisko>Holienka</priezvisko>
+<plneMeno>Mgr. Marian Holienka, PhD.</plneMeno>
+<jazykyPredmetu>slovenský</jazykyPredmetu>
+</vyucujuci>
+</vyucujuciAll>
+<podmienujucePredmety/>
+</predmet>
+</predmety>
+<obmedzenie>
+<kredit>0</kredit>
+<poznamkaPredKontrola>poznamkaPred je neprazdna</poznamkaPredKontrola>
+<poznamkaZaKontrola>poznamkaZa je neprazdna</poznamkaZaKontrola>
+<poznamkyPred>
+<poznamkaPred>predmety pre študentov začínajúcich štúdium v akademickom roku 2014/15 alebo neskôr</poznamkaPred>
+</poznamkyPred>
+<poznamkyZa>
+<poznamkaZa>Ekvivalentné predmety: Starý -&gt; Nový</poznamkaZa>
+<poznamkaZa>1-AIN-610/00 Tvorba webových dokumentov -&gt; 1-AIN-112/15 Úvod do webových technológií;</poznamkaZa>
+<poznamkaZa>1-AIN-615/00 Úvod do webových aplikácií -&gt; 1-AIN-189/15 Webové aplikácie (1);</poznamkaZa>
+<poznamkaZa>1-INF-260/00 Počítačové siete -&gt; 1-INF-283 Počítačové siete (1);</poznamkaZa>
+<poznamkaZa>1-AIN-120/00 Diskrétna matematika (1) -&gt; 1-AIN-121/15 Matematika (1) - Úvod do matematického myslenia;</poznamkaZa>
+<poznamkaZa>1-AIN-110/00 Matematika (1) -&gt; 1-AIN-188/15 Matematika (2) - Matematická analýza;</poznamkaZa>
+<poznamkaZa>1-AIN-160/00 Diskrétna matematika (2) -&gt; 1-AIN-160 Matematika 3 - Diskrétna matematika;</poznamkaZa>
+<poznamkaZa> (1-INF-210/00 Úvod do matematickej logiky alebo 1-AIN-411/00 Úvod do výpočtovej logiky) -&gt; 1-AIN-412 Matematika 4 - Logika pre informatikov;</poznamkaZa>
+<poznamkaZa>(1-AIN-140/00 Princípy počítačov – hardvér a 1-AIN-180/00 Princípy počítačov – OS) -&gt; (1-AIN-140 Princípy počítačov – hardvér a 1-AIN-186 Princípy počítačov – systémové programovanie a 1-AIN-180 Princípy počítačov – operačné systémy);</poznamkaZa>
+</poznamkyZa>
+</obmedzenie>
+</blok>
+<blok>
+<skratka>1AIN-A2</skratka>
+<nazov>Povinné predmety (do AR 2013/14)</nazov>
+<predmety>
+<predmet>
+<skratka>FMFI.KTFDF/1-AIN-110/00</skratka>
+<skratkaPredmet>1-AIN-110</skratkaPredmet>
+<nazov>Matematika (1)</nazov>
+<aktualnost>!</aktualnost>
+<kredit>6</kredit>
+<rozsah>4K</rozsah>
+<ukoncenie>H</ukoncenie>
+<rocnik>1</rocnik>
+<semester>Z</semester>
+<maxPocetPrihlStudentov/>
+<vyucujuci>Prešnajder</vyucujuci>
+<vyucujuci2>P. Prešnajder</vyucujuci2>
+<vyucujuciAll>
+<vyucujuci>
+<poradie>1</poradie>
+<typ>P</typ>
+<typPopis>prednášajúci</typPopis>
+<meno>Peter</meno>
+<priezvisko>Prešnajder</priezvisko>
+<plneMeno>prof. RNDr. Peter Prešnajder, DrSc.</plneMeno>
+<jazykyPredmetu>slovenský</jazykyPredmetu>
+</vyucujuci>
+</vyucujuciAll>
+<podmienujucePredmety/>
+</predmet>
+<predmet>
+<skratka>FMFI.KAI/1-AIN-120/00</skratka>
+<skratkaPredmet>1-AIN-120</skratkaPredmet>
+<nazov>Diskrétna matematika (1)</nazov>
+<aktualnost>!</aktualnost>
+<kredit>6</kredit>
+<rozsah>4K</rozsah>
+<ukoncenie>H</ukoncenie>
+<rocnik>1</rocnik>
+<semester>Z</semester>
+<maxPocetPrihlStudentov/>
+<vyucujuci>Komara, Jajcayová</vyucujuci>
+<vyucujuci2>J. Komara, T. Jajcayová</vyucujuci2>
+<vyucujuciAll>
+<vyucujuci>
+<poradie>1</poradie>
+<typ>P</typ>
+<typPopis>prednášajúci</typPopis>
+<meno>Ján</meno>
+<priezvisko>Komara</priezvisko>
+<plneMeno>Ing. Ján Komara, PhD.</plneMeno>
+<jazykyPredmetu>slovenský</jazykyPredmetu>
+</vyucujuci>
+<vyucujuci>
+<poradie>2</poradie>
+<typ>P</typ>
+<typPopis>prednášajúci</typPopis>
+<meno>Tatiana</meno>
+<priezvisko>Jajcayová</priezvisko>
+<plneMeno>RNDr. Tatiana Jajcayová, PhD.</plneMeno>
+<jazykyPredmetu>slovenský</jazykyPredmetu>
+</vyucujuci>
+</vyucujuciAll>
+<podmienujucePredmety/>
+</predmet>
+<predmet>
+<skratka>FMFI.KAI/1-AIN-130/13</skratka>
+<skratkaPredmet>1-AIN-130</skratkaPredmet>
+<nazov>Programovanie (1)</nazov>
+<aktualnost/>
+<kredit>8</kredit>
+<rozsah>4P + 2C</rozsah>
+<ukoncenie>H</ukoncenie>
+<rocnik>1</rocnik>
+<semester>Z</semester>
+<maxPocetPrihlStudentov/>
+<vyucujuci>Blaho</vyucujuci>
+<vyucujuci2>A. Blaho</vyucujuci2>
+<vyucujuciAll>
+<vyucujuci>
+<poradie>1</poradie>
+<typ>P</typ>
+<typPopis>prednášajúci</typPopis>
+<meno>Andrej</meno>
+<priezvisko>Blaho</priezvisko>
+<plneMeno>RNDr. Andrej Blaho, PhD.</plneMeno>
+<jazykyPredmetu>slovenský</jazykyPredmetu>
+</vyucujuci>
+</vyucujuciAll>
+<podmienujucePredmety/>
+</predmet>
+<predmet>
+<skratka>FMFI.KEF/1-AIN-140/00</skratka>
+<skratkaPredmet>1-AIN-140</skratkaPredmet>
+<nazov>Princípy počítačov - hardvér</nazov>
+<aktualnost>!</aktualnost>
+<kredit>5</kredit>
+<rozsah>4K</rozsah>
+<ukoncenie>H</ukoncenie>
+<rocnik>1</rocnik>
+<semester>Z</semester>
+<maxPocetPrihlStudentov/>
+<vyucujuci>Greguš, Fischer</vyucujuci>
+<vyucujuci2>J. Greguš, Ľ. Fischer</vyucujuci2>
+<vyucujuciAll>
+<vyucujuci>
+<poradie>1</poradie>
+<typ>P</typ>
+<typPopis>prednášajúci</typPopis>
+<meno>Ján</meno>
+<priezvisko>Greguš</priezvisko>
+<plneMeno>RNDr. Ján Greguš, PhD.</plneMeno>
+<jazykyPredmetu>slovenský</jazykyPredmetu>
+</vyucujuci>
+<vyucujuci>
+<poradie>2</poradie>
+<typ>P</typ>
+<typPopis>prednášajúci</typPopis>
+<meno>Ľudovít</meno>
+<priezvisko>Fischer</priezvisko>
+<plneMeno>doc. RNDr. Ľudovít Fischer, CSc.</plneMeno>
+<jazykyPredmetu>slovenský</jazykyPredmetu>
+</vyucujuci>
+</vyucujuciAll>
+<podmienujucePredmety/>
+</predmet>
+<predmet>
+<skratka>FMFI.KTFDF/1-AIN-150/00</skratka>
+<skratkaPredmet>1-AIN-150</skratkaPredmet>
+<nazov>Matematika (2)</nazov>
+<aktualnost>!</aktualnost>
+<kredit>6</kredit>
+<rozsah>4K</rozsah>
+<ukoncenie>H</ukoncenie>
+<rocnik>1</rocnik>
+<semester>L</semester>
+<maxPocetPrihlStudentov/>
+<vyucujuci>Prešnajder</vyucujuci>
+<vyucujuci2>P. Prešnajder</vyucujuci2>
+<vyucujuciAll>
+<vyucujuci>
+<poradie>1</poradie>
+<typ>P</typ>
+<typPopis>prednášajúci</typPopis>
+<meno>Peter</meno>
+<priezvisko>Prešnajder</priezvisko>
+<plneMeno>prof. RNDr. Peter Prešnajder, DrSc.</plneMeno>
+<jazykyPredmetu>slovenský</jazykyPredmetu>
+</vyucujuci>
+</vyucujuciAll>
+<podmienujuce>
+<podmienujuci>FMFI.KTFDF/1-AIN-110/00</podmienujuci>
+<pocet>1</pocet>
+</podmienujuce>
+<podmienujucePredmety>FMFI.KTFDF/1-AIN-110/00</podmienujucePredmety>
+</predmet>
+<predmet>
+<skratka>FMFI.KAI/1-AIN-160/00</skratka>
+<skratkaPredmet>1-AIN-160</skratkaPredmet>
+<nazov>Diskrétna matematika (2)</nazov>
+<aktualnost>!</aktualnost>
+<kredit>6</kredit>
+<rozsah>4K</rozsah>
+<ukoncenie>H</ukoncenie>
+<rocnik>1</rocnik>
+<semester>L</semester>
+<maxPocetPrihlStudentov/>
+<vyucujuci>Komara, Jajcayová</vyucujuci>
+<vyucujuci2>J. Komara, T. Jajcayová</vyucujuci2>
+<vyucujuciAll>
+<vyucujuci>
+<poradie>1</poradie>
+<typ>P</typ>
+<typPopis>prednášajúci</typPopis>
+<meno>Ján</meno>
+<priezvisko>Komara</priezvisko>
+<plneMeno>Ing. Ján Komara, PhD.</plneMeno>
+<jazykyPredmetu>slovenský</jazykyPredmetu>
+</vyucujuci>
+<vyucujuci>
+<poradie>2</poradie>
+<typ>P</typ>
+<typPopis>prednášajúci</typPopis>
+<meno>Tatiana</meno>
+<priezvisko>Jajcayová</priezvisko>
+<plneMeno>RNDr. Tatiana Jajcayová, PhD.</plneMeno>
+<jazykyPredmetu>slovenský</jazykyPredmetu>
+</vyucujuci>
+</vyucujuciAll>
+<podmienujuce>
+<podmienujuci>FMFI.KAI/1-AIN-120/00</podmienujuci>
+<pocet>1</pocet>
+</podmienujuce>
+<podmienujucePredmety>FMFI.KAI/1-AIN-120/00</podmienujucePredmety>
+</predmet>
+<predmet>
+<skratka>FMFI.KAI/1-AIN-170/13</skratka>
+<skratkaPredmet>1-AIN-170</skratkaPredmet>
+<nazov>Programovanie (2)</nazov>
+<aktualnost/>
+<kredit>6</kredit>
+<rozsah>2P + 2C</rozsah>
+<ukoncenie>H</ukoncenie>
+<rocnik>1</rocnik>
+<semester>L</semester>
+<maxPocetPrihlStudentov/>
+<vyucujuci>Blaho</vyucujuci>
+<vyucujuci2>A. Blaho</vyucujuci2>
+<vyucujuciAll>
+<vyucujuci>
+<poradie>1</poradie>
+<typ>P</typ>
+<typPopis>prednášajúci</typPopis>
+<meno>Andrej</meno>
+<priezvisko>Blaho</priezvisko>
+<plneMeno>RNDr. Andrej Blaho, PhD.</plneMeno>
+<jazykyPredmetu>slovenský</jazykyPredmetu>
+</vyucujuci>
+</vyucujuciAll>
+<podmienujuce>
+<podmienujuci>FMFI.KAI/1-AIN-130/13</podmienujuci>
+<pocet>1</pocet>
+</podmienujuce>
+<podmienujucePredmety>FMFI.KAI/1-AIN-130/13</podmienujucePredmety>
+</predmet>
+<predmet>
+<skratka>FMFI.KZVI/1-AIN-180/00</skratka>
+<skratkaPredmet>1-AIN-180</skratkaPredmet>
+<nazov>Princípy počítačov - operačné systémy</nazov>
+<aktualnost>!</aktualnost>
+<kredit>5</kredit>
+<rozsah>4K</rozsah>
+<ukoncenie>H</ukoncenie>
+<rocnik>1</rocnik>
+<semester>L</semester>
+<maxPocetPrihlStudentov/>
+<vyucujuci>Tomcsányi</vyucujuci>
+<vyucujuci2>P. Tomcsányi</vyucujuci2>
+<vyucujuciAll>
+<vyucujuci>
+<poradie>1</poradie>
+<typ>P</typ>
+<typPopis>prednášajúci</typPopis>
+<meno>Peter</meno>
+<priezvisko>Tomcsányi</priezvisko>
+<plneMeno>RNDr. Peter Tomcsányi, PhD.</plneMeno>
+<jazykyPredmetu>slovenský</jazykyPredmetu>
+</vyucujuci>
+</vyucujuciAll>
+<podmienujucePredmety/>
+</predmet>
+<predmet>
+<skratka>FMFI.KZVI/1-AIN-210/00</skratka>
+<skratkaPredmet>1-AIN-210</skratkaPredmet>
+<nazov>Algoritmy a dátové štruktúry</nazov>
+<aktualnost>!</aktualnost>
+<kredit>5</kredit>
+<rozsah>4K</rozsah>
+<ukoncenie>H</ukoncenie>
+<rocnik>2</rocnik>
+<semester>Z</semester>
+<maxPocetPrihlStudentov/>
+<vyucujuci>Blaho</vyucujuci>
+<vyucujuci2>A. Blaho</vyucujuci2>
+<vyucujuciAll>
+<vyucujuci>
+<poradie>1</poradie>
+<typ>P</typ>
+<typPopis>prednášajúci</typPopis>
+<meno>Andrej</meno>
+<priezvisko>Blaho</priezvisko>
+<plneMeno>RNDr. Andrej Blaho, PhD.</plneMeno>
+<jazykyPredmetu>slovenský</jazykyPredmetu>
+</vyucujuci>
+</vyucujuciAll>
+<podmienujuce>
+<podmienujuci>FMFI.KAI/1-AIN-170/13</podmienujuci>
+<pocet>1</pocet>
+</podmienujuce>
+<podmienujucePredmety>FMFI.KAI/1-AIN-170/13</podmienujucePredmety>
+</predmet>
+<predmet>
+<skratka>FMFI.KZVI/1-AIN-211/10</skratka>
+<skratkaPredmet>1-AIN-211</skratkaPredmet>
+<nazov>Úvod do teoretickej informatiky</nazov>
+<aktualnost/>
+<kredit>6</kredit>
+<rozsah>2P + 2C</rozsah>
+<ukoncenie>H</ukoncenie>
+<rocnik>2</rocnik>
+<semester>Z</semester>
+<maxPocetPrihlStudentov/>
+<vyucujuci>Winczer</vyucujuci>
+<vyucujuci2>M. Winczer</vyucujuci2>
+<vyucujuciAll>
+<vyucujuci>
+<poradie>1</poradie>
+<typ>P</typ>
+<typPopis>prednášajúci</typPopis>
+<meno>Michal</meno>
+<priezvisko>Winczer</priezvisko>
+<plneMeno>RNDr. Michal Winczer, PhD.</plneMeno>
+<jazykyPredmetu>slovenský</jazykyPredmetu>
+</vyucujuci>
+</vyucujuciAll>
+<podmienujuce>
+<podmienujuci>FMFI.KAI/1-AIN-170/13</podmienujuci>
+<podmienujuci>FMFI.KAI/1-AIN-160/00</podmienujuci>
+<pocet>2</pocet>
+</podmienujuce>
+<podmienujucePredmety>FMFI.KAI/1-AIN-170/13  a FMFI.KAI/1-AIN-160/00</podmienujucePredmety>
+</predmet>
+<predmet>
+<skratka>FMFI.KAI/1-AIN-171/10</skratka>
+<skratkaPredmet>1-AIN-171</skratkaPredmet>
+<nazov>Programovanie (3)</nazov>
+<aktualnost/>
+<kredit>5</kredit>
+<rozsah>4K</rozsah>
+<ukoncenie>H</ukoncenie>
+<rocnik>2</rocnik>
+<semester>Z</semester>
+<maxPocetPrihlStudentov/>
+<vyucujuci>Gyarfaš</vyucujuci>
+<vyucujuci2>F. Gyarfaš</vyucujuci2>
+<vyucujuciAll>
+<vyucujuci>
+<poradie>1</poradie>
+<typ>P</typ>
+<typPopis>prednášajúci</typPopis>
+<meno>František</meno>
+<priezvisko>Gyarfaš</priezvisko>
+<plneMeno>Ing. František Gyarfaš, CSc.</plneMeno>
+<jazykyPredmetu>slovenský</jazykyPredmetu>
+</vyucujuci>
+</vyucujuciAll>
+<podmienujucePredmety/>
+</predmet>
+<predmet>
+<skratka>FMFI.KAI/1-AIN-231/11</skratka>
+<skratkaPredmet>1-AIN-231</skratkaPredmet>
+<nazov>Ročníkový projekt (1)</nazov>
+<aktualnost>!</aktualnost>
+<kredit>2</kredit>
+<rozsah>1S</rozsah>
+<ukoncenie>H</ukoncenie>
+<rocnik>2</rocnik>
+<semester>Z</semester>
+<maxPocetPrihlStudentov/>
+<vyucujuci>Lúčan</vyucujuci>
+<vyucujuci2>Ľ. Lúčan</vyucujuci2>
+<vyucujuciAll>
+<vyucujuci>
+<poradie>1</poradie>
+<typ>P</typ>
+<typPopis>prednášajúci</typPopis>
+<meno>Ľubomír</meno>
+<priezvisko>Lúčan</priezvisko>
+<plneMeno>Ľubomír Lúčan, CSc.</plneMeno>
+<jazykyPredmetu>slovenský</jazykyPredmetu>
+</vyucujuci>
+</vyucujuciAll>
+<podmienujucePredmety/>
+</predmet>
+<predmet>
+<skratka>FMFI.KI/1-INF-260/00</skratka>
+<skratkaPredmet>1-INF-260</skratkaPredmet>
+<nazov>Počítačové siete</nazov>
+<aktualnost>!</aktualnost>
+<kredit>4</kredit>
+<rozsah>3P</rozsah>
+<ukoncenie>H</ukoncenie>
+<rocnik>2</rocnik>
+<semester>L</semester>
+<maxPocetPrihlStudentov/>
+<vyucujuci>Bebják, Janáček</vyucujuci>
+<vyucujuci2>A. Bebják, J. Janáček</vyucujuci2>
+<vyucujuciAll>
+<vyucujuci>
+<poradie>1</poradie>
+<typ>P</typ>
+<typPopis>prednášajúci</typPopis>
+<meno>Andrej</meno>
+<priezvisko>Bebják</priezvisko>
+<plneMeno>RNDr. Andrej Bebják</plneMeno>
+<jazykyPredmetu>anglický, slovenský</jazykyPredmetu>
+</vyucujuci>
+<vyucujuci>
+<poradie>2</poradie>
+<typ>P</typ>
+<typPopis>prednášajúci</typPopis>
+<meno>Jaroslav</meno>
+<priezvisko>Janáček</priezvisko>
+<plneMeno>RNDr. Jaroslav Janáček, PhD.</plneMeno>
+<jazykyPredmetu>anglický, slovenský</jazykyPredmetu>
+</vyucujuci>
+</vyucujuciAll>
+<podmienujuce>
+<podmienujuci>FMFI.KI/1-INF-166/11</podmienujuci>
+<podmienujuci>FMFI.KAI/1-INF-165/00</podmienujuci>
+<podmienujuci>FMFI.KAI/1-AIN-170/13</podmienujuci>
+<pocet>3</pocet>
+</podmienujuce>
+<podmienujucePredmety>FMFI.KAI/1-INF-165/00 alebo FMFI.KI/1-INF-166/11 alebo FMFI.KAI/1-AIN-170/13</podmienujucePredmety>
+</predmet>
+<predmet>
+<skratka>FMFI.KAI+KAGDM/1-AIN-240/00</skratka>
+<skratkaPredmet>1-AIN-240</skratkaPredmet>
+<nazov>Grafické systémy, vizualizácia, multimédiá</nazov>
+<aktualnost>!</aktualnost>
+<kredit>4</kredit>
+<rozsah>3K</rozsah>
+<ukoncenie>H</ukoncenie>
+<rocnik>2</rocnik>
+<semester>L</semester>
+<maxPocetPrihlStudentov/>
+<vyucujuci>Ferko</vyucujuci>
+<vyucujuci2>A. Ferko</vyucujuci2>
+<vyucujuciAll>
+<vyucujuci>
+<poradie>1</poradie>
+<typ>P</typ>
+<typPopis>prednášajúci</typPopis>
+<meno>Andrej</meno>
+<priezvisko>Ferko</priezvisko>
+<plneMeno>doc. RNDr. Andrej Ferko, PhD.</plneMeno>
+<jazykyPredmetu>slovenský</jazykyPredmetu>
+</vyucujuci>
+</vyucujuciAll>
+<podmienujucePredmety/>
+</predmet>
+<predmet>
+<skratka>FMFI.KAI/1-AIN-251/11</skratka>
+<skratkaPredmet>1-AIN-251</skratkaPredmet>
+<nazov>Základy podnikania a manažmentu</nazov>
+<aktualnost/>
+<kredit>2</kredit>
+<rozsah>2K</rozsah>
+<ukoncenie>H</ukoncenie>
+<rocnik>2</rocnik>
+<semester>L</semester>
+<maxPocetPrihlStudentov/>
+<vyucujuci>Holienka</vyucujuci>
+<vyucujuci2>M. Holienka</vyucujuci2>
+<vyucujuciAll>
+<vyucujuci>
+<poradie>1</poradie>
+<typ>P</typ>
+<typPopis>prednášajúci</typPopis>
+<meno>Marian</meno>
+<priezvisko>Holienka</priezvisko>
+<plneMeno>Mgr. Marian Holienka, PhD.</plneMeno>
+<jazykyPredmetu>slovenský</jazykyPredmetu>
+</vyucujuci>
+</vyucujuciAll>
+<podmienujucePredmety/>
+</predmet>
+<predmet>
+<skratka>FMFI.KAI/1-AIN-261/11</skratka>
+<skratkaPredmet>1-AIN-261</skratkaPredmet>
+<nazov>Ročníkový projekt (2)</nazov>
+<aktualnost>!</aktualnost>
+<kredit>3</kredit>
+<rozsah>1S</rozsah>
+<ukoncenie>H</ukoncenie>
+<rocnik>2</rocnik>
+<semester>L</semester>
+<maxPocetPrihlStudentov/>
+<vyucujuci>Lúčan, Náther</vyucujuci>
+<vyucujuci2>Ľ. Lúčan, P. Náther</vyucujuci2>
+<vyucujuciAll>
+<vyucujuci>
+<poradie>1</poradie>
+<typ>P</typ>
+<typPopis>prednášajúci</typPopis>
+<meno>Ľubomír</meno>
+<priezvisko>Lúčan</priezvisko>
+<plneMeno>Ľubomír Lúčan, CSc.</plneMeno>
+<jazykyPredmetu>slovenský</jazykyPredmetu>
+</vyucujuci>
+<vyucujuci>
+<poradie>2</poradie>
+<typ>P</typ>
+<typPopis>prednášajúci</typPopis>
+<meno>Peter</meno>
+<priezvisko>Náther</priezvisko>
+<plneMeno>Mgr. Peter Náther, PhD.</plneMeno>
+<jazykyPredmetu>slovenský</jazykyPredmetu>
+</vyucujuci>
+</vyucujuciAll>
+<podmienujuce>
+<podmienujuci>FMFI.KAI/1-AIN-231/11</podmienujuci>
+<pocet>1</pocet>
+</podmienujuce>
+<podmienujucePredmety>FMFI.KAI/1-AIN-231/11</podmienujucePredmety>
+</predmet>
+<predmet>
+<skratka>FMFI.KAI/1-AIN-131/10</skratka>
+<skratkaPredmet>1-AIN-131</skratkaPredmet>
+<nazov>Tvorba informačných systémov</nazov>
+<aktualnost/>
+<kredit>6</kredit>
+<rozsah>4K</rozsah>
+<ukoncenie>H</ukoncenie>
+<rocnik>3</rocnik>
+<semester>Z</semester>
+<maxPocetPrihlStudentov/>
+<vyucujuci>Petrovič, Šefránek</vyucujuci>
+<vyucujuci2>P. Petrovič, J. Šefránek</vyucujuci2>
+<vyucujuciAll>
+<vyucujuci>
+<poradie>1</poradie>
+<typ>P</typ>
+<typPopis>prednášajúci</typPopis>
+<meno>Pavel</meno>
+<priezvisko>Petrovič</priezvisko>
+<plneMeno>Mgr. Pavel Petrovič, PhD.</plneMeno>
+<jazykyPredmetu>slovenský</jazykyPredmetu>
+</vyucujuci>
+<vyucujuci>
+<poradie>2</poradie>
+<typ>P</typ>
+<typPopis>prednášajúci</typPopis>
+<meno>Ján</meno>
+<priezvisko>Šefránek</priezvisko>
+<plneMeno>doc. Ing. Ján Šefránek, CSc.</plneMeno>
+<jazykyPredmetu>slovenský</jazykyPredmetu>
+</vyucujuci>
+</vyucujuciAll>
+<podmienujucePredmety/>
+</predmet>
+<predmet>
+<skratka>FMFI.KAI/1-AIN-132/12</skratka>
+<skratkaPredmet>1-AIN-132</skratkaPredmet>
+<nazov>Úvod do bakalárskej práce</nazov>
+<aktualnost/>
+<kredit>1</kredit>
+<rozsah>1S</rozsah>
+<ukoncenie>H</ukoncenie>
+<rocnik>3</rocnik>
+<semester>Z</semester>
+<maxPocetPrihlStudentov/>
+<vyucujuci>Petrovič, Blaho</vyucujuci>
+<vyucujuci2>P. Petrovič, A. Blaho</vyucujuci2>
+<vyucujuciAll>
+<vyucujuci>
+<poradie>1</poradie>
+<typ>P</typ>
+<typPopis>prednášajúci</typPopis>
+<meno>Pavel</meno>
+<priezvisko>Petrovič</priezvisko>
+<plneMeno>Mgr. Pavel Petrovič, PhD.</plneMeno>
+<jazykyPredmetu>slovenský</jazykyPredmetu>
+</vyucujuci>
+<vyucujuci>
+<poradie>2</poradie>
+<typ>P</typ>
+<typPopis>prednášajúci</typPopis>
+<meno>Andrej</meno>
+<priezvisko>Blaho</priezvisko>
+<plneMeno>RNDr. Andrej Blaho, PhD.</plneMeno>
+<jazykyPredmetu>slovenský</jazykyPredmetu>
+</vyucujuci>
+</vyucujuciAll>
+<podmienujucePredmety/>
+</predmet>
+<predmet>
+<skratka>FMFI.KAI/1-AIN-911/11</skratka>
+<skratkaPredmet>1-AIN-911</skratkaPredmet>
+<nazov>Bakalárska práca</nazov>
+<aktualnost/>
+<kredit>4</kredit>
+<rozsah/>
+<ukoncenie>H</ukoncenie>
+<rocnik>3</rocnik>
+<semester>L</semester>
+<maxPocetPrihlStudentov/>
+<vyucujuciAll/>
+<podmienujucePredmety/>
+</predmet>
+<predmet>
+<skratka>FMFI.KAI/1-AIN-920/00</skratka>
+<skratkaPredmet>1-AIN-920</skratkaPredmet>
+<nazov>Bakalársky seminár</nazov>
+<aktualnost/>
+<kredit>1</kredit>
+<rozsah>1S</rozsah>
+<ukoncenie>H</ukoncenie>
+<rocnik>3</rocnik>
+<semester>L</semester>
+<maxPocetPrihlStudentov/>
+<vyucujuci>Petrovič, Blaho</vyucujuci>
+<vyucujuci2>P. Petrovič, A. Blaho</vyucujuci2>
+<vyucujuciAll>
+<vyucujuci>
+<poradie>1</poradie>
+<typ>P</typ>
+<typPopis>prednášajúci</typPopis>
+<meno>Pavel</meno>
+<priezvisko>Petrovič</priezvisko>
+<plneMeno>Mgr. Pavel Petrovič, PhD.</plneMeno>
+<jazykyPredmetu>slovenský</jazykyPredmetu>
+</vyucujuci>
+<vyucujuci>
+<poradie>2</poradie>
+<typ>P</typ>
+<typPopis>prednášajúci</typPopis>
+<meno>Andrej</meno>
+<priezvisko>Blaho</priezvisko>
+<plneMeno>RNDr. Andrej Blaho, PhD.</plneMeno>
+<jazykyPredmetu>slovenský</jazykyPredmetu>
+</vyucujuci>
+</vyucujuciAll>
+<podmienujucePredmety/>
+</predmet>
+</predmety>
+<obmedzenie>
+<kredit>0</kredit>
+<poznamkaPredKontrola>poznamkaPred je neprazdna</poznamkaPredKontrola>
+<poznamkaZaKontrola>poznamkaZa je neprazdna</poznamkaZaKontrola>
+<poznamkyPred>
+<poznamkaPred>predmety pre študentov začínajúcich štúdium v akademickom roku 2013/14 alebo skôr</poznamkaPred>
+</poznamkyPred>
+<poznamkyZa>
+<poznamkaZa>Ekvivalentné predmety: Starý -&gt; Nový</poznamkaZa>
+<poznamkaZa>1-INF-260/00 Počítačové siete -&gt; 1-INF-283 Počítačové siete (1);</poznamkaZa>
+<poznamkaZa>1-AIN-120/00 Diskrétna matematika (1) -&gt; 1-AIN-121/15 Matematika (1) - Úvod do matematického myslenia;</poznamkaZa>
+<poznamkaZa>1-AIN-110/00 Matematika (1) -&gt; 1-AIN-188/15 Matematika (2) - Matematická analýza;</poznamkaZa>
+<poznamkaZa>1-AIN-150/00 Matematika (2) -&gt; 1-AIN-152/15 Lineárna algebra;</poznamkaZa>
+<poznamkaZa>1-AIN-160/00 Diskrétna matematika (2) -&gt; 1-AIN-160 Matematika 3 - Diskrétna matematika;</poznamkaZa>
+<poznamkaZa>(1-AIN-140/00 Princípy počítačov – hardvér a 1-AIN-180/00 Princípy počítačov – OS) -&gt; (1-AIN-140 Princípy počítačov – hardvér a 1-AIN-186 Princípy počítačov – systémové programovanie a 1-AIN-180 Princípy počítačov – operačné systémy);</poznamkaZa>
+<poznamkaZa>1-AIN-240/00 Grafické systémy, vizualizácia, multimédiá -&gt;1-AIN-301 Základy počítačovej grafiky a spracovanie obrazu</poznamkaZa>
+</poznamkyZa>
+</obmedzenie>
+</blok>
+</bloky>
+</typ>
+<typ>
+<skratka>B</skratka>
+<nazov>Povinne voliteľné predmety</nazov>
+<obmedzenie>
+<kredit>0</kredit>
+<poznamkyPred>
+<poznamkaPred>Za povinne výberové predmety z blokov A a B musí študent začínajúci štúdium v akademickom roku 2014/15 alebo neskôr získať spolu minimálne 18 kreditov. Študent začínajúci štúdium v akademickom roku 2013/14 alebo skôr musí získaťminimálne po 12 kreditov z každého z blokov teoretických a aplikovaných predmetov.</poznamkaPred>
+</poznamkyPred>
+<poznamkaPredKontrola>poznamkaPred je neprazdna</poznamkaPredKontrola>
+<poznamkaZaKontrola/>
+</obmedzenie>
+<bloky>
+<blok>
+<skratka>1AIN-BTP</skratka>
+<nazov>Blok teoretických predmetov - Blok A (všetci)</nazov>
+<predmety>
+<predmet>
+<skratka>FMFI.KAI/1-AIN-506/11</skratka>
+<skratkaPredmet>1-AIN-506</skratkaPredmet>
+<nazov>Úvod do deklaratívneho programovania</nazov>
+<aktualnost>!</aktualnost>
+<kredit>4</kredit>
+<rozsah>2P + 2C</rozsah>
+<ukoncenie>H</ukoncenie>
+<rocnik>1</rocnik>
+<semester>L</semester>
+<maxPocetPrihlStudentov/>
+<vyucujuci>Komara, Kľuka</vyucujuci>
+<vyucujuci2>J. Komara, J. Kľuka</vyucujuci2>
+<vyucujuciAll>
+<vyucujuci>
+<poradie>1</poradie>
+<typ>P</typ>
+<typPopis>prednášajúci</typPopis>
+<meno>Ján</meno>
+<priezvisko>Komara</priezvisko>
+<plneMeno>Ing. Ján Komara, PhD.</plneMeno>
+<jazykyPredmetu>slovenský</jazykyPredmetu>
+</vyucujuci>
+<vyucujuci>
+<poradie>2</poradie>
+<typ>P</typ>
+<typPopis>prednášajúci</typPopis>
+<meno>Ján</meno>
+<priezvisko>Kľuka</priezvisko>
+<plneMeno>Mgr. Ján Kľuka, PhD.</plneMeno>
+<jazykyPredmetu>slovenský</jazykyPredmetu>
+</vyucujuci>
+</vyucujuciAll>
+<podmienujucePredmety/>
+</predmet>
+<predmet>
+<skratka>FMFI.KAI/1-AIN-410/00</skratka>
+<skratkaPredmet>1-AIN-410</skratkaPredmet>
+<nazov>Matematika (3)</nazov>
+<aktualnost>!</aktualnost>
+<kredit>5</kredit>
+<rozsah>4K</rozsah>
+<ukoncenie>H</ukoncenie>
+<rocnik>2</rocnik>
+<semester>Z</semester>
+<maxPocetPrihlStudentov>40</maxPocetPrihlStudentov>
+<vyucujuci>Jajcayová</vyucujuci>
+<vyucujuci2>T. Jajcayová</vyucujuci2>
+<vyucujuciAll>
+<vyucujuci>
+<poradie>1</poradie>
+<typ>P</typ>
+<typPopis>prednášajúci</typPopis>
+<meno>Tatiana</meno>
+<priezvisko>Jajcayová</priezvisko>
+<plneMeno>RNDr. Tatiana Jajcayová, PhD.</plneMeno>
+<jazykyPredmetu>slovenský</jazykyPredmetu>
+</vyucujuci>
+</vyucujuciAll>
+<podmienujuce>
+<podmienujuci>FMFI.KAI/1-AIN-120/00</podmienujuci>
+<podmienujuci>FMFI.KAI/1-AIN-160/00</podmienujuci>
+<podmienujuci>FMFI.KTFDF/1-AIN-110/00</podmienujuci>
+<podmienujuci>FMFI.KTFDF/1-AIN-150/00</podmienujuci>
+<pocet>4</pocet>
+</podmienujuce>
+<podmienujucePredmety>FMFI.KAI/1-AIN-120/00  a FMFI.KAI/1-AIN-160/00  a FMFI.KTFDF/1-AIN-110/00  a FMFI.KTFDF/1-AIN-150/00</podmienujucePredmety>
+</predmet>
+<predmet>
+<skratka>FMFI.KI/1-INF-210/00</skratka>
+<skratkaPredmet>1-INF-210</skratkaPredmet>
+<nazov>Úvod do matematickej logiky</nazov>
+<aktualnost/>
+<kredit>6</kredit>
+<rozsah>2P + 2C</rozsah>
+<ukoncenie>H</ukoncenie>
+<rocnik>2</rocnik>
+<semester>Z</semester>
+<maxPocetPrihlStudentov/>
+<vyucujuci>Toman</vyucujuci>
+<vyucujuci2>E. Toman</vyucujuci2>
+<vyucujuciAll>
+<vyucujuci>
+<poradie>1</poradie>
+<typ>P</typ>
+<typPopis>prednášajúci</typPopis>
+<meno>Eduard</meno>
+<priezvisko>Toman</priezvisko>
+<plneMeno>doc. RNDr. Eduard Toman, CSc.</plneMeno>
+<jazykyPredmetu>anglický, slovenský</jazykyPredmetu>
+</vyucujuci>
+</vyucujuciAll>
+<podmienujucePredmety/>
+</predmet>
+<predmet>
+<skratka>FMFI.KAI/1-AIN-411/00</skratka>
+<skratkaPredmet>1-AIN-411</skratkaPredmet>
+<nazov>Úvod do výpočtovej logiky</nazov>
+<aktualnost>!</aktualnost>
+<kredit>5</kredit>
+<rozsah>2P + 2C</rozsah>
+<ukoncenie>H</ukoncenie>
+<rocnik>2</rocnik>
+<semester>L</semester>
+<maxPocetPrihlStudentov/>
+<vyucujuci>Šefránek, Šiška</vyucujuci>
+<vyucujuci2>J. Šefránek, J. Šiška</vyucujuci2>
+<vyucujuciAll>
+<vyucujuci>
+<poradie>1</poradie>
+<typ>P</typ>
+<typPopis>prednášajúci</typPopis>
+<meno>Ján</meno>
+<priezvisko>Šefránek</priezvisko>
+<plneMeno>doc. Ing. Ján Šefránek, CSc.</plneMeno>
+<jazykyPredmetu>anglický, slovenský</jazykyPredmetu>
+</vyucujuci>
+<vyucujuci>
+<poradie>2</poradie>
+<typ>P</typ>
+<typPopis>prednášajúci</typPopis>
+<meno>Jozef</meno>
+<priezvisko>Šiška</priezvisko>
+<plneMeno>RNDr. Jozef Šiška, PhD.</plneMeno>
+<jazykyPredmetu>anglický, slovenský</jazykyPredmetu>
+</vyucujuci>
+</vyucujuciAll>
+<podmienujucePredmety/>
+</predmet>
+<predmet>
+<skratka>FMFI.KZVI+KAI/1-AIN-430/15</skratka>
+<skratkaPredmet>1-AIN-430</skratkaPredmet>
+<nazov>Programovacie paradigmy</nazov>
+<aktualnost/>
+<kredit>6</kredit>
+<rozsah>2P + 2C</rozsah>
+<ukoncenie>H</ukoncenie>
+<rocnik>3</rocnik>
+<semester>Z</semester>
+<maxPocetPrihlStudentov/>
+<vyucujuci>Borovanský, Salanci</vyucujuci>
+<vyucujuci2>P. Borovanský, Ľ. Salanci</vyucujuci2>
+<vyucujuciAll>
+<vyucujuci>
+<poradie>1</poradie>
+<typ>P</typ>
+<typPopis>prednášajúci</typPopis>
+<meno>Peter</meno>
+<priezvisko>Borovanský</priezvisko>
+<plneMeno>RNDr. Peter Borovanský, PhD.</plneMeno>
+<jazykyPredmetu>slovenský</jazykyPredmetu>
+</vyucujuci>
+<vyucujuci>
+<poradie>2</poradie>
+<typ>P</typ>
+<typPopis>prednášajúci</typPopis>
+<meno>Ľubomír</meno>
+<priezvisko>Salanci</priezvisko>
+<plneMeno>doc. RNDr. Ľubomír Salanci, PhD.</plneMeno>
+<jazykyPredmetu>slovenský</jazykyPredmetu>
+</vyucujuci>
+</vyucujuciAll>
+<podmienujucePredmety/>
+</predmet>
+<predmet>
+<skratka>FMFI.KAI/1-AIN-470/15</skratka>
+<skratkaPredmet>1-AIN-470</skratkaPredmet>
+<nazov>Špecifikácia a verifikácia programov</nazov>
+<aktualnost>!</aktualnost>
+<kredit>6</kredit>
+<rozsah>2P + 2C</rozsah>
+<ukoncenie>H</ukoncenie>
+<rocnik>3</rocnik>
+<semester>Z</semester>
+<maxPocetPrihlStudentov/>
+<vyucujuci>Gruska, Komara, Kľuka</vyucujuci>
+<vyucujuci2>D. Gruska, J. Komara, J. Kľuka</vyucujuci2>
+<vyucujuciAll>
+<vyucujuci>
+<poradie>1</poradie>
+<typ>P</typ>
+<typPopis>prednášajúci</typPopis>
+<meno>Damas</meno>
+<priezvisko>Gruska</priezvisko>
+<plneMeno>doc. RNDr. Damas Gruska, PhD.</plneMeno>
+<jazykyPredmetu>slovenský</jazykyPredmetu>
+</vyucujuci>
+<vyucujuci>
+<poradie>2</poradie>
+<typ>P</typ>
+<typPopis>prednášajúci</typPopis>
+<meno>Ján</meno>
+<priezvisko>Komara</priezvisko>
+<plneMeno>Ing. Ján Komara, PhD.</plneMeno>
+<jazykyPredmetu>slovenský</jazykyPredmetu>
+</vyucujuci>
+<vyucujuci>
+<poradie>3</poradie>
+<typ>P</typ>
+<typPopis>prednášajúci</typPopis>
+<meno>Ján</meno>
+<priezvisko>Kľuka</priezvisko>
+<plneMeno>Mgr. Ján Kľuka, PhD.</plneMeno>
+<jazykyPredmetu>slovenský</jazykyPredmetu>
+</vyucujuci>
+</vyucujuciAll>
+<podmienujuce>
+<podmienujuci>FMFI.KAGDM/1-AIN-121/15</podmienujuci>
+<pocet>1</pocet>
+</podmienujuce>
+<podmienujucePredmety>FMFI.KAGDM/1-AIN-121/15</podmienujucePredmety>
+</predmet>
+<predmet>
+<skratka>FMFI.KAI/1-AIN-304/15</skratka>
+<skratkaPredmet>1-AIN-304</skratkaPredmet>
+<nazov>Úvod do umelej inteligencie</nazov>
+<aktualnost/>
+<kredit>6</kredit>
+<rozsah>2P + 2C</rozsah>
+<ukoncenie>H</ukoncenie>
+<rocnik>3</rocnik>
+<semester>Z</semester>
+<maxPocetPrihlStudentov/>
+<vyucujuci>Markošová, Farkaš</vyucujuci>
+<vyucujuci2>M. Markošová, I. Farkaš</vyucujuci2>
+<vyucujuciAll>
+<vyucujuci>
+<poradie>1</poradie>
+<typ>P</typ>
+<typPopis>prednášajúci</typPopis>
+<meno>Mária</meno>
+<priezvisko>Markošová</priezvisko>
+<plneMeno>doc. RNDr. Mária Markošová, PhD.</plneMeno>
+<jazykyPredmetu>slovenský</jazykyPredmetu>
+</vyucujuci>
+<vyucujuci>
+<poradie>2</poradie>
+<typ>P</typ>
+<typPopis>prednášajúci</typPopis>
+<meno>Igor</meno>
+<priezvisko>Farkaš</priezvisko>
+<plneMeno>prof. Ing. Igor Farkaš, PhD.</plneMeno>
+<jazykyPredmetu>slovenský</jazykyPredmetu>
+</vyucujuci>
+</vyucujuciAll>
+<podmienujucePredmety/>
+</predmet>
+<predmet>
+<skratka>FMFI.KAI/1-AIN-301/15</skratka>
+<skratkaPredmet>1-AIN-301</skratkaPredmet>
+<nazov>Základy počítačovej grafiky a spracovanie obrazu</nazov>
+<aktualnost/>
+<kredit>6</kredit>
+<rozsah>2P + 2C</rozsah>
+<ukoncenie>H</ukoncenie>
+<rocnik>3</rocnik>
+<semester>Z</semester>
+<maxPocetPrihlStudentov/>
+<vyucujuci>Ftáčnik</vyucujuci>
+<vyucujuci2>M. Ftáčnik</vyucujuci2>
+<vyucujuciAll>
+<vyucujuci>
+<poradie>1</poradie>
+<typ>P</typ>
+<typPopis>prednášajúci</typPopis>
+<meno>Milan</meno>
+<priezvisko>Ftáčnik</priezvisko>
+<plneMeno>doc. RNDr. Milan Ftáčnik, CSc.</plneMeno>
+<jazykyPredmetu>slovenský</jazykyPredmetu>
+</vyucujuci>
+</vyucujuciAll>
+<podmienujucePredmety/>
+</predmet>
+<predmet>
+<skratka>FMFI.KI/1-INF-430/00</skratka>
+<skratkaPredmet>1-INF-430</skratkaPredmet>
+<nazov>Teória grafov</nazov>
+<aktualnost>!</aktualnost>
+<kredit>6</kredit>
+<rozsah>3P + 1C</rozsah>
+<ukoncenie>H</ukoncenie>
+<rocnik>3</rocnik>
+<semester>Z</semester>
+<maxPocetPrihlStudentov/>
+<vyucujuci>Mačajová, Škoviera</vyucujuci>
+<vyucujuci2>E. Mačajová, M. Škoviera</vyucujuci2>
+<vyucujuciAll>
+<vyucujuci>
+<poradie>1</poradie>
+<typ>P</typ>
+<typPopis>prednášajúci</typPopis>
+<meno>Edita</meno>
+<priezvisko>Mačajová</priezvisko>
+<plneMeno>doc. RNDr. Edita Mačajová, PhD.</plneMeno>
+<jazykyPredmetu>anglický, slovenský</jazykyPredmetu>
+</vyucujuci>
+<vyucujuci>
+<poradie>2</poradie>
+<typ>P</typ>
+<typPopis>prednášajúci</typPopis>
+<meno>Martin</meno>
+<priezvisko>Škoviera</priezvisko>
+<plneMeno>prof. RNDr. Martin Škoviera, PhD.</plneMeno>
+<jazykyPredmetu>anglický, slovenský</jazykyPredmetu>
+</vyucujuci>
+</vyucujuciAll>
+<podmienujuce>
+<podmienujuci>FMFI.KI/1-INF-160/00</podmienujuci>
+<pocet>1</pocet>
+</podmienujuce>
+<podmienujucePredmety>FMFI.KI/1-INF-160/00</podmienujucePredmety>
+</predmet>
+<predmet>
+<skratka>FMFI.KAGDM/1-MAT-551/10</skratka>
+<skratkaPredmet>1-MAT-551</skratkaPredmet>
+<nazov>Geometria pre grafikov (1)</nazov>
+<aktualnost/>
+<kredit>5</kredit>
+<rozsah>4K</rozsah>
+<ukoncenie>H</ukoncenie>
+<rocnik>3</rocnik>
+<semester>Z</semester>
+<maxPocetPrihlStudentov/>
+<vyucujuci>Božek</vyucujuci>
+<vyucujuci2>M. Božek</vyucujuci2>
+<vyucujuciAll>
+<vyucujuci>
+<poradie>1</poradie>
+<typ>S</typ>
+<typPopis>skúšajúci</typPopis>
+<meno>Valentín</meno>
+<priezvisko>Zaťko</priezvisko>
+<plneMeno>doc. RNDr. Valentín Zaťko, CSc.</plneMeno>
+<jazykyPredmetu>slovenský</jazykyPredmetu>
+</vyucujuci>
+<vyucujuci>
+<poradie>2</poradie>
+<typ>P</typ>
+<typPopis>prednášajúci</typPopis>
+<meno>Miloš</meno>
+<priezvisko>Božek</priezvisko>
+<plneMeno>doc. RNDr. Miloš Božek, CSc.</plneMeno>
+<jazykyPredmetu>slovenský</jazykyPredmetu>
+</vyucujuci>
+</vyucujuciAll>
+<podmienujucePredmety/>
+</predmet>
+<predmet>
+<skratka>FMFI.KAI/1-AIN-625/00</skratka>
+<skratkaPredmet>1-AIN-625</skratkaPredmet>
+<nazov>Úvod do matematickej logiky pre programátorov</nazov>
+<aktualnost>!</aktualnost>
+<kredit>6</kredit>
+<rozsah>4K</rozsah>
+<ukoncenie>H</ukoncenie>
+<rocnik>3</rocnik>
+<semester>Z</semester>
+<maxPocetPrihlStudentov/>
+<vyucujuci>Komara</vyucujuci>
+<vyucujuci2>J. Komara</vyucujuci2>
+<vyucujuciAll>
+<vyucujuci>
+<poradie>1</poradie>
+<typ>P</typ>
+<typPopis>prednášajúci</typPopis>
+<meno>Ján</meno>
+<priezvisko>Komara</priezvisko>
+<plneMeno>Ing. Ján Komara, PhD.</plneMeno>
+<jazykyPredmetu>slovenský</jazykyPredmetu>
+</vyucujuci>
+</vyucujuciAll>
+<podmienujucePredmety/>
+</predmet>
+<predmet>
+<skratka>FMFI.KZVI+KAI/1-AIN-305/15</skratka>
+<skratkaPredmet>1-AIN-305</skratkaPredmet>
+<nazov>Deduktívne databázy</nazov>
+<aktualnost>!</aktualnost>
+<kredit>6</kredit>
+<rozsah>2P + 2C</rozsah>
+<ukoncenie>H</ukoncenie>
+<rocnik>3</rocnik>
+<semester>Z</semester>
+<maxPocetPrihlStudentov/>
+<vyucujuci>Kalaš, Baláž</vyucujuci>
+<vyucujuci2>I. Kalaš, M. Baláž</vyucujuci2>
+<vyucujuciAll>
+<vyucujuci>
+<poradie>1</poradie>
+<typ>P</typ>
+<typPopis>prednášajúci</typPopis>
+<meno>Ivan</meno>
+<priezvisko>Kalaš</priezvisko>
+<plneMeno>prof. RNDr. Ivan Kalaš, PhD.</plneMeno>
+<jazykyPredmetu>slovenský</jazykyPredmetu>
+</vyucujuci>
+<vyucujuci>
+<poradie>2</poradie>
+<typ>P</typ>
+<typPopis>prednášajúci</typPopis>
+<meno>Martin</meno>
+<priezvisko>Baláž</priezvisko>
+<plneMeno>RNDr. Martin Baláž</plneMeno>
+<jazykyPredmetu>slovenský</jazykyPredmetu>
+</vyucujuci>
+</vyucujuciAll>
+<podmienujuce>
+<podmienujuci>FMFI.KAGDM+KAI/1-AIN-412/15</podmienujuci>
+<podmienujuci>FMFI.KAI/1-AIN-222/15</podmienujuci>
+<pocet>2</pocet>
+</podmienujuce>
+<podmienujucePredmety>FMFI.KAGDM+KAI/1-AIN-412/15  a FMFI.KAI/1-AIN-222/15</podmienujucePredmety>
+</predmet>
+<predmet>
+<skratka>FMFI.KAI/1-AIN-105/15</skratka>
+<skratkaPredmet>1-AIN-105</skratkaPredmet>
+<nazov>Efektívne algoritmy a zložitosť</nazov>
+<aktualnost/>
+<kredit>6</kredit>
+<rozsah>2P + 2C</rozsah>
+<ukoncenie>H</ukoncenie>
+<rocnik>3</rocnik>
+<semester>Z</semester>
+<maxPocetPrihlStudentov/>
+<vyucujuci>Vinař, Šiška</vyucujuci>
+<vyucujuci2>T. Vinař, J. Šiška</vyucujuci2>
+<vyucujuciAll>
+<vyucujuci>
+<poradie>1</poradie>
+<typ>P</typ>
+<typPopis>prednášajúci</typPopis>
+<meno>Tomáš</meno>
+<priezvisko>Vinař</priezvisko>
+<plneMeno>Mgr. Tomáš Vinař, PhD.</plneMeno>
+<jazykyPredmetu>slovenský</jazykyPredmetu>
+</vyucujuci>
+<vyucujuci>
+<poradie>2</poradie>
+<typ>P</typ>
+<typPopis>prednášajúci</typPopis>
+<meno>Jozef</meno>
+<priezvisko>Šiška</priezvisko>
+<plneMeno>RNDr. Jozef Šiška, PhD.</plneMeno>
+<jazykyPredmetu>slovenský</jazykyPredmetu>
+</vyucujuci>
+</vyucujuciAll>
+<podmienujuce>
+<podmienujuci>FMFI.KZVI+KAI/1-AIN-210/15</podmienujuci>
+<podmienujuci>FMFI.KI/1-INF-220/00</podmienujuci>
+<pocet>2</pocet>
+</podmienujuce>
+<podmienujucePredmety>FMFI.KZVI+KAI/1-AIN-210/15 alebo FMFI.KI/1-INF-220/00</podmienujucePredmety>
+</predmet>
+<predmet>
+<skratka>FMFI.KAGDM/1-AIN-152/15</skratka>
+<skratkaPredmet>1-AIN-152</skratkaPredmet>
+<nazov>Lineárna algebra</nazov>
+<aktualnost>!</aktualnost>
+<kredit>6</kredit>
+<rozsah>2P + 2C</rozsah>
+<ukoncenie>H</ukoncenie>
+<rocnik>3</rocnik>
+<semester>Z</semester>
+<maxPocetPrihlStudentov/>
+<vyucujuci>Jajcayová, Sleziak</vyucujuci>
+<vyucujuci2>T. Jajcayová, M. Sleziak</vyucujuci2>
+<vyucujuciAll>
+<vyucujuci>
+<poradie>1</poradie>
+<typ>P</typ>
+<typPopis>prednášajúci</typPopis>
+<meno>Tatiana</meno>
+<priezvisko>Jajcayová</priezvisko>
+<plneMeno>RNDr. Tatiana Jajcayová, PhD.</plneMeno>
+<jazykyPredmetu>slovenský</jazykyPredmetu>
+</vyucujuci>
+<vyucujuci>
+<poradie>2</poradie>
+<typ>P</typ>
+<typPopis>prednášajúci</typPopis>
+<meno>Martin</meno>
+<priezvisko>Sleziak</priezvisko>
+<plneMeno>RNDr. Martin Sleziak, PhD.</plneMeno>
+<jazykyPredmetu>slovenský</jazykyPredmetu>
+</vyucujuci>
+</vyucujuciAll>
+<podmienujuce>
+<podmienujuci>FMFI.KAGDM/1-AIN-121/15</podmienujuci>
+<podmienujuci>FMFI.KAGDM+KAI/1-AIN-160/15</podmienujuci>
+<pocet>2</pocet>
+</podmienujuce>
+<podmienujucePredmety>FMFI.KAGDM/1-AIN-121/15  a FMFI.KAGDM+KAI/1-AIN-160/15</podmienujucePredmety>
+</predmet>
+<predmet>
+<skratka>FMFI.KAMŠ/2-INF-175/15</skratka>
+<skratkaPredmet>2-INF-175</skratkaPredmet>
+<nazov>Pravdepodobnosť a štatistika</nazov>
+<aktualnost/>
+<kredit>5</kredit>
+<rozsah>3P + 1C</rozsah>
+<ukoncenie>H</ukoncenie>
+<rocnik>3</rocnik>
+<semester>Z</semester>
+<maxPocetPrihlStudentov/>
+<vyucujuci>Filová</vyucujuci>
+<vyucujuci2>L. Filová</vyucujuci2>
+<vyucujuciAll>
+<vyucujuci>
+<poradie>1</poradie>
+<typ>P</typ>
+<typPopis>prednášajúci</typPopis>
+<meno>Lenka</meno>
+<priezvisko>Filová</priezvisko>
+<plneMeno>Mgr. Lenka Filová, PhD.</plneMeno>
+<jazykyPredmetu>slovenský</jazykyPredmetu>
+</vyucujuci>
+</vyucujuciAll>
+<podmienujucePredmety/>
+</predmet>
+<predmet>
+<skratka>FMFI.KI/2-INF-174/15</skratka>
+<skratkaPredmet>2-INF-174</skratkaPredmet>
+<nazov>Teória grafov</nazov>
+<aktualnost/>
+<kredit>6</kredit>
+<rozsah>3P + 1C</rozsah>
+<ukoncenie>H</ukoncenie>
+<rocnik>3</rocnik>
+<semester>Z</semester>
+<maxPocetPrihlStudentov/>
+<vyucujuci>Škoviera, Mačajová</vyucujuci>
+<vyucujuci2>M. Škoviera, E. Mačajová</vyucujuci2>
+<vyucujuciAll>
+<vyucujuci>
+<poradie>1</poradie>
+<typ>P</typ>
+<typPopis>prednášajúci</typPopis>
+<meno>Martin</meno>
+<priezvisko>Škoviera</priezvisko>
+<plneMeno>prof. RNDr. Martin Škoviera, PhD.</plneMeno>
+<jazykyPredmetu>slovenský</jazykyPredmetu>
+</vyucujuci>
+<vyucujuci>
+<poradie>2</poradie>
+<typ>P</typ>
+<typPopis>prednášajúci</typPopis>
+<meno>Edita</meno>
+<priezvisko>Mačajová</priezvisko>
+<plneMeno>doc. RNDr. Edita Mačajová, PhD.</plneMeno>
+<jazykyPredmetu>slovenský</jazykyPredmetu>
+</vyucujuci>
+</vyucujuciAll>
+<podmienujuce>
+<podmienujuci>FMFI.KI/1-INF-160/00</podmienujuci>
+<pocet>1</pocet>
+</podmienujuce>
+<podmienujucePredmety>FMFI.KI/1-INF-160/00</podmienujucePredmety>
+</predmet>
+<predmet>
+<skratka>FMFI.KAGDM/1-MAT-552/10</skratka>
+<skratkaPredmet>1-MAT-552</skratkaPredmet>
+<nazov>Geometria pre grafikov (2)</nazov>
+<aktualnost/>
+<kredit>3</kredit>
+<rozsah>2K</rozsah>
+<ukoncenie>H</ukoncenie>
+<rocnik>3</rocnik>
+<semester>L</semester>
+<maxPocetPrihlStudentov/>
+<vyucujuci>Božek</vyucujuci>
+<vyucujuci2>M. Božek</vyucujuci2>
+<vyucujuciAll>
+<vyucujuci>
+<poradie>1</poradie>
+<typ>P</typ>
+<typPopis>prednášajúci</typPopis>
+<meno>Miloš</meno>
+<priezvisko>Božek</priezvisko>
+<plneMeno>doc. RNDr. Miloš Božek, CSc.</plneMeno>
+<jazykyPredmetu>slovenský</jazykyPredmetu>
+</vyucujuci>
+</vyucujuciAll>
+<podmienujucePredmety/>
+</predmet>
+<predmet>
+<skratka>FMFI.KAI/1-AIN-670/00</skratka>
+<skratkaPredmet>1-AIN-670</skratkaPredmet>
+<nazov>Expertné systémy</nazov>
+<aktualnost/>
+<kredit>6</kredit>
+<rozsah>2P + 2C</rozsah>
+<ukoncenie>H</ukoncenie>
+<rocnik>3</rocnik>
+<semester>L</semester>
+<maxPocetPrihlStudentov/>
+<vyucujuci>Guller</vyucujuci>
+<vyucujuci2>D. Guller</vyucujuci2>
+<vyucujuciAll>
+<vyucujuci>
+<poradie>1</poradie>
+<typ>P</typ>
+<typPopis>prednášajúci</typPopis>
+<meno>Dušan</meno>
+<priezvisko>Guller</priezvisko>
+<plneMeno>doc. RNDr. Dušan Guller, PhD.</plneMeno>
+<jazykyPredmetu>slovenský</jazykyPredmetu>
+</vyucujuci>
+</vyucujuciAll>
+<podmienujucePredmety/>
+</predmet>
+<predmet>
+<skratka>FMFI.KAI/1-AIN-480/00</skratka>
+<skratkaPredmet>1-AIN-480</skratkaPredmet>
+<nazov>Neurónové siete</nazov>
+<aktualnost>!</aktualnost>
+<kredit>6</kredit>
+<rozsah>2P + 2C</rozsah>
+<ukoncenie>H</ukoncenie>
+<rocnik>3</rocnik>
+<semester>L</semester>
+<maxPocetPrihlStudentov/>
+<vyucujuci>Farkaš</vyucujuci>
+<vyucujuci2>I. Farkaš</vyucujuci2>
+<vyucujuciAll>
+<vyucujuci>
+<poradie>1</poradie>
+<typ>P</typ>
+<typPopis>prednášajúci</typPopis>
+<meno>Igor</meno>
+<priezvisko>Farkaš</priezvisko>
+<plneMeno>prof. Ing. Igor Farkaš, PhD.</plneMeno>
+<jazykyPredmetu>slovenský</jazykyPredmetu>
+</vyucujuci>
+</vyucujuciAll>
+<podmienujucePredmety/>
+</predmet>
+</predmety>
+<obmedzenie>
+<kredit>0</kredit>
+<poznamkaPredKontrola>poznamkaPred je neprazdna</poznamkaPredKontrola>
+<poznamkaZaKontrola>poznamkaZa je neprazdna</poznamkaZaKontrola>
+<poznamkyPred>
+<poznamkaPred>platné pre všetkých študentov</poznamkaPred>
+</poznamkyPred>
+<poznamkyZa>
+<poznamkaZa>Ekvivalentné predmety: Starý -&gt; Nový</poznamkaZa>
+<poznamkaZa>1-AIN-150/00 Matematika (2) -&gt; 1-AIN-152/15 Lineárna algebra;</poznamkaZa>
+<poznamkaZa>(1-INF-210/00 Úvod do matematickej logiky alebo 1-AIN-411/00 Úvod do výpočtovej logiky) -&gt; 1-AIN-412 Matematika 4 - Logika pre informatikov;</poznamkaZa>
+<poznamkaZa>1-AIN-240/00 Grafické systémy, vizualizácia, multimédiá -&gt;1-AIN-301 Základy počítačovej grafiky a spracovanie obrazu</poznamkaZa>
+</poznamkyZa>
+</obmedzenie>
+</blok>
+<blok>
+<skratka>1AIN-BAP</skratka>
+<nazov>Blok aplikovaných predmetov - Blok B (všetci)</nazov>
+<predmety>
+<predmet>
+<skratka>FMFI.KZVI/1-INF-175/00</skratka>
+<skratkaPredmet>1-INF-175</skratkaPredmet>
+<nazov>Spoločenské aspekty informatiky</nazov>
+<aktualnost>+</aktualnost>
+<kredit>2</kredit>
+<rozsah>2K</rozsah>
+<ukoncenie>H</ukoncenie>
+<rocnik>1</rocnik>
+<semester>L</semester>
+<maxPocetPrihlStudentov/>
+<vyucujuci>Winczer</vyucujuci>
+<vyucujuci2>M. Winczer</vyucujuci2>
+<vyucujuciAll>
+<vyucujuci>
+<poradie>1</poradie>
+<typ>P</typ>
+<typPopis>prednášajúci</typPopis>
+<meno>Michal</meno>
+<priezvisko>Winczer</priezvisko>
+<plneMeno>RNDr. Michal Winczer, PhD.</plneMeno>
+<jazykyPredmetu>slovenský</jazykyPredmetu>
+</vyucujuci>
+</vyucujuciAll>
+<podmienujucePredmety/>
+</predmet>
+<predmet>
+<skratka>FMFI.KAI/1-AIN-500/00</skratka>
+<skratkaPredmet>1-AIN-500</skratkaPredmet>
+<nazov>Linux pre používateľov</nazov>
+<aktualnost/>
+<kredit>2</kredit>
+<rozsah>2K</rozsah>
+<ukoncenie>H</ukoncenie>
+<rocnik>1</rocnik>
+<semester>L</semester>
+<maxPocetPrihlStudentov/>
+<vyucujuci>Nagy</vyucujuci>
+<vyucujuci2>M. Nagy</vyucujuci2>
+<vyucujuciAll>
+<vyucujuci>
+<poradie>1</poradie>
+<typ>P</typ>
+<typPopis>prednášajúci</typPopis>
+<meno>Marek</meno>
+<priezvisko>Nagy</priezvisko>
+<plneMeno>RNDr. Marek Nagy, PhD.</plneMeno>
+<jazykyPredmetu>slovenský</jazykyPredmetu>
+</vyucujuci>
+</vyucujuciAll>
+<podmienujucePredmety/>
+</predmet>
+<predmet>
+<skratka>FMFI.KI/1-INF-230/00</skratka>
+<skratkaPredmet>1-INF-230</skratkaPredmet>
+<nazov>Úvod do databázových systémov</nazov>
+<aktualnost/>
+<kredit>5</kredit>
+<rozsah>2P + 2C</rozsah>
+<ukoncenie>H</ukoncenie>
+<rocnik>2</rocnik>
+<semester>Z</semester>
+<maxPocetPrihlStudentov>150</maxPocetPrihlStudentov>
+<vyucujuci>Plachetka, Rjaško</vyucujuci>
+<vyucujuci2>T. Plachetka, M. Rjaško</vyucujuci2>
+<vyucujuciAll>
+<vyucujuci>
+<poradie>1</poradie>
+<typ>P</typ>
+<typPopis>prednášajúci</typPopis>
+<meno>Tomáš</meno>
+<priezvisko>Plachetka</priezvisko>
+<plneMeno>doc. Mgr. Tomáš Plachetka, Dr.</plneMeno>
+<jazykyPredmetu>anglický, slovenský</jazykyPredmetu>
+</vyucujuci>
+<vyucujuci>
+<poradie>2</poradie>
+<typ>P</typ>
+<typPopis>prednášajúci</typPopis>
+<meno>Michal</meno>
+<priezvisko>Rjaško</priezvisko>
+<plneMeno>RNDr. Michal Rjaško, PhD.</plneMeno>
+<jazykyPredmetu>anglický, slovenský</jazykyPredmetu>
+</vyucujuci>
+</vyucujuciAll>
+<podmienujucePredmety/>
+</predmet>
+<predmet>
+<skratka>FMFI.KAI/1-AIN-636/00</skratka>
+<skratkaPredmet>1-AIN-636</skratkaPredmet>
+<nazov>Moderný prístup k web - dizajnu</nazov>
+<aktualnost/>
+<kredit>6</kredit>
+<rozsah>2P + 2C</rozsah>
+<ukoncenie>H</ukoncenie>
+<rocnik>2</rocnik>
+<semester>Z</semester>
+<maxPocetPrihlStudentov/>
+<vyucujuci>Kľuka, Homola</vyucujuci>
+<vyucujuci2>J. Kľuka, M. Homola</vyucujuci2>
+<vyucujuciAll>
+<vyucujuci>
+<poradie>1</poradie>
+<typ>P</typ>
+<typPopis>prednášajúci</typPopis>
+<meno>Ján</meno>
+<priezvisko>Kľuka</priezvisko>
+<plneMeno>Mgr. Ján Kľuka, PhD.</plneMeno>
+<jazykyPredmetu>anglický, slovenský</jazykyPredmetu>
+</vyucujuci>
+<vyucujuci>
+<poradie>2</poradie>
+<typ>P</typ>
+<typPopis>prednášajúci</typPopis>
+<meno>Martin</meno>
+<priezvisko>Homola</priezvisko>
+<plneMeno>RNDr. Martin Homola, PhD.</plneMeno>
+<jazykyPredmetu>anglický, slovenský</jazykyPredmetu>
+</vyucujuci>
+</vyucujuciAll>
+<podmienujucePredmety/>
+</predmet>
+<predmet>
+<skratka>FMFI.KJFB/1-AIN-515/00</skratka>
+<skratkaPredmet>1-AIN-515</skratkaPredmet>
+<nazov>Vedecko-technické výpočty</nazov>
+<aktualnost>!</aktualnost>
+<kredit>4</kredit>
+<rozsah>3K</rozsah>
+<ukoncenie>H</ukoncenie>
+<rocnik>2</rocnik>
+<semester>Z</semester>
+<maxPocetPrihlStudentov/>
+<vyucujuci>Antalic</vyucujuci>
+<vyucujuci2>S. Antalic</vyucujuci2>
+<vyucujuciAll>
+<vyucujuci>
+<poradie>1</poradie>
+<typ>P</typ>
+<typPopis>prednášajúci</typPopis>
+<meno>Stanislav</meno>
+<priezvisko>Antalic</priezvisko>
+<plneMeno>doc. Mgr. Stanislav Antalic, PhD.</plneMeno>
+<jazykyPredmetu>slovenský</jazykyPredmetu>
+</vyucujuci>
+</vyucujuciAll>
+<podmienujucePredmety/>
+</predmet>
+<predmet>
+<skratka>FMFI.KAI/1-AIN-510/15</skratka>
+<skratkaPredmet>1-AIN-510</skratkaPredmet>
+<nazov>Linux - princípy a prostriedky</nazov>
+<aktualnost/>
+<kredit>3</kredit>
+<rozsah>1P + 1C</rozsah>
+<ukoncenie>H</ukoncenie>
+<rocnik>2</rocnik>
+<semester>Z</semester>
+<maxPocetPrihlStudentov/>
+<vyucujuci>Nagy</vyucujuci>
+<vyucujuci2>M. Nagy</vyucujuci2>
+<vyucujuciAll>
+<vyucujuci>
+<poradie>1</poradie>
+<typ>P</typ>
+<typPopis>prednášajúci</typPopis>
+<meno>Marek</meno>
+<priezvisko>Nagy</priezvisko>
+<plneMeno>RNDr. Marek Nagy, PhD.</plneMeno>
+<jazykyPredmetu>slovenský</jazykyPredmetu>
+</vyucujuci>
+</vyucujuciAll>
+<podmienujucePredmety/>
+</predmet>
+<predmet>
+<skratka>FMFI.KAI/1-AIN-521/00</skratka>
+<skratkaPredmet>1-AIN-521</skratkaPredmet>
+<nazov>Implementácia databázových systémov</nazov>
+<aktualnost/>
+<kredit>5</kredit>
+<rozsah>2P + 2L</rozsah>
+<ukoncenie>H</ukoncenie>
+<rocnik>2</rocnik>
+<semester>L</semester>
+<maxPocetPrihlStudentov/>
+<vyucujuci>Petrovič</vyucujuci>
+<vyucujuci2>P. Petrovič</vyucujuci2>
+<vyucujuciAll>
+<vyucujuci>
+<poradie>1</poradie>
+<typ>P</typ>
+<typPopis>prednášajúci</typPopis>
+<meno>Pavel</meno>
+<priezvisko>Petrovič</priezvisko>
+<plneMeno>Mgr. Pavel Petrovič, PhD.</plneMeno>
+<jazykyPredmetu>slovenský</jazykyPredmetu>
+</vyucujuci>
+</vyucujuciAll>
+<podmienujucePredmety/>
+</predmet>
+<predmet>
+<skratka>FMFI.KAI/1-AIN-172/00</skratka>
+<skratkaPredmet>1-AIN-172</skratkaPredmet>
+<nazov>Programovanie (4)</nazov>
+<aktualnost/>
+<kredit>5</kredit>
+<rozsah>4K</rozsah>
+<ukoncenie>H</ukoncenie>
+<rocnik>2</rocnik>
+<semester>L</semester>
+<maxPocetPrihlStudentov/>
+<vyucujuci>Petrovič, Borovanský</vyucujuci>
+<vyucujuci2>P. Petrovič, P. Borovanský</vyucujuci2>
+<vyucujuciAll>
+<vyucujuci>
+<poradie>1</poradie>
+<typ>P</typ>
+<typPopis>prednášajúci</typPopis>
+<meno>Pavel</meno>
+<priezvisko>Petrovič</priezvisko>
+<plneMeno>Mgr. Pavel Petrovič, PhD.</plneMeno>
+<jazykyPredmetu/>
+</vyucujuci>
+<vyucujuci>
+<poradie>2</poradie>
+<typ>P</typ>
+<typPopis>prednášajúci</typPopis>
+<meno>Peter</meno>
+<priezvisko>Borovanský</priezvisko>
+<plneMeno>RNDr. Peter Borovanský, PhD.</plneMeno>
+<jazykyPredmetu/>
+</vyucujuci>
+</vyucujuciAll>
+<podmienujucePredmety/>
+</predmet>
+<predmet>
+<skratka>FMFI.KAGDM+KAI/1-MAT-560/00</skratka>
+<skratkaPredmet>1-MAT-560</skratkaPredmet>
+<nazov>Webovská grafika</nazov>
+<aktualnost/>
+<kredit>5</kredit>
+<rozsah>4K</rozsah>
+<ukoncenie>H</ukoncenie>
+<rocnik>3</rocnik>
+<semester>Z</semester>
+<maxPocetPrihlStudentov/>
+<vyucujuci>Ferko, Varhaníková</vyucujuci>
+<vyucujuci2>A. Ferko, I. Varhaníková</vyucujuci2>
+<vyucujuciAll>
+<vyucujuci>
+<poradie>1</poradie>
+<typ>P</typ>
+<typPopis>prednášajúci</typPopis>
+<meno>Andrej</meno>
+<priezvisko>Ferko</priezvisko>
+<plneMeno>doc. RNDr. Andrej Ferko, PhD.</plneMeno>
+<jazykyPredmetu>slovenský</jazykyPredmetu>
+</vyucujuci>
+<vyucujuci>
+<poradie>2</poradie>
+<typ>C</typ>
+<typPopis>cvičiaci</typPopis>
+<meno>Ivana</meno>
+<priezvisko>Varhaníková</priezvisko>
+<plneMeno>RNDr. Ivana Varhaníková, PhD.</plneMeno>
+<jazykyPredmetu>slovenský</jazykyPredmetu>
+</vyucujuci>
+</vyucujuciAll>
+<podmienujucePredmety/>
+</predmet>
+<predmet>
+<skratka>FMFI.KAI/1-AIN-530/00</skratka>
+<skratkaPredmet>1-AIN-530</skratkaPredmet>
+<nazov>Multimédiá</nazov>
+<aktualnost/>
+<kredit>2</kredit>
+<rozsah>2P</rozsah>
+<ukoncenie>H</ukoncenie>
+<rocnik>3</rocnik>
+<semester>Z</semester>
+<maxPocetPrihlStudentov/>
+<vyucujuci>Lúčan</vyucujuci>
+<vyucujuci2>Ľ. Lúčan</vyucujuci2>
+<vyucujuciAll>
+<vyucujuci>
+<poradie>1</poradie>
+<typ>P</typ>
+<typPopis>prednášajúci</typPopis>
+<meno>Ľubomír</meno>
+<priezvisko>Lúčan</priezvisko>
+<plneMeno>Ľubomír Lúčan, CSc.</plneMeno>
+<jazykyPredmetu>slovenský</jazykyPredmetu>
+</vyucujuci>
+</vyucujuciAll>
+<podmienujucePredmety/>
+</predmet>
+<predmet>
+<skratka>FMFI.KI/2-INF-176/15</skratka>
+<skratkaPredmet>2-INF-176</skratkaPredmet>
+<nazov>UNIX pre administrátorov</nazov>
+<aktualnost/>
+<kredit>6</kredit>
+<rozsah>2P + 2C</rozsah>
+<ukoncenie>H</ukoncenie>
+<rocnik>3</rocnik>
+<semester>Z</semester>
+<maxPocetPrihlStudentov/>
+<vyucujuci>Janáček</vyucujuci>
+<vyucujuci2>J. Janáček</vyucujuci2>
+<vyucujuciAll>
+<vyucujuci>
+<poradie>1</poradie>
+<typ>P</typ>
+<typPopis>prednášajúci</typPopis>
+<meno>Jaroslav</meno>
+<priezvisko>Janáček</priezvisko>
+<plneMeno>RNDr. Jaroslav Janáček, PhD.</plneMeno>
+<jazykyPredmetu>slovenský</jazykyPredmetu>
+</vyucujuci>
+</vyucujuciAll>
+<podmienujucePredmety/>
+</predmet>
+<predmet>
+<skratka>FMFI.KAI/1-MAT-570/00</skratka>
+<skratkaPredmet>1-MAT-570</skratkaPredmet>
+<nazov>Modelovacie a renderovacie techniky</nazov>
+<aktualnost>!</aktualnost>
+<kredit>5</kredit>
+<rozsah>4K</rozsah>
+<ukoncenie>H</ukoncenie>
+<rocnik>3</rocnik>
+<semester>Z</semester>
+<maxPocetPrihlStudentov/>
+<vyucujuci>Ďurikovič</vyucujuci>
+<vyucujuci2>R. Ďurikovič</vyucujuci2>
+<vyucujuciAll>
+<vyucujuci>
+<poradie>1</poradie>
+<typ>P</typ>
+<typPopis>prednášajúci</typPopis>
+<meno>Roman</meno>
+<priezvisko>Ďurikovič</priezvisko>
+<plneMeno>prof. RNDr. Roman Ďurikovič, PhD.</plneMeno>
+<jazykyPredmetu>slovenský</jazykyPredmetu>
+</vyucujuci>
+</vyucujuciAll>
+<podmienujucePredmety/>
+</predmet>
+<predmet>
+<skratka>FMFI.KAI/1-AIN-303/15</skratka>
+<skratkaPredmet>1-AIN-303</skratkaPredmet>
+<nazov>Game Engines</nazov>
+<aktualnost/>
+<kredit>3</kredit>
+<rozsah>2K</rozsah>
+<ukoncenie>H</ukoncenie>
+<rocnik>3</rocnik>
+<semester>Z</semester>
+<maxPocetPrihlStudentov/>
+<vyucujuci>Mihálik, Samuelčík</vyucujuci>
+<vyucujuci2>A. Mihálik, M. Samuelčík</vyucujuci2>
+<vyucujuciAll>
+<vyucujuci>
+<poradie>1</poradie>
+<typ>P</typ>
+<typPopis>prednášajúci</typPopis>
+<meno>Andrej</meno>
+<priezvisko>Mihálik</priezvisko>
+<plneMeno>Mgr. Andrej Mihálik, PhD.</plneMeno>
+<jazykyPredmetu>slovenský</jazykyPredmetu>
+</vyucujuci>
+<vyucujuci>
+<poradie>2</poradie>
+<typ>P</typ>
+<typPopis>prednášajúci</typPopis>
+<meno>Martin</meno>
+<priezvisko>Samuelčík</priezvisko>
+<plneMeno>Mgr. Martin Samuelčík, PhD.</plneMeno>
+<jazykyPredmetu>slovenský</jazykyPredmetu>
+</vyucujuci>
+</vyucujuciAll>
+<podmienujucePredmety/>
+</predmet>
+<predmet>
+<skratka>FMFI.KI/2-INF-183/15</skratka>
+<skratkaPredmet>2-INF-183</skratkaPredmet>
+<nazov>Počítačové siete (2)</nazov>
+<aktualnost>!</aktualnost>
+<kredit>4</kredit>
+<rozsah>2P + 1C</rozsah>
+<ukoncenie>H</ukoncenie>
+<rocnik>3</rocnik>
+<semester>Z</semester>
+<maxPocetPrihlStudentov/>
+<vyucujuci>Janáček</vyucujuci>
+<vyucujuci2>J. Janáček</vyucujuci2>
+<vyucujuciAll>
+<vyucujuci>
+<poradie>1</poradie>
+<typ>P</typ>
+<typPopis>prednášajúci</typPopis>
+<meno>Jaroslav</meno>
+<priezvisko>Janáček</priezvisko>
+<plneMeno>RNDr. Jaroslav Janáček, PhD.</plneMeno>
+<jazykyPredmetu>slovenský</jazykyPredmetu>
+</vyucujuci>
+</vyucujuciAll>
+<podmienujuce>
+<podmienujuci>FMFI.KI/1-INF-283/15</podmienujuci>
+<pocet>1</pocet>
+</podmienujuce>
+<podmienujucePredmety>FMFI.KI/1-INF-283/15</podmienujucePredmety>
+</predmet>
+<predmet>
+<skratka>FMFI.KZVI/1-AIN-302/15</skratka>
+<skratkaPredmet>1-AIN-302</skratkaPredmet>
+<nazov>Programovanie (5)</nazov>
+<aktualnost/>
+<kredit>6</kredit>
+<rozsah>2P + 2C</rozsah>
+<ukoncenie>H</ukoncenie>
+<rocnik>3</rocnik>
+<semester>Z</semester>
+<maxPocetPrihlStudentov/>
+<vyucujuci>Salanci</vyucujuci>
+<vyucujuci2>Ľ. Salanci</vyucujuci2>
+<vyucujuciAll>
+<vyucujuci>
+<poradie>1</poradie>
+<typ>P</typ>
+<typPopis>prednášajúci</typPopis>
+<meno>Ľubomír</meno>
+<priezvisko>Salanci</priezvisko>
+<plneMeno>doc. RNDr. Ľubomír Salanci, PhD.</plneMeno>
+<jazykyPredmetu>slovenský</jazykyPredmetu>
+</vyucujuci>
+</vyucujuciAll>
+<podmienujuce>
+<podmienujuci>FMFI.KZVI+KAI/1-AIN-210/15</podmienujuci>
+<pocet>1</pocet>
+</podmienujuce>
+<podmienujucePredmety>FMFI.KZVI+KAI/1-AIN-210/15</podmienujucePredmety>
+</predmet>
+<predmet>
+<skratka>FMFI.KZVI+KAI/1-AIN-472/15</skratka>
+<skratkaPredmet>1-AIN-472</skratkaPredmet>
+<nazov>Vývoj mobilných aplikácií</nazov>
+<aktualnost/>
+<kredit>5</kredit>
+<rozsah>2P + 2D</rozsah>
+<ukoncenie>H</ukoncenie>
+<rocnik>3</rocnik>
+<semester>Z</semester>
+<maxPocetPrihlStudentov/>
+<vyucujuci>Borovanský, Salanci</vyucujuci>
+<vyucujuci2>P. Borovanský, Ľ. Salanci</vyucujuci2>
+<vyucujuciAll>
+<vyucujuci>
+<poradie>1</poradie>
+<typ>P</typ>
+<typPopis>prednášajúci</typPopis>
+<meno>Peter</meno>
+<priezvisko>Borovanský</priezvisko>
+<plneMeno>RNDr. Peter Borovanský, PhD.</plneMeno>
+<jazykyPredmetu>slovenský</jazykyPredmetu>
+</vyucujuci>
+<vyucujuci>
+<poradie>2</poradie>
+<typ>P</typ>
+<typPopis>prednášajúci</typPopis>
+<meno>Ľubomír</meno>
+<priezvisko>Salanci</priezvisko>
+<plneMeno>doc. RNDr. Ľubomír Salanci, PhD.</plneMeno>
+<jazykyPredmetu>slovenský</jazykyPredmetu>
+</vyucujuci>
+</vyucujuciAll>
+<podmienujucePredmety/>
+</predmet>
+<predmet>
+<skratka>FMFI.KZVI/1-AIN-168/15</skratka>
+<skratkaPredmet>1-AIN-168</skratkaPredmet>
+<nazov>Webové aplikácie v praxi</nazov>
+<aktualnost/>
+<kredit>4</kredit>
+<rozsah>2P + 2C</rozsah>
+<ukoncenie>H</ukoncenie>
+<rocnik>3</rocnik>
+<semester>Z</semester>
+<maxPocetPrihlStudentov/>
+<vyucujuci>Krupa, Mráz</vyucujuci>
+<vyucujuci2>M. Krupa, R. Mráz</vyucujuci2>
+<vyucujuciAll>
+<vyucujuci>
+<poradie>1</poradie>
+<typ>P</typ>
+<typPopis>prednášajúci</typPopis>
+<meno>Martin</meno>
+<priezvisko>Krupa</priezvisko>
+<plneMeno>Mgr. Martin Krupa</plneMeno>
+<jazykyPredmetu>slovenský</jazykyPredmetu>
+</vyucujuci>
+<vyucujuci>
+<poradie>2</poradie>
+<typ>P</typ>
+<typPopis>prednášajúci</typPopis>
+<meno>Robert</meno>
+<priezvisko>Mráz</priezvisko>
+<plneMeno>Mgr. Robert Mráz</plneMeno>
+<jazykyPredmetu>slovenský</jazykyPredmetu>
+</vyucujuci>
+</vyucujuciAll>
+<podmienujucePredmety/>
+</predmet>
+<predmet>
+<skratka>FMFI.KAI/1-AIN-512/12</skratka>
+<skratkaPredmet>1-AIN-512</skratkaPredmet>
+<nazov>Funkcionálne programovanie</nazov>
+<aktualnost/>
+<kredit>4</kredit>
+<rozsah>2P + 2C</rozsah>
+<ukoncenie>H</ukoncenie>
+<rocnik>3</rocnik>
+<semester>L</semester>
+<maxPocetPrihlStudentov/>
+<vyucujuci>Borovanský</vyucujuci>
+<vyucujuci2>P. Borovanský</vyucujuci2>
+<vyucujuciAll>
+<vyucujuci>
+<poradie>1</poradie>
+<typ>P</typ>
+<typPopis>prednášajúci</typPopis>
+<meno>Peter</meno>
+<priezvisko>Borovanský</priezvisko>
+<plneMeno>RNDr. Peter Borovanský, PhD.</plneMeno>
+<jazykyPredmetu>slovenský</jazykyPredmetu>
+</vyucujuci>
+</vyucujuciAll>
+<podmienujucePredmety/>
+</predmet>
+<predmet>
+<skratka>FMFI.KI/1-INF-520/00</skratka>
+<skratkaPredmet>1-INF-520</skratkaPredmet>
+<nazov>Úvod do informačnej bezpečnosti</nazov>
+<aktualnost/>
+<kredit>4</kredit>
+<rozsah>3P</rozsah>
+<ukoncenie>H</ukoncenie>
+<rocnik>3</rocnik>
+<semester>L</semester>
+<maxPocetPrihlStudentov/>
+<vyucujuci>Olejár, Rjaško</vyucujuci>
+<vyucujuci2>D. Olejár, M. Rjaško</vyucujuci2>
+<vyucujuciAll>
+<vyucujuci>
+<poradie>1</poradie>
+<typ>P</typ>
+<typPopis>prednášajúci</typPopis>
+<meno>Daniel</meno>
+<priezvisko>Olejár</priezvisko>
+<plneMeno>doc. RNDr. Daniel Olejár, PhD.</plneMeno>
+<jazykyPredmetu>slovenský</jazykyPredmetu>
+</vyucujuci>
+<vyucujuci>
+<poradie>2</poradie>
+<typ>P</typ>
+<typPopis>prednášajúci</typPopis>
+<meno>Michal</meno>
+<priezvisko>Rjaško</priezvisko>
+<plneMeno>RNDr. Michal Rjaško, PhD.</plneMeno>
+<jazykyPredmetu>slovenský</jazykyPredmetu>
+</vyucujuci>
+</vyucujuciAll>
+<podmienujucePredmety/>
+</predmet>
+<predmet>
+<skratka>FMFI.KZVI/1-AIN-540/00</skratka>
+<skratkaPredmet>1-AIN-540</skratkaPredmet>
+<nazov>Pokročilé programátorské techniky</nazov>
+<aktualnost>!</aktualnost>
+<kredit>6</kredit>
+<rozsah>4K</rozsah>
+<ukoncenie>H</ukoncenie>
+<rocnik>3</rocnik>
+<semester>L</semester>
+<maxPocetPrihlStudentov>20</maxPocetPrihlStudentov>
+<vyucujuci>Salanci</vyucujuci>
+<vyucujuci2>Ľ. Salanci</vyucujuci2>
+<vyucujuciAll>
+<vyucujuci>
+<poradie>1</poradie>
+<typ>P</typ>
+<typPopis>prednášajúci</typPopis>
+<meno>Ľubomír</meno>
+<priezvisko>Salanci</priezvisko>
+<plneMeno>doc. RNDr. Ľubomír Salanci, PhD.</plneMeno>
+<jazykyPredmetu>slovenský</jazykyPredmetu>
+</vyucujuci>
+</vyucujuciAll>
+<podmienujucePredmety/>
+</predmet>
+<predmet>
+<skratka>FMFI.KAGDM/1-AIN-545/00</skratka>
+<skratkaPredmet>1-AIN-545</skratkaPredmet>
+<nazov>Reprezentácie geometrických objektov</nazov>
+<aktualnost/>
+<kredit>5</kredit>
+<rozsah>4K</rozsah>
+<ukoncenie>H</ukoncenie>
+<rocnik>3</rocnik>
+<semester>L</semester>
+<maxPocetPrihlStudentov/>
+<vyucujuci>Kudličková</vyucujuci>
+<vyucujuci2>S. Kudličková</vyucujuci2>
+<vyucujuciAll>
+<vyucujuci>
+<poradie>1</poradie>
+<typ>P</typ>
+<typPopis>prednášajúci</typPopis>
+<meno>Soňa</meno>
+<priezvisko>Kudličková</priezvisko>
+<plneMeno>RNDr. Soňa Kudličková, CSc.</plneMeno>
+<jazykyPredmetu>slovenský</jazykyPredmetu>
+</vyucujuci>
+</vyucujuciAll>
+<podmienujucePredmety/>
+</predmet>
+<predmet>
+<skratka>FMFI.KAI/1-AIN-550/00</skratka>
+<skratkaPredmet>1-AIN-550</skratkaPredmet>
+<nazov>Základy spracovania obrazu</nazov>
+<aktualnost>!</aktualnost>
+<kredit>4</kredit>
+<rozsah>3K</rozsah>
+<ukoncenie>H</ukoncenie>
+<rocnik>3</rocnik>
+<semester>L</semester>
+<maxPocetPrihlStudentov/>
+<vyucujuci>Ftáčnik</vyucujuci>
+<vyucujuci2>M. Ftáčnik</vyucujuci2>
+<vyucujuciAll>
+<vyucujuci>
+<poradie>1</poradie>
+<typ>P</typ>
+<typPopis>prednášajúci</typPopis>
+<meno>Milan</meno>
+<priezvisko>Ftáčnik</priezvisko>
+<plneMeno>doc. RNDr. Milan Ftáčnik, CSc.</plneMeno>
+<jazykyPredmetu>slovenský</jazykyPredmetu>
+</vyucujuci>
+</vyucujuciAll>
+<podmienujucePredmety/>
+</predmet>
+<predmet>
+<skratka>FMFI.KAI/1-AIN-551/00</skratka>
+<skratkaPredmet>1-AIN-551</skratkaPredmet>
+<nazov>Algoritmy pre AI robotiku</nazov>
+<aktualnost/>
+<kredit>4</kredit>
+<rozsah>2P + 1L</rozsah>
+<ukoncenie>H</ukoncenie>
+<rocnik>3</rocnik>
+<semester>L</semester>
+<maxPocetPrihlStudentov/>
+<vyucujuci>Petrovič</vyucujuci>
+<vyucujuci2>P. Petrovič</vyucujuci2>
+<vyucujuciAll>
+<vyucujuci>
+<poradie>1</poradie>
+<typ>P</typ>
+<typPopis>prednášajúci</typPopis>
+<meno>Pavel</meno>
+<priezvisko>Petrovič</priezvisko>
+<plneMeno>Mgr. Pavel Petrovič, PhD.</plneMeno>
+<jazykyPredmetu>anglický, slovenský</jazykyPredmetu>
+</vyucujuci>
+</vyucujuciAll>
+<podmienujucePredmety/>
+</predmet>
+</predmety>
+<obmedzenie>
+<kredit>0</kredit>
+<poznamkaPredKontrola>poznamkaPred je neprazdna</poznamkaPredKontrola>
+<poznamkaZaKontrola/>
+<poznamkyPred>
+<poznamkaPred>platné pre všetkých študentov</poznamkaPred>
+</poznamkyPred>
+</obmedzenie>
+</blok>
+</bloky>
+</typ>
+<typ>
+<skratka>C</skratka>
+<nazov>Výberové predmety</nazov>
+<obmedzenie/>
+<bloky>
+<blok>
+<skratka>1MXX-CTV</skratka>
+<nazov>Telovýchovné aktivity - výberové</nazov>
+<predmety>
+<predmet>
+<skratka>FMFI.KTV/1-MXX-210/00</skratka>
+<skratkaPredmet>1-MXX-210</skratkaPredmet>
+<nazov>Telesná výchova a šport (3)</nazov>
+<aktualnost/>
+<kredit>2</kredit>
+<rozsah>2C</rozsah>
+<ukoncenie>H</ukoncenie>
+<rocnik>2</rocnik>
+<semester>Z</semester>
+<maxPocetPrihlStudentov/>
+<vyucujuci>Mašlejová, Mókus, Podkonický, Potočný, Leginusová, Kuchár, Ortutay, Sládok, Dovičák</vyucujuci>
+<vyucujuci2>D. Mašlejová, L. Mókus, O. Podkonický, V. Potočný, J. Leginusová, T. Kuchár, M. Ortutay, V. Sládok, M. Dovičák</vyucujuci2>
+<vyucujuciAll>
+<vyucujuci>
+<poradie>1</poradie>
+<typ>P</typ>
+<typPopis>prednášajúci</typPopis>
+<meno>Dana</meno>
+<priezvisko>Mašlejová</priezvisko>
+<plneMeno>PaedDr. Dana Mašlejová</plneMeno>
+<jazykyPredmetu>slovenský</jazykyPredmetu>
+</vyucujuci>
+<vyucujuci>
+<poradie>2</poradie>
+<typ>P</typ>
+<typPopis>prednášajúci</typPopis>
+<meno>Ladislav</meno>
+<priezvisko>Mókus</priezvisko>
+<plneMeno>Mgr. Ladislav Mókus</plneMeno>
+<jazykyPredmetu>slovenský</jazykyPredmetu>
+</vyucujuci>
+<vyucujuci>
+<poradie>3</poradie>
+<typ>P</typ>
+<typPopis>prednášajúci</typPopis>
+<meno>Ondrej</meno>
+<priezvisko>Podkonický</priezvisko>
+<plneMeno>Mgr. Ondrej Podkonický</plneMeno>
+<jazykyPredmetu>slovenský</jazykyPredmetu>
+</vyucujuci>
+<vyucujuci>
+<poradie>4</poradie>
+<typ>P</typ>
+<typPopis>prednášajúci</typPopis>
+<meno>Vojtech</meno>
+<priezvisko>Potočný</priezvisko>
+<plneMeno>doc. PhDr. Vojtech Potočný, CSc.</plneMeno>
+<jazykyPredmetu>slovenský</jazykyPredmetu>
+</vyucujuci>
+<vyucujuci>
+<poradie>5</poradie>
+<typ>P</typ>
+<typPopis>prednášajúci</typPopis>
+<meno>Jana</meno>
+<priezvisko>Leginusová</priezvisko>
+<plneMeno>Mgr. Jana Leginusová</plneMeno>
+<jazykyPredmetu>slovenský</jazykyPredmetu>
+</vyucujuci>
+<vyucujuci>
+<poradie>6</poradie>
+<typ>P</typ>
+<typPopis>prednášajúci</typPopis>
+<meno>Tomáš</meno>
+<priezvisko>Kuchár</priezvisko>
+<plneMeno>Mgr. Tomáš Kuchár, PhD.</plneMeno>
+<jazykyPredmetu>slovenský</jazykyPredmetu>
+</vyucujuci>
+<vyucujuci>
+<poradie>7</poradie>
+<typ>P</typ>
+<typPopis>prednášajúci</typPopis>
+<meno>Mikuláš</meno>
+<priezvisko>Ortutay</priezvisko>
+<plneMeno>PaedDr. Mikuláš Ortutay</plneMeno>
+<jazykyPredmetu>slovenský</jazykyPredmetu>
+</vyucujuci>
+<vyucujuci>
+<poradie>8</poradie>
+<typ>P</typ>
+<typPopis>prednášajúci</typPopis>
+<meno>Viktor</meno>
+<priezvisko>Sládok</priezvisko>
+<plneMeno>Mgr. Viktor Sládok</plneMeno>
+<jazykyPredmetu>slovenský</jazykyPredmetu>
+</vyucujuci>
+<vyucujuci>
+<poradie>9</poradie>
+<typ>C</typ>
+<typPopis>cvičiaci</typPopis>
+<meno>Martin</meno>
+<priezvisko>Dovičák</priezvisko>
+<plneMeno>Mgr. Martin Dovičák</plneMeno>
+<jazykyPredmetu>slovenský</jazykyPredmetu>
+</vyucujuci>
+</vyucujuciAll>
+<podmienujucePredmety/>
+</predmet>
+<predmet>
+<skratka>FMFI.KTV/1-MXX-220/00</skratka>
+<skratkaPredmet>1-MXX-220</skratkaPredmet>
+<nazov>Telesná výchova a šport (4)</nazov>
+<aktualnost/>
+<kredit>2</kredit>
+<rozsah>2C</rozsah>
+<ukoncenie>H</ukoncenie>
+<rocnik>2</rocnik>
+<semester>L</semester>
+<maxPocetPrihlStudentov/>
+<vyucujuci>Kuchár, Mókus, Leginusová, Mašlejová, Podkonický, Potočný, Sládok, Ortutay, Dovičák</vyucujuci>
+<vyucujuci2>T. Kuchár, L. Mókus, J. Leginusová, D. Mašlejová, O. Podkonický, V. Potočný, V. Sládok, M. Ortutay, M. Dovičák</vyucujuci2>
+<vyucujuciAll>
+<vyucujuci>
+<poradie>1</poradie>
+<typ>P</typ>
+<typPopis>prednášajúci</typPopis>
+<meno>Tomáš</meno>
+<priezvisko>Kuchár</priezvisko>
+<plneMeno>Mgr. Tomáš Kuchár, PhD.</plneMeno>
+<jazykyPredmetu>slovenský</jazykyPredmetu>
+</vyucujuci>
+<vyucujuci>
+<poradie>2</poradie>
+<typ>C</typ>
+<typPopis>cvičiaci</typPopis>
+<meno>Ladislav</meno>
+<priezvisko>Mókus</priezvisko>
+<plneMeno>Mgr. Ladislav Mókus</plneMeno>
+<jazykyPredmetu>slovenský</jazykyPredmetu>
+</vyucujuci>
+<vyucujuci>
+<poradie>3</poradie>
+<typ>C</typ>
+<typPopis>cvičiaci</typPopis>
+<meno>Jana</meno>
+<priezvisko>Leginusová</priezvisko>
+<plneMeno>Mgr. Jana Leginusová</plneMeno>
+<jazykyPredmetu>slovenský</jazykyPredmetu>
+</vyucujuci>
+<vyucujuci>
+<poradie>4</poradie>
+<typ>C</typ>
+<typPopis>cvičiaci</typPopis>
+<meno>Dana</meno>
+<priezvisko>Mašlejová</priezvisko>
+<plneMeno>PaedDr. Dana Mašlejová</plneMeno>
+<jazykyPredmetu>slovenský</jazykyPredmetu>
+</vyucujuci>
+<vyucujuci>
+<poradie>5</poradie>
+<typ>C</typ>
+<typPopis>cvičiaci</typPopis>
+<meno>Ondrej</meno>
+<priezvisko>Podkonický</priezvisko>
+<plneMeno>Mgr. Ondrej Podkonický</plneMeno>
+<jazykyPredmetu>slovenský</jazykyPredmetu>
+</vyucujuci>
+<vyucujuci>
+<poradie>6</poradie>
+<typ>C</typ>
+<typPopis>cvičiaci</typPopis>
+<meno>Vojtech</meno>
+<priezvisko>Potočný</priezvisko>
+<plneMeno>doc. PhDr. Vojtech Potočný, CSc.</plneMeno>
+<jazykyPredmetu>slovenský</jazykyPredmetu>
+</vyucujuci>
+<vyucujuci>
+<poradie>7</poradie>
+<typ>C</typ>
+<typPopis>cvičiaci</typPopis>
+<meno>Viktor</meno>
+<priezvisko>Sládok</priezvisko>
+<plneMeno>Mgr. Viktor Sládok</plneMeno>
+<jazykyPredmetu>slovenský</jazykyPredmetu>
+</vyucujuci>
+<vyucujuci>
+<poradie>8</poradie>
+<typ>C</typ>
+<typPopis>cvičiaci</typPopis>
+<meno>Mikuláš</meno>
+<priezvisko>Ortutay</priezvisko>
+<plneMeno>PaedDr. Mikuláš Ortutay</plneMeno>
+<jazykyPredmetu>slovenský</jazykyPredmetu>
+</vyucujuci>
+<vyucujuci>
+<poradie>9</poradie>
+<typ>C</typ>
+<typPopis>cvičiaci</typPopis>
+<meno>Martin</meno>
+<priezvisko>Dovičák</priezvisko>
+<plneMeno>Mgr. Martin Dovičák</plneMeno>
+<jazykyPredmetu>slovenský</jazykyPredmetu>
+</vyucujuci>
+</vyucujuciAll>
+<podmienujucePredmety/>
+</predmet>
+<predmet>
+<skratka>FMFI.KTV/1-MXX-310/00</skratka>
+<skratkaPredmet>1-MXX-310</skratkaPredmet>
+<nazov>Telesná výchova a šport (5)</nazov>
+<aktualnost/>
+<kredit>2</kredit>
+<rozsah>2C</rozsah>
+<ukoncenie>H</ukoncenie>
+<rocnik>3</rocnik>
+<semester>Z</semester>
+<maxPocetPrihlStudentov/>
+<vyucujuci>Kuchár, Potočný, Mókus, Podkonický, Leginusová, Mašlejová, Ortutay, Sládok, Dovičák</vyucujuci>
+<vyucujuci2>T. Kuchár, V. Potočný, L. Mókus, O. Podkonický, J. Leginusová, D. Mašlejová, M. Ortutay, V. Sládok, M. Dovičák</vyucujuci2>
+<vyucujuciAll>
+<vyucujuci>
+<poradie>1</poradie>
+<typ>P</typ>
+<typPopis>prednášajúci</typPopis>
+<meno>Tomáš</meno>
+<priezvisko>Kuchár</priezvisko>
+<plneMeno>Mgr. Tomáš Kuchár, PhD.</plneMeno>
+<jazykyPredmetu>slovenský</jazykyPredmetu>
+</vyucujuci>
+<vyucujuci>
+<poradie>2</poradie>
+<typ>C</typ>
+<typPopis>cvičiaci</typPopis>
+<meno>Vojtech</meno>
+<priezvisko>Potočný</priezvisko>
+<plneMeno>doc. PhDr. Vojtech Potočný, CSc.</plneMeno>
+<jazykyPredmetu>slovenský</jazykyPredmetu>
+</vyucujuci>
+<vyucujuci>
+<poradie>3</poradie>
+<typ>C</typ>
+<typPopis>cvičiaci</typPopis>
+<meno>Ladislav</meno>
+<priezvisko>Mókus</priezvisko>
+<plneMeno>Mgr. Ladislav Mókus</plneMeno>
+<jazykyPredmetu>slovenský</jazykyPredmetu>
+</vyucujuci>
+<vyucujuci>
+<poradie>4</poradie>
+<typ>C</typ>
+<typPopis>cvičiaci</typPopis>
+<meno>Ondrej</meno>
+<priezvisko>Podkonický</priezvisko>
+<plneMeno>Mgr. Ondrej Podkonický</plneMeno>
+<jazykyPredmetu>slovenský</jazykyPredmetu>
+</vyucujuci>
+<vyucujuci>
+<poradie>5</poradie>
+<typ>C</typ>
+<typPopis>cvičiaci</typPopis>
+<meno>Jana</meno>
+<priezvisko>Leginusová</priezvisko>
+<plneMeno>Mgr. Jana Leginusová</plneMeno>
+<jazykyPredmetu>slovenský</jazykyPredmetu>
+</vyucujuci>
+<vyucujuci>
+<poradie>6</poradie>
+<typ>C</typ>
+<typPopis>cvičiaci</typPopis>
+<meno>Dana</meno>
+<priezvisko>Mašlejová</priezvisko>
+<plneMeno>PaedDr. Dana Mašlejová</plneMeno>
+<jazykyPredmetu>slovenský</jazykyPredmetu>
+</vyucujuci>
+<vyucujuci>
+<poradie>7</poradie>
+<typ>C</typ>
+<typPopis>cvičiaci</typPopis>
+<meno>Mikuláš</meno>
+<priezvisko>Ortutay</priezvisko>
+<plneMeno>PaedDr. Mikuláš Ortutay</plneMeno>
+<jazykyPredmetu>slovenský</jazykyPredmetu>
+</vyucujuci>
+<vyucujuci>
+<poradie>8</poradie>
+<typ>C</typ>
+<typPopis>cvičiaci</typPopis>
+<meno>Viktor</meno>
+<priezvisko>Sládok</priezvisko>
+<plneMeno>Mgr. Viktor Sládok</plneMeno>
+<jazykyPredmetu>slovenský</jazykyPredmetu>
+</vyucujuci>
+<vyucujuci>
+<poradie>9</poradie>
+<typ>P</typ>
+<typPopis>prednášajúci</typPopis>
+<meno>Martin</meno>
+<priezvisko>Dovičák</priezvisko>
+<plneMeno>Mgr. Martin Dovičák</plneMeno>
+<jazykyPredmetu>slovenský</jazykyPredmetu>
+</vyucujuci>
+</vyucujuciAll>
+<podmienujucePredmety/>
+</predmet>
+<predmet>
+<skratka>FMFI.KTV/1-MXX-320/00</skratka>
+<skratkaPredmet>1-MXX-320</skratkaPredmet>
+<nazov>Telesná výchova a šport (6)</nazov>
+<aktualnost/>
+<kredit>2</kredit>
+<rozsah>2C</rozsah>
+<ukoncenie>H</ukoncenie>
+<rocnik>3</rocnik>
+<semester>L</semester>
+<maxPocetPrihlStudentov/>
+<vyucujuci>Mašlejová, Mókus, Podkonický, Potočný, Leginusová, Kuchár, Ortutay, Sládok, Dovičák</vyucujuci>
+<vyucujuci2>D. Mašlejová, L. Mókus, O. Podkonický, V. Potočný, J. Leginusová, T. Kuchár, M. Ortutay, V. Sládok, M. Dovičák</vyucujuci2>
+<vyucujuciAll>
+<vyucujuci>
+<poradie>1</poradie>
+<typ>C</typ>
+<typPopis>cvičiaci</typPopis>
+<meno>Dana</meno>
+<priezvisko>Mašlejová</priezvisko>
+<plneMeno>PaedDr. Dana Mašlejová</plneMeno>
+<jazykyPredmetu>slovenský</jazykyPredmetu>
+</vyucujuci>
+<vyucujuci>
+<poradie>2</poradie>
+<typ>C</typ>
+<typPopis>cvičiaci</typPopis>
+<meno>Ladislav</meno>
+<priezvisko>Mókus</priezvisko>
+<plneMeno>Mgr. Ladislav Mókus</plneMeno>
+<jazykyPredmetu>slovenský</jazykyPredmetu>
+</vyucujuci>
+<vyucujuci>
+<poradie>3</poradie>
+<typ>C</typ>
+<typPopis>cvičiaci</typPopis>
+<meno>Ondrej</meno>
+<priezvisko>Podkonický</priezvisko>
+<plneMeno>Mgr. Ondrej Podkonický</plneMeno>
+<jazykyPredmetu>slovenský</jazykyPredmetu>
+</vyucujuci>
+<vyucujuci>
+<poradie>4</poradie>
+<typ>C</typ>
+<typPopis>cvičiaci</typPopis>
+<meno>Vojtech</meno>
+<priezvisko>Potočný</priezvisko>
+<plneMeno>doc. PhDr. Vojtech Potočný, CSc.</plneMeno>
+<jazykyPredmetu>slovenský</jazykyPredmetu>
+</vyucujuci>
+<vyucujuci>
+<poradie>5</poradie>
+<typ>C</typ>
+<typPopis>cvičiaci</typPopis>
+<meno>Jana</meno>
+<priezvisko>Leginusová</priezvisko>
+<plneMeno>Mgr. Jana Leginusová</plneMeno>
+<jazykyPredmetu>slovenský</jazykyPredmetu>
+</vyucujuci>
+<vyucujuci>
+<poradie>6</poradie>
+<typ>C</typ>
+<typPopis>cvičiaci</typPopis>
+<meno>Tomáš</meno>
+<priezvisko>Kuchár</priezvisko>
+<plneMeno>Mgr. Tomáš Kuchár, PhD.</plneMeno>
+<jazykyPredmetu>slovenský</jazykyPredmetu>
+</vyucujuci>
+<vyucujuci>
+<poradie>7</poradie>
+<typ>C</typ>
+<typPopis>cvičiaci</typPopis>
+<meno>Mikuláš</meno>
+<priezvisko>Ortutay</priezvisko>
+<plneMeno>PaedDr. Mikuláš Ortutay</plneMeno>
+<jazykyPredmetu>slovenský</jazykyPredmetu>
+</vyucujuci>
+<vyucujuci>
+<poradie>8</poradie>
+<typ>C</typ>
+<typPopis>cvičiaci</typPopis>
+<meno>Viktor</meno>
+<priezvisko>Sládok</priezvisko>
+<plneMeno>Mgr. Viktor Sládok</plneMeno>
+<jazykyPredmetu>slovenský</jazykyPredmetu>
+</vyucujuci>
+<vyucujuci>
+<poradie>9</poradie>
+<typ>C</typ>
+<typPopis>cvičiaci</typPopis>
+<meno>Martin</meno>
+<priezvisko>Dovičák</priezvisko>
+<plneMeno>Mgr. Martin Dovičák</plneMeno>
+<jazykyPredmetu>slovenský</jazykyPredmetu>
+</vyucujuci>
+</vyucujuciAll>
+<podmienujucePredmety/>
+</predmet>
+<predmet>
+<skratka>FMFI.KTV/1-MXX-115/15</skratka>
+<skratkaPredmet>1-MXX-115</skratkaPredmet>
+<nazov>Kurz športov v prírode (1)</nazov>
+<aktualnost/>
+<kredit>2</kredit>
+<rozsah/>
+<ukoncenie>H</ukoncenie>
+<rocnik>1</rocnik>
+<semester>Z</semester>
+<maxPocetPrihlStudentov/>
+<maxPocetPrihlStudentov/>
+<vyucujuciAll/>
+<podmienujucePredmety/>
+</predmet>
+<predmet>
+<skratka>FMFI.KTV/1-MXX-115/15</skratka>
+<skratkaPredmet>1-MXX-115</skratkaPredmet>
+<nazov>Kurz športov v prírode (1)</nazov>
+<aktualnost/>
+<kredit>2</kredit>
+<rozsah/>
+<ukoncenie>H</ukoncenie>
+<rocnik>1</rocnik>
+<semester>L</semester>
+<maxPocetPrihlStudentov/>
+<maxPocetPrihlStudentov/>
+<vyucujuciAll/>
+<podmienujucePredmety/>
+</predmet>
+<predmet>
+<skratka>FMFI.KTV/1-MXX-215/15</skratka>
+<skratkaPredmet>1-MXX-215</skratkaPredmet>
+<nazov>Kurz športov v prírode (2)</nazov>
+<aktualnost/>
+<kredit>2</kredit>
+<rozsah/>
+<ukoncenie>H</ukoncenie>
+<rocnik>2</rocnik>
+<semester>L</semester>
+<maxPocetPrihlStudentov/>
+<maxPocetPrihlStudentov/>
+<vyucujuciAll/>
+<podmienujucePredmety/>
+</predmet>
+<predmet>
+<skratka>FMFI.KTV/1-MXX-215/15</skratka>
+<skratkaPredmet>1-MXX-215</skratkaPredmet>
+<nazov>Kurz športov v prírode (2)</nazov>
+<aktualnost/>
+<kredit>2</kredit>
+<rozsah/>
+<ukoncenie>H</ukoncenie>
+<rocnik>2</rocnik>
+<semester>Z</semester>
+<maxPocetPrihlStudentov/>
+<maxPocetPrihlStudentov/>
+<vyucujuciAll/>
+<podmienujucePredmety/>
+</predmet>
+<predmet>
+<skratka>FMFI.KTV/1-UXX-340/00</skratka>
+<skratkaPredmet>1-UXX-340</skratkaPredmet>
+<nazov>Športovo-rekreačné aktivity v dennom režime žiakov a študentov</nazov>
+<aktualnost/>
+<kredit>2</kredit>
+<rozsah>2K</rozsah>
+<ukoncenie>H</ukoncenie>
+<rocnik>3</rocnik>
+<semester>Z</semester>
+<maxPocetPrihlStudentov/>
+<vyucujuci>Potočný</vyucujuci>
+<vyucujuci2>V. Potočný</vyucujuci2>
+<vyucujuciAll>
+<vyucujuci>
+<poradie>1</poradie>
+<typ>P</typ>
+<typPopis>prednášajúci</typPopis>
+<meno>Vojtech</meno>
+<priezvisko>Potočný</priezvisko>
+<plneMeno>doc. PhDr. Vojtech Potočný, CSc.</plneMeno>
+<jazykyPredmetu>slovenský</jazykyPredmetu>
+</vyucujuci>
+</vyucujuciAll>
+<podmienujucePredmety/>
+</predmet>
+</predmety>
+<obmedzenie>
+<kredit>0</kredit>
+<poznamkaPredKontrola/>
+<poznamkaZaKontrola/>
+</obmedzenie>
+</blok>
+<blok>
+<skratka>1MXX-CCJ</skratka>
+<nazov>Cudzie jazyky - výberové</nazov>
+<predmety>
+<predmet>
+<skratka>FMFI.KJP/1-MXX-141/00</skratka>
+<skratkaPredmet>1-MXX-141</skratkaPredmet>
+<nazov>Francúzsky jazyk (1)</nazov>
+<aktualnost/>
+<kredit>2</kredit>
+<rozsah>2C</rozsah>
+<ukoncenie>H</ukoncenie>
+<rocnik>1</rocnik>
+<semester>Z</semester>
+<maxPocetPrihlStudentov/>
+<vyucujuci>Vilášek</vyucujuci>
+<vyucujuci2>P. Vilášek</vyucujuci2>
+<vyucujuciAll>
+<vyucujuci>
+<poradie>1</poradie>
+<typ>C</typ>
+<typPopis>cvičiaci</typPopis>
+<meno>Pavel</meno>
+<priezvisko>Vilášek</priezvisko>
+<plneMeno>Mgr. Pavel Vilášek</plneMeno>
+<jazykyPredmetu>francúzsky, slovenský</jazykyPredmetu>
+</vyucujuci>
+</vyucujuciAll>
+<podmienujucePredmety/>
+</predmet>
+<predmet>
+<skratka>FMFI.KJP/1-MXX-161/00</skratka>
+<skratkaPredmet>1-MXX-161</skratkaPredmet>
+<nazov>Ruský jazyk (1)</nazov>
+<aktualnost/>
+<kredit>2</kredit>
+<rozsah>2C</rozsah>
+<ukoncenie>H</ukoncenie>
+<rocnik>1</rocnik>
+<semester>Z</semester>
+<maxPocetPrihlStudentov/>
+<vyucujuci>Klátiková</vyucujuci>
+<vyucujuci2>E. Klátiková</vyucujuci2>
+<vyucujuciAll>
+<vyucujuci>
+<poradie>1</poradie>
+<typ>C</typ>
+<typPopis>cvičiaci</typPopis>
+<meno>Elena</meno>
+<priezvisko>Klátiková</priezvisko>
+<plneMeno>PhDr. Elena Klátiková</plneMeno>
+<jazykyPredmetu>ruský, slovenský</jazykyPredmetu>
+</vyucujuci>
+</vyucujuciAll>
+<podmienujucePredmety/>
+</predmet>
+<predmet>
+<skratka>FMFI.KJP/1-MXX-151/00</skratka>
+<skratkaPredmet>1-MXX-151</skratkaPredmet>
+<nazov>Nemecký jazyk (1)</nazov>
+<aktualnost/>
+<kredit>2</kredit>
+<rozsah>2C</rozsah>
+<ukoncenie>H</ukoncenie>
+<rocnik>1</rocnik>
+<semester>Z</semester>
+<maxPocetPrihlStudentov/>
+<vyucujuci>Vilášek</vyucujuci>
+<vyucujuci2>P. Vilášek</vyucujuci2>
+<vyucujuciAll>
+<vyucujuci>
+<poradie>1</poradie>
+<typ>C</typ>
+<typPopis>cvičiaci</typPopis>
+<meno>Pavel</meno>
+<priezvisko>Vilášek</priezvisko>
+<plneMeno>Mgr. Pavel Vilášek</plneMeno>
+<jazykyPredmetu>nemecký, slovenský</jazykyPredmetu>
+</vyucujuci>
+</vyucujuciAll>
+<podmienujucePredmety/>
+</predmet>
+<predmet>
+<skratka>FMFI.KJP/1-MXX-131/00</skratka>
+<skratkaPredmet>1-MXX-131</skratkaPredmet>
+<nazov>Anglický jazyk (1)</nazov>
+<aktualnost/>
+<kredit>2</kredit>
+<rozsah>2C</rozsah>
+<ukoncenie>H</ukoncenie>
+<rocnik>1</rocnik>
+<semester>Z</semester>
+<maxPocetPrihlStudentov/>
+<vyucujuci>Erdélyi, Klátiková, Zemanová, Kočvarová, Jedináková, Vartíková, Maďarová</vyucujuci>
+<vyucujuci2>L. Erdélyi, E. Klátiková, A. Zemanová, J. Kočvarová, J. Jedináková, E. Vartíková, A. Maďarová</vyucujuci2>
+<vyucujuciAll>
+<vyucujuci>
+<poradie>1</poradie>
+<typ>C</typ>
+<typPopis>cvičiaci</typPopis>
+<meno>Ladislav</meno>
+<priezvisko>Erdélyi</priezvisko>
+<plneMeno>PaedDr. Ladislav Erdélyi</plneMeno>
+<jazykyPredmetu>anglický, slovenský</jazykyPredmetu>
+</vyucujuci>
+<vyucujuci>
+<poradie>2</poradie>
+<typ>C</typ>
+<typPopis>cvičiaci</typPopis>
+<meno>Elena</meno>
+<priezvisko>Klátiková</priezvisko>
+<plneMeno>PhDr. Elena Klátiková</plneMeno>
+<jazykyPredmetu>anglický, slovenský</jazykyPredmetu>
+</vyucujuci>
+<vyucujuci>
+<poradie>3</poradie>
+<typ>C</typ>
+<typPopis>cvičiaci</typPopis>
+<meno>Alena</meno>
+<priezvisko>Zemanová</priezvisko>
+<plneMeno>PhDr. Alena Zemanová</plneMeno>
+<jazykyPredmetu>anglický, slovenský</jazykyPredmetu>
+</vyucujuci>
+<vyucujuci>
+<poradie>4</poradie>
+<typ>C</typ>
+<typPopis>cvičiaci</typPopis>
+<meno>Jana</meno>
+<priezvisko>Kočvarová</priezvisko>
+<plneMeno>Mgr. Ing. Jana Kočvarová</plneMeno>
+<jazykyPredmetu>anglický, slovenský</jazykyPredmetu>
+</vyucujuci>
+<vyucujuci>
+<poradie>5</poradie>
+<typ>C</typ>
+<typPopis>cvičiaci</typPopis>
+<meno>Júlia</meno>
+<priezvisko>Jedináková</priezvisko>
+<plneMeno>Mgr. Júlia Jedináková</plneMeno>
+<jazykyPredmetu>anglický, slovenský</jazykyPredmetu>
+</vyucujuci>
+<vyucujuci>
+<poradie>6</poradie>
+<typ>C</typ>
+<typPopis>cvičiaci</typPopis>
+<meno>Eva</meno>
+<priezvisko>Vartíková</priezvisko>
+<plneMeno>Ing. Eva Vartíková</plneMeno>
+<jazykyPredmetu>anglický, slovenský</jazykyPredmetu>
+</vyucujuci>
+<vyucujuci>
+<poradie>7</poradie>
+<typ>C</typ>
+<typPopis>cvičiaci</typPopis>
+<meno>Alexandra</meno>
+<priezvisko>Maďarová</priezvisko>
+<plneMeno>Mgr. Alexandra Maďarová</plneMeno>
+<jazykyPredmetu>anglický, slovenský</jazykyPredmetu>
+</vyucujuci>
+</vyucujuciAll>
+<podmienujucePredmety/>
+</predmet>
+<predmet>
+<skratka>FMFI.KJP/1-MXX-142/00</skratka>
+<skratkaPredmet>1-MXX-142</skratkaPredmet>
+<nazov>Francúzsky jazyk (2)</nazov>
+<aktualnost/>
+<kredit>2</kredit>
+<rozsah>2C</rozsah>
+<ukoncenie>H</ukoncenie>
+<rocnik>1</rocnik>
+<semester>L</semester>
+<maxPocetPrihlStudentov/>
+<vyucujuci>Vilášek</vyucujuci>
+<vyucujuci2>P. Vilášek</vyucujuci2>
+<vyucujuciAll>
+<vyucujuci>
+<poradie>1</poradie>
+<typ>C</typ>
+<typPopis>cvičiaci</typPopis>
+<meno>Pavel</meno>
+<priezvisko>Vilášek</priezvisko>
+<plneMeno>Mgr. Pavel Vilášek</plneMeno>
+<jazykyPredmetu>francúzsky, slovenský</jazykyPredmetu>
+</vyucujuci>
+</vyucujuciAll>
+<podmienujucePredmety/>
+</predmet>
+<predmet>
+<skratka>FMFI.KJP/1-MXX-152/00</skratka>
+<skratkaPredmet>1-MXX-152</skratkaPredmet>
+<nazov>Nemecký jazyk (2)</nazov>
+<aktualnost/>
+<kredit>2</kredit>
+<rozsah>2C</rozsah>
+<ukoncenie>H</ukoncenie>
+<rocnik>1</rocnik>
+<semester>L</semester>
+<maxPocetPrihlStudentov/>
+<vyucujuci>Vilášek</vyucujuci>
+<vyucujuci2>P. Vilášek</vyucujuci2>
+<vyucujuciAll>
+<vyucujuci>
+<poradie>1</poradie>
+<typ>C</typ>
+<typPopis>cvičiaci</typPopis>
+<meno>Pavel</meno>
+<priezvisko>Vilášek</priezvisko>
+<plneMeno>Mgr. Pavel Vilášek</plneMeno>
+<jazykyPredmetu>nemecký, slovenský</jazykyPredmetu>
+</vyucujuci>
+</vyucujuciAll>
+<podmienujucePredmety/>
+</predmet>
+<predmet>
+<skratka>FMFI.KJP/1-MXX-132/00</skratka>
+<skratkaPredmet>1-MXX-132</skratkaPredmet>
+<nazov>Anglický jazyk (2)</nazov>
+<aktualnost/>
+<kredit>2</kredit>
+<rozsah>2C</rozsah>
+<ukoncenie>H</ukoncenie>
+<rocnik>1</rocnik>
+<semester>L</semester>
+<maxPocetPrihlStudentov/>
+<vyucujuci>Erdélyi, Klátiková, Zemanová, Kočvarová, Jedináková, Vartíková, Maďarová</vyucujuci>
+<vyucujuci2>L. Erdélyi, E. Klátiková, A. Zemanová, J. Kočvarová, J. Jedináková, E. Vartíková, A. Maďarová</vyucujuci2>
+<vyucujuciAll>
+<vyucujuci>
+<poradie>1</poradie>
+<typ>C</typ>
+<typPopis>cvičiaci</typPopis>
+<meno>Ladislav</meno>
+<priezvisko>Erdélyi</priezvisko>
+<plneMeno>PaedDr. Ladislav Erdélyi</plneMeno>
+<jazykyPredmetu>anglický, slovenský</jazykyPredmetu>
+</vyucujuci>
+<vyucujuci>
+<poradie>2</poradie>
+<typ>C</typ>
+<typPopis>cvičiaci</typPopis>
+<meno>Elena</meno>
+<priezvisko>Klátiková</priezvisko>
+<plneMeno>PhDr. Elena Klátiková</plneMeno>
+<jazykyPredmetu>anglický, slovenský</jazykyPredmetu>
+</vyucujuci>
+<vyucujuci>
+<poradie>3</poradie>
+<typ>C</typ>
+<typPopis>cvičiaci</typPopis>
+<meno>Alena</meno>
+<priezvisko>Zemanová</priezvisko>
+<plneMeno>PhDr. Alena Zemanová</plneMeno>
+<jazykyPredmetu>anglický, slovenský</jazykyPredmetu>
+</vyucujuci>
+<vyucujuci>
+<poradie>4</poradie>
+<typ>C</typ>
+<typPopis>cvičiaci</typPopis>
+<meno>Jana</meno>
+<priezvisko>Kočvarová</priezvisko>
+<plneMeno>Mgr. Ing. Jana Kočvarová</plneMeno>
+<jazykyPredmetu>anglický, slovenský</jazykyPredmetu>
+</vyucujuci>
+<vyucujuci>
+<poradie>5</poradie>
+<typ>C</typ>
+<typPopis>cvičiaci</typPopis>
+<meno>Júlia</meno>
+<priezvisko>Jedináková</priezvisko>
+<plneMeno>Mgr. Júlia Jedináková</plneMeno>
+<jazykyPredmetu>anglický, slovenský</jazykyPredmetu>
+</vyucujuci>
+<vyucujuci>
+<poradie>6</poradie>
+<typ>C</typ>
+<typPopis>cvičiaci</typPopis>
+<meno>Eva</meno>
+<priezvisko>Vartíková</priezvisko>
+<plneMeno>Ing. Eva Vartíková</plneMeno>
+<jazykyPredmetu>anglický, slovenský</jazykyPredmetu>
+</vyucujuci>
+<vyucujuci>
+<poradie>7</poradie>
+<typ>C</typ>
+<typPopis>cvičiaci</typPopis>
+<meno>Alexandra</meno>
+<priezvisko>Maďarová</priezvisko>
+<plneMeno>Mgr. Alexandra Maďarová</plneMeno>
+<jazykyPredmetu>anglický, slovenský</jazykyPredmetu>
+</vyucujuci>
+</vyucujuciAll>
+<podmienujucePredmety/>
+</predmet>
+<predmet>
+<skratka>FMFI.KJP/1-MXX-162/00</skratka>
+<skratkaPredmet>1-MXX-162</skratkaPredmet>
+<nazov>Ruský jazyk (2)</nazov>
+<aktualnost/>
+<kredit>2</kredit>
+<rozsah>2C</rozsah>
+<ukoncenie>H</ukoncenie>
+<rocnik>1</rocnik>
+<semester>L</semester>
+<maxPocetPrihlStudentov>40</maxPocetPrihlStudentov>
+<vyucujuci>Klátiková</vyucujuci>
+<vyucujuci2>E. Klátiková</vyucujuci2>
+<vyucujuciAll>
+<vyucujuci>
+<poradie>1</poradie>
+<typ>C</typ>
+<typPopis>cvičiaci</typPopis>
+<meno>Elena</meno>
+<priezvisko>Klátiková</priezvisko>
+<plneMeno>PhDr. Elena Klátiková</plneMeno>
+<jazykyPredmetu>ruský, slovenský</jazykyPredmetu>
+</vyucujuci>
+</vyucujuciAll>
+<podmienujucePredmety/>
+</predmet>
+<predmet>
+<skratka>FMFI.KJP/1-MXX-241/00</skratka>
+<skratkaPredmet>1-MXX-241</skratkaPredmet>
+<nazov>Francúzsky jazyk (3)</nazov>
+<aktualnost/>
+<kredit>2</kredit>
+<rozsah>2C</rozsah>
+<ukoncenie>H</ukoncenie>
+<rocnik>2</rocnik>
+<semester>Z</semester>
+<maxPocetPrihlStudentov/>
+<vyucujuci>Vilášek</vyucujuci>
+<vyucujuci2>P. Vilášek</vyucujuci2>
+<vyucujuciAll>
+<vyucujuci>
+<poradie>1</poradie>
+<typ>C</typ>
+<typPopis>cvičiaci</typPopis>
+<meno>Pavel</meno>
+<priezvisko>Vilášek</priezvisko>
+<plneMeno>Mgr. Pavel Vilášek</plneMeno>
+<jazykyPredmetu>francúzsky, slovenský</jazykyPredmetu>
+</vyucujuci>
+</vyucujuciAll>
+<podmienujucePredmety/>
+</predmet>
+<predmet>
+<skratka>FMFI.KJP/1-MXX-231/00</skratka>
+<skratkaPredmet>1-MXX-231</skratkaPredmet>
+<nazov>Anglický jazyk (3)</nazov>
+<aktualnost/>
+<kredit>2</kredit>
+<rozsah>2C</rozsah>
+<ukoncenie>H</ukoncenie>
+<rocnik>2</rocnik>
+<semester>Z</semester>
+<maxPocetPrihlStudentov/>
+<vyucujuci>Erdélyi, Klátiková, Zemanová, Kočvarová, Jedináková, Vartíková, Maďarová</vyucujuci>
+<vyucujuci2>L. Erdélyi, E. Klátiková, A. Zemanová, J. Kočvarová, J. Jedináková, E. Vartíková, A. Maďarová</vyucujuci2>
+<vyucujuciAll>
+<vyucujuci>
+<poradie>1</poradie>
+<typ>C</typ>
+<typPopis>cvičiaci</typPopis>
+<meno>Ladislav</meno>
+<priezvisko>Erdélyi</priezvisko>
+<plneMeno>PaedDr. Ladislav Erdélyi</plneMeno>
+<jazykyPredmetu>anglický, slovenský</jazykyPredmetu>
+</vyucujuci>
+<vyucujuci>
+<poradie>2</poradie>
+<typ>C</typ>
+<typPopis>cvičiaci</typPopis>
+<meno>Elena</meno>
+<priezvisko>Klátiková</priezvisko>
+<plneMeno>PhDr. Elena Klátiková</plneMeno>
+<jazykyPredmetu>anglický, slovenský</jazykyPredmetu>
+</vyucujuci>
+<vyucujuci>
+<poradie>3</poradie>
+<typ>C</typ>
+<typPopis>cvičiaci</typPopis>
+<meno>Alena</meno>
+<priezvisko>Zemanová</priezvisko>
+<plneMeno>PhDr. Alena Zemanová</plneMeno>
+<jazykyPredmetu>anglický, slovenský</jazykyPredmetu>
+</vyucujuci>
+<vyucujuci>
+<poradie>4</poradie>
+<typ>C</typ>
+<typPopis>cvičiaci</typPopis>
+<meno>Jana</meno>
+<priezvisko>Kočvarová</priezvisko>
+<plneMeno>Mgr. Ing. Jana Kočvarová</plneMeno>
+<jazykyPredmetu>anglický, slovenský</jazykyPredmetu>
+</vyucujuci>
+<vyucujuci>
+<poradie>5</poradie>
+<typ>C</typ>
+<typPopis>cvičiaci</typPopis>
+<meno>Júlia</meno>
+<priezvisko>Jedináková</priezvisko>
+<plneMeno>Mgr. Júlia Jedináková</plneMeno>
+<jazykyPredmetu>anglický, slovenský</jazykyPredmetu>
+</vyucujuci>
+<vyucujuci>
+<poradie>6</poradie>
+<typ>C</typ>
+<typPopis>cvičiaci</typPopis>
+<meno>Eva</meno>
+<priezvisko>Vartíková</priezvisko>
+<plneMeno>Ing. Eva Vartíková</plneMeno>
+<jazykyPredmetu>anglický, slovenský</jazykyPredmetu>
+</vyucujuci>
+<vyucujuci>
+<poradie>7</poradie>
+<typ>C</typ>
+<typPopis>cvičiaci</typPopis>
+<meno>Alexandra</meno>
+<priezvisko>Maďarová</priezvisko>
+<plneMeno>Mgr. Alexandra Maďarová</plneMeno>
+<jazykyPredmetu>anglický, slovenský</jazykyPredmetu>
+</vyucujuci>
+</vyucujuciAll>
+<podmienujucePredmety/>
+</predmet>
+<predmet>
+<skratka>FMFI.KJP/1-MXX-261/00</skratka>
+<skratkaPredmet>1-MXX-261</skratkaPredmet>
+<nazov>Ruský jazyk (3)</nazov>
+<aktualnost/>
+<kredit>2</kredit>
+<rozsah>2C</rozsah>
+<ukoncenie>H</ukoncenie>
+<rocnik>2</rocnik>
+<semester>Z</semester>
+<maxPocetPrihlStudentov/>
+<vyucujuci>Klátiková</vyucujuci>
+<vyucujuci2>E. Klátiková</vyucujuci2>
+<vyucujuciAll>
+<vyucujuci>
+<poradie>1</poradie>
+<typ>C</typ>
+<typPopis>cvičiaci</typPopis>
+<meno>Elena</meno>
+<priezvisko>Klátiková</priezvisko>
+<plneMeno>PhDr. Elena Klátiková</plneMeno>
+<jazykyPredmetu>ruský, slovenský</jazykyPredmetu>
+</vyucujuci>
+</vyucujuciAll>
+<podmienujucePredmety/>
+</predmet>
+<predmet>
+<skratka>FMFI.KJP/1-MXX-251/00</skratka>
+<skratkaPredmet>1-MXX-251</skratkaPredmet>
+<nazov>Nemecký jazyk (3)</nazov>
+<aktualnost/>
+<kredit>2</kredit>
+<rozsah>2C</rozsah>
+<ukoncenie>H</ukoncenie>
+<rocnik>2</rocnik>
+<semester>Z</semester>
+<maxPocetPrihlStudentov/>
+<vyucujuci>Vilášek</vyucujuci>
+<vyucujuci2>P. Vilášek</vyucujuci2>
+<vyucujuciAll>
+<vyucujuci>
+<poradie>1</poradie>
+<typ>C</typ>
+<typPopis>cvičiaci</typPopis>
+<meno>Pavel</meno>
+<priezvisko>Vilášek</priezvisko>
+<plneMeno>Mgr. Pavel Vilášek</plneMeno>
+<jazykyPredmetu>nemecký, slovenský</jazykyPredmetu>
+</vyucujuci>
+</vyucujuciAll>
+<podmienujucePredmety/>
+</predmet>
+<predmet>
+<skratka>FMFI.KJP/1-MXX-242/00</skratka>
+<skratkaPredmet>1-MXX-242</skratkaPredmet>
+<nazov>Francúzsky jazyk (4)</nazov>
+<aktualnost/>
+<kredit>2</kredit>
+<rozsah>2C</rozsah>
+<ukoncenie>H</ukoncenie>
+<rocnik>2</rocnik>
+<semester>L</semester>
+<maxPocetPrihlStudentov/>
+<vyucujuci>Vilášek</vyucujuci>
+<vyucujuci2>P. Vilášek</vyucujuci2>
+<vyucujuciAll>
+<vyucujuci>
+<poradie>1</poradie>
+<typ>C</typ>
+<typPopis>cvičiaci</typPopis>
+<meno>Pavel</meno>
+<priezvisko>Vilášek</priezvisko>
+<plneMeno>Mgr. Pavel Vilášek</plneMeno>
+<jazykyPredmetu>francúzsky, slovenský</jazykyPredmetu>
+</vyucujuci>
+</vyucujuciAll>
+<podmienujucePredmety/>
+</predmet>
+<predmet>
+<skratka>FMFI.KJP/1-MXX-252/00</skratka>
+<skratkaPredmet>1-MXX-252</skratkaPredmet>
+<nazov>Nemecký jazyk (4)</nazov>
+<aktualnost/>
+<kredit>2</kredit>
+<rozsah>2C</rozsah>
+<ukoncenie>H</ukoncenie>
+<rocnik>2</rocnik>
+<semester>L</semester>
+<maxPocetPrihlStudentov/>
+<vyucujuci>Vilášek</vyucujuci>
+<vyucujuci2>P. Vilášek</vyucujuci2>
+<vyucujuciAll>
+<vyucujuci>
+<poradie>1</poradie>
+<typ>C</typ>
+<typPopis>cvičiaci</typPopis>
+<meno>Pavel</meno>
+<priezvisko>Vilášek</priezvisko>
+<plneMeno>Mgr. Pavel Vilášek</plneMeno>
+<jazykyPredmetu>nemecký, slovenský</jazykyPredmetu>
+</vyucujuci>
+</vyucujuciAll>
+<podmienujucePredmety/>
+</predmet>
+<predmet>
+<skratka>FMFI.KJP/1-MXX-262/00</skratka>
+<skratkaPredmet>1-MXX-262</skratkaPredmet>
+<nazov>Ruský jazyk (4)</nazov>
+<aktualnost/>
+<kredit>2</kredit>
+<rozsah>2C</rozsah>
+<ukoncenie>H</ukoncenie>
+<rocnik>2</rocnik>
+<semester>L</semester>
+<maxPocetPrihlStudentov/>
+<vyucujuci>Klátiková</vyucujuci>
+<vyucujuci2>E. Klátiková</vyucujuci2>
+<vyucujuciAll>
+<vyucujuci>
+<poradie>1</poradie>
+<typ>C</typ>
+<typPopis>cvičiaci</typPopis>
+<meno>Elena</meno>
+<priezvisko>Klátiková</priezvisko>
+<plneMeno>PhDr. Elena Klátiková</plneMeno>
+<jazykyPredmetu>ruský, slovenský</jazykyPredmetu>
+</vyucujuci>
+</vyucujuciAll>
+<podmienujucePredmety/>
+</predmet>
+<predmet>
+<skratka>FMFI.KJP/1-MXX-233/13</skratka>
+<skratkaPredmet>1-MXX-233</skratkaPredmet>
+<nazov>Konverzačný kurz anglického jazyka (1)</nazov>
+<aktualnost/>
+<kredit>2</kredit>
+<rozsah>2C</rozsah>
+<ukoncenie>H</ukoncenie>
+<rocnik>2, 3</rocnik>
+<semester>Z</semester>
+<maxPocetPrihlStudentov>25</maxPocetPrihlStudentov>
+<vyucujuci>Klátiková</vyucujuci>
+<vyucujuci2>E. Klátiková</vyucujuci2>
+<vyucujuciAll>
+<vyucujuci>
+<poradie>1</poradie>
+<typ>C</typ>
+<typPopis>cvičiaci</typPopis>
+<meno>Elena</meno>
+<priezvisko>Klátiková</priezvisko>
+<plneMeno>PhDr. Elena Klátiková</plneMeno>
+<jazykyPredmetu>anglický, slovenský</jazykyPredmetu>
+</vyucujuci>
+</vyucujuciAll>
+<podmienujuce>
+<podmienujuci>FMFI.KJP/1-MXX-232/10</podmienujuci>
+<pocet>1</pocet>
+</podmienujuce>
+<podmienujucePredmety>FMFI.KJP/1-MXX-232/10</podmienujucePredmety>
+</predmet>
+<predmet>
+<skratka>FMFI.KJP/1-MXX-234/13</skratka>
+<skratkaPredmet>1-MXX-234</skratkaPredmet>
+<nazov>Konverzačný kurz anglického jazyka (2)</nazov>
+<aktualnost/>
+<kredit>2</kredit>
+<rozsah>2C</rozsah>
+<ukoncenie>H</ukoncenie>
+<rocnik>2, 3</rocnik>
+<semester>L</semester>
+<maxPocetPrihlStudentov>25</maxPocetPrihlStudentov>
+<vyucujuci>Klátiková</vyucujuci>
+<vyucujuci2>E. Klátiková</vyucujuci2>
+<vyucujuciAll>
+<vyucujuci>
+<poradie>1</poradie>
+<typ>C</typ>
+<typPopis>cvičiaci</typPopis>
+<meno>Elena</meno>
+<priezvisko>Klátiková</priezvisko>
+<plneMeno>PhDr. Elena Klátiková</plneMeno>
+<jazykyPredmetu>anglický, slovenský</jazykyPredmetu>
+</vyucujuci>
+</vyucujuciAll>
+<podmienujuce>
+<podmienujuci>FMFI.KJP/1-MXX-232/10</podmienujuci>
+<pocet>1</pocet>
+</podmienujuce>
+<podmienujucePredmety>FMFI.KJP/1-MXX-232/10</podmienujucePredmety>
+</predmet>
+</predmety>
+<obmedzenie>
+<kredit>0</kredit>
+<poznamkaPredKontrola/>
+<poznamkaZaKontrola/>
+</obmedzenie>
+</blok>
+<blok>
+<skratka>1MXX-CHU</skratka>
+<nazov>Humanitné predmety - výberové</nazov>
+<predmety>
+<predmet>
+<skratka>FMFI.KAI/1-MXX-425/00</skratka>
+<skratkaPredmet>1-MXX-425</skratkaPredmet>
+<nazov>Filozofické koncepcie významu (1)</nazov>
+<aktualnost>!</aktualnost>
+<kredit>2</kredit>
+<rozsah>1P + 1S</rozsah>
+<ukoncenie>H</ukoncenie>
+<rocnik>1</rocnik>
+<semester>Z</semester>
+<maxPocetPrihlStudentov/>
+<vyucujuci>Kamhal</vyucujuci>
+<vyucujuci2>D. Kamhal</vyucujuci2>
+<vyucujuciAll>
+<vyucujuci>
+<poradie>1</poradie>
+<typ>P</typ>
+<typPopis>prednášajúci</typPopis>
+<meno>Dezider</meno>
+<priezvisko>Kamhal</priezvisko>
+<plneMeno>PhDr. Dezider Kamhal, PhD.</plneMeno>
+<jazykyPredmetu>slovenský</jazykyPredmetu>
+</vyucujuci>
+</vyucujuciAll>
+<podmienujucePredmety/>
+</predmet>
+<predmet>
+<skratka>FMFI.KAI/1-MXX-403/00</skratka>
+<skratkaPredmet>1-MXX-403</skratkaPredmet>
+<nazov>Úvod do Piagetovej psychológie (1)</nazov>
+<aktualnost>!</aktualnost>
+<kredit>2</kredit>
+<rozsah>2P</rozsah>
+<ukoncenie>H</ukoncenie>
+<rocnik>1</rocnik>
+<semester>Z</semester>
+<maxPocetPrihlStudentov/>
+<vyucujuci>Rybár</vyucujuci>
+<vyucujuci2>J. Rybár</vyucujuci2>
+<vyucujuciAll>
+<vyucujuci>
+<poradie>1</poradie>
+<typ>P</typ>
+<typPopis>prednášajúci</typPopis>
+<meno>Ján</meno>
+<priezvisko>Rybár</priezvisko>
+<plneMeno>doc. PhDr. Ján Rybár, PhD.</plneMeno>
+<jazykyPredmetu>slovenský</jazykyPredmetu>
+</vyucujuci>
+</vyucujuciAll>
+<podmienujucePredmety/>
+</predmet>
+<predmet>
+<skratka>FMFI.KAI/1-AIN-407/15</skratka>
+<skratkaPredmet>1-AIN-407</skratkaPredmet>
+<nazov>Kognitívne vedy: mozog a myseľ</nazov>
+<aktualnost/>
+<kredit>3</kredit>
+<rozsah>2K</rozsah>
+<ukoncenie>H</ukoncenie>
+<rocnik>1</rocnik>
+<semester>Z</semester>
+<maxPocetPrihlStudentov/>
+<vyucujuci>Rybár</vyucujuci>
+<vyucujuci2>J. Rybár</vyucujuci2>
+<vyucujuciAll>
+<vyucujuci>
+<poradie>1</poradie>
+<typ>P</typ>
+<typPopis>prednášajúci</typPopis>
+<meno>Ján</meno>
+<priezvisko>Rybár</priezvisko>
+<plneMeno>doc. PhDr. Ján Rybár, PhD.</plneMeno>
+<jazykyPredmetu>slovenský</jazykyPredmetu>
+</vyucujuci>
+</vyucujuciAll>
+<podmienujucePredmety/>
+</predmet>
+<predmet>
+<skratka>FMFI.KAI/1-MXX-423/00</skratka>
+<skratkaPredmet>1-MXX-423</skratkaPredmet>
+<nazov>Filozofia L. Wittgensteina (1)</nazov>
+<aktualnost/>
+<kredit>2</kredit>
+<rozsah>1P + 1S</rozsah>
+<ukoncenie>H</ukoncenie>
+<rocnik>1</rocnik>
+<semester>Z</semester>
+<maxPocetPrihlStudentov/>
+<vyucujuci>Kamhal</vyucujuci>
+<vyucujuci2>D. Kamhal</vyucujuci2>
+<vyucujuciAll>
+<vyucujuci>
+<poradie>1</poradie>
+<typ>P</typ>
+<typPopis>prednášajúci</typPopis>
+<meno>Dezider</meno>
+<priezvisko>Kamhal</priezvisko>
+<plneMeno>PhDr. Dezider Kamhal, PhD.</plneMeno>
+<jazykyPredmetu>slovenský</jazykyPredmetu>
+</vyucujuci>
+</vyucujuciAll>
+<podmienujucePredmety/>
+</predmet>
+<predmet>
+<skratka>FMFI.KAI/1-MXX-421/00</skratka>
+<skratkaPredmet>1-MXX-421</skratkaPredmet>
+<nazov>Problémy analytickej filozofie (1)</nazov>
+<aktualnost/>
+<kredit>2</kredit>
+<rozsah>1P + 1S</rozsah>
+<ukoncenie>H</ukoncenie>
+<rocnik>1</rocnik>
+<semester>Z</semester>
+<maxPocetPrihlStudentov/>
+<vyucujuci>Kamhal</vyucujuci>
+<vyucujuci2>D. Kamhal</vyucujuci2>
+<vyucujuciAll>
+<vyucujuci>
+<poradie>1</poradie>
+<typ>P</typ>
+<typPopis>prednášajúci</typPopis>
+<meno>Dezider</meno>
+<priezvisko>Kamhal</priezvisko>
+<plneMeno>PhDr. Dezider Kamhal, PhD.</plneMeno>
+<jazykyPredmetu>slovenský</jazykyPredmetu>
+</vyucujuci>
+</vyucujuciAll>
+<podmienujucePredmety/>
+</predmet>
+<predmet>
+<skratka>FMFI.KAI/1-MXX-491/15</skratka>
+<skratkaPredmet>1-MXX-491</skratkaPredmet>
+<nazov>Integrované vzdelávanie zdravotne postihnutých</nazov>
+<aktualnost/>
+<kredit>3</kredit>
+<rozsah>2K</rozsah>
+<ukoncenie>H</ukoncenie>
+<rocnik>1</rocnik>
+<semester>Z</semester>
+<maxPocetPrihlStudentov/>
+<vyucujuci>Rybár, Mendelová</vyucujuci>
+<vyucujuci2>J. Rybár, E. Mendelová</vyucujuci2>
+<vyucujuciAll>
+<vyucujuci>
+<poradie>1</poradie>
+<typ>P</typ>
+<typPopis>prednášajúci</typPopis>
+<meno>Ján</meno>
+<priezvisko>Rybár</priezvisko>
+<plneMeno>doc. PhDr. Ján Rybár, PhD.</plneMeno>
+<jazykyPredmetu>slovenský</jazykyPredmetu>
+</vyucujuci>
+<vyucujuci>
+<poradie>2</poradie>
+<typ>P</typ>
+<typPopis>prednášajúci</typPopis>
+<meno>Elena</meno>
+<priezvisko>Mendelová</priezvisko>
+<plneMeno>PaedDr. Elena Mendelová, CSc.</plneMeno>
+<jazykyPredmetu>slovenský</jazykyPredmetu>
+</vyucujuci>
+</vyucujuciAll>
+<podmienujucePredmety/>
+</predmet>
+<predmet>
+<skratka>FMFI.KAI/1-MXX-427/00</skratka>
+<skratkaPredmet>1-MXX-427</skratkaPredmet>
+<nazov>Úvod do filozofie jazyka</nazov>
+<aktualnost/>
+<kredit>2</kredit>
+<rozsah>1P + 1S</rozsah>
+<ukoncenie>H</ukoncenie>
+<rocnik>1</rocnik>
+<semester>Z</semester>
+<maxPocetPrihlStudentov/>
+<vyucujuci>Kamhal</vyucujuci>
+<vyucujuci2>D. Kamhal</vyucujuci2>
+<vyucujuciAll>
+<vyucujuci>
+<poradie>1</poradie>
+<typ>P</typ>
+<typPopis>prednášajúci</typPopis>
+<meno>Dezider</meno>
+<priezvisko>Kamhal</priezvisko>
+<plneMeno>PhDr. Dezider Kamhal, PhD.</plneMeno>
+<jazykyPredmetu>slovenský</jazykyPredmetu>
+</vyucujuci>
+</vyucujuciAll>
+<podmienujucePredmety/>
+</predmet>
+<predmet>
+<skratka>FMFI.KAI/1-MXX-422/00</skratka>
+<skratkaPredmet>1-MXX-422</skratkaPredmet>
+<nazov>Problémy analytickej filozofie (2)</nazov>
+<aktualnost/>
+<kredit>2</kredit>
+<rozsah>1P + 1S</rozsah>
+<ukoncenie>H</ukoncenie>
+<rocnik>1</rocnik>
+<semester>L</semester>
+<maxPocetPrihlStudentov/>
+<vyucujuci>Kamhal</vyucujuci>
+<vyucujuci2>D. Kamhal</vyucujuci2>
+<vyucujuciAll>
+<vyucujuci>
+<poradie>1</poradie>
+<typ>P</typ>
+<typPopis>prednášajúci</typPopis>
+<meno>Dezider</meno>
+<priezvisko>Kamhal</priezvisko>
+<plneMeno>PhDr. Dezider Kamhal, PhD.</plneMeno>
+<jazykyPredmetu>slovenský</jazykyPredmetu>
+</vyucujuci>
+</vyucujuciAll>
+<podmienujucePredmety/>
+</predmet>
+<predmet>
+<skratka>FMFI.KAI/1-MXX-426/00</skratka>
+<skratkaPredmet>1-MXX-426</skratkaPredmet>
+<nazov>Filozofické koncepcie významu (2)</nazov>
+<aktualnost>!</aktualnost>
+<kredit>2</kredit>
+<rozsah>1P + 1S</rozsah>
+<ukoncenie>H</ukoncenie>
+<rocnik>1</rocnik>
+<semester>L</semester>
+<maxPocetPrihlStudentov/>
+<vyucujuci>Kamhal</vyucujuci>
+<vyucujuci2>D. Kamhal</vyucujuci2>
+<vyucujuciAll>
+<vyucujuci>
+<poradie>1</poradie>
+<typ>P</typ>
+<typPopis>prednášajúci</typPopis>
+<meno>Dezider</meno>
+<priezvisko>Kamhal</priezvisko>
+<plneMeno>PhDr. Dezider Kamhal, PhD.</plneMeno>
+<jazykyPredmetu>slovenský</jazykyPredmetu>
+</vyucujuci>
+</vyucujuciAll>
+<podmienujucePredmety/>
+</predmet>
+<predmet>
+<skratka>FMFI.KAI/1-MXX-424/00</skratka>
+<skratkaPredmet>1-MXX-424</skratkaPredmet>
+<nazov>Filozofia L. Wittgensteina (2)</nazov>
+<aktualnost/>
+<kredit>2</kredit>
+<rozsah>1P + 1S</rozsah>
+<ukoncenie>H</ukoncenie>
+<rocnik>1</rocnik>
+<semester>L</semester>
+<maxPocetPrihlStudentov/>
+<vyucujuci>Kamhal</vyucujuci>
+<vyucujuci2>D. Kamhal</vyucujuci2>
+<vyucujuciAll>
+<vyucujuci>
+<poradie>1</poradie>
+<typ>P</typ>
+<typPopis>prednášajúci</typPopis>
+<meno>Dezider</meno>
+<priezvisko>Kamhal</priezvisko>
+<plneMeno>PhDr. Dezider Kamhal, PhD.</plneMeno>
+<jazykyPredmetu>slovenský</jazykyPredmetu>
+</vyucujuci>
+</vyucujuciAll>
+<podmienujucePredmety/>
+</predmet>
+<predmet>
+<skratka>FMFI.KAI/1-MXX-404/00</skratka>
+<skratkaPredmet>1-MXX-404</skratkaPredmet>
+<nazov>Úvod do Piagetovej psychológie (2)</nazov>
+<aktualnost>!</aktualnost>
+<kredit>2</kredit>
+<rozsah>2P</rozsah>
+<ukoncenie>H</ukoncenie>
+<rocnik>1</rocnik>
+<semester>L</semester>
+<maxPocetPrihlStudentov/>
+<vyucujuci>Rybár</vyucujuci>
+<vyucujuci2>J. Rybár</vyucujuci2>
+<vyucujuciAll>
+<vyucujuci>
+<poradie>1</poradie>
+<typ>P</typ>
+<typPopis>prednášajúci</typPopis>
+<meno>Ján</meno>
+<priezvisko>Rybár</priezvisko>
+<plneMeno>doc. PhDr. Ján Rybár, PhD.</plneMeno>
+<jazykyPredmetu>slovenský</jazykyPredmetu>
+</vyucujuci>
+</vyucujuciAll>
+<podmienujucePredmety/>
+</predmet>
+<predmet>
+<skratka>FMFI.KAI/1-MXX-428/00</skratka>
+<skratkaPredmet>1-MXX-428</skratkaPredmet>
+<nazov>Teória rečových aktov</nazov>
+<aktualnost/>
+<kredit>2</kredit>
+<rozsah>1P + 1S</rozsah>
+<ukoncenie>H</ukoncenie>
+<rocnik>1</rocnik>
+<semester>L</semester>
+<maxPocetPrihlStudentov/>
+<vyucujuci>Kamhal</vyucujuci>
+<vyucujuci2>D. Kamhal</vyucujuci2>
+<vyucujuciAll>
+<vyucujuci>
+<poradie>1</poradie>
+<typ>P</typ>
+<typPopis>prednášajúci</typPopis>
+<meno>Dezider</meno>
+<priezvisko>Kamhal</priezvisko>
+<plneMeno>PhDr. Dezider Kamhal, PhD.</plneMeno>
+<jazykyPredmetu>slovenský</jazykyPredmetu>
+</vyucujuci>
+</vyucujuciAll>
+<podmienujucePredmety/>
+</predmet>
+<predmet>
+<skratka>FMFI.KAI/1-AIN-406/15</skratka>
+<skratkaPredmet>1-AIN-406</skratkaPredmet>
+<nazov>Kognitívne vedy: jazyk a kognícia</nazov>
+<aktualnost/>
+<kredit>3</kredit>
+<rozsah>2K</rozsah>
+<ukoncenie>H</ukoncenie>
+<rocnik>2</rocnik>
+<semester>L</semester>
+<maxPocetPrihlStudentov/>
+<vyucujuci>Rybár</vyucujuci>
+<vyucujuci2>J. Rybár</vyucujuci2>
+<vyucujuciAll>
+<vyucujuci>
+<poradie>1</poradie>
+<typ>P</typ>
+<typPopis>prednášajúci</typPopis>
+<meno>Ján</meno>
+<priezvisko>Rybár</priezvisko>
+<plneMeno>doc. PhDr. Ján Rybár, PhD.</plneMeno>
+<jazykyPredmetu>slovenský</jazykyPredmetu>
+</vyucujuci>
+</vyucujuciAll>
+<podmienujucePredmety/>
+</predmet>
+<predmet>
+<skratka>FMFI.KAI/1-AIN-408/15</skratka>
+<skratkaPredmet>1-AIN-408</skratkaPredmet>
+<nazov>Kognitívne laboratórium</nazov>
+<aktualnost/>
+<kredit>2</kredit>
+<rozsah>2K</rozsah>
+<ukoncenie>H</ukoncenie>
+<rocnik>3</rocnik>
+<semester>Z</semester>
+<maxPocetPrihlStudentov/>
+<vyucujuci>Rybár</vyucujuci>
+<vyucujuci2>J. Rybár</vyucujuci2>
+<vyucujuciAll>
+<vyucujuci>
+<poradie>1</poradie>
+<typ>P</typ>
+<typPopis>prednášajúci</typPopis>
+<meno>Ján</meno>
+<priezvisko>Rybár</priezvisko>
+<plneMeno>doc. PhDr. Ján Rybár, PhD.</plneMeno>
+<jazykyPredmetu>slovenský</jazykyPredmetu>
+</vyucujuci>
+</vyucujuciAll>
+<podmienujucePredmety/>
+</predmet>
+</predmety>
+<obmedzenie>
+<kredit>0</kredit>
+<poznamkaPredKontrola/>
+<poznamkaZaKontrola/>
+</obmedzenie>
+</blok>
+<blok>
+<skratka>1MXX-C</skratka>
+<nazov>Celofakultné predmety</nazov>
+<predmety>
+<predmet>
+<skratka>FMFI.KAMŠ/1-MXX-501/15</skratka>
+<skratkaPredmet>1-MXX-501</skratkaPredmet>
+<nazov>Štatistika pre neštatistikov</nazov>
+<aktualnost/>
+<kredit>2</kredit>
+<rozsah>2K</rozsah>
+<ukoncenie>H</ukoncenie>
+<semester>L</semester>
+<maxPocetPrihlStudentov/>
+<vyucujuciAll/>
+<podmienujucePredmety/>
+</predmet>
+</predmety>
+<obmedzenie>
+<kredit>0</kredit>
+<poznamkaPredKontrola/>
+<poznamkaZaKontrola/>
+</obmedzenie>
+</blok>
+<blok>
+<skratka>1AIN-C</skratka>
+<nazov>Výberové predmety (všetci)</nazov>
+<predmety>
+<predmet>
+<skratka>FMFI.KAI/1-AIN-408/15</skratka>
+<skratkaPredmet>1-AIN-408</skratkaPredmet>
+<nazov>Kognitívne laboratórium</nazov>
+<aktualnost/>
+<kredit>2</kredit>
+<rozsah>2K</rozsah>
+<ukoncenie>H</ukoncenie>
+<rocnik>1</rocnik>
+<semester>Z</semester>
+<maxPocetPrihlStudentov/>
+<vyucujuci>Rybár</vyucujuci>
+<vyucujuci2>J. Rybár</vyucujuci2>
+<vyucujuciAll>
+<vyucujuci>
+<poradie>1</poradie>
+<typ>P</typ>
+<typPopis>prednášajúci</typPopis>
+<meno>Ján</meno>
+<priezvisko>Rybár</priezvisko>
+<plneMeno>doc. PhDr. Ján Rybár, PhD.</plneMeno>
+<jazykyPredmetu>slovenský</jazykyPredmetu>
+</vyucujuci>
+</vyucujuciAll>
+<podmienujucePredmety/>
+</predmet>
+<predmet>
+<skratka>FMFI.KAI/1-AIN-407/15</skratka>
+<skratkaPredmet>1-AIN-407</skratkaPredmet>
+<nazov>Kognitívne vedy: mozog a myseľ</nazov>
+<aktualnost/>
+<kredit>3</kredit>
+<rozsah>2K</rozsah>
+<ukoncenie>H</ukoncenie>
+<rocnik>1</rocnik>
+<semester>Z</semester>
+<maxPocetPrihlStudentov/>
+<vyucujuci>Rybár</vyucujuci>
+<vyucujuci2>J. Rybár</vyucujuci2>
+<vyucujuciAll>
+<vyucujuci>
+<poradie>1</poradie>
+<typ>P</typ>
+<typPopis>prednášajúci</typPopis>
+<meno>Ján</meno>
+<priezvisko>Rybár</priezvisko>
+<plneMeno>doc. PhDr. Ján Rybár, PhD.</plneMeno>
+<jazykyPredmetu>slovenský</jazykyPredmetu>
+</vyucujuci>
+</vyucujuciAll>
+<podmienujucePredmety/>
+</predmet>
+<predmet>
+<skratka>FMFI.KI+KZVI/1-INF-810/15</skratka>
+<skratkaPredmet>1-INF-810</skratkaPredmet>
+<nazov>Rýchlostné programovanie (1)</nazov>
+<aktualnost/>
+<kredit>2</kredit>
+<rozsah>2C</rozsah>
+<ukoncenie>H</ukoncenie>
+<rocnik>1</rocnik>
+<semester>Z</semester>
+<maxPocetPrihlStudentov/>
+<vyucujuci>Forišek, Winczer</vyucujuci>
+<vyucujuci2>M. Forišek, M. Winczer</vyucujuci2>
+<vyucujuciAll>
+<vyucujuci>
+<poradie>1</poradie>
+<typ>P</typ>
+<typPopis>prednášajúci</typPopis>
+<meno>Michal</meno>
+<priezvisko>Forišek</priezvisko>
+<plneMeno>RNDr. Michal Forišek, PhD.</plneMeno>
+<jazykyPredmetu>slovenský</jazykyPredmetu>
+</vyucujuci>
+<vyucujuci>
+<poradie>2</poradie>
+<typ>P</typ>
+<typPopis>prednášajúci</typPopis>
+<meno>Michal</meno>
+<priezvisko>Winczer</priezvisko>
+<plneMeno>RNDr. Michal Winczer, PhD.</plneMeno>
+<jazykyPredmetu>slovenský</jazykyPredmetu>
+</vyucujuci>
+</vyucujuciAll>
+<podmienujucePredmety/>
+</predmet>
+<predmet>
+<skratka>FMFI.KAI/1-AIN-406/15</skratka>
+<skratkaPredmet>1-AIN-406</skratkaPredmet>
+<nazov>Kognitívne vedy: jazyk a kognícia</nazov>
+<aktualnost/>
+<kredit>3</kredit>
+<rozsah>2K</rozsah>
+<ukoncenie>H</ukoncenie>
+<rocnik>1</rocnik>
+<semester>L</semester>
+<maxPocetPrihlStudentov/>
+<vyucujuci>Rybár</vyucujuci>
+<vyucujuci2>J. Rybár</vyucujuci2>
+<vyucujuciAll>
+<vyucujuci>
+<poradie>1</poradie>
+<typ>P</typ>
+<typPopis>prednášajúci</typPopis>
+<meno>Ján</meno>
+<priezvisko>Rybár</priezvisko>
+<plneMeno>doc. PhDr. Ján Rybár, PhD.</plneMeno>
+<jazykyPredmetu>slovenský</jazykyPredmetu>
+</vyucujuci>
+</vyucujuciAll>
+<podmienujucePredmety/>
+</predmet>
+<predmet>
+<skratka>FMFI.KI+KZVI/1-INF-815/15</skratka>
+<skratkaPredmet>1-INF-815</skratkaPredmet>
+<nazov>Rýchlostné programovanie (2)</nazov>
+<aktualnost/>
+<kredit>2</kredit>
+<rozsah>2C</rozsah>
+<ukoncenie>H</ukoncenie>
+<rocnik>1</rocnik>
+<semester>L</semester>
+<maxPocetPrihlStudentov/>
+<vyucujuci>Forišek, Winczer</vyucujuci>
+<vyucujuci2>M. Forišek, M. Winczer</vyucujuci2>
+<vyucujuciAll>
+<vyucujuci>
+<poradie>1</poradie>
+<typ>P</typ>
+<typPopis>prednášajúci</typPopis>
+<meno>Michal</meno>
+<priezvisko>Forišek</priezvisko>
+<plneMeno>RNDr. Michal Forišek, PhD.</plneMeno>
+<jazykyPredmetu>slovenský</jazykyPredmetu>
+</vyucujuci>
+<vyucujuci>
+<poradie>2</poradie>
+<typ>P</typ>
+<typPopis>prednášajúci</typPopis>
+<meno>Michal</meno>
+<priezvisko>Winczer</priezvisko>
+<plneMeno>RNDr. Michal Winczer, PhD.</plneMeno>
+<jazykyPredmetu>slovenský</jazykyPredmetu>
+</vyucujuci>
+</vyucujuciAll>
+<podmienujucePredmety/>
+</predmet>
+<predmet>
+<skratka>FMFI.KI/1-INF-215/14</skratka>
+<skratkaPredmet>1-INF-215</skratkaPredmet>
+<nazov>Formálne jazyky a automaty (1)</nazov>
+<aktualnost/>
+<kredit>6</kredit>
+<rozsah>3P + 2C</rozsah>
+<ukoncenie>H</ukoncenie>
+<rocnik>2</rocnik>
+<semester>Z</semester>
+<maxPocetPrihlStudentov/>
+<vyucujuci>Rovan</vyucujuci>
+<vyucujuci2>B. Rovan</vyucujuci2>
+<vyucujuciAll>
+<vyucujuci>
+<poradie>1</poradie>
+<typ>P</typ>
+<typPopis>prednášajúci</typPopis>
+<meno>Branislav</meno>
+<priezvisko>Rovan</priezvisko>
+<plneMeno>prof. RNDr. Branislav Rovan, PhD.</plneMeno>
+<jazykyPredmetu>slovenský</jazykyPredmetu>
+</vyucujuci>
+</vyucujuciAll>
+<podmienujucePredmety/>
+</predmet>
+<predmet>
+<skratka>FMFI.KAI/1-AIN-241/15</skratka>
+<skratkaPredmet>1-AIN-241</skratkaPredmet>
+<nazov>Filozofická sémantika I.</nazov>
+<aktualnost/>
+<kredit>2</kredit>
+<rozsah>2P</rozsah>
+<ukoncenie>H</ukoncenie>
+<rocnik>2</rocnik>
+<semester>Z</semester>
+<maxPocetPrihlStudentov/>
+<vyucujuci>Kamhal</vyucujuci>
+<vyucujuci2>D. Kamhal</vyucujuci2>
+<vyucujuciAll>
+<vyucujuci>
+<poradie>1</poradie>
+<typ>P</typ>
+<typPopis>prednášajúci</typPopis>
+<meno>Dezider</meno>
+<priezvisko>Kamhal</priezvisko>
+<plneMeno>PhDr. Dezider Kamhal, PhD.</plneMeno>
+<jazykyPredmetu>slovenský</jazykyPredmetu>
+</vyucujuci>
+</vyucujuciAll>
+<podmienujucePredmety/>
+</predmet>
+<predmet>
+<skratka>FMFI.KAI/1-AIN-167/15</skratka>
+<skratkaPredmet>1-AIN-167</skratkaPredmet>
+<nazov>Praktický seminár robotiky</nazov>
+<aktualnost/>
+<kredit>3</kredit>
+<rozsah>2S</rozsah>
+<ukoncenie>H</ukoncenie>
+<rocnik>2</rocnik>
+<semester>Z</semester>
+<maxPocetPrihlStudentov/>
+<vyucujuci>Petrovič</vyucujuci>
+<vyucujuci2>P. Petrovič</vyucujuci2>
+<vyucujuciAll>
+<vyucujuci>
+<poradie>1</poradie>
+<typ>P</typ>
+<typPopis>prednášajúci</typPopis>
+<meno>Pavel</meno>
+<priezvisko>Petrovič</priezvisko>
+<plneMeno>Mgr. Pavel Petrovič, PhD.</plneMeno>
+<jazykyPredmetu>slovenský</jazykyPredmetu>
+</vyucujuci>
+</vyucujuciAll>
+<podmienujucePredmety/>
+</predmet>
+<predmet>
+<skratka>FMFI.KAI/1-AIN-426/11</skratka>
+<skratkaPredmet>1-AIN-426</skratkaPredmet>
+<nazov>Aplikovaný robotický seminár</nazov>
+<aktualnost/>
+<kredit>1</kredit>
+<rozsah>1K</rozsah>
+<ukoncenie>H</ukoncenie>
+<rocnik>2</rocnik>
+<semester>Z</semester>
+<maxPocetPrihlStudentov/>
+<maxPocetPrihlStudentov/>
+<vyucujuci>Petrovič</vyucujuci>
+<vyucujuci2>P. Petrovič</vyucujuci2>
+<vyucujuciAll>
+<vyucujuci>
+<poradie>1</poradie>
+<typ>P</typ>
+<typPopis>prednášajúci</typPopis>
+<meno>Pavel</meno>
+<priezvisko>Petrovič</priezvisko>
+<plneMeno>Mgr. Pavel Petrovič, PhD.</plneMeno>
+<jazykyPredmetu>slovenský</jazykyPredmetu>
+</vyucujuci>
+</vyucujuciAll>
+<podmienujucePredmety/>
+</predmet>
+<predmet>
+<skratka>FMFI.KAI/1-AIN-426/11</skratka>
+<skratkaPredmet>1-AIN-426</skratkaPredmet>
+<nazov>Aplikovaný robotický seminár</nazov>
+<aktualnost/>
+<kredit>1</kredit>
+<rozsah>1K</rozsah>
+<ukoncenie>H</ukoncenie>
+<rocnik>2</rocnik>
+<semester>L</semester>
+<maxPocetPrihlStudentov/>
+<maxPocetPrihlStudentov/>
+<vyucujuci>Petrovič</vyucujuci>
+<vyucujuci2>P. Petrovič</vyucujuci2>
+<vyucujuciAll>
+<vyucujuci>
+<poradie>1</poradie>
+<typ>P</typ>
+<typPopis>prednášajúci</typPopis>
+<meno>Pavel</meno>
+<priezvisko>Petrovič</priezvisko>
+<plneMeno>Mgr. Pavel Petrovič, PhD.</plneMeno>
+<jazykyPredmetu>slovenský</jazykyPredmetu>
+</vyucujuci>
+</vyucujuciAll>
+<podmienujucePredmety/>
+</predmet>
+<predmet>
+<skratka>FMFI.KI/1-INF-415/00</skratka>
+<skratkaPredmet>1-INF-415</skratkaPredmet>
+<nazov>Úvod do teórie programovania</nazov>
+<aktualnost/>
+<kredit>4</kredit>
+<rozsah>3K</rozsah>
+<ukoncenie>H</ukoncenie>
+<rocnik>2</rocnik>
+<semester>L</semester>
+<maxPocetPrihlStudentov/>
+<vyucujuci>Prívara</vyucujuci>
+<vyucujuci2>I. Prívara</vyucujuci2>
+<vyucujuciAll>
+<vyucujuci>
+<poradie>1</poradie>
+<typ>P</typ>
+<typPopis>prednášajúci</typPopis>
+<meno>Igor</meno>
+<priezvisko>Prívara</priezvisko>
+<plneMeno>RNDr. Igor Prívara, CSc.</plneMeno>
+<jazykyPredmetu>slovenský</jazykyPredmetu>
+</vyucujuci>
+</vyucujuciAll>
+<podmienujucePredmety/>
+</predmet>
+<predmet>
+<skratka>FMFI.KAI/2-AIN-133/15</skratka>
+<skratkaPredmet>2-AIN-133</skratkaPredmet>
+<nazov>Extrémne programovanie</nazov>
+<aktualnost/>
+<kredit>6</kredit>
+<rozsah>4K</rozsah>
+<ukoncenie>H</ukoncenie>
+<rocnik>2</rocnik>
+<semester>L</semester>
+<maxPocetPrihlStudentov/>
+<vyucujuci>Gyarfaš</vyucujuci>
+<vyucujuci2>F. Gyarfaš</vyucujuci2>
+<vyucujuciAll>
+<vyucujuci>
+<poradie>1</poradie>
+<typ>P</typ>
+<typPopis>prednášajúci</typPopis>
+<meno>František</meno>
+<priezvisko>Gyarfaš</priezvisko>
+<plneMeno>Ing. František Gyarfaš, CSc.</plneMeno>
+<jazykyPredmetu>slovenský</jazykyPredmetu>
+</vyucujuci>
+</vyucujuciAll>
+<podmienujucePredmety/>
+</predmet>
+<predmet>
+<skratka>FMFI.KAI/1-AIN-242/15</skratka>
+<skratkaPredmet>1-AIN-242</skratkaPredmet>
+<nazov>Filozofická sémantika II.</nazov>
+<aktualnost/>
+<kredit>2</kredit>
+<rozsah>2P</rozsah>
+<ukoncenie>H</ukoncenie>
+<rocnik>2</rocnik>
+<semester>L</semester>
+<maxPocetPrihlStudentov/>
+<vyucujuci>Kamhal</vyucujuci>
+<vyucujuci2>D. Kamhal</vyucujuci2>
+<vyucujuciAll>
+<vyucujuci>
+<poradie>1</poradie>
+<typ>P</typ>
+<typPopis>prednášajúci</typPopis>
+<meno>Dezider</meno>
+<priezvisko>Kamhal</priezvisko>
+<plneMeno>PhDr. Dezider Kamhal, PhD.</plneMeno>
+<jazykyPredmetu>slovenský</jazykyPredmetu>
+</vyucujuci>
+</vyucujuciAll>
+<podmienujuce>
+<podmienujuci>FMFI.KAI/1-AIN-241/15</podmienujuci>
+<pocet>1</pocet>
+</podmienujuce>
+<podmienujucePredmety>FMFI.KAI/1-AIN-241/15</podmienujucePredmety>
+</predmet>
+<predmet>
+<skratka>FMFI.KAI/1-AIN-244/15</skratka>
+<skratkaPredmet>1-AIN-244</skratkaPredmet>
+<nazov>Webové aplikácie (2)</nazov>
+<aktualnost/>
+<kredit>4</kredit>
+<rozsah>2P + 2C</rozsah>
+<ukoncenie>H</ukoncenie>
+<rocnik>2</rocnik>
+<semester>L</semester>
+<maxPocetPrihlStudentov/>
+<vyucujuci>Nagy</vyucujuci>
+<vyucujuci2>M. Nagy</vyucujuci2>
+<vyucujuciAll>
+<vyucujuci>
+<poradie>1</poradie>
+<typ>P</typ>
+<typPopis>prednášajúci</typPopis>
+<meno>Marek</meno>
+<priezvisko>Nagy</priezvisko>
+<plneMeno>RNDr. Marek Nagy, PhD.</plneMeno>
+<jazykyPredmetu>slovenský</jazykyPredmetu>
+</vyucujuci>
+</vyucujuciAll>
+<podmienujucePredmety/>
+</predmet>
+<predmet>
+<skratka>FMFI.KAI/1-AIN-311/15</skratka>
+<skratkaPredmet>1-AIN-311</skratkaPredmet>
+<nazov>Embedded Linux</nazov>
+<aktualnost/>
+<kredit>2</kredit>
+<rozsah>2K</rozsah>
+<ukoncenie>H</ukoncenie>
+<rocnik>3</rocnik>
+<semester>Z</semester>
+<maxPocetPrihlStudentov/>
+<vyucujuci>Šiška</vyucujuci>
+<vyucujuci2>J. Šiška</vyucujuci2>
+<vyucujuciAll>
+<vyucujuci>
+<poradie>1</poradie>
+<typ>P</typ>
+<typPopis>prednášajúci</typPopis>
+<meno>Jozef</meno>
+<priezvisko>Šiška</priezvisko>
+<plneMeno>RNDr. Jozef Šiška, PhD.</plneMeno>
+<jazykyPredmetu>slovenský</jazykyPredmetu>
+</vyucujuci>
+</vyucujuciAll>
+<podmienujuce>
+<podmienujuci>FMFI.KZVI/1-AIN-186/15</podmienujuci>
+<podmienujuci>FMFI.KZVI/1-AIN-180/15</podmienujuci>
+<pocet>2</pocet>
+</podmienujuce>
+<podmienujucePredmety>FMFI.KZVI/1-AIN-180/15  a FMFI.KZVI/1-AIN-186/15</podmienujucePredmety>
+</predmet>
+<predmet>
+<skratka>FMFI.KAMŠ/1-INF-435/13</skratka>
+<skratkaPredmet>1-INF-435</skratkaPredmet>
+<nazov>Pravdepodobnosť a štatistika</nazov>
+<aktualnost/>
+<kredit>5</kredit>
+<rozsah>2P + 2C</rozsah>
+<ukoncenie>H</ukoncenie>
+<rocnik>3</rocnik>
+<semester>Z</semester>
+<maxPocetPrihlStudentov/>
+<vyucujuci>Filová</vyucujuci>
+<vyucujuci2>L. Filová</vyucujuci2>
+<vyucujuciAll>
+<vyucujuci>
+<poradie>1</poradie>
+<typ>P</typ>
+<typPopis>prednášajúci</typPopis>
+<meno>Lenka</meno>
+<priezvisko>Filová</priezvisko>
+<plneMeno>Mgr. Lenka Filová, PhD.</plneMeno>
+<jazykyPredmetu>slovenský</jazykyPredmetu>
+</vyucujuci>
+</vyucujuciAll>
+<podmienujucePredmety/>
+</predmet>
+<predmet>
+<skratka>FMFI.KAI/1-AIN-655/00</skratka>
+<skratkaPredmet>1-AIN-655</skratkaPredmet>
+<nazov>Heuristické metódy</nazov>
+<aktualnost>!</aktualnost>
+<kredit>3</kredit>
+<rozsah>2K</rozsah>
+<ukoncenie>H</ukoncenie>
+<rocnik>3</rocnik>
+<semester>Z</semester>
+<maxPocetPrihlStudentov/>
+<vyucujuci>Ftáčnik</vyucujuci>
+<vyucujuci2>M. Ftáčnik</vyucujuci2>
+<vyucujuciAll>
+<vyucujuci>
+<poradie>1</poradie>
+<typ>P</typ>
+<typPopis>prednášajúci</typPopis>
+<meno>Milan</meno>
+<priezvisko>Ftáčnik</priezvisko>
+<plneMeno>doc. RNDr. Milan Ftáčnik, CSc.</plneMeno>
+<jazykyPredmetu>slovenský</jazykyPredmetu>
+</vyucujuci>
+</vyucujuciAll>
+<podmienujucePredmety/>
+</predmet>
+<predmet>
+<skratka>FMFI.KAI/1-MAT-570/15</skratka>
+<skratkaPredmet>1-MAT-570</skratkaPredmet>
+<nazov>Modelovacie a renderovacie techniky</nazov>
+<aktualnost/>
+<kredit>6</kredit>
+<rozsah>2P + 2C</rozsah>
+<ukoncenie>H</ukoncenie>
+<rocnik>3</rocnik>
+<semester>Z</semester>
+<maxPocetPrihlStudentov/>
+<vyucujuci>Ďurikovič</vyucujuci>
+<vyucujuci2>R. Ďurikovič</vyucujuci2>
+<vyucujuciAll>
+<vyucujuci>
+<poradie>1</poradie>
+<typ>P</typ>
+<typPopis>prednášajúci</typPopis>
+<meno>Roman</meno>
+<priezvisko>Ďurikovič</priezvisko>
+<plneMeno>prof. RNDr. Roman Ďurikovič, PhD.</plneMeno>
+<jazykyPredmetu>slovenský</jazykyPredmetu>
+</vyucujuci>
+</vyucujuciAll>
+<podmienujucePredmety/>
+</predmet>
+<predmet>
+<skratka>FMFI.KAI/1-AIN-312/15</skratka>
+<skratkaPredmet>1-AIN-312</skratkaPredmet>
+<nazov>Pragmatika jazyka (1)</nazov>
+<aktualnost/>
+<kredit>2</kredit>
+<rozsah>2P</rozsah>
+<ukoncenie>H</ukoncenie>
+<rocnik>3</rocnik>
+<semester>Z</semester>
+<maxPocetPrihlStudentov/>
+<vyucujuci>Kamhal</vyucujuci>
+<vyucujuci2>D. Kamhal</vyucujuci2>
+<vyucujuciAll>
+<vyucujuci>
+<poradie>1</poradie>
+<typ>P</typ>
+<typPopis>prednášajúci</typPopis>
+<meno>Dezider</meno>
+<priezvisko>Kamhal</priezvisko>
+<plneMeno>PhDr. Dezider Kamhal, PhD.</plneMeno>
+<jazykyPredmetu>slovenský</jazykyPredmetu>
+</vyucujuci>
+</vyucujuciAll>
+<podmienujucePredmety/>
+</predmet>
+<predmet>
+<skratka>FMFI.KAI/1-AIN-616/00</skratka>
+<skratkaPredmet>1-AIN-616</skratkaPredmet>
+<nazov>Symbolické programovanie a LISP</nazov>
+<aktualnost/>
+<kredit>6</kredit>
+<rozsah>2P + 2C</rozsah>
+<ukoncenie>H</ukoncenie>
+<rocnik>3</rocnik>
+<semester>L</semester>
+<maxPocetPrihlStudentov/>
+<vyucujuci>Baláž</vyucujuci>
+<vyucujuci2>M. Baláž</vyucujuci2>
+<vyucujuciAll>
+<vyucujuci>
+<poradie>1</poradie>
+<typ>P</typ>
+<typPopis>prednášajúci</typPopis>
+<meno>Martin</meno>
+<priezvisko>Baláž</priezvisko>
+<plneMeno>RNDr. Martin Baláž</plneMeno>
+<jazykyPredmetu>slovenský</jazykyPredmetu>
+</vyucujuci>
+</vyucujuciAll>
+<podmienujucePredmety/>
+</predmet>
+<predmet>
+<skratka>FMFI.KAI/1-AIN-675/00</skratka>
+<skratkaPredmet>1-AIN-675</skratkaPredmet>
+<nazov>Filozofia internetu</nazov>
+<aktualnost/>
+<kredit>3</kredit>
+<rozsah>2P</rozsah>
+<ukoncenie>H</ukoncenie>
+<rocnik>3</rocnik>
+<semester>L</semester>
+<maxPocetPrihlStudentov>50</maxPocetPrihlStudentov>
+<vyucujuci>Gyarfaš</vyucujuci>
+<vyucujuci2>F. Gyarfaš</vyucujuci2>
+<vyucujuciAll>
+<vyucujuci>
+<poradie>1</poradie>
+<typ>P</typ>
+<typPopis>prednášajúci</typPopis>
+<meno>František</meno>
+<priezvisko>Gyarfaš</priezvisko>
+<plneMeno>Ing. František Gyarfaš, CSc.</plneMeno>
+<jazykyPredmetu>slovenský</jazykyPredmetu>
+</vyucujuci>
+</vyucujuciAll>
+<podmienujucePredmety/>
+</predmet>
+<predmet>
+<skratka>FMFI.KAI/1-AIN-611/00</skratka>
+<skratkaPredmet>1-AIN-611</skratkaPredmet>
+<nazov>Tvorivé písanie</nazov>
+<aktualnost/>
+<kredit>3</kredit>
+<rozsah>2S</rozsah>
+<ukoncenie>H</ukoncenie>
+<rocnik>3</rocnik>
+<semester>L</semester>
+<maxPocetPrihlStudentov>10</maxPocetPrihlStudentov>
+<vyucujuci>Gyarfaš</vyucujuci>
+<vyucujuci2>F. Gyarfaš</vyucujuci2>
+<vyucujuciAll>
+<vyucujuci>
+<poradie>1</poradie>
+<typ>P</typ>
+<typPopis>prednášajúci</typPopis>
+<meno>František</meno>
+<priezvisko>Gyarfaš</priezvisko>
+<plneMeno>Ing. František Gyarfaš, CSc.</plneMeno>
+<jazykyPredmetu>slovenský</jazykyPredmetu>
+</vyucujuci>
+</vyucujuciAll>
+<podmienujucePredmety/>
+</predmet>
+<predmet>
+<skratka>FMFI.KAMŠ/1-MXX-501/15</skratka>
+<skratkaPredmet>1-MXX-501</skratkaPredmet>
+<nazov>Štatistika pre neštatistikov</nazov>
+<aktualnost/>
+<kredit>2</kredit>
+<rozsah>2K</rozsah>
+<ukoncenie>H</ukoncenie>
+<rocnik>3</rocnik>
+<semester>L</semester>
+<maxPocetPrihlStudentov/>
+<vyucujuciAll/>
+<podmienujucePredmety/>
+</predmet>
+<predmet>
+<skratka>FMFI.KAI/1-AIN-413/15</skratka>
+<skratkaPredmet>1-AIN-413</skratkaPredmet>
+<nazov>Grafy, grafové algoritmy a optimalizácia</nazov>
+<aktualnost>!</aktualnost>
+<kredit>6</kredit>
+<rozsah>4K</rozsah>
+<ukoncenie>H</ukoncenie>
+<rocnik>3</rocnik>
+<semester>L</semester>
+<maxPocetPrihlStudentov/>
+<vyucujuci>Jajcayová</vyucujuci>
+<vyucujuci2>T. Jajcayová</vyucujuci2>
+<vyucujuciAll>
+<vyucujuci>
+<poradie>1</poradie>
+<typ>P</typ>
+<typPopis>prednášajúci</typPopis>
+<meno>Tatiana</meno>
+<priezvisko>Jajcayová</priezvisko>
+<plneMeno>RNDr. Tatiana Jajcayová, PhD.</plneMeno>
+<jazykyPredmetu>slovenský</jazykyPredmetu>
+</vyucujuci>
+</vyucujuciAll>
+<podmienujuce>
+<podmienujuci>FMFI.KAGDM+KAI/1-AIN-160/15</podmienujuci>
+<podmienujuci>FMFI.KAGDM/1-AIN-152/15</podmienujuci>
+<pocet>2</pocet>
+</podmienujuce>
+<podmienujucePredmety>FMFI.KAGDM+KAI/1-AIN-160/15  a FMFI.KAGDM/1-AIN-152/15</podmienujucePredmety>
+</predmet>
+<predmet>
+<skratka>FMFI.KAI/1-INF-695/13</skratka>
+<skratkaPredmet>1-INF-695</skratkaPredmet>
+<nazov>OpenGL</nazov>
+<aktualnost>!</aktualnost>
+<kredit>4</kredit>
+<rozsah>2P + 2C</rozsah>
+<ukoncenie>H</ukoncenie>
+<rocnik>3</rocnik>
+<semester>L</semester>
+<maxPocetPrihlStudentov/>
+<vyucujuci>Samuelčík</vyucujuci>
+<vyucujuci2>M. Samuelčík</vyucujuci2>
+<vyucujuciAll>
+<vyucujuci>
+<poradie>1</poradie>
+<typ>P</typ>
+<typPopis>prednášajúci</typPopis>
+<meno>Martin</meno>
+<priezvisko>Samuelčík</priezvisko>
+<plneMeno>Mgr. Martin Samuelčík, PhD.</plneMeno>
+<jazykyPredmetu>slovenský</jazykyPredmetu>
+</vyucujuci>
+</vyucujuciAll>
+<podmienujucePredmety/>
+</predmet>
+<predmet>
+<skratka>FMFI.KAI/1-AIN-313/15</skratka>
+<skratkaPredmet>1-AIN-313</skratkaPredmet>
+<nazov>Pragmatika jazyka (2)</nazov>
+<aktualnost/>
+<kredit>2</kredit>
+<rozsah>2P</rozsah>
+<ukoncenie>H</ukoncenie>
+<rocnik>3</rocnik>
+<semester>L</semester>
+<maxPocetPrihlStudentov/>
+<vyucujuci>Kamhal</vyucujuci>
+<vyucujuci2>D. Kamhal</vyucujuci2>
+<vyucujuciAll>
+<vyucujuci>
+<poradie>1</poradie>
+<typ>P</typ>
+<typPopis>prednášajúci</typPopis>
+<meno>Dezider</meno>
+<priezvisko>Kamhal</priezvisko>
+<plneMeno>PhDr. Dezider Kamhal, PhD.</plneMeno>
+<jazykyPredmetu>slovenský</jazykyPredmetu>
+</vyucujuci>
+</vyucujuciAll>
+<podmienujuce>
+<podmienujuci>FMFI.KAI/1-AIN-312/15</podmienujuci>
+<pocet>1</pocet>
+</podmienujuce>
+<podmienujucePredmety>FMFI.KAI/1-AIN-312/15</podmienujucePredmety>
+</predmet>
+<predmet>
+<skratka>FMFI.KAI/1-AIN-315/15</skratka>
+<skratkaPredmet>1-AIN-315</skratkaPredmet>
+<nazov>Semištruktúrované dáta (XML, JSON a NoSQL)</nazov>
+<aktualnost>!</aktualnost>
+<kredit>4</kredit>
+<rozsah>2P + 2C</rozsah>
+<ukoncenie>H</ukoncenie>
+<rocnik>3</rocnik>
+<semester>L</semester>
+<maxPocetPrihlStudentov/>
+<vyucujuci>Baláž, Kľuka</vyucujuci>
+<vyucujuci2>M. Baláž, J. Kľuka</vyucujuci2>
+<vyucujuciAll>
+<vyucujuci>
+<poradie>1</poradie>
+<typ>P</typ>
+<typPopis>prednášajúci</typPopis>
+<meno>Martin</meno>
+<priezvisko>Baláž</priezvisko>
+<plneMeno>RNDr. Martin Baláž</plneMeno>
+<jazykyPredmetu>slovenský</jazykyPredmetu>
+</vyucujuci>
+<vyucujuci>
+<poradie>2</poradie>
+<typ>P</typ>
+<typPopis>prednášajúci</typPopis>
+<meno>Ján</meno>
+<priezvisko>Kľuka</priezvisko>
+<plneMeno>Mgr. Ján Kľuka, PhD.</plneMeno>
+<jazykyPredmetu>slovenský</jazykyPredmetu>
+</vyucujuci>
+</vyucujuciAll>
+<podmienujucePredmety/>
+</predmet>
+</predmety>
+<obmedzenie>
+<kredit>0</kredit>
+<poznamkaPredKontrola>poznamkaPred je neprazdna</poznamkaPredKontrola>
+<poznamkaZaKontrola/>
+<poznamkyPred>
+<poznamkaPred>platné pre všetkých študentov</poznamkaPred>
+</poznamkyPred>
+</obmedzenie>
+</blok>
+</bloky>
+</typ>
+</typyVyucby>
+</cast>
+<cast>
+<kod>SS</kod>
+<nazov>Štátne skúšky</nazov>
+<typyVyucby>
+<typ>
+<skratka>A</skratka>
+<nazov>Povinné predmety</nazov>
+<obmedzenie/>
+<bloky>
+<blok>
+<skratka>1AIN-SA1</skratka>
+<nazov>Predmety štátnej skúšky (od AR 2014/15)</nazov>
+<predmety>
+<predmet>
+<skratka>FMFI.KAI/1-AIN-955/15</skratka>
+<skratkaPredmet>1-AIN-955</skratkaPredmet>
+<nazov>Aplikovaná informatika</nazov>
+<aktualnost>!</aktualnost>
+<kredit>4</kredit>
+<rozsah/>
+<ukoncenie>SS</ukoncenie>
+<semester/>
+<maxPocetPrihlStudentov/>
+<vyucujuciAll/>
+<podmienujucePredmety/>
+</predmet>
+<predmet>
+<skratka>FMFI.KAI/1-AIN-991/15</skratka>
+<skratkaPredmet>1-AIN-991</skratkaPredmet>
+<nazov>Obhajoba bakalárskej práce</nazov>
+<aktualnost>!</aktualnost>
+<kredit>8</kredit>
+<rozsah/>
+<ukoncenie>OB</ukoncenie>
+<semester/>
+<maxPocetPrihlStudentov/>
+<vyucujuciAll/>
+<podmienujucePredmety/>
+</predmet>
+</predmety>
+<obmedzenie>
+<kredit>0</kredit>
+<poznamkaPredKontrola>poznamkaPred je neprazdna</poznamkaPredKontrola>
+<poznamkaZaKontrola/>
+<poznamkyPred>
+<poznamkaPred>predmety pre študentov začínajúcich štúdium v akademickom roku 2014/15 alebo neskôr</poznamkaPred>
+</poznamkyPred>
+</obmedzenie>
+</blok>
+<blok>
+<skratka>1AIN-SA2</skratka>
+<nazov>Predmety štátnej skúšky (do AR 2013/14)</nazov>
+<predmety>
+<predmet>
+<skratka>FMFI.KAI/1-AIN-990/00</skratka>
+<skratkaPredmet>1-AIN-990</skratkaPredmet>
+<nazov>Obhajoba bakalárskej práce</nazov>
+<aktualnost/>
+<kredit>0</kredit>
+<rozsah/>
+<ukoncenie>OB</ukoncenie>
+<semester/>
+<maxPocetPrihlStudentov/>
+<vyucujuciAll/>
+<podmienujucePredmety/>
+</predmet>
+<predmet>
+<skratka>FMFI.KAI/1-AIN-950/09</skratka>
+<skratkaPredmet>1-AIN-950</skratkaPredmet>
+<nazov>Aplikovaná informatika</nazov>
+<aktualnost/>
+<kredit>0</kredit>
+<rozsah/>
+<ukoncenie>SS</ukoncenie>
+<semester/>
+<maxPocetPrihlStudentov/>
+<vyucujuciAll/>
+<podmienujucePredmety/>
+</predmet>
+</predmety>
+<obmedzenie>
+<kredit>0</kredit>
+<poznamkaPredKontrola>poznamkaPred je neprazdna</poznamkaPredKontrola>
+<poznamkaZaKontrola/>
+<poznamkyPred>
+<poznamkaPred>predmety pre študentov začínajúcich štúdium v akademickom roku 2013/14 alebo skôr</poznamkaPred>
+</poznamkyPred>
+</obmedzenie>
+</blok>
+</bloky>
+</typ>
+<typ>
+<skratka>B</skratka>
+<nazov>Povinne voliteľné predmety</nazov>
+<obmedzenie/>
+</typ>
+</typyVyucby>
+</cast>
+</castiStudijnehoPlanu>
+</studijnyPlan>
+</studijnePlany>
+<rozsahy>
+<rozsah>
+<popis>dní za semester</popis>
+<skratka>d</skratka>
+</rozsah>
+<rozsah>
+<popis>hodín za týždeň</popis>
+<skratka>h</skratka>
+</rozsah>
+<rozsah>
+<popis>hodín za semester</popis>
+<skratka>s</skratka>
+</rozsah>
+<rozsah>
+<popis>týždňov za semester</popis>
+<skratka>t</skratka>
+</rozsah>
+</rozsahy>
+<aktualnosti>
+<aktualnost>
+<popis>v danom akademickom roku sa predmet nerealizuje</popis>
+<skratka>!</skratka>
+</aktualnost>
+<aktualnost>
+<popis>predmet sa nerealizuje, možno od nasledujúceho akademického roku</popis>
+<skratka>+</skratka>
+</aktualnost>
+<aktualnost>
+<popis>predmet sa realizuje ostatný krát</popis>
+<skratka>-</skratka>
+</aktualnost>
+</aktualnosti>
+</obsah>
