@@ -1,62 +1,106 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<?xml-stylesheet type="text/xsl" href="studijnePlany.xsl"?>
-<obsah>
-<studijnePlany>
-<studijnyPlan>
-<schvaleny>Neschválený</schvaleny>
-<studijneOdbory>
-<studijnyOdbor>
-<nazov>9.2.1. - informatika</nazov>
+<?xml version="1.0" encoding="UTF-8"?><obsah>
+<organizacnaJednotka>Univerzita Komenského v Bratislave - Fakulta matematiky, fyziky a informatiky</organizacnaJednotka>
+<vysokaSkola>Univerzita Komenského v Bratislave</vysokaSkola>
+<fakulta>Fakulta matematiky, fyziky a informatiky</fakulta>
+<skratkaFakulty>FMFI</skratkaFakulty>
+<informacneListy>
+<informacnyList>
+<id>105490</id>
+<kodTypPredmetu>Z</kodTypPredmetu>
+<skratka>3-INF-001</skratka>
+<kod>FMFI.KI/3-INF-001/15</kod>
+<nazov>Teoretické základy informatiky</nazov>
+<kredit>8</kredit>
+<sposobUkoncenia>Hodnotenie</sposobUkoncenia>
+<sposobVyucby>Seminár</sposobVyucby>
+<rozsahTyzdenny>2</rozsahTyzdenny>
+<rozsahSemestranly>28</rozsahSemestranly>
+<obdobie>1</obdobie>
+<doplnujuceUdaje>(Jednoodborové štúdium, doktorandské III. st., denná forma)</doplnujuceUdaje>
+<kodSemesterStudPlan>Z</kodSemesterStudPlan>
+<rokRocnikStudPlan>1</rokRocnikStudPlan>
+<zabezpecuju>prof. RNDr. Pavol Ďuriš, CSc., prof. RNDr. Branislav Rovan, PhD.</zabezpecuju>
+<datumSchvalenia>28.04.2015</datumSchvalenia>
+<podmienujucePredmety/>
+<podmienujucePredmetyNazov/>
+<podmPredmetyKodNazov/>
+<vylucujucePredmety>FMFI.KI/3-INF-001/00</vylucujucePredmety>
+<vylucujucePredmetyNazov>FMFI.KI/3-INF-001/00 - Teoretické základy informatiky</vylucujucePredmetyNazov>
+<vylucujucePredmetyKodNazov>3-INF-001 - Teoretické základy informatiky</vylucujucePredmetyKodNazov>
+<alternujucePredmety>FMFI.KI/3-INF-001/00</alternujucePredmety>
+<alternujucePredmetyNazov>FMFI.KI/3-INF-001/00 - Teoretické základy informatiky</alternujucePredmetyNazov>
+<alternujucePredmetyKodNazov>3-INF-001 - Teoretické základy informatiky</alternujucePredmetyKodNazov>
 <garanti>
 <garant>
-<meno>prof. RNDr. Rastislav Kráľovič, PhD.</meno>
-<typGaranta>garant</typGaranta>
-<idTypGaranta>1</idTypGaranta>
-<podprogram>Informatika</podprogram>
+<typGaranta>predseda odborovej komisie</typGaranta>
+<plneMeno>prof. RNDr. Branislav Rovan, PhD.</plneMeno>
 </garant>
 <garant>
-<meno>prof. RNDr. Branislav Rovan, PhD.</meno>
-<typGaranta>predseda odborovej komisie</typGaranta>
-<idTypGaranta>6</idTypGaranta>
-<podprogram>Informatika</podprogram>
+<typGaranta>garant</typGaranta>
+<plneMeno>prof. RNDr. Rastislav Kráľovič, PhD.</plneMeno>
 </garant>
 </garanti>
-</studijnyOdbor>
-</studijneOdbory>
-<akademickyRok>2015/2016</akademickyRok>
-<co typ="STUDIJNY_PROGRAM">
-<kodTypStudia>J</kodTypStudia>
-<nazov>dINF - informatika - (Jednoodborové štúdium, doktorandské III. st., denná forma)</nazov>
-</co>
-<castiStudijnehoPlanu>
-<cast>
-<kod>SC</kod>
-<nazov>Študijná časť</nazov>
-<typyVyucby>
-<typ>
-<skratka>A</skratka>
-<nazov>Povinné predmety</nazov>
-<obmedzenie/>
-<bloky>
-<blok>
-<skratka>3INF-A1</skratka>
-<nazov>Povinné predmety</nazov>
-<predmety>
-<predmet>
-<skratka>FMFI.KI/3-INF-001/15</skratka>
-<skratkaPredmet>3-INF-001</skratkaPredmet>
+<sposobyVyucbyRozsahMetoda>
+<sposobVyucbyRozsahMetoda>
+<sposobVyucby>Seminár</sposobVyucby>
+<rozsahTyzdenny>2</rozsahTyzdenny>
+<rozsahSemestralny>28</rozsahSemestralny>
+<metodaStudia>prezenčná</metodaStudia>
+</sposobVyucbyRozsahMetoda>
+</sposobyVyucbyRozsahMetoda>
+<podmienujucePredmetyStrukt/>
+<vylucujucePredmetyStrukt>
+<vylucujuciPredmet>
+<idPredmet>31845</idPredmet>
+<textPred/>
+<skratka>FMFI.KI/3-INF-001/00</skratka>
+<kod>3-INF-001</kod>
 <nazov>Teoretické základy informatiky</nazov>
-<aktualnost/>
-<kredit>8</kredit>
-<rozsah>2S</rozsah>
-<ukoncenie>H</ukoncenie>
-<rocnik>1</rocnik>
-<semester>Z</semester>
-<maxPocetPrihlStudentov/>
-<vyucujuci>Ďuriš, Rovan</vyucujuci>
-<vyucujuci2>P. Ďuriš, B. Rovan</vyucujuci2>
+<textZa/>
+</vylucujuciPredmet>
+</vylucujucePredmetyStrukt>
+<alternujucePredmetyStrukt>
+<alternujuciPredmet>
+<idPredmet>31845</idPredmet>
+<textPred/>
+<skratka>FMFI.KI/3-INF-001/00</skratka>
+<kod>3-INF-001</kod>
+<nazov>Teoretické základy informatiky</nazov>
+<textZa/>
+</alternujuciPredmet>
+</alternujucePredmetyStrukt>
+<kodyTypovVyucby>
+<kodtypVyucby>A</kodtypVyucby>
+</kodyTypovVyucby>
+<studijneProgramy>
+<studijnyProgram>
+<id>899</id>
+<skratka>dINF</skratka>
+<popis>informatika</popis>
+<kodSemester>Z</kodSemester>
+<rokRocnik>1</rokRocnik>
+<metodaStudia>prezenčná</metodaStudia>
+<semesterPoradie>1</semesterPoradie>
+</studijnyProgram>
+<studijnyProgram>
+<id>900</id>
+<skratka>dINF/x</skratka>
+<popis>informatika</popis>
+<kodSemester>Z</kodSemester>
+<rokRocnik>1</rokRocnik>
+<metodaStudia>prezenčná</metodaStudia>
+<semesterPoradie>1</semesterPoradie>
+</studijnyProgram>
+</studijneProgramy>
+<stupneStudijnychProgramov>III.</stupneStudijnychProgramov>
+<metodyStudia>
+<metodaStudia>prezenčná</metodaStudia>
+</metodyStudia>
+<jeZaradenyVStudijnomPlane>true</jeZaradenyVStudijnomPlane>
+<stupenPredmetu>III.</stupenPredmetu>
 <vyucujuciAll>
 <vyucujuci>
+<idOsoby>1019640</idOsoby>
 <poradie>1</poradie>
 <typ>P</typ>
 <typPopis>prednášajúci</typPopis>
@@ -64,8 +108,19 @@
 <priezvisko>Ďuriš</priezvisko>
 <plneMeno>prof. RNDr. Pavol Ďuriš, CSc.</plneMeno>
 <jazykyPredmetu>slovenský</jazykyPredmetu>
+<identifikacneCisla>
+<identifikacneCislo>
+<typ>UOC</typ>
+<cislo>43865001</cislo>
+</identifikacneCislo>
+<identifikacneCislo>
+<typ>PIK</typ>
+<cislo>8611622</cislo>
+</identifikacneCislo>
+</identifikacneCisla>
 </vyucujuci>
 <vyucujuci>
+<idOsoby>1000901</idOsoby>
 <poradie>2</poradie>
 <typ>P</typ>
 <typPopis>prednášajúci</typPopis>
@@ -73,496 +128,3366 @@
 <priezvisko>Rovan</priezvisko>
 <plneMeno>prof. RNDr. Branislav Rovan, PhD.</plneMeno>
 <jazykyPredmetu>slovenský</jazykyPredmetu>
+<identifikacneCisla>
+<identifikacneCislo>
+<typ>UOC</typ>
+<cislo>11291658</cislo>
+</identifikacneCislo>
+<identifikacneCislo>
+<typ>PIK</typ>
+<cislo>2139035300</cislo>
+</identifikacneCislo>
+<identifikacneCislo>
+<typ>PIK</typ>
+<cislo>4321302</cislo>
+</identifikacneCislo>
+</identifikacneCisla>
 </vyucujuci>
 </vyucujuciAll>
-<podmienujucePredmety/>
-</predmet>
-<predmet>
-<skratka>FMFI.KI/3-INF-002/15</skratka>
-<skratkaPredmet>3-INF-002</skratkaPredmet>
+<rocniky>
+<semester>Z</semester>
+<rocnik>
+<semesterPoradie>1</semesterPoradie>
+</rocnik>
+</rocniky>
+<_PA_>
+<popisTypuTextu>Podmienky na absolvovanie predmetu</popisTypuTextu>
+<texty>
+<p>Skúška: ústna</p>
+<p>Orientačná stupnica hodnotenia: A 90%, B 80%, C 70%, D 60%, E 50%</p>
+</texty>
+</_PA_>
+<_PJ_>
+<popisTypuTextu>Jazyk, ktorého znalosť je potrebná na absolvovanie predmetu</popisTypuTextu>
+<texty>
+<p>slovenský, anglický</p>
+</texty>
+</_PJ_>
+<_SO_>
+<popisTypuTextu>Stručná osnova predmetu</popisTypuTextu>
+<texty>
+<p>Konkrétna náplň predmetu sa môže v jednotlivých rokoch meniť podľa zloženia študentov. Zvyčajne je zameraná na niektorú z oblastí: výpočtová zložitosť a algoritmy, formálne modely výpočtov (vrátane distribuovaných, papralelných a súbežných), teória programovania, modelovanie a simulácia, logika, algebra a geometria, diskrétna matematika a teória grafov, pravdepodobnosť a štatistika</p>
+</texty>
+</_SO_>
+<_VH_>
+<popisTypuTextu>Váha hodnotenia predmetu (priebežné/záverečné)</popisTypuTextu>
+<texty>
+<p>0/100</p>
+</texty>
+</_VH_>
+<_VV_>
+<popisTypuTextu>Výsledky vzdelávania</popisTypuTextu>
+<texty>
+<p>Študent získa hlboké znalosti z teoretických princípov informatických vied.</p>
+</texty>
+</_VV_>
+<hodnoteniaPredmetu>
+<hodnoteniePredmetu>
+<kod>A</kod>
+<pocetHodnoteni>45</pocetHodnoteni>
+<percentualneVyjadrenieZCelkPoctuHodnoteni>100.0</percentualneVyjadrenieZCelkPoctuHodnoteni>
+</hodnoteniePredmetu>
+<hodnoteniePredmetu>
+<kod>B</kod>
+<pocetHodnoteni>0</pocetHodnoteni>
+<percentualneVyjadrenieZCelkPoctuHodnoteni>0.0</percentualneVyjadrenieZCelkPoctuHodnoteni>
+</hodnoteniePredmetu>
+<hodnoteniePredmetu>
+<kod>C</kod>
+<pocetHodnoteni>0</pocetHodnoteni>
+<percentualneVyjadrenieZCelkPoctuHodnoteni>0.0</percentualneVyjadrenieZCelkPoctuHodnoteni>
+</hodnoteniePredmetu>
+<hodnoteniePredmetu>
+<kod>D</kod>
+<pocetHodnoteni>0</pocetHodnoteni>
+<percentualneVyjadrenieZCelkPoctuHodnoteni>0.0</percentualneVyjadrenieZCelkPoctuHodnoteni>
+</hodnoteniePredmetu>
+<hodnoteniePredmetu>
+<kod>E</kod>
+<pocetHodnoteni>0</pocetHodnoteni>
+<percentualneVyjadrenieZCelkPoctuHodnoteni>0.0</percentualneVyjadrenieZCelkPoctuHodnoteni>
+</hodnoteniePredmetu>
+<hodnoteniePredmetu>
+<kod>FX</kod>
+<pocetHodnoteni>0</pocetHodnoteni>
+<percentualneVyjadrenieZCelkPoctuHodnoteni>0.0</percentualneVyjadrenieZCelkPoctuHodnoteni>
+</hodnoteniePredmetu>
+<celkovyPocetHodnotenychStudentov>45</celkovyPocetHodnotenychStudentov>
+<pocetTypovHodnoteni>6</pocetTypovHodnoteni>
+</hodnoteniaPredmetu>
+</informacnyList>
+<informacnyList>
+<id>105492</id>
+<kodTypPredmetu>Z</kodTypPredmetu>
+<skratka>3-INF-002</skratka>
+<kod>FMFI.KI/3-INF-002/15</kod>
 <nazov>Teória a metodológia informatiky</nazov>
-<aktualnost/>
 <kredit>10</kredit>
-<rozsah>4K</rozsah>
-<ukoncenie>H</ukoncenie>
-<rocnik>1</rocnik>
-<semester>L</semester>
-<maxPocetPrihlStudentov/>
-<vyucujuciAll/>
+<sposobUkoncenia>Hodnotenie</sposobUkoncenia>
+<sposobVyucby>Kurz</sposobVyucby>
+<rozsahTyzdenny>4</rozsahTyzdenny>
+<rozsahSemestranly>56</rozsahSemestranly>
+<obdobie>2</obdobie>
+<doplnujuceUdaje>(Jednoodborové štúdium, doktorandské III. st., denná forma)</doplnujuceUdaje>
+<kodSemesterStudPlan>L</kodSemesterStudPlan>
+<rokRocnikStudPlan>1</rokRocnikStudPlan>
+<datumSchvalenia>28.04.2015</datumSchvalenia>
 <podmienujucePredmety/>
-</predmet>
-<predmet>
-<skratka>FMFI.KI/3-INF-003/00</skratka>
-<skratkaPredmet>3-INF-003</skratkaPredmet>
+<podmienujucePredmetyNazov/>
+<podmPredmetyKodNazov/>
+<vylucujucePredmety>FMFI.KI/3-INF-002/00</vylucujucePredmety>
+<vylucujucePredmetyNazov>FMFI.KI/3-INF-002/00 - Teória a metodológia informatiky</vylucujucePredmetyNazov>
+<vylucujucePredmetyKodNazov>3-INF-002 - Teória a metodológia informatiky</vylucujucePredmetyKodNazov>
+<alternujucePredmety>FMFI.KI/3-INF-002/00</alternujucePredmety>
+<alternujucePredmetyNazov>FMFI.KI/3-INF-002/00 - Teória a metodológia informatiky</alternujucePredmetyNazov>
+<alternujucePredmetyKodNazov>3-INF-002 - Teória a metodológia informatiky</alternujucePredmetyKodNazov>
+<garanti>
+<garant>
+<typGaranta>predseda odborovej komisie</typGaranta>
+<plneMeno>prof. RNDr. Branislav Rovan, PhD.</plneMeno>
+</garant>
+<garant>
+<typGaranta>garant</typGaranta>
+<plneMeno>prof. RNDr. Rastislav Kráľovič, PhD.</plneMeno>
+</garant>
+</garanti>
+<sposobyVyucbyRozsahMetoda>
+<sposobVyucbyRozsahMetoda>
+<sposobVyucby>Kurz</sposobVyucby>
+<rozsahTyzdenny>4</rozsahTyzdenny>
+<rozsahSemestralny>56</rozsahSemestralny>
+<metodaStudia>prezenčná</metodaStudia>
+</sposobVyucbyRozsahMetoda>
+</sposobyVyucbyRozsahMetoda>
+<podmienujucePredmetyStrukt/>
+<vylucujucePredmetyStrukt>
+<vylucujuciPredmet>
+<idPredmet>31846</idPredmet>
+<textPred/>
+<skratka>FMFI.KI/3-INF-002/00</skratka>
+<kod>3-INF-002</kod>
+<nazov>Teória a metodológia informatiky</nazov>
+<textZa/>
+</vylucujuciPredmet>
+</vylucujucePredmetyStrukt>
+<alternujucePredmetyStrukt>
+<alternujuciPredmet>
+<idPredmet>31846</idPredmet>
+<textPred/>
+<skratka>FMFI.KI/3-INF-002/00</skratka>
+<kod>3-INF-002</kod>
+<nazov>Teória a metodológia informatiky</nazov>
+<textZa/>
+</alternujuciPredmet>
+</alternujucePredmetyStrukt>
+<kodyTypovVyucby>
+<kodtypVyucby>A</kodtypVyucby>
+</kodyTypovVyucby>
+<studijneProgramy>
+<studijnyProgram>
+<id>899</id>
+<skratka>dINF</skratka>
+<popis>informatika</popis>
+<kodSemester>L</kodSemester>
+<rokRocnik>1</rokRocnik>
+<metodaStudia>prezenčná</metodaStudia>
+<semesterPoradie>2</semesterPoradie>
+</studijnyProgram>
+<studijnyProgram>
+<id>900</id>
+<skratka>dINF/x</skratka>
+<popis>informatika</popis>
+<kodSemester>L</kodSemester>
+<rokRocnik>1</rokRocnik>
+<metodaStudia>prezenčná</metodaStudia>
+<semesterPoradie>2</semesterPoradie>
+</studijnyProgram>
+</studijneProgramy>
+<stupneStudijnychProgramov>III.</stupneStudijnychProgramov>
+<metodyStudia>
+<metodaStudia>prezenčná</metodaStudia>
+</metodyStudia>
+<jeZaradenyVStudijnomPlane>true</jeZaradenyVStudijnomPlane>
+<stupenPredmetu>III.</stupenPredmetu>
+<vyucujuciAll/>
+<rocniky>
+<semester>L</semester>
+<rocnik>
+<semesterPoradie>2</semesterPoradie>
+</rocnik>
+</rocniky>
+<_PA_>
+<popisTypuTextu>Podmienky na absolvovanie predmetu</popisTypuTextu>
+<texty>
+<p>Skúška: skúška</p>
+<p>Orientačná stupnica hodnotenia: A 90%, B 80%, C 70%, D 60%, E 50%</p>
+</texty>
+</_PA_>
+<_PJ_>
+<popisTypuTextu>Jazyk, ktorého znalosť je potrebná na absolvovanie predmetu</popisTypuTextu>
+<texty>
+<p>slovenský, anglický</p>
+</texty>
+</_PJ_>
+<_SO_>
+<popisTypuTextu>Stručná osnova predmetu</popisTypuTextu>
+<texty>
+<p>Konkrétna náplň predmetu sa môže v jednotlivých rokoch meniť podľa zloženia študentov.  Rozsahom predmet spravidla pokrýva cca 300-500 strán textu určeného pre postgraduálne štúdium.</p>
+</texty>
+</_SO_>
+<_VH_>
+<popisTypuTextu>Váha hodnotenia predmetu (priebežné/záverečné)</popisTypuTextu>
+<texty>
+<p>0/100</p>
+</texty>
+</_VH_>
+<_VV_>
+<popisTypuTextu>Výsledky vzdelávania</popisTypuTextu>
+<texty>
+<p>Študent si prehľbi vedomosti v niektorej oblasti informatiky. Obsah spravidla pokrýva oblasť, ktorá nie je priamo témou dizertačnej práce, ale súvisí s ňou či už kontextom, motiváciou, alebo metódami.</p>
+</texty>
+</_VV_>
+<hodnoteniaPredmetu>
+<hodnoteniePredmetu>
+<kod>A</kod>
+<pocetHodnoteni>49</pocetHodnoteni>
+<percentualneVyjadrenieZCelkPoctuHodnoteni>85.96</percentualneVyjadrenieZCelkPoctuHodnoteni>
+</hodnoteniePredmetu>
+<hodnoteniePredmetu>
+<kod>B</kod>
+<pocetHodnoteni>6</pocetHodnoteni>
+<percentualneVyjadrenieZCelkPoctuHodnoteni>10.53</percentualneVyjadrenieZCelkPoctuHodnoteni>
+</hodnoteniePredmetu>
+<hodnoteniePredmetu>
+<kod>C</kod>
+<pocetHodnoteni>0</pocetHodnoteni>
+<percentualneVyjadrenieZCelkPoctuHodnoteni>0.0</percentualneVyjadrenieZCelkPoctuHodnoteni>
+</hodnoteniePredmetu>
+<hodnoteniePredmetu>
+<kod>D</kod>
+<pocetHodnoteni>1</pocetHodnoteni>
+<percentualneVyjadrenieZCelkPoctuHodnoteni>1.75</percentualneVyjadrenieZCelkPoctuHodnoteni>
+</hodnoteniePredmetu>
+<hodnoteniePredmetu>
+<kod>E</kod>
+<pocetHodnoteni>1</pocetHodnoteni>
+<percentualneVyjadrenieZCelkPoctuHodnoteni>1.75</percentualneVyjadrenieZCelkPoctuHodnoteni>
+</hodnoteniePredmetu>
+<hodnoteniePredmetu>
+<kod>FX</kod>
+<pocetHodnoteni>0</pocetHodnoteni>
+<percentualneVyjadrenieZCelkPoctuHodnoteni>0.0</percentualneVyjadrenieZCelkPoctuHodnoteni>
+</hodnoteniePredmetu>
+<celkovyPocetHodnotenychStudentov>57</celkovyPocetHodnotenychStudentov>
+<pocetTypovHodnoteni>6</pocetTypovHodnoteni>
+</hodnoteniaPredmetu>
+</informacnyList>
+<informacnyList>
+<id>31822</id>
+<kodTypPredmetu>Z</kodTypPredmetu>
+<skratka>3-INF-003</skratka>
+<kod>FMFI.KI/3-INF-003/00</kod>
 <nazov>Predmet špecializácie</nazov>
-<aktualnost/>
 <kredit>20</kredit>
-<rozsah>4S</rozsah>
-<ukoncenie>H</ukoncenie>
-<rocnik>1</rocnik>
-<semester/>
-<maxPocetPrihlStudentov/>
-<vyucujuciAll/>
+<sposobUkoncenia>Hodnotenie</sposobUkoncenia>
+<sposobVyucby>Seminár</sposobVyucby>
+<rozsahTyzdenny>4</rozsahTyzdenny>
+<rozsahSemestranly>56</rozsahSemestranly>
+<obdobie>1, 2</obdobie>
+<doplnujuceUdaje>(Jednoodborové štúdium, doktorandské III. st., denná forma)</doplnujuceUdaje>
+<rokRocnikStudPlan>1</rokRocnikStudPlan>
+<datumSchvalenia>10.11.2014</datumSchvalenia>
 <podmienujucePredmety/>
-</predmet>
-</predmety>
-<obmedzenie>
-<kredit>0</kredit>
-<poznamkaPredKontrola>poznamkaPred je neprazdna</poznamkaPredKontrola>
-<poznamkaZaKontrola/>
-<poznamkyPred>
-<poznamkaPred>predmety pre študentov začínajúcich štúdium v akademickom roku 2014/15 alebo skôr</poznamkaPred>
-</poznamkyPred>
-</obmedzenie>
-</blok>
-<blok>
-<skratka>3INF-A2</skratka>
-<nazov>Povinné predmety</nazov>
-<predmety>
-<predmet>
-<skratka>FMFI.KI/3-INF-001/15</skratka>
-<skratkaPredmet>3-INF-001</skratkaPredmet>
-<nazov>Teoretické základy informatiky</nazov>
-<aktualnost/>
-<kredit>8</kredit>
-<rozsah>2S</rozsah>
-<ukoncenie>H</ukoncenie>
-<rocnik>1</rocnik>
-<semester>Z</semester>
-<maxPocetPrihlStudentov/>
-<vyucujuci>Ďuriš, Rovan</vyucujuci>
-<vyucujuci2>P. Ďuriš, B. Rovan</vyucujuci2>
-<vyucujuciAll>
-<vyucujuci>
-<poradie>1</poradie>
-<typ>P</typ>
-<typPopis>prednášajúci</typPopis>
-<meno>Pavol</meno>
-<priezvisko>Ďuriš</priezvisko>
-<plneMeno>prof. RNDr. Pavol Ďuriš, CSc.</plneMeno>
-<jazykyPredmetu>slovenský</jazykyPredmetu>
-</vyucujuci>
-<vyucujuci>
-<poradie>2</poradie>
-<typ>P</typ>
-<typPopis>prednášajúci</typPopis>
-<meno>Branislav</meno>
-<priezvisko>Rovan</priezvisko>
+<podmienujucePredmetyNazov/>
+<podmPredmetyKodNazov/>
+<vylucujucePredmety/>
+<vylucujucePredmetyNazov/>
+<vylucujucePredmetyKodNazov/>
+<alternujucePredmety/>
+<alternujucePredmetyNazov/>
+<alternujucePredmetyKodNazov/>
+<garanti>
+<garant>
+<typGaranta>predseda odborovej komisie</typGaranta>
 <plneMeno>prof. RNDr. Branislav Rovan, PhD.</plneMeno>
-<jazykyPredmetu>slovenský</jazykyPredmetu>
-</vyucujuci>
-</vyucujuciAll>
-<podmienujucePredmety/>
-</predmet>
-<predmet>
-<skratka>FMFI.KI/3-INF-002/15</skratka>
-<skratkaPredmet>3-INF-002</skratkaPredmet>
-<nazov>Teória a metodológia informatiky</nazov>
-<aktualnost/>
-<kredit>10</kredit>
-<rozsah>4K</rozsah>
-<ukoncenie>H</ukoncenie>
-<rocnik>1</rocnik>
-<semester>L</semester>
-<maxPocetPrihlStudentov/>
+</garant>
+<garant>
+<typGaranta>garant</typGaranta>
+<plneMeno>prof. RNDr. Rastislav Kráľovič, PhD.</plneMeno>
+</garant>
+</garanti>
+<sposobyVyucbyRozsahMetoda>
+<sposobVyucbyRozsahMetoda>
+<sposobVyucby>Seminár</sposobVyucby>
+<rozsahTyzdenny>4</rozsahTyzdenny>
+<rozsahSemestralny>56</rozsahSemestralny>
+<metodaStudia>prezenčná</metodaStudia>
+</sposobVyucbyRozsahMetoda>
+</sposobyVyucbyRozsahMetoda>
+<podmienujucePredmetyStrukt/>
+<vylucujucePredmetyStrukt/>
+<alternujucePredmetyStrukt/>
+<kodyTypovVyucby>
+<kodtypVyucby>A</kodtypVyucby>
+</kodyTypovVyucby>
+<studijneProgramy>
+<studijnyProgram>
+<id>900</id>
+<skratka>dINF/x</skratka>
+<popis>informatika</popis>
+<kodSemester/>
+<rokRocnik>1</rokRocnik>
+<metodaStudia>prezenčná</metodaStudia>
+<semesterPoradie>1, 2</semesterPoradie>
+</studijnyProgram>
+<studijnyProgram>
+<id>899</id>
+<skratka>dINF</skratka>
+<popis>informatika</popis>
+<kodSemester/>
+<rokRocnik>1</rokRocnik>
+<metodaStudia>prezenčná</metodaStudia>
+<semesterPoradie>1, 2</semesterPoradie>
+</studijnyProgram>
+</studijneProgramy>
+<stupneStudijnychProgramov>III.</stupneStudijnychProgramov>
+<metodyStudia>
+<metodaStudia>prezenčná</metodaStudia>
+</metodyStudia>
+<jeZaradenyVStudijnomPlane>true</jeZaradenyVStudijnomPlane>
+<stupenPredmetu>III.</stupenPredmetu>
 <vyucujuciAll/>
-<podmienujucePredmety/>
-</predmet>
-<predmet>
-<skratka>FMFI.KI/3-INF-027/15</skratka>
-<skratkaPredmet>3-INF-027</skratkaPredmet>
-<nazov>Oblasť špecializácie</nazov>
-<aktualnost/>
-<kredit>14</kredit>
-<rozsah>4K</rozsah>
-<ukoncenie>H</ukoncenie>
-<rocnik>1</rocnik>
-<semester>Z</semester>
-<maxPocetPrihlStudentov/>
-<vyucujuciAll/>
-<podmienujucePredmety/>
-</predmet>
-<predmet>
-<skratka>FMFI.KI/3-INF-023/15</skratka>
-<skratkaPredmet>3-INF-023</skratkaPredmet>
+<rocniky>
+<semester/>
+<rocnik>
+<semesterPoradie>1., 2.</semesterPoradie>
+</rocnik>
+</rocniky>
+<_C_>
+<popisTypuTextu>Cieľ (TEXT ZO STARÉHO IL - NEPOUŽÍVAŤ)</popisTypuTextu>
+<texty>
+<p>Získať hlboké znalosti z oblasti špecializácie. Naučiť sa samostatne pracovať s vedeckými zdrojmi informácií.
+</p>
+</texty>
+</_C_>
+<_L_>
+<popisTypuTextu>Odporúčaná literatúra</popisTypuTextu>
+<texty>
+<p>Základná literatúra sa odporučí doktorandovi z príslušnej vednej oblasti.
+</p>
+</texty>
+</_L_>
+<_SO_>
+<popisTypuTextu>Stručná osnova predmetu</popisTypuTextu>
+<texty>
+<p>Osnova predmetu sa dohodne individuálne s doktorandom v závislosti od skúmanej vednej oblasti danej témou dizertačnej práce.
+</p>
+</texty>
+</_SO_>
+<_VH_>
+<popisTypuTextu>Váha hodnotenia predmetu (priebežné/záverečné)</popisTypuTextu>
+<texty>
+<p>100/0</p>
+</texty>
+</_VH_>
+<hodnoteniaPredmetu>
+<hodnoteniePredmetu>
+<kod>A</kod>
+<pocetHodnoteni>44</pocetHodnoteni>
+<percentualneVyjadrenieZCelkPoctuHodnoteni>89.8</percentualneVyjadrenieZCelkPoctuHodnoteni>
+</hodnoteniePredmetu>
+<hodnoteniePredmetu>
+<kod>B</kod>
+<pocetHodnoteni>1</pocetHodnoteni>
+<percentualneVyjadrenieZCelkPoctuHodnoteni>2.04</percentualneVyjadrenieZCelkPoctuHodnoteni>
+</hodnoteniePredmetu>
+<hodnoteniePredmetu>
+<kod>C</kod>
+<pocetHodnoteni>3</pocetHodnoteni>
+<percentualneVyjadrenieZCelkPoctuHodnoteni>6.12</percentualneVyjadrenieZCelkPoctuHodnoteni>
+</hodnoteniePredmetu>
+<hodnoteniePredmetu>
+<kod>D</kod>
+<pocetHodnoteni>0</pocetHodnoteni>
+<percentualneVyjadrenieZCelkPoctuHodnoteni>0.0</percentualneVyjadrenieZCelkPoctuHodnoteni>
+</hodnoteniePredmetu>
+<hodnoteniePredmetu>
+<kod>E</kod>
+<pocetHodnoteni>1</pocetHodnoteni>
+<percentualneVyjadrenieZCelkPoctuHodnoteni>2.04</percentualneVyjadrenieZCelkPoctuHodnoteni>
+</hodnoteniePredmetu>
+<hodnoteniePredmetu>
+<kod>FX</kod>
+<pocetHodnoteni>0</pocetHodnoteni>
+<percentualneVyjadrenieZCelkPoctuHodnoteni>0.0</percentualneVyjadrenieZCelkPoctuHodnoteni>
+</hodnoteniePredmetu>
+<celkovyPocetHodnotenychStudentov>49</celkovyPocetHodnotenychStudentov>
+<pocetTypovHodnoteni>6</pocetTypovHodnoteni>
+</hodnoteniaPredmetu>
+</informacnyList>
+<informacnyList>
+<id>105491</id>
+<kodTypPredmetu>Z</kodTypPredmetu>
+<skratka>3-INF-023</skratka>
+<kod>FMFI.KI/3-INF-023/15</kod>
 <nazov>Sledovanie a spracovanie literatúry</nazov>
-<aktualnost/>
 <kredit>10</kredit>
-<rozsah>10D</rozsah>
-<ukoncenie>H</ukoncenie>
-<rocnik>1</rocnik>
-<semester/>
-<maxPocetPrihlStudentov/>
-<vyucujuciAll/>
+<sposobUkoncenia>Hodnotenie</sposobUkoncenia>
+<sposobVyucby>Samostatná práca</sposobVyucby>
+<rozsahTyzdenny>10</rozsahTyzdenny>
+<rozsahSemestranly>140</rozsahSemestranly>
+<obdobie>1, 2</obdobie>
+<doplnujuceUdaje>(Jednoodborové štúdium, doktorandské III. st., denná forma)</doplnujuceUdaje>
+<rokRocnikStudPlan>1</rokRocnikStudPlan>
+<datumSchvalenia>28.04.2015</datumSchvalenia>
 <podmienujucePredmety/>
-</predmet>
-</predmety>
-<obmedzenie>
-<kredit>0</kredit>
-<poznamkaPredKontrola>poznamkaPred je neprazdna</poznamkaPredKontrola>
-<poznamkaZaKontrola/>
-<poznamkyPred>
-<poznamkaPred>predmety pre študentov začínajúcich štúdium v akademickom roku 2015/16 alebo neskôr</poznamkaPred>
-</poznamkyPred>
-</obmedzenie>
-</blok>
-</bloky>
-</typ>
-<typ>
-<skratka>B</skratka>
-<nazov>Povinne voliteľné predmety</nazov>
-<obmedzenie/>
-</typ>
-<typ>
-<skratka>C</skratka>
-<nazov>Výberové predmety</nazov>
-<obmedzenie/>
-<bloky>
-<blok>
-<skratka>3INF-C</skratka>
-<nazov>Výberové predmety</nazov>
-<predmety>
-<predmet>
-<skratka>FMFI.KJP/3-MXX-101/15</skratka>
-<skratkaPredmet>3-MXX-101</skratkaPredmet>
-<nazov>Anglický jazyk pre doktorandov (1)</nazov>
-<aktualnost/>
-<kredit>5</kredit>
-<rozsah>2C</rozsah>
-<ukoncenie>H</ukoncenie>
+<podmienujucePredmetyNazov/>
+<podmPredmetyKodNazov/>
+<vylucujucePredmety/>
+<vylucujucePredmetyNazov/>
+<vylucujucePredmetyKodNazov/>
+<alternujucePredmety/>
+<alternujucePredmetyNazov/>
+<alternujucePredmetyKodNazov/>
+<garanti>
+<garant>
+<typGaranta>predseda odborovej komisie</typGaranta>
+<plneMeno>prof. RNDr. Branislav Rovan, PhD.</plneMeno>
+</garant>
+<garant>
+<typGaranta>garant</typGaranta>
+<plneMeno>prof. RNDr. Rastislav Kráľovič, PhD.</plneMeno>
+</garant>
+</garanti>
+<sposobyVyucbyRozsahMetoda>
+<sposobVyucbyRozsahMetoda>
+<sposobVyucby>Samostatná práca</sposobVyucby>
+<rozsahTyzdenny>10</rozsahTyzdenny>
+<rozsahSemestralny>140</rozsahSemestralny>
+<metodaStudia>prezenčná</metodaStudia>
+</sposobVyucbyRozsahMetoda>
+</sposobyVyucbyRozsahMetoda>
+<podmienujucePredmetyStrukt/>
+<vylucujucePredmetyStrukt/>
+<alternujucePredmetyStrukt/>
+<kodyTypovVyucby>
+<kodtypVyucby>A</kodtypVyucby>
+</kodyTypovVyucby>
+<studijneProgramy>
+<studijnyProgram>
+<id>900</id>
+<skratka>dINF/x</skratka>
+<popis>informatika</popis>
+<kodSemester/>
+<rokRocnik>1</rokRocnik>
+<metodaStudia>prezenčná</metodaStudia>
+<semesterPoradie>1, 2</semesterPoradie>
+</studijnyProgram>
+<studijnyProgram>
+<id>908</id>
+<skratka>dDMA/x</skratka>
+<popis>diskrétna matematika</popis>
+<kodSemester/>
+<rokRocnik>-1</rokRocnik>
+<metodaStudia>prezenčná</metodaStudia>
+<semesterPoradie/>
+</studijnyProgram>
+<studijnyProgram>
+<id>899</id>
+<skratka>dINF</skratka>
+<popis>informatika</popis>
+<kodSemester/>
+<rokRocnik>1</rokRocnik>
+<metodaStudia>prezenčná</metodaStudia>
+<semesterPoradie>1, 2</semesterPoradie>
+</studijnyProgram>
+<studijnyProgram>
+<id>907</id>
+<skratka>dDMA</skratka>
+<popis>diskrétna matematika</popis>
+<kodSemester/>
+<rokRocnik>-1</rokRocnik>
+<metodaStudia>prezenčná</metodaStudia>
+<semesterPoradie/>
+</studijnyProgram>
+</studijneProgramy>
+<stupneStudijnychProgramov>III.</stupneStudijnychProgramov>
+<metodyStudia>
+<metodaStudia>prezenčná</metodaStudia>
+</metodyStudia>
+<jeZaradenyVStudijnomPlane>true</jeZaradenyVStudijnomPlane>
+<stupenPredmetu>III.</stupenPredmetu>
+<vyucujuciAll/>
+<rocniky>
+<semester/>
+<rocnik>
+<semesterPoradie>1., 2.</semesterPoradie>
+</rocnik>
+</rocniky>
+<_PA_>
+<popisTypuTextu>Podmienky na absolvovanie predmetu</popisTypuTextu>
+<texty>
+<p>Skúška: skúška</p>
+<p>Orientačná stupnica hodnotenia: A 90%, B 80%, C 70%, D 60%, E 50%</p>
+</texty>
+</_PA_>
+<_PJ_>
+<popisTypuTextu>Jazyk, ktorého znalosť je potrebná na absolvovanie predmetu</popisTypuTextu>
+<texty>
+<p>slovenský, anglický</p>
+</texty>
+</_PJ_>
+<_SO_>
+<popisTypuTextu>Stručná osnova predmetu</popisTypuTextu>
+<texty>
+<p>Obsah spravidla tvorí súbor vedeckých článkov v rozsahu min.100 strán textu, ktoré predstavujú najdôležitejšie aktuálne výsledky v danej oblasti. Pri ich výbere študent aktívne spolupracuje so školiteľom. Študent tieto výsledky spracuje spravidla formou rešerše alebo referátu s vlastným pohľadom na podstatné časti a ich význam. Formu a rozsah skúšky určuje školiteľ tak, aby študent dokumentoval aktívne pochopenie spracovaných výsledkov. Predmet je možné absolvovať viackrát; po skončení študijnej časti je možné predmet zapisovať ako výberový.</p>
+</texty>
+</_SO_>
+<_VH_>
+<popisTypuTextu>Váha hodnotenia predmetu (priebežné/záverečné)</popisTypuTextu>
+<texty>
+<p>100/0</p>
+</texty>
+</_VH_>
+<_VV_>
+<popisTypuTextu>Výsledky vzdelávania</popisTypuTextu>
+<texty>
+<p>Študent aktívne sleduje najnovšie dianie vo svojej oblasti zamerania, vie aktívne pochopiť a spracovať výsledky.</p>
+</texty>
+</_VV_>
+<hodnoteniaPredmetu>
+<hodnoteniePredmetu>
+<kod>A</kod>
+<pocetHodnoteni>0</pocetHodnoteni>
+<percentualneVyjadrenieZCelkPoctuHodnoteni>0.0</percentualneVyjadrenieZCelkPoctuHodnoteni>
+</hodnoteniePredmetu>
+<hodnoteniePredmetu>
+<kod>B</kod>
+<pocetHodnoteni>0</pocetHodnoteni>
+<percentualneVyjadrenieZCelkPoctuHodnoteni>0.0</percentualneVyjadrenieZCelkPoctuHodnoteni>
+</hodnoteniePredmetu>
+<hodnoteniePredmetu>
+<kod>C</kod>
+<pocetHodnoteni>0</pocetHodnoteni>
+<percentualneVyjadrenieZCelkPoctuHodnoteni>0.0</percentualneVyjadrenieZCelkPoctuHodnoteni>
+</hodnoteniePredmetu>
+<hodnoteniePredmetu>
+<kod>D</kod>
+<pocetHodnoteni>0</pocetHodnoteni>
+<percentualneVyjadrenieZCelkPoctuHodnoteni>0.0</percentualneVyjadrenieZCelkPoctuHodnoteni>
+</hodnoteniePredmetu>
+<hodnoteniePredmetu>
+<kod>E</kod>
+<pocetHodnoteni>0</pocetHodnoteni>
+<percentualneVyjadrenieZCelkPoctuHodnoteni>0.0</percentualneVyjadrenieZCelkPoctuHodnoteni>
+</hodnoteniePredmetu>
+<hodnoteniePredmetu>
+<kod>FX</kod>
+<pocetHodnoteni>0</pocetHodnoteni>
+<percentualneVyjadrenieZCelkPoctuHodnoteni>0.0</percentualneVyjadrenieZCelkPoctuHodnoteni>
+</hodnoteniePredmetu>
+<celkovyPocetHodnotenychStudentov>0</celkovyPocetHodnotenychStudentov>
+<pocetTypovHodnoteni>6</pocetTypovHodnoteni>
+</hodnoteniaPredmetu>
+</informacnyList>
+<informacnyList>
+<id>105493</id>
+<kodTypPredmetu>Z</kodTypPredmetu>
+<skratka>3-INF-027</skratka>
+<kod>FMFI.KI/3-INF-027/15</kod>
+<nazov>Oblasť špecializácie</nazov>
+<kredit>14</kredit>
+<sposobUkoncenia>Hodnotenie</sposobUkoncenia>
+<sposobVyucby>Kurz</sposobVyucby>
+<rozsahTyzdenny>4</rozsahTyzdenny>
+<rozsahSemestranly>56</rozsahSemestranly>
+<obdobie>1</obdobie>
+<doplnujuceUdaje>(Jednoodborové štúdium, doktorandské III. st., denná forma)</doplnujuceUdaje>
+<kodSemesterStudPlan>Z</kodSemesterStudPlan>
+<rokRocnikStudPlan>1</rokRocnikStudPlan>
+<datumSchvalenia>28.04.2015</datumSchvalenia>
+<podmienujucePredmety/>
+<podmienujucePredmetyNazov/>
+<podmPredmetyKodNazov/>
+<vylucujucePredmety/>
+<vylucujucePredmetyNazov/>
+<vylucujucePredmetyKodNazov/>
+<alternujucePredmety/>
+<alternujucePredmetyNazov/>
+<alternujucePredmetyKodNazov/>
+<garanti>
+<garant>
+<typGaranta>predseda odborovej komisie</typGaranta>
+<plneMeno>prof. RNDr. Branislav Rovan, PhD.</plneMeno>
+</garant>
+<garant>
+<typGaranta>garant</typGaranta>
+<plneMeno>prof. RNDr. Rastislav Kráľovič, PhD.</plneMeno>
+</garant>
+</garanti>
+<sposobyVyucbyRozsahMetoda>
+<sposobVyucbyRozsahMetoda>
+<sposobVyucby>Kurz</sposobVyucby>
+<rozsahTyzdenny>4</rozsahTyzdenny>
+<rozsahSemestralny>56</rozsahSemestralny>
+<metodaStudia>prezenčná</metodaStudia>
+</sposobVyucbyRozsahMetoda>
+</sposobyVyucbyRozsahMetoda>
+<podmienujucePredmetyStrukt/>
+<vylucujucePredmetyStrukt/>
+<alternujucePredmetyStrukt/>
+<kodyTypovVyucby>
+<kodtypVyucby>A</kodtypVyucby>
+</kodyTypovVyucby>
+<studijneProgramy>
+<studijnyProgram>
+<id>899</id>
+<skratka>dINF</skratka>
+<popis>informatika</popis>
+<kodSemester>Z</kodSemester>
+<rokRocnik>1</rokRocnik>
+<metodaStudia>prezenčná</metodaStudia>
+<semesterPoradie>1</semesterPoradie>
+</studijnyProgram>
+<studijnyProgram>
+<id>900</id>
+<skratka>dINF/x</skratka>
+<popis>informatika</popis>
+<kodSemester>Z</kodSemester>
+<rokRocnik>1</rokRocnik>
+<metodaStudia>prezenčná</metodaStudia>
+<semesterPoradie>1</semesterPoradie>
+</studijnyProgram>
+</studijneProgramy>
+<stupneStudijnychProgramov>III.</stupneStudijnychProgramov>
+<metodyStudia>
+<metodaStudia>prezenčná</metodaStudia>
+</metodyStudia>
+<jeZaradenyVStudijnomPlane>true</jeZaradenyVStudijnomPlane>
+<stupenPredmetu>III.</stupenPredmetu>
+<vyucujuciAll/>
+<rocniky>
 <semester>Z</semester>
-<maxPocetPrihlStudentov/>
-<vyucujuci>Zemanová</vyucujuci>
-<vyucujuci2>A. Zemanová</vyucujuci2>
-<vyucujuciAll>
-<vyucujuci>
-<poradie>1</poradie>
-<typ>C</typ>
-<typPopis>cvičiaci</typPopis>
-<meno>Alena</meno>
-<priezvisko>Zemanová</priezvisko>
-<plneMeno>PhDr. Alena Zemanová</plneMeno>
-<jazykyPredmetu>slovenský</jazykyPredmetu>
-</vyucujuci>
-</vyucujuciAll>
-<podmienujucePredmety/>
-</predmet>
-<predmet>
-<skratka>FMFI.KJP/3-MXX-102/15</skratka>
-<skratkaPredmet>3-MXX-102</skratkaPredmet>
-<nazov>Anglický jazyk pre doktorandov (2)</nazov>
-<aktualnost/>
-<kredit>5</kredit>
-<rozsah>2C</rozsah>
-<ukoncenie>H</ukoncenie>
-<semester>L</semester>
-<maxPocetPrihlStudentov/>
-<vyucujuci>Zemanová</vyucujuci>
-<vyucujuci2>A. Zemanová</vyucujuci2>
-<vyucujuciAll>
-<vyucujuci>
-<poradie>1</poradie>
-<typ>C</typ>
-<typPopis>cvičiaci</typPopis>
-<meno>Alena</meno>
-<priezvisko>Zemanová</priezvisko>
-<plneMeno>PhDr. Alena Zemanová</plneMeno>
-<jazykyPredmetu>slovenský</jazykyPredmetu>
-</vyucujuci>
-</vyucujuciAll>
-<podmienujuce>
-<podmienujuci>FMFI.KJP/3-MXX-101/15</podmienujuci>
-<pocet>1</pocet>
-</podmienujuce>
-<podmienujucePredmety>FMFI.KJP/3-MXX-101/15</podmienujucePredmety>
-</predmet>
-<predmet>
-<skratka>FMFI.KI/3-INF-120/15</skratka>
-<skratkaPredmet>3-INF-120</skratkaPredmet>
+<rocnik>
+<semesterPoradie>1</semesterPoradie>
+</rocnik>
+</rocniky>
+<_PA_>
+<popisTypuTextu>Podmienky na absolvovanie predmetu</popisTypuTextu>
+<texty>
+<p>Skúška: skúška</p>
+<p>Orientačná stupnica hodnotenia: A 90%, B 80%, C 70%, D 60%, E 50%</p>
+</texty>
+</_PA_>
+<_PJ_>
+<popisTypuTextu>Jazyk, ktorého znalosť je potrebná na absolvovanie predmetu</popisTypuTextu>
+<texty>
+<p>slovenský, anglický</p>
+</texty>
+</_PJ_>
+<_SO_>
+<popisTypuTextu>Stručná osnova predmetu</popisTypuTextu>
+<texty>
+<p>Konkrétna náplň predmetu sa môže v jednotlivých rokoch meniť podľa zloženia študentov.  Obsah spravidla tvorí niekoľko monografií v rozsahu &gt;=500 strán textu (na úrovni vedeckej monografie alebo učebnice určenej pre postgraduálne štúdium) a súbor vedeckých článkov, ktorých naštudovanie poskytne rozhľad v oblasti špecializácie do takej hĺbky, ktorá je potrebná k aktívnej výskumnej práci a zároveň umožňuje vidieť súvislosti a kontext danej oblasti.</p>
+</texty>
+</_SO_>
+<_VH_>
+<popisTypuTextu>Váha hodnotenia predmetu (priebežné/záverečné)</popisTypuTextu>
+<texty>
+<p>0/100</p>
+</texty>
+</_VH_>
+<_VV_>
+<popisTypuTextu>Výsledky vzdelávania</popisTypuTextu>
+<texty>
+<p>Študent získa hlboké vedomosti z oblasti úzko súvisiacej s témou dizertačnej práce.</p>
+</texty>
+</_VV_>
+<hodnoteniaPredmetu>
+<hodnoteniePredmetu>
+<kod>A</kod>
+<pocetHodnoteni>0</pocetHodnoteni>
+<percentualneVyjadrenieZCelkPoctuHodnoteni>0.0</percentualneVyjadrenieZCelkPoctuHodnoteni>
+</hodnoteniePredmetu>
+<hodnoteniePredmetu>
+<kod>B</kod>
+<pocetHodnoteni>0</pocetHodnoteni>
+<percentualneVyjadrenieZCelkPoctuHodnoteni>0.0</percentualneVyjadrenieZCelkPoctuHodnoteni>
+</hodnoteniePredmetu>
+<hodnoteniePredmetu>
+<kod>C</kod>
+<pocetHodnoteni>0</pocetHodnoteni>
+<percentualneVyjadrenieZCelkPoctuHodnoteni>0.0</percentualneVyjadrenieZCelkPoctuHodnoteni>
+</hodnoteniePredmetu>
+<hodnoteniePredmetu>
+<kod>D</kod>
+<pocetHodnoteni>0</pocetHodnoteni>
+<percentualneVyjadrenieZCelkPoctuHodnoteni>0.0</percentualneVyjadrenieZCelkPoctuHodnoteni>
+</hodnoteniePredmetu>
+<hodnoteniePredmetu>
+<kod>E</kod>
+<pocetHodnoteni>0</pocetHodnoteni>
+<percentualneVyjadrenieZCelkPoctuHodnoteni>0.0</percentualneVyjadrenieZCelkPoctuHodnoteni>
+</hodnoteniePredmetu>
+<hodnoteniePredmetu>
+<kod>FX</kod>
+<pocetHodnoteni>0</pocetHodnoteni>
+<percentualneVyjadrenieZCelkPoctuHodnoteni>0.0</percentualneVyjadrenieZCelkPoctuHodnoteni>
+</hodnoteniePredmetu>
+<celkovyPocetHodnotenychStudentov>0</celkovyPocetHodnotenychStudentov>
+<pocetTypovHodnoteni>6</pocetTypovHodnoteni>
+</hodnoteniaPredmetu>
+</informacnyList>
+<informacnyList>
+<id>105494</id>
+<kodTypPredmetu>Z</kodTypPredmetu>
+<skratka>3-INF-120</skratka>
+<kod>FMFI.KI/3-INF-120/15</kod>
 <nazov>Štúdium literatúry</nazov>
-<aktualnost/>
 <kredit>4</kredit>
-<rozsah>5D</rozsah>
-<ukoncenie>H</ukoncenie>
-<semester/>
-<maxPocetPrihlStudentov/>
-<vyucujuciAll/>
+<sposobUkoncenia>Hodnotenie</sposobUkoncenia>
+<sposobVyucby>Samostatná práca</sposobVyucby>
+<rozsahTyzdenny>5</rozsahTyzdenny>
+<rozsahSemestranly>70</rozsahSemestranly>
+<doplnujuceUdaje>(Jednoodborové štúdium, doktorandské III. st., denná forma)</doplnujuceUdaje>
+<datumSchvalenia>28.04.2015</datumSchvalenia>
 <podmienujucePredmety/>
-</predmet>
-</predmety>
-<obmedzenie>
-<kredit>0</kredit>
-<poznamkaPredKontrola/>
-<poznamkaZaKontrola>poznamkaZa je neprazdna</poznamkaZaKontrola>
-<poznamkyZa>
-<poznamkaZa>Predmet Štúdium literatúry je možné absolvovať aj viackrát.</poznamkaZa>
-</poznamkyZa>
-</obmedzenie>
-</blok>
-</bloky>
-</typ>
-</typyVyucby>
-</cast>
-<cast>
-<kod>VC</kod>
-<nazov>Vedecká časť</nazov>
-<bloky>
-<blok>
-<skratka>3INF-VVC1</skratka>
-<nazov>Vedecká činnosť - povinne voliteľné predmety</nazov>
-<predmety>
-<predmet>
-<skratka>FMFI.KI/3-INF-401/15</skratka>
-<skratkaPredmet>3-INF-401</skratkaPredmet>
+<podmienujucePredmetyNazov/>
+<podmPredmetyKodNazov/>
+<vylucujucePredmety/>
+<vylucujucePredmetyNazov/>
+<vylucujucePredmetyKodNazov/>
+<alternujucePredmety/>
+<alternujucePredmetyNazov/>
+<alternujucePredmetyKodNazov/>
+<garanti>
+<garant>
+<typGaranta>predseda odborovej komisie</typGaranta>
+<plneMeno>prof. RNDr. Branislav Rovan, PhD.</plneMeno>
+</garant>
+<garant>
+<typGaranta>garant</typGaranta>
+<plneMeno>prof. RNDr. Rastislav Kráľovič, PhD.</plneMeno>
+</garant>
+</garanti>
+<sposobyVyucbyRozsahMetoda>
+<sposobVyucbyRozsahMetoda>
+<sposobVyucby>Samostatná práca</sposobVyucby>
+<rozsahTyzdenny>5</rozsahTyzdenny>
+<rozsahSemestralny>70</rozsahSemestralny>
+<metodaStudia>prezenčná</metodaStudia>
+</sposobVyucbyRozsahMetoda>
+</sposobyVyucbyRozsahMetoda>
+<podmienujucePredmetyStrukt/>
+<vylucujucePredmetyStrukt/>
+<alternujucePredmetyStrukt/>
+<kodyTypovVyucby>
+<kodtypVyucby>C</kodtypVyucby>
+</kodyTypovVyucby>
+<studijneProgramy>
+<studijnyProgram>
+<id>908</id>
+<skratka>dDMA/x</skratka>
+<popis>diskrétna matematika</popis>
+<kodSemester/>
+<rokRocnik>-1</rokRocnik>
+<metodaStudia>prezenčná</metodaStudia>
+<semesterPoradie/>
+</studijnyProgram>
+<studijnyProgram>
+<id>899</id>
+<skratka>dINF</skratka>
+<popis>informatika</popis>
+<kodSemester/>
+<rokRocnik>-1</rokRocnik>
+<metodaStudia>prezenčná</metodaStudia>
+<semesterPoradie/>
+</studijnyProgram>
+<studijnyProgram>
+<id>900</id>
+<skratka>dINF/x</skratka>
+<popis>informatika</popis>
+<kodSemester/>
+<rokRocnik>-1</rokRocnik>
+<metodaStudia>prezenčná</metodaStudia>
+<semesterPoradie/>
+</studijnyProgram>
+<studijnyProgram>
+<id>907</id>
+<skratka>dDMA</skratka>
+<popis>diskrétna matematika</popis>
+<kodSemester/>
+<rokRocnik>-1</rokRocnik>
+<metodaStudia>prezenčná</metodaStudia>
+<semesterPoradie/>
+</studijnyProgram>
+</studijneProgramy>
+<stupneStudijnychProgramov>III.</stupneStudijnychProgramov>
+<metodyStudia>
+<metodaStudia>prezenčná</metodaStudia>
+</metodyStudia>
+<jeZaradenyVStudijnomPlane>true</jeZaradenyVStudijnomPlane>
+<stupenPredmetu>III.</stupenPredmetu>
+<vyucujuciAll/>
+<_PA_>
+<popisTypuTextu>Podmienky na absolvovanie predmetu</popisTypuTextu>
+<texty>
+<p>Skúška: skúška</p>
+<p>Orientačná stupnica hodnotenia: A 90%, B 80%, C 70%, D 60%, E 50%</p>
+</texty>
+</_PA_>
+<_PJ_>
+<popisTypuTextu>Jazyk, ktorého znalosť je potrebná na absolvovanie predmetu</popisTypuTextu>
+<texty>
+<p>slovenský, anglický</p>
+</texty>
+</_PJ_>
+<_SO_>
+<popisTypuTextu>Stručná osnova predmetu</popisTypuTextu>
+<texty>
+<p>Obsah spravidla tvorí súbor vedeckých článkov v rozsahu 50-150 strán textu. Študent sám alebo s pomocou školiteľa vyhľadá aktuálne výsledky v danej oblasti a naštuduje ich.  Formu a rozsah skúšky určuje školiteľ tak, aby študent dokumentoval aktívne pochopenie spracovaných výsledkov. Predmet je možné absolvovať viackrát.</p>
+</texty>
+</_SO_>
+<_VH_>
+<popisTypuTextu>Váha hodnotenia predmetu (priebežné/záverečné)</popisTypuTextu>
+<texty>
+<p>100/0</p>
+</texty>
+</_VH_>
+<_VV_>
+<popisTypuTextu>Výsledky vzdelávania</popisTypuTextu>
+<texty>
+<p>Študent pochopí výsledky a aktívne ovláda techniky z aktuálnych vedeckých článkov v jeho oblasti špecializácie.</p>
+</texty>
+</_VV_>
+<hodnoteniaPredmetu>
+<hodnoteniePredmetu>
+<kod>A</kod>
+<pocetHodnoteni>0</pocetHodnoteni>
+<percentualneVyjadrenieZCelkPoctuHodnoteni>0.0</percentualneVyjadrenieZCelkPoctuHodnoteni>
+</hodnoteniePredmetu>
+<hodnoteniePredmetu>
+<kod>B</kod>
+<pocetHodnoteni>0</pocetHodnoteni>
+<percentualneVyjadrenieZCelkPoctuHodnoteni>0.0</percentualneVyjadrenieZCelkPoctuHodnoteni>
+</hodnoteniePredmetu>
+<hodnoteniePredmetu>
+<kod>C</kod>
+<pocetHodnoteni>0</pocetHodnoteni>
+<percentualneVyjadrenieZCelkPoctuHodnoteni>0.0</percentualneVyjadrenieZCelkPoctuHodnoteni>
+</hodnoteniePredmetu>
+<hodnoteniePredmetu>
+<kod>D</kod>
+<pocetHodnoteni>0</pocetHodnoteni>
+<percentualneVyjadrenieZCelkPoctuHodnoteni>0.0</percentualneVyjadrenieZCelkPoctuHodnoteni>
+</hodnoteniePredmetu>
+<hodnoteniePredmetu>
+<kod>E</kod>
+<pocetHodnoteni>0</pocetHodnoteni>
+<percentualneVyjadrenieZCelkPoctuHodnoteni>0.0</percentualneVyjadrenieZCelkPoctuHodnoteni>
+</hodnoteniePredmetu>
+<hodnoteniePredmetu>
+<kod>FX</kod>
+<pocetHodnoteni>0</pocetHodnoteni>
+<percentualneVyjadrenieZCelkPoctuHodnoteni>0.0</percentualneVyjadrenieZCelkPoctuHodnoteni>
+</hodnoteniePredmetu>
+<celkovyPocetHodnotenychStudentov>0</celkovyPocetHodnotenychStudentov>
+<pocetTypovHodnoteni>6</pocetTypovHodnoteni>
+</hodnoteniaPredmetu>
+</informacnyList>
+<informacnyList>
+<id>105495</id>
+<kodTypPredmetu>Z</kodTypPredmetu>
+<skratka>3-INF-401</skratka>
+<kod>FMFI.KI/3-INF-401/15</kod>
 <nazov>Vedecká činnosť I</nazov>
-<aktualnost/>
 <kredit>6</kredit>
-<rozsah/>
-<ukoncenie>H</ukoncenie>
-<semester/>
-<maxPocetPrihlStudentov/>
-<vyucujuciAll/>
+<sposobUkoncenia>Hodnotenie</sposobUkoncenia>
+<doplnujuceUdaje>(Jednoodborové štúdium, doktorandské III. st., denná forma)</doplnujuceUdaje>
+<datumSchvalenia>28.04.2015</datumSchvalenia>
 <podmienujucePredmety/>
-</predmet>
-<predmet>
-<skratka>FMFI.KI/3-INF-402/15</skratka>
-<skratkaPredmet>3-INF-402</skratkaPredmet>
+<podmienujucePredmetyNazov/>
+<podmPredmetyKodNazov/>
+<vylucujucePredmety/>
+<vylucujucePredmetyNazov/>
+<vylucujucePredmetyKodNazov/>
+<alternujucePredmety/>
+<alternujucePredmetyNazov/>
+<alternujucePredmetyKodNazov/>
+<garanti>
+<garant>
+<typGaranta>predseda odborovej komisie</typGaranta>
+<plneMeno>prof. RNDr. Branislav Rovan, PhD.</plneMeno>
+</garant>
+<garant>
+<typGaranta>garant</typGaranta>
+<plneMeno>prof. RNDr. Rastislav Kráľovič, PhD.</plneMeno>
+</garant>
+</garanti>
+<sposobyVyucbyRozsahMetoda/>
+<podmienujucePredmetyStrukt/>
+<vylucujucePredmetyStrukt/>
+<alternujucePredmetyStrukt/>
+<kodyTypovVyucby/>
+<studijneProgramy>
+<studijnyProgram>
+<id>899</id>
+<skratka>dINF</skratka>
+<popis>informatika</popis>
+<kodSemester/>
+<rokRocnik>-1</rokRocnik>
+<metodaStudia>prezenčná</metodaStudia>
+<semesterPoradie/>
+</studijnyProgram>
+<studijnyProgram>
+<id>900</id>
+<skratka>dINF/x</skratka>
+<popis>informatika</popis>
+<kodSemester/>
+<rokRocnik>-1</rokRocnik>
+<metodaStudia>prezenčná</metodaStudia>
+<semesterPoradie/>
+</studijnyProgram>
+</studijneProgramy>
+<stupneStudijnychProgramov>III.</stupneStudijnychProgramov>
+<metodyStudia>
+<metodaStudia>prezenčná</metodaStudia>
+</metodyStudia>
+<jeZaradenyVStudijnomPlane>true</jeZaradenyVStudijnomPlane>
+<stupenPredmetu>III.</stupenPredmetu>
+<vyucujuciAll/>
+<_PJ_>
+<popisTypuTextu>Jazyk, ktorého znalosť je potrebná na absolvovanie predmetu</popisTypuTextu>
+<texty>
+<p>slovenský, anglický</p>
+</texty>
+</_PJ_>
+<_S_>
+<popisTypuTextu>Sylabus predmetu (TEXT ZO STARÉHO IL - NEPOUŽÍVAŤ)</popisTypuTextu>
+<texty>
+<p>Príklady činností v predmete Vedecká činnosť </p>
+<p>Blok – Publikačná činnosť</p>
+<p>Zahraničný karentovaný časopis</p>
+<p>Domáci karentovaný časopis</p>
+<p>Zahraničný nekarentovaný časopis</p>
+<p>Domáci nekarentovaný časopis</p>
+<p>Recenzovaný zahraničný zborník</p>
+<p>Recenzovaný domáci zborník</p>
+<p>Nerecenzovaný zahraničný zborník</p>
+<p>Nerecenzovaný domáci zborník</p>
+<p>Blok – Aktívna prezentácia výsledkov</p>
+<p>Vystúpenie na medzinárodnej konferencii</p>
+<p>Vystúpenie na domácej konferencii so zahraničnou účasťou</p>
+<p>Vystúpenie na domácej konferencii</p>
+<p>Blok – Granty, ohlasy a iné</p>
+<p>Získanie Grantu UK</p>
+<p>Spoluriešiteľ medzinárodného projektu</p>
+<p>Spoluriešiteľ domáceho projektu</p>
+<p>Citácia registrovaná v SCI alebo SCOPUS</p>
+<p>Citácia v monografii</p>
+<p>Citácia v zahraničnom vedeckom časopise</p>
+<p>Citácia v domácom vedeckom časopise</p>
+<p>Zavedenie novej experimentálnej metodiky (ktorá súvisí s DP)</p>
+<p>Vývoj nového softwarového produktu (ktorý súvisí s DP)</p>
+</texty>
+</_S_>
+<_SO_>
+<popisTypuTextu>Stručná osnova predmetu</popisTypuTextu>
+<texty>
+<p>Študent pracuje pod vedením školiteľa na téme dizertačnej práce.  Hodnotenie predmetu udeľuje školiteľ, pričom dbá na to, aby študent dokumentoval vynaloženú prácu zodpovedajúcu kreditovej dotácii. Spravidla ide o publikovanie technických správ, preprintov, publikovanie/zaslanie príspevkov na konferencie a do časopisov, aktívnu účasť na konferenciách a pod. Predmet je možné absolvovať viackrát.</p>
+</texty>
+</_SO_>
+<_VH_>
+<popisTypuTextu>Váha hodnotenia predmetu (priebežné/záverečné)</popisTypuTextu>
+<texty>
+<p>100/0</p>
+</texty>
+</_VH_>
+<_VV_>
+<popisTypuTextu>Výsledky vzdelávania</popisTypuTextu>
+<texty>
+<p>Študent dosiahne vlastné vedecké výsledky.</p>
+</texty>
+</_VV_>
+<hodnoteniaPredmetu>
+<hodnoteniePredmetu>
+<kod>A</kod>
+<pocetHodnoteni>0</pocetHodnoteni>
+<percentualneVyjadrenieZCelkPoctuHodnoteni>0.0</percentualneVyjadrenieZCelkPoctuHodnoteni>
+</hodnoteniePredmetu>
+<hodnoteniePredmetu>
+<kod>B</kod>
+<pocetHodnoteni>0</pocetHodnoteni>
+<percentualneVyjadrenieZCelkPoctuHodnoteni>0.0</percentualneVyjadrenieZCelkPoctuHodnoteni>
+</hodnoteniePredmetu>
+<hodnoteniePredmetu>
+<kod>C</kod>
+<pocetHodnoteni>0</pocetHodnoteni>
+<percentualneVyjadrenieZCelkPoctuHodnoteni>0.0</percentualneVyjadrenieZCelkPoctuHodnoteni>
+</hodnoteniePredmetu>
+<hodnoteniePredmetu>
+<kod>D</kod>
+<pocetHodnoteni>0</pocetHodnoteni>
+<percentualneVyjadrenieZCelkPoctuHodnoteni>0.0</percentualneVyjadrenieZCelkPoctuHodnoteni>
+</hodnoteniePredmetu>
+<hodnoteniePredmetu>
+<kod>E</kod>
+<pocetHodnoteni>0</pocetHodnoteni>
+<percentualneVyjadrenieZCelkPoctuHodnoteni>0.0</percentualneVyjadrenieZCelkPoctuHodnoteni>
+</hodnoteniePredmetu>
+<hodnoteniePredmetu>
+<kod>FX</kod>
+<pocetHodnoteni>0</pocetHodnoteni>
+<percentualneVyjadrenieZCelkPoctuHodnoteni>0.0</percentualneVyjadrenieZCelkPoctuHodnoteni>
+</hodnoteniePredmetu>
+<celkovyPocetHodnotenychStudentov>0</celkovyPocetHodnotenychStudentov>
+<pocetTypovHodnoteni>6</pocetTypovHodnoteni>
+</hodnoteniaPredmetu>
+</informacnyList>
+<informacnyList>
+<id>105496</id>
+<kodTypPredmetu>Z</kodTypPredmetu>
+<skratka>3-INF-402</skratka>
+<kod>FMFI.KI/3-INF-402/15</kod>
 <nazov>Vedecká činnosť II</nazov>
-<aktualnost/>
 <kredit>10</kredit>
-<rozsah/>
-<ukoncenie>H</ukoncenie>
-<semester/>
-<maxPocetPrihlStudentov/>
-<vyucujuciAll/>
+<sposobUkoncenia>Hodnotenie</sposobUkoncenia>
+<doplnujuceUdaje>(Jednoodborové štúdium, doktorandské III. st., denná forma)</doplnujuceUdaje>
+<datumSchvalenia>28.04.2015</datumSchvalenia>
 <podmienujucePredmety/>
-</predmet>
-<predmet>
-<skratka>FMFI.KI/3-INF-403/15</skratka>
-<skratkaPredmet>3-INF-403</skratkaPredmet>
+<podmienujucePredmetyNazov/>
+<podmPredmetyKodNazov/>
+<vylucujucePredmety/>
+<vylucujucePredmetyNazov/>
+<vylucujucePredmetyKodNazov/>
+<alternujucePredmety/>
+<alternujucePredmetyNazov/>
+<alternujucePredmetyKodNazov/>
+<garanti>
+<garant>
+<typGaranta>predseda odborovej komisie</typGaranta>
+<plneMeno>prof. RNDr. Branislav Rovan, PhD.</plneMeno>
+</garant>
+<garant>
+<typGaranta>garant</typGaranta>
+<plneMeno>prof. RNDr. Rastislav Kráľovič, PhD.</plneMeno>
+</garant>
+</garanti>
+<sposobyVyucbyRozsahMetoda/>
+<podmienujucePredmetyStrukt/>
+<vylucujucePredmetyStrukt/>
+<alternujucePredmetyStrukt/>
+<kodyTypovVyucby/>
+<studijneProgramy>
+<studijnyProgram>
+<id>899</id>
+<skratka>dINF</skratka>
+<popis>informatika</popis>
+<kodSemester/>
+<rokRocnik>-1</rokRocnik>
+<metodaStudia>prezenčná</metodaStudia>
+<semesterPoradie/>
+</studijnyProgram>
+<studijnyProgram>
+<id>900</id>
+<skratka>dINF/x</skratka>
+<popis>informatika</popis>
+<kodSemester/>
+<rokRocnik>-1</rokRocnik>
+<metodaStudia>prezenčná</metodaStudia>
+<semesterPoradie/>
+</studijnyProgram>
+</studijneProgramy>
+<stupneStudijnychProgramov>III.</stupneStudijnychProgramov>
+<metodyStudia>
+<metodaStudia>prezenčná</metodaStudia>
+</metodyStudia>
+<jeZaradenyVStudijnomPlane>true</jeZaradenyVStudijnomPlane>
+<stupenPredmetu>III.</stupenPredmetu>
+<vyucujuciAll/>
+<_PJ_>
+<popisTypuTextu>Jazyk, ktorého znalosť je potrebná na absolvovanie predmetu</popisTypuTextu>
+<texty>
+<p>slovenský, anglický</p>
+</texty>
+</_PJ_>
+<_S_>
+<popisTypuTextu>Sylabus predmetu (TEXT ZO STARÉHO IL - NEPOUŽÍVAŤ)</popisTypuTextu>
+<texty>
+<p>Príklady činností v predmete Vedecká činnosť </p>
+<p>Blok – Publikačná činnosť</p>
+<p>Zahraničný karentovaný časopis</p>
+<p>Domáci karentovaný časopis</p>
+<p>Zahraničný nekarentovaný časopis</p>
+<p>Domáci nekarentovaný časopis</p>
+<p>Recenzovaný zahraničný zborník</p>
+<p>Recenzovaný domáci zborník</p>
+<p>Nerecenzovaný zahraničný zborník</p>
+<p>Nerecenzovaný domáci zborník</p>
+<p>Blok – Aktívna prezentácia výsledkov</p>
+<p>Vystúpenie na medzinárodnej konferencii</p>
+<p>Vystúpenie na domácej konferencii so zahraničnou účasťou</p>
+<p>Vystúpenie na domácej konferencii</p>
+<p>Blok – Granty, ohlasy a iné</p>
+<p>Získanie Grantu UK</p>
+<p>Spoluriešiteľ medzinárodného projektu</p>
+<p>Spoluriešiteľ domáceho projektu</p>
+<p>Citácia registrovaná v SCI alebo SCOPUS</p>
+<p>Citácia v monografii</p>
+<p>Citácia v zahraničnom vedeckom časopise</p>
+<p>Citácia v domácom vedeckom časopise</p>
+<p>Zavedenie novej experimentálnej metodiky (ktorá súvisí s DP)</p>
+<p>Vývoj nového softwarového produktu (ktorý súvisí s DP)</p>
+</texty>
+</_S_>
+<_SO_>
+<popisTypuTextu>Stručná osnova predmetu</popisTypuTextu>
+<texty>
+<p>Študent pracuje pod vedením školiteľa na téme dizertačnej práce.  Hodnotenie predmetu udeľuje školiteľ, pričom dbá na to, aby študent dokumentoval vynaloženú prácu zodpovedajúcu kreditovej dotácii. Spravidla ide o publikovanie technických správ, preprintov, publikovanie/zaslanie príspevkov na konferencie a do časopisov, aktívnu účasť na konferenciách a pod. Predmet je možné absolvovať viackrát.</p>
+</texty>
+</_SO_>
+<_VH_>
+<popisTypuTextu>Váha hodnotenia predmetu (priebežné/záverečné)</popisTypuTextu>
+<texty>
+<p>100/0</p>
+</texty>
+</_VH_>
+<_VV_>
+<popisTypuTextu>Výsledky vzdelávania</popisTypuTextu>
+<texty>
+<p>Študent dosiahne vlastné vedecké výsledky.</p>
+</texty>
+</_VV_>
+<hodnoteniaPredmetu>
+<hodnoteniePredmetu>
+<kod>A</kod>
+<pocetHodnoteni>0</pocetHodnoteni>
+<percentualneVyjadrenieZCelkPoctuHodnoteni>0.0</percentualneVyjadrenieZCelkPoctuHodnoteni>
+</hodnoteniePredmetu>
+<hodnoteniePredmetu>
+<kod>B</kod>
+<pocetHodnoteni>0</pocetHodnoteni>
+<percentualneVyjadrenieZCelkPoctuHodnoteni>0.0</percentualneVyjadrenieZCelkPoctuHodnoteni>
+</hodnoteniePredmetu>
+<hodnoteniePredmetu>
+<kod>C</kod>
+<pocetHodnoteni>0</pocetHodnoteni>
+<percentualneVyjadrenieZCelkPoctuHodnoteni>0.0</percentualneVyjadrenieZCelkPoctuHodnoteni>
+</hodnoteniePredmetu>
+<hodnoteniePredmetu>
+<kod>D</kod>
+<pocetHodnoteni>0</pocetHodnoteni>
+<percentualneVyjadrenieZCelkPoctuHodnoteni>0.0</percentualneVyjadrenieZCelkPoctuHodnoteni>
+</hodnoteniePredmetu>
+<hodnoteniePredmetu>
+<kod>E</kod>
+<pocetHodnoteni>0</pocetHodnoteni>
+<percentualneVyjadrenieZCelkPoctuHodnoteni>0.0</percentualneVyjadrenieZCelkPoctuHodnoteni>
+</hodnoteniePredmetu>
+<hodnoteniePredmetu>
+<kod>FX</kod>
+<pocetHodnoteni>0</pocetHodnoteni>
+<percentualneVyjadrenieZCelkPoctuHodnoteni>0.0</percentualneVyjadrenieZCelkPoctuHodnoteni>
+</hodnoteniePredmetu>
+<celkovyPocetHodnotenychStudentov>0</celkovyPocetHodnotenychStudentov>
+<pocetTypovHodnoteni>6</pocetTypovHodnoteni>
+</hodnoteniaPredmetu>
+</informacnyList>
+<informacnyList>
+<id>105498</id>
+<kodTypPredmetu>Z</kodTypPredmetu>
+<skratka>3-INF-403</skratka>
+<kod>FMFI.KI/3-INF-403/15</kod>
 <nazov>Vedecká činnosť III</nazov>
-<aktualnost/>
 <kredit>20</kredit>
-<rozsah/>
-<ukoncenie>H</ukoncenie>
-<semester/>
-<maxPocetPrihlStudentov/>
-<vyucujuciAll/>
+<sposobUkoncenia>Hodnotenie</sposobUkoncenia>
+<doplnujuceUdaje>(Jednoodborové štúdium, doktorandské III. st., denná forma)</doplnujuceUdaje>
+<datumSchvalenia>28.04.2015</datumSchvalenia>
 <podmienujucePredmety/>
-</predmet>
-</predmety>
-<obmedzenie>
-<kredit>50</kredit>
-<poznamkaPredKontrola/>
-<poznamkaZaKontrola>poznamkaZa je neprazdna</poznamkaZaKontrola>
-<poznamkyZa>
-<poznamkaZa>Študentom začínajúcim štúdium 2014/15 alebo skôr sa do splnenia tohto bloku počítajú aj predmety 3-INF-005 Projekt (1), 3-INF-006 Projekt (2), 3-INF-007 Projekt (3), 3-INF-008 Projekt (4).</poznamkaZa>
-</poznamkyZa>
-</obmedzenie>
-</blok>
-<blok>
-<skratka>3INF-VVC2</skratka>
-<nazov>Vedecká činnosť - povinne voliteľné predmety</nazov>
-<predmety>
-<predmet>
-<skratka>FMFI.KI/3-INF-601/15</skratka>
-<skratkaPredmet>3-INF-601</skratkaPredmet>
+<podmienujucePredmetyNazov/>
+<podmPredmetyKodNazov/>
+<vylucujucePredmety/>
+<vylucujucePredmetyNazov/>
+<vylucujucePredmetyKodNazov/>
+<alternujucePredmety/>
+<alternujucePredmetyNazov/>
+<alternujucePredmetyKodNazov/>
+<garanti>
+<garant>
+<typGaranta>predseda odborovej komisie</typGaranta>
+<plneMeno>prof. RNDr. Branislav Rovan, PhD.</plneMeno>
+</garant>
+<garant>
+<typGaranta>garant</typGaranta>
+<plneMeno>prof. RNDr. Rastislav Kráľovič, PhD.</plneMeno>
+</garant>
+</garanti>
+<sposobyVyucbyRozsahMetoda/>
+<podmienujucePredmetyStrukt/>
+<vylucujucePredmetyStrukt/>
+<alternujucePredmetyStrukt/>
+<kodyTypovVyucby/>
+<studijneProgramy>
+<studijnyProgram>
+<id>899</id>
+<skratka>dINF</skratka>
+<popis>informatika</popis>
+<kodSemester/>
+<rokRocnik>-1</rokRocnik>
+<metodaStudia>prezenčná</metodaStudia>
+<semesterPoradie/>
+</studijnyProgram>
+<studijnyProgram>
+<id>900</id>
+<skratka>dINF/x</skratka>
+<popis>informatika</popis>
+<kodSemester/>
+<rokRocnik>-1</rokRocnik>
+<metodaStudia>prezenčná</metodaStudia>
+<semesterPoradie/>
+</studijnyProgram>
+</studijneProgramy>
+<stupneStudijnychProgramov>III.</stupneStudijnychProgramov>
+<metodyStudia>
+<metodaStudia>prezenčná</metodaStudia>
+</metodyStudia>
+<jeZaradenyVStudijnomPlane>true</jeZaradenyVStudijnomPlane>
+<stupenPredmetu>III.</stupenPredmetu>
+<vyucujuciAll/>
+<_PJ_>
+<popisTypuTextu>Jazyk, ktorého znalosť je potrebná na absolvovanie predmetu</popisTypuTextu>
+<texty>
+<p>slovenský, anglický</p>
+</texty>
+</_PJ_>
+<_S_>
+<popisTypuTextu>Sylabus predmetu (TEXT ZO STARÉHO IL - NEPOUŽÍVAŤ)</popisTypuTextu>
+<texty>
+<p>Príklady činností v predmete Vedecká činnosť </p>
+<p>Blok – Publikačná činnosť</p>
+<p>Zahraničný karentovaný časopis</p>
+<p>Domáci karentovaný časopis</p>
+<p>Zahraničný nekarentovaný časopis</p>
+<p>Domáci nekarentovaný časopis</p>
+<p>Recenzovaný zahraničný zborník</p>
+<p>Recenzovaný domáci zborník</p>
+<p>Nerecenzovaný zahraničný zborník</p>
+<p>Nerecenzovaný domáci zborník</p>
+<p>Blok – Aktívna prezentácia výsledkov</p>
+<p>Vystúpenie na medzinárodnej konferencii</p>
+<p>Vystúpenie na domácej konferencii so zahraničnou účasťou</p>
+<p>Vystúpenie na domácej konferencii</p>
+<p>Blok – Granty, ohlasy a iné</p>
+<p>Získanie Grantu UK</p>
+<p>Spoluriešiteľ medzinárodného projektu</p>
+<p>Spoluriešiteľ domáceho projektu</p>
+<p>Citácia registrovaná v SCI alebo SCOPUS</p>
+<p>Citácia v monografii</p>
+<p>Citácia v zahraničnom vedeckom časopise</p>
+<p>Citácia v domácom vedeckom časopise</p>
+<p>Zavedenie novej experimentálnej metodiky (ktorá súvisí s DP)</p>
+<p>Vývoj nového softwarového produktu (ktorý súvisí s DP)</p>
+</texty>
+</_S_>
+<_SO_>
+<popisTypuTextu>Stručná osnova predmetu</popisTypuTextu>
+<texty>
+<p>Študent pracuje pod vedením školiteľa na téme dizertačnej práce.  Hodnotenie predmetu udeľuje školiteľ, pričom dbá na to, aby študent dokumentoval vynaloženú prácu zodpovedajúcu kreditovej dotácii. Spravidla ide o publikovanie technických správ, preprintov, publikovanie/zaslanie príspevkov na konferencie a do časopisov, aktívnu účasť na konferenciách a pod. Predmet je možné absolvovať viackrát.</p>
+</texty>
+</_SO_>
+<_VH_>
+<popisTypuTextu>Váha hodnotenia predmetu (priebežné/záverečné)</popisTypuTextu>
+<texty>
+<p>100/0</p>
+</texty>
+</_VH_>
+<_VV_>
+<popisTypuTextu>Výsledky vzdelávania</popisTypuTextu>
+<texty>
+<p>Študent dosiahne vlastné vedecké výsledky.</p>
+</texty>
+</_VV_>
+<hodnoteniaPredmetu>
+<hodnoteniePredmetu>
+<kod>A</kod>
+<pocetHodnoteni>0</pocetHodnoteni>
+<percentualneVyjadrenieZCelkPoctuHodnoteni>0.0</percentualneVyjadrenieZCelkPoctuHodnoteni>
+</hodnoteniePredmetu>
+<hodnoteniePredmetu>
+<kod>B</kod>
+<pocetHodnoteni>0</pocetHodnoteni>
+<percentualneVyjadrenieZCelkPoctuHodnoteni>0.0</percentualneVyjadrenieZCelkPoctuHodnoteni>
+</hodnoteniePredmetu>
+<hodnoteniePredmetu>
+<kod>C</kod>
+<pocetHodnoteni>0</pocetHodnoteni>
+<percentualneVyjadrenieZCelkPoctuHodnoteni>0.0</percentualneVyjadrenieZCelkPoctuHodnoteni>
+</hodnoteniePredmetu>
+<hodnoteniePredmetu>
+<kod>D</kod>
+<pocetHodnoteni>0</pocetHodnoteni>
+<percentualneVyjadrenieZCelkPoctuHodnoteni>0.0</percentualneVyjadrenieZCelkPoctuHodnoteni>
+</hodnoteniePredmetu>
+<hodnoteniePredmetu>
+<kod>E</kod>
+<pocetHodnoteni>0</pocetHodnoteni>
+<percentualneVyjadrenieZCelkPoctuHodnoteni>0.0</percentualneVyjadrenieZCelkPoctuHodnoteni>
+</hodnoteniePredmetu>
+<hodnoteniePredmetu>
+<kod>FX</kod>
+<pocetHodnoteni>0</pocetHodnoteni>
+<percentualneVyjadrenieZCelkPoctuHodnoteni>0.0</percentualneVyjadrenieZCelkPoctuHodnoteni>
+</hodnoteniePredmetu>
+<celkovyPocetHodnotenychStudentov>0</celkovyPocetHodnotenychStudentov>
+<pocetTypovHodnoteni>6</pocetTypovHodnoteni>
+</hodnoteniaPredmetu>
+</informacnyList>
+<informacnyList>
+<id>105503</id>
+<kodTypPredmetu>B</kodTypPredmetu>
+<skratka>3-INF-601</skratka>
+<kod>FMFI.KI/3-INF-601/15</kod>
 <nazov>Seminár pracoviska</nazov>
-<aktualnost/>
 <kredit>3</kredit>
-<rozsah>2S</rozsah>
-<ukoncenie>H</ukoncenie>
-<semester/>
-<maxPocetPrihlStudentov/>
-<vyucujuciAll/>
+<sposobUkoncenia>Hodnotenie</sposobUkoncenia>
+<sposobVyucby>Seminár</sposobVyucby>
+<rozsahTyzdenny>2</rozsahTyzdenny>
+<rozsahSemestranly>28</rozsahSemestranly>
+<doplnujuceUdaje>(Jednoodborové štúdium, doktorandské III. st., denná forma)</doplnujuceUdaje>
+<datumSchvalenia>28.04.2015</datumSchvalenia>
 <podmienujucePredmety/>
-</predmet>
-<predmet>
-<skratka>FMFI.KI/3-INF-602/15</skratka>
-<skratkaPredmet>3-INF-602</skratkaPredmet>
+<podmienujucePredmetyNazov/>
+<podmPredmetyKodNazov/>
+<vylucujucePredmety/>
+<vylucujucePredmetyNazov/>
+<vylucujucePredmetyKodNazov/>
+<alternujucePredmety>FMFI.KI/3-INF-111/10</alternujucePredmety>
+<alternujucePredmetyNazov>FMFI.KI/3-INF-111/10 - Seminár pracoviska (1)</alternujucePredmetyNazov>
+<alternujucePredmetyKodNazov>3-INF-111 - Seminár pracoviska (1)</alternujucePredmetyKodNazov>
+<garanti>
+<garant>
+<typGaranta>predseda odborovej komisie</typGaranta>
+<plneMeno>prof. RNDr. Branislav Rovan, PhD.</plneMeno>
+</garant>
+<garant>
+<typGaranta>garant</typGaranta>
+<plneMeno>prof. RNDr. Rastislav Kráľovič, PhD.</plneMeno>
+</garant>
+</garanti>
+<sposobyVyucbyRozsahMetoda>
+<sposobVyucbyRozsahMetoda>
+<sposobVyucby>Seminár</sposobVyucby>
+<rozsahTyzdenny>2</rozsahTyzdenny>
+<rozsahSemestralny>28</rozsahSemestralny>
+<metodaStudia>prezenčná</metodaStudia>
+</sposobVyucbyRozsahMetoda>
+</sposobyVyucbyRozsahMetoda>
+<podmienujucePredmetyStrukt/>
+<vylucujucePredmetyStrukt/>
+<alternujucePredmetyStrukt>
+<alternujuciPredmet>
+<idPredmet>83842</idPredmet>
+<textPred/>
+<skratka>FMFI.KI/3-INF-111/10</skratka>
+<kod>3-INF-111</kod>
+<nazov>Seminár pracoviska (1)</nazov>
+<textZa/>
+</alternujuciPredmet>
+</alternujucePredmetyStrukt>
+<kodyTypovVyucby/>
+<studijneProgramy>
+<studijnyProgram>
+<id>899</id>
+<skratka>dINF</skratka>
+<popis>informatika</popis>
+<kodSemester/>
+<rokRocnik>-1</rokRocnik>
+<metodaStudia>prezenčná</metodaStudia>
+<semesterPoradie/>
+</studijnyProgram>
+<studijnyProgram>
+<id>900</id>
+<skratka>dINF/x</skratka>
+<popis>informatika</popis>
+<kodSemester/>
+<rokRocnik>-1</rokRocnik>
+<metodaStudia>prezenčná</metodaStudia>
+<semesterPoradie/>
+</studijnyProgram>
+</studijneProgramy>
+<stupneStudijnychProgramov>III.</stupneStudijnychProgramov>
+<metodyStudia>
+<metodaStudia>prezenčná</metodaStudia>
+</metodyStudia>
+<jeZaradenyVStudijnomPlane>true</jeZaradenyVStudijnomPlane>
+<stupenPredmetu>III.</stupenPredmetu>
+<vyucujuciAll/>
+<_PJ_>
+<popisTypuTextu>Jazyk, ktorého znalosť je potrebná na absolvovanie predmetu</popisTypuTextu>
+<texty>
+<p>slovenský, anglický</p>
+</texty>
+</_PJ_>
+<_SO_>
+<popisTypuTextu>Stručná osnova predmetu</popisTypuTextu>
+<texty>
+<p>Aktívna účasť na niektorom z odborných seminárov z oblasti dizertačnej práce, väčšinou spojená s  prezentáciou. Hodnotenie udeľuje príslušný vedúci seminára. Predmet je možné absolvovať viackrát.</p>
+</texty>
+</_SO_>
+<_VH_>
+<popisTypuTextu>Váha hodnotenia predmetu (priebežné/záverečné)</popisTypuTextu>
+<texty>
+<p>100/0</p>
+</texty>
+</_VH_>
+<_VV_>
+<popisTypuTextu>Výsledky vzdelávania</popisTypuTextu>
+<texty>
+<p>Študent sa aktívne zapojí do výskumného diania na príslušnom pracovisku.</p>
+</texty>
+</_VV_>
+<hodnoteniaPredmetu>
+<hodnoteniePredmetu>
+<kod>A</kod>
+<pocetHodnoteni>49</pocetHodnoteni>
+<percentualneVyjadrenieZCelkPoctuHodnoteni>100.0</percentualneVyjadrenieZCelkPoctuHodnoteni>
+</hodnoteniePredmetu>
+<hodnoteniePredmetu>
+<kod>B</kod>
+<pocetHodnoteni>0</pocetHodnoteni>
+<percentualneVyjadrenieZCelkPoctuHodnoteni>0.0</percentualneVyjadrenieZCelkPoctuHodnoteni>
+</hodnoteniePredmetu>
+<hodnoteniePredmetu>
+<kod>C</kod>
+<pocetHodnoteni>0</pocetHodnoteni>
+<percentualneVyjadrenieZCelkPoctuHodnoteni>0.0</percentualneVyjadrenieZCelkPoctuHodnoteni>
+</hodnoteniePredmetu>
+<hodnoteniePredmetu>
+<kod>D</kod>
+<pocetHodnoteni>0</pocetHodnoteni>
+<percentualneVyjadrenieZCelkPoctuHodnoteni>0.0</percentualneVyjadrenieZCelkPoctuHodnoteni>
+</hodnoteniePredmetu>
+<hodnoteniePredmetu>
+<kod>E</kod>
+<pocetHodnoteni>0</pocetHodnoteni>
+<percentualneVyjadrenieZCelkPoctuHodnoteni>0.0</percentualneVyjadrenieZCelkPoctuHodnoteni>
+</hodnoteniePredmetu>
+<hodnoteniePredmetu>
+<kod>FX</kod>
+<pocetHodnoteni>0</pocetHodnoteni>
+<percentualneVyjadrenieZCelkPoctuHodnoteni>0.0</percentualneVyjadrenieZCelkPoctuHodnoteni>
+</hodnoteniePredmetu>
+<celkovyPocetHodnotenychStudentov>49</celkovyPocetHodnotenychStudentov>
+<pocetTypovHodnoteni>6</pocetTypovHodnoteni>
+</hodnoteniaPredmetu>
+</informacnyList>
+<informacnyList>
+<id>105504</id>
+<kodTypPredmetu>Z</kodTypPredmetu>
+<skratka>3-INF-602</skratka>
+<kod>FMFI.KI/3-INF-602/15</kod>
 <nazov>Mobilita doktorandov</nazov>
-<aktualnost/>
 <kredit>10</kredit>
-<rozsah/>
-<ukoncenie>H</ukoncenie>
-<semester/>
-<maxPocetPrihlStudentov/>
-<vyucujuciAll/>
+<sposobUkoncenia>Hodnotenie</sposobUkoncenia>
+<doplnujuceUdaje>(Jednoodborové štúdium, doktorandské III. st., denná forma)</doplnujuceUdaje>
+<datumSchvalenia>28.04.2015</datumSchvalenia>
 <podmienujucePredmety/>
-</predmet>
-</predmety>
-<obmedzenie>
-<kredit>0</kredit>
-<poznamkaPredKontrola/>
-<poznamkaZaKontrola>poznamkaZa je neprazdna</poznamkaZaKontrola>
-<poznamkyZa>
-<poznamkaZa>Študenti v dennej forme štúdia začínajúci štúdium v školskom roku 2015/16 alebo neskôr musia v aspoň siedmich semestroch absolvovať jeden z predmetov bloku v súlade so zameraním dizertačnej práce. Študenti v dennej forme štúdia začínajúci štúdium v školskom roku 2014/15 alebo skôr musia absolvovať seminár v aspoň 4 semestroch, pričom do absolvovania bloku sa im počítajú aj bývalé predmety 3-INF-11[1-8] Seminár pracoviska (1)-(8).</poznamkaZa>
-</poznamkyZa>
-</obmedzenie>
-</blok>
-<blok>
-<skratka>3INF-VVC3</skratka>
-<nazov>Vedecká činnosť - výberové predmety</nazov>
-<predmety>
-<predmet>
-<skratka>FMFI.KI/3-INF-804/15</skratka>
-<skratkaPredmet>3-INF-804</skratkaPredmet>
-<nazov>Organizácia vedeckých podujatí</nazov>
-<aktualnost/>
-<kredit>2</kredit>
-<rozsah/>
-<ukoncenie>H</ukoncenie>
-<semester/>
-<maxPocetPrihlStudentov/>
+<podmienujucePredmetyNazov/>
+<podmPredmetyKodNazov/>
+<vylucujucePredmety/>
+<vylucujucePredmetyNazov/>
+<vylucujucePredmetyKodNazov/>
+<alternujucePredmety/>
+<alternujucePredmetyNazov/>
+<alternujucePredmetyKodNazov/>
+<garanti>
+<garant>
+<typGaranta>predseda odborovej komisie</typGaranta>
+<plneMeno>prof. RNDr. Branislav Rovan, PhD.</plneMeno>
+</garant>
+<garant>
+<typGaranta>garant</typGaranta>
+<plneMeno>prof. RNDr. Rastislav Kráľovič, PhD.</plneMeno>
+</garant>
+</garanti>
+<sposobyVyucbyRozsahMetoda/>
+<podmienujucePredmetyStrukt/>
+<vylucujucePredmetyStrukt/>
+<alternujucePredmetyStrukt/>
+<kodyTypovVyucby/>
+<studijneProgramy>
+<studijnyProgram>
+<id>899</id>
+<skratka>dINF</skratka>
+<popis>informatika</popis>
+<kodSemester/>
+<rokRocnik>-1</rokRocnik>
+<metodaStudia>prezenčná</metodaStudia>
+<semesterPoradie/>
+</studijnyProgram>
+<studijnyProgram>
+<id>900</id>
+<skratka>dINF/x</skratka>
+<popis>informatika</popis>
+<kodSemester/>
+<rokRocnik>-1</rokRocnik>
+<metodaStudia>prezenčná</metodaStudia>
+<semesterPoradie/>
+</studijnyProgram>
+</studijneProgramy>
+<stupneStudijnychProgramov>III.</stupneStudijnychProgramov>
+<metodyStudia>
+<metodaStudia>prezenčná</metodaStudia>
+</metodyStudia>
+<jeZaradenyVStudijnomPlane>true</jeZaradenyVStudijnomPlane>
+<stupenPredmetu>III.</stupenPredmetu>
 <vyucujuciAll/>
-<podmienujucePredmety/>
-</predmet>
-</predmety>
-<obmedzenie>
-<kredit>0</kredit>
-<poznamkaPredKontrola/>
-<poznamkaZaKontrola/>
-</obmedzenie>
-</blok>
-</bloky>
-</cast>
-<cast>
-<kod>DA</kod>
-<nazov>Ďalšie aktivity</nazov>
-<bloky>
-<blok>
-<skratka>3INF-DPC</skratka>
+<_PJ_>
+<popisTypuTextu>Jazyk, ktorého znalosť je potrebná na absolvovanie predmetu</popisTypuTextu>
+<texty>
+<p>slovenský, anglický</p>
+</texty>
+</_PJ_>
+<_SO_>
+<popisTypuTextu>Stručná osnova predmetu</popisTypuTextu>
+<texty>
+<p>Na hosťovskom pracovisku študent absolvuje výskumné a/alebo študijné aktivity. Spravidla ide o navštevovanie seminárov, prípadne absolvovanie predmetov určených doktorandským študentom. Kreditovú hodnotu je možné upraviť podľa konkrétnej činnosti, ktorú študent vykonával na hosťovskom pracovisku. Predmet je možné absolvovať viackrát.</p>
+</texty>
+</_SO_>
+<_VH_>
+<popisTypuTextu>Váha hodnotenia predmetu (priebežné/záverečné)</popisTypuTextu>
+<texty>
+<p>100/0</p>
+</texty>
+</_VH_>
+<_VV_>
+<popisTypuTextu>Výsledky vzdelávania</popisTypuTextu>
+<texty>
+<p>Študent sa zúčastní výskumného alebo študijného pobytu na vhodnom výskumnom pracovisku alebo vysokej škole. Získa skúsenosti z výskumnej práce na inom pracovisku.</p>
+</texty>
+</_VV_>
+<hodnoteniaPredmetu>
+<hodnoteniePredmetu>
+<kod>A</kod>
+<pocetHodnoteni>0</pocetHodnoteni>
+<percentualneVyjadrenieZCelkPoctuHodnoteni>0.0</percentualneVyjadrenieZCelkPoctuHodnoteni>
+</hodnoteniePredmetu>
+<hodnoteniePredmetu>
+<kod>B</kod>
+<pocetHodnoteni>0</pocetHodnoteni>
+<percentualneVyjadrenieZCelkPoctuHodnoteni>0.0</percentualneVyjadrenieZCelkPoctuHodnoteni>
+</hodnoteniePredmetu>
+<hodnoteniePredmetu>
+<kod>C</kod>
+<pocetHodnoteni>0</pocetHodnoteni>
+<percentualneVyjadrenieZCelkPoctuHodnoteni>0.0</percentualneVyjadrenieZCelkPoctuHodnoteni>
+</hodnoteniePredmetu>
+<hodnoteniePredmetu>
+<kod>D</kod>
+<pocetHodnoteni>0</pocetHodnoteni>
+<percentualneVyjadrenieZCelkPoctuHodnoteni>0.0</percentualneVyjadrenieZCelkPoctuHodnoteni>
+</hodnoteniePredmetu>
+<hodnoteniePredmetu>
+<kod>E</kod>
+<pocetHodnoteni>0</pocetHodnoteni>
+<percentualneVyjadrenieZCelkPoctuHodnoteni>0.0</percentualneVyjadrenieZCelkPoctuHodnoteni>
+</hodnoteniePredmetu>
+<hodnoteniePredmetu>
+<kod>FX</kod>
+<pocetHodnoteni>0</pocetHodnoteni>
+<percentualneVyjadrenieZCelkPoctuHodnoteni>0.0</percentualneVyjadrenieZCelkPoctuHodnoteni>
+</hodnoteniePredmetu>
+<celkovyPocetHodnotenychStudentov>0</celkovyPocetHodnotenychStudentov>
+<pocetTypovHodnoteni>6</pocetTypovHodnoteni>
+</hodnoteniaPredmetu>
+</informacnyList>
+<informacnyList>
+<id>105505</id>
+<kodTypPredmetu>B</kodTypPredmetu>
+<skratka>3-INF-803</skratka>
+<kod>FMFI.KI/3-INF-803/15</kod>
 <nazov>Pedagogická činnosť</nazov>
-<predmety>
-<predmet>
-<skratka>FMFI.KI/3-INF-803/15</skratka>
-<skratkaPredmet>3-INF-803</skratkaPredmet>
-<nazov>Pedagogická činnosť</nazov>
-<aktualnost/>
 <kredit>6</kredit>
-<rozsah>4I</rozsah>
-<ukoncenie>H</ukoncenie>
-<semester/>
-<maxPocetPrihlStudentov/>
-<vyucujuciAll/>
+<sposobUkoncenia>Hodnotenie</sposobUkoncenia>
+<sposobVyucby>Iná</sposobVyucby>
+<rozsahTyzdenny>4</rozsahTyzdenny>
+<rozsahSemestranly>56</rozsahSemestranly>
+<doplnujuceUdaje>(Jednoodborové štúdium, doktorandské III. st., denná forma)</doplnujuceUdaje>
+<datumSchvalenia>28.04.2015</datumSchvalenia>
 <podmienujucePredmety/>
-</predmet>
-<predmet>
-<skratka>FMFI.KI/3-INF-805/15</skratka>
-<skratkaPredmet>3-INF-805</skratkaPredmet>
+<podmienujucePredmetyNazov/>
+<podmPredmetyKodNazov/>
+<vylucujucePredmety/>
+<vylucujucePredmetyNazov/>
+<vylucujucePredmetyKodNazov/>
+<alternujucePredmety/>
+<alternujucePredmetyNazov/>
+<alternujucePredmetyKodNazov/>
+<garanti>
+<garant>
+<typGaranta>predseda odborovej komisie</typGaranta>
+<plneMeno>prof. RNDr. Branislav Rovan, PhD.</plneMeno>
+</garant>
+<garant>
+<typGaranta>garant</typGaranta>
+<plneMeno>prof. RNDr. Rastislav Kráľovič, PhD.</plneMeno>
+</garant>
+</garanti>
+<sposobyVyucbyRozsahMetoda>
+<sposobVyucbyRozsahMetoda>
+<sposobVyucby>Iná</sposobVyucby>
+<rozsahTyzdenny>4</rozsahTyzdenny>
+<rozsahSemestralny>56</rozsahSemestralny>
+<metodaStudia>prezenčná</metodaStudia>
+</sposobVyucbyRozsahMetoda>
+</sposobyVyucbyRozsahMetoda>
+<podmienujucePredmetyStrukt/>
+<vylucujucePredmetyStrukt/>
+<alternujucePredmetyStrukt/>
+<kodyTypovVyucby/>
+<studijneProgramy>
+<studijnyProgram>
+<id>908</id>
+<skratka>dDMA/x</skratka>
+<popis>diskrétna matematika</popis>
+<kodSemester/>
+<rokRocnik>-1</rokRocnik>
+<metodaStudia>prezenčná</metodaStudia>
+<semesterPoradie/>
+</studijnyProgram>
+<studijnyProgram>
+<id>899</id>
+<skratka>dINF</skratka>
+<popis>informatika</popis>
+<kodSemester/>
+<rokRocnik>-1</rokRocnik>
+<metodaStudia>prezenčná</metodaStudia>
+<semesterPoradie/>
+</studijnyProgram>
+<studijnyProgram>
+<id>900</id>
+<skratka>dINF/x</skratka>
+<popis>informatika</popis>
+<kodSemester/>
+<rokRocnik>-1</rokRocnik>
+<metodaStudia>prezenčná</metodaStudia>
+<semesterPoradie/>
+</studijnyProgram>
+<studijnyProgram>
+<id>907</id>
+<skratka>dDMA</skratka>
+<popis>diskrétna matematika</popis>
+<kodSemester/>
+<rokRocnik>-1</rokRocnik>
+<metodaStudia>prezenčná</metodaStudia>
+<semesterPoradie/>
+</studijnyProgram>
+</studijneProgramy>
+<stupneStudijnychProgramov>III.</stupneStudijnychProgramov>
+<metodyStudia>
+<metodaStudia>prezenčná</metodaStudia>
+</metodyStudia>
+<jeZaradenyVStudijnomPlane>true</jeZaradenyVStudijnomPlane>
+<stupenPredmetu>III.</stupenPredmetu>
+<vyucujuciAll/>
+<_PJ_>
+<popisTypuTextu>Jazyk, ktorého znalosť je potrebná na absolvovanie predmetu</popisTypuTextu>
+<texty>
+<p>slovenský, anglický</p>
+</texty>
+</_PJ_>
+<_S_>
+<popisTypuTextu>Sylabus predmetu (TEXT ZO STARÉHO IL - NEPOUŽÍVAŤ)</popisTypuTextu>
+<texty>
+<p>Pedagogická činnosť sa napĺňa sa nasledujúcimi činnosťami:</p>
+<p>Priama pedagogická činnosť</p>
+<p>Vedenie bakalárskej práce</p>
+<p>Vedenie práce ŠVOČ</p>
+<p>Tvorba učebných pomôcok a textov</p>
+<p>Vypracovanie posudku na diplomovú prácu</p>
+<p>Pomoc pri vedení diplomovej práce</p>
+</texty>
+</_S_>
+<_SO_>
+<popisTypuTextu>Stručná osnova predmetu</popisTypuTextu>
+<texty>
+<p>Náplňou predmetu je spravidla vedenie cvičení, konzultácie a kontrola práce počas semestra.  Hodnotenie udeľuje vedúci pracoviska, na ktorom prebieha výučba. Predmet je možné absolvovať viackrát.</p>
+</texty>
+</_SO_>
+<_VH_>
+<popisTypuTextu>Váha hodnotenia predmetu (priebežné/záverečné)</popisTypuTextu>
+<texty>
+<p>100/0</p>
+</texty>
+</_VH_>
+<_VV_>
+<popisTypuTextu>Výsledky vzdelávania</popisTypuTextu>
+<texty>
+<p>Študent získa skúsenosti s pedagogickými činnosťami ako vedenie cvičení, konzultácie, hodnotenie projektov,  a pod.</p>
+</texty>
+</_VV_>
+<hodnoteniaPredmetu>
+<hodnoteniePredmetu>
+<kod>A</kod>
+<pocetHodnoteni>0</pocetHodnoteni>
+<percentualneVyjadrenieZCelkPoctuHodnoteni>0.0</percentualneVyjadrenieZCelkPoctuHodnoteni>
+</hodnoteniePredmetu>
+<hodnoteniePredmetu>
+<kod>B</kod>
+<pocetHodnoteni>0</pocetHodnoteni>
+<percentualneVyjadrenieZCelkPoctuHodnoteni>0.0</percentualneVyjadrenieZCelkPoctuHodnoteni>
+</hodnoteniePredmetu>
+<hodnoteniePredmetu>
+<kod>C</kod>
+<pocetHodnoteni>0</pocetHodnoteni>
+<percentualneVyjadrenieZCelkPoctuHodnoteni>0.0</percentualneVyjadrenieZCelkPoctuHodnoteni>
+</hodnoteniePredmetu>
+<hodnoteniePredmetu>
+<kod>D</kod>
+<pocetHodnoteni>0</pocetHodnoteni>
+<percentualneVyjadrenieZCelkPoctuHodnoteni>0.0</percentualneVyjadrenieZCelkPoctuHodnoteni>
+</hodnoteniePredmetu>
+<hodnoteniePredmetu>
+<kod>E</kod>
+<pocetHodnoteni>0</pocetHodnoteni>
+<percentualneVyjadrenieZCelkPoctuHodnoteni>0.0</percentualneVyjadrenieZCelkPoctuHodnoteni>
+</hodnoteniePredmetu>
+<hodnoteniePredmetu>
+<kod>FX</kod>
+<pocetHodnoteni>0</pocetHodnoteni>
+<percentualneVyjadrenieZCelkPoctuHodnoteni>0.0</percentualneVyjadrenieZCelkPoctuHodnoteni>
+</hodnoteniePredmetu>
+<celkovyPocetHodnotenychStudentov>0</celkovyPocetHodnotenychStudentov>
+<pocetTypovHodnoteni>6</pocetTypovHodnoteni>
+</hodnoteniaPredmetu>
+</informacnyList>
+<informacnyList>
+<id>105506</id>
+<kodTypPredmetu>Z</kodTypPredmetu>
+<skratka>3-INF-804</skratka>
+<kod>FMFI.KI/3-INF-804/15</kod>
+<nazov>Organizácia vedeckých podujatí</nazov>
+<kredit>2</kredit>
+<sposobUkoncenia>Hodnotenie</sposobUkoncenia>
+<doplnujuceUdaje>(Jednoodborové štúdium, doktorandské III. st., denná forma)</doplnujuceUdaje>
+<datumSchvalenia>28.04.2015</datumSchvalenia>
+<podmienujucePredmety/>
+<podmienujucePredmetyNazov/>
+<podmPredmetyKodNazov/>
+<vylucujucePredmety/>
+<vylucujucePredmetyNazov/>
+<vylucujucePredmetyKodNazov/>
+<alternujucePredmety/>
+<alternujucePredmetyNazov/>
+<alternujucePredmetyKodNazov/>
+<garanti>
+<garant>
+<typGaranta>predseda odborovej komisie</typGaranta>
+<plneMeno>prof. RNDr. Branislav Rovan, PhD.</plneMeno>
+</garant>
+<garant>
+<typGaranta>garant</typGaranta>
+<plneMeno>prof. RNDr. Rastislav Kráľovič, PhD.</plneMeno>
+</garant>
+</garanti>
+<sposobyVyucbyRozsahMetoda/>
+<podmienujucePredmetyStrukt/>
+<vylucujucePredmetyStrukt/>
+<alternujucePredmetyStrukt/>
+<kodyTypovVyucby/>
+<studijneProgramy>
+<studijnyProgram>
+<id>908</id>
+<skratka>dDMA/x</skratka>
+<popis>diskrétna matematika</popis>
+<kodSemester/>
+<rokRocnik>-1</rokRocnik>
+<metodaStudia>prezenčná</metodaStudia>
+<semesterPoradie/>
+</studijnyProgram>
+<studijnyProgram>
+<id>899</id>
+<skratka>dINF</skratka>
+<popis>informatika</popis>
+<kodSemester/>
+<rokRocnik>-1</rokRocnik>
+<metodaStudia>prezenčná</metodaStudia>
+<semesterPoradie/>
+</studijnyProgram>
+<studijnyProgram>
+<id>900</id>
+<skratka>dINF/x</skratka>
+<popis>informatika</popis>
+<kodSemester/>
+<rokRocnik>-1</rokRocnik>
+<metodaStudia>prezenčná</metodaStudia>
+<semesterPoradie/>
+</studijnyProgram>
+<studijnyProgram>
+<id>907</id>
+<skratka>dDMA</skratka>
+<popis>diskrétna matematika</popis>
+<kodSemester/>
+<rokRocnik>-1</rokRocnik>
+<metodaStudia>prezenčná</metodaStudia>
+<semesterPoradie/>
+</studijnyProgram>
+</studijneProgramy>
+<stupneStudijnychProgramov>III.</stupneStudijnychProgramov>
+<metodyStudia>
+<metodaStudia>prezenčná</metodaStudia>
+</metodyStudia>
+<jeZaradenyVStudijnomPlane>true</jeZaradenyVStudijnomPlane>
+<stupenPredmetu>III.</stupenPredmetu>
+<vyucujuciAll/>
+<_PJ_>
+<popisTypuTextu>Jazyk, ktorého znalosť je potrebná na absolvovanie predmetu</popisTypuTextu>
+<texty>
+<p>slovenský, anglický</p>
+</texty>
+</_PJ_>
+<_SO_>
+<popisTypuTextu>Stručná osnova predmetu</popisTypuTextu>
+<texty>
+<p>Náplňou predmetu môže byť práca v organizačnom výbore konferencie, pomoc pri organizovaní letnej školy a pod. Hodnotenie udeľuje školiteľ. Predmet je možné absolvovať viackrát.</p>
+</texty>
+</_SO_>
+<_VH_>
+<popisTypuTextu>Váha hodnotenia predmetu (priebežné/záverečné)</popisTypuTextu>
+<texty>
+<p>100/0</p>
+</texty>
+</_VH_>
+<_VV_>
+<popisTypuTextu>Výsledky vzdelávania</popisTypuTextu>
+<texty>
+<p>Študent získa skúsenosti s organizáciou vedeckých podujatí.</p>
+</texty>
+</_VV_>
+<hodnoteniaPredmetu>
+<hodnoteniePredmetu>
+<kod>A</kod>
+<pocetHodnoteni>0</pocetHodnoteni>
+<percentualneVyjadrenieZCelkPoctuHodnoteni>0.0</percentualneVyjadrenieZCelkPoctuHodnoteni>
+</hodnoteniePredmetu>
+<hodnoteniePredmetu>
+<kod>B</kod>
+<pocetHodnoteni>0</pocetHodnoteni>
+<percentualneVyjadrenieZCelkPoctuHodnoteni>0.0</percentualneVyjadrenieZCelkPoctuHodnoteni>
+</hodnoteniePredmetu>
+<hodnoteniePredmetu>
+<kod>C</kod>
+<pocetHodnoteni>0</pocetHodnoteni>
+<percentualneVyjadrenieZCelkPoctuHodnoteni>0.0</percentualneVyjadrenieZCelkPoctuHodnoteni>
+</hodnoteniePredmetu>
+<hodnoteniePredmetu>
+<kod>D</kod>
+<pocetHodnoteni>0</pocetHodnoteni>
+<percentualneVyjadrenieZCelkPoctuHodnoteni>0.0</percentualneVyjadrenieZCelkPoctuHodnoteni>
+</hodnoteniePredmetu>
+<hodnoteniePredmetu>
+<kod>E</kod>
+<pocetHodnoteni>0</pocetHodnoteni>
+<percentualneVyjadrenieZCelkPoctuHodnoteni>0.0</percentualneVyjadrenieZCelkPoctuHodnoteni>
+</hodnoteniePredmetu>
+<hodnoteniePredmetu>
+<kod>FX</kod>
+<pocetHodnoteni>0</pocetHodnoteni>
+<percentualneVyjadrenieZCelkPoctuHodnoteni>0.0</percentualneVyjadrenieZCelkPoctuHodnoteni>
+</hodnoteniePredmetu>
+<celkovyPocetHodnotenychStudentov>0</celkovyPocetHodnotenychStudentov>
+<pocetTypovHodnoteni>6</pocetTypovHodnoteni>
+</hodnoteniaPredmetu>
+</informacnyList>
+<informacnyList>
+<id>107140</id>
+<kodTypPredmetu>Z</kodTypPredmetu>
+<skratka>3-INF-805</skratka>
+<kod>FMFI.KI/3-INF-805/15</kod>
 <nazov>Vedenie záverečnej práce alebo práce ŠVK</nazov>
-<aktualnost/>
 <kredit>5</kredit>
-<rozsah/>
-<ukoncenie>H</ukoncenie>
-<semester/>
-<maxPocetPrihlStudentov/>
-<vyucujuciAll/>
+<sposobUkoncenia>Hodnotenie</sposobUkoncenia>
+<doplnujuceUdaje>(Jednoodborové štúdium, doktorandské III. st., denná forma)</doplnujuceUdaje>
+<datumSchvalenia>28.04.2015</datumSchvalenia>
 <podmienujucePredmety/>
-</predmet>
-</predmety>
-<obmedzenie>
-<kredit>0</kredit>
-<poznamkaPredKontrola/>
-<poznamkaZaKontrola>poznamkaZa je neprazdna</poznamkaZaKontrola>
-<poznamkyZa>
-<poznamkaZa>Predmety tohto bloku hodnotí vedúci katedry.</poznamkaZa>
-<poznamkaZa>Predmety môžu byť zapisované opakovane.</poznamkaZa>
-</poznamkyZa>
-</obmedzenie>
-</blok>
-</bloky>
-</cast>
-<cast>
-<kod>SS</kod>
-<nazov>Štátne skúšky</nazov>
-<typyVyucby>
-<typ>
-<skratka>A</skratka>
-<nazov>Povinné predmety</nazov>
-<obmedzenie/>
-<bloky>
-<blok>
-<skratka>3INF-SA</skratka>
-<nazov>Štátne skúšky</nazov>
-<predmety>
-<predmet>
-<skratka>FMFI.KI/3-INF-950/15</skratka>
-<skratkaPredmet>3-INF-950</skratkaPredmet>
+<podmienujucePredmetyNazov/>
+<podmPredmetyKodNazov/>
+<vylucujucePredmety/>
+<vylucujucePredmetyNazov/>
+<vylucujucePredmetyKodNazov/>
+<alternujucePredmety/>
+<alternujucePredmetyNazov/>
+<alternujucePredmetyKodNazov/>
+<garanti>
+<garant>
+<typGaranta>predseda odborovej komisie</typGaranta>
+<plneMeno>prof. RNDr. Branislav Rovan, PhD.</plneMeno>
+</garant>
+<garant>
+<typGaranta>garant</typGaranta>
+<plneMeno>prof. RNDr. Rastislav Kráľovič, PhD.</plneMeno>
+</garant>
+</garanti>
+<sposobyVyucbyRozsahMetoda/>
+<podmienujucePredmetyStrukt/>
+<vylucujucePredmetyStrukt/>
+<alternujucePredmetyStrukt/>
+<kodyTypovVyucby/>
+<studijneProgramy>
+<studijnyProgram>
+<id>908</id>
+<skratka>dDMA/x</skratka>
+<popis>diskrétna matematika</popis>
+<kodSemester/>
+<rokRocnik>-1</rokRocnik>
+<metodaStudia>prezenčná</metodaStudia>
+<semesterPoradie/>
+</studijnyProgram>
+<studijnyProgram>
+<id>899</id>
+<skratka>dINF</skratka>
+<popis>informatika</popis>
+<kodSemester/>
+<rokRocnik>-1</rokRocnik>
+<metodaStudia>prezenčná</metodaStudia>
+<semesterPoradie/>
+</studijnyProgram>
+<studijnyProgram>
+<id>900</id>
+<skratka>dINF/x</skratka>
+<popis>informatika</popis>
+<kodSemester/>
+<rokRocnik>-1</rokRocnik>
+<metodaStudia>prezenčná</metodaStudia>
+<semesterPoradie/>
+</studijnyProgram>
+<studijnyProgram>
+<id>907</id>
+<skratka>dDMA</skratka>
+<popis>diskrétna matematika</popis>
+<kodSemester/>
+<rokRocnik>-1</rokRocnik>
+<metodaStudia>prezenčná</metodaStudia>
+<semesterPoradie/>
+</studijnyProgram>
+</studijneProgramy>
+<stupneStudijnychProgramov>III.</stupneStudijnychProgramov>
+<metodyStudia>
+<metodaStudia>prezenčná</metodaStudia>
+</metodyStudia>
+<jeZaradenyVStudijnomPlane>true</jeZaradenyVStudijnomPlane>
+<stupenPredmetu>III.</stupenPredmetu>
+<vyucujuciAll/>
+<hodnoteniaPredmetu>
+<hodnoteniePredmetu>
+<kod>A</kod>
+<pocetHodnoteni>0</pocetHodnoteni>
+<percentualneVyjadrenieZCelkPoctuHodnoteni>0.0</percentualneVyjadrenieZCelkPoctuHodnoteni>
+</hodnoteniePredmetu>
+<hodnoteniePredmetu>
+<kod>B</kod>
+<pocetHodnoteni>0</pocetHodnoteni>
+<percentualneVyjadrenieZCelkPoctuHodnoteni>0.0</percentualneVyjadrenieZCelkPoctuHodnoteni>
+</hodnoteniePredmetu>
+<hodnoteniePredmetu>
+<kod>C</kod>
+<pocetHodnoteni>0</pocetHodnoteni>
+<percentualneVyjadrenieZCelkPoctuHodnoteni>0.0</percentualneVyjadrenieZCelkPoctuHodnoteni>
+</hodnoteniePredmetu>
+<hodnoteniePredmetu>
+<kod>D</kod>
+<pocetHodnoteni>0</pocetHodnoteni>
+<percentualneVyjadrenieZCelkPoctuHodnoteni>0.0</percentualneVyjadrenieZCelkPoctuHodnoteni>
+</hodnoteniePredmetu>
+<hodnoteniePredmetu>
+<kod>E</kod>
+<pocetHodnoteni>0</pocetHodnoteni>
+<percentualneVyjadrenieZCelkPoctuHodnoteni>0.0</percentualneVyjadrenieZCelkPoctuHodnoteni>
+</hodnoteniePredmetu>
+<hodnoteniePredmetu>
+<kod>FX</kod>
+<pocetHodnoteni>0</pocetHodnoteni>
+<percentualneVyjadrenieZCelkPoctuHodnoteni>0.0</percentualneVyjadrenieZCelkPoctuHodnoteni>
+</hodnoteniePredmetu>
+<celkovyPocetHodnotenychStudentov>0</celkovyPocetHodnotenychStudentov>
+<pocetTypovHodnoteni>6</pocetTypovHodnoteni>
+</hodnoteniaPredmetu>
+</informacnyList>
+<informacnyList>
+<id>105500</id>
+<kodTypPredmetu>S</kodTypPredmetu>
+<skratka>3-INF-950</skratka>
+<kod>FMFI.KI/3-INF-950/15</kod>
 <nazov>Dizertačná skúška</nazov>
-<aktualnost/>
 <kredit>20</kredit>
-<rozsah/>
-<ukoncenie>SS</ukoncenie>
-<rocnik>2</rocnik>
-<semester/>
-<maxPocetPrihlStudentov/>
-<vyucujuciAll/>
+<sposobUkoncenia>Predmet štátnej skúšky</sposobUkoncenia>
+<obdobie>3, 4</obdobie>
+<doplnujuceUdaje>(Jednoodborové štúdium, doktorandské III. st., denná forma)</doplnujuceUdaje>
+<rokRocnikStudPlan>2</rokRocnikStudPlan>
+<datumSchvalenia>28.04.2015</datumSchvalenia>
 <podmienujucePredmety/>
-</predmet>
-<predmet>
-<skratka>FMFI.KI/3-INF-990/15</skratka>
-<skratkaPredmet>3-INF-990</skratkaPredmet>
+<podmienujucePredmetyNazov/>
+<podmPredmetyKodNazov/>
+<vylucujucePredmety/>
+<vylucujucePredmetyNazov/>
+<vylucujucePredmetyKodNazov/>
+<alternujucePredmety/>
+<alternujucePredmetyNazov/>
+<alternujucePredmetyKodNazov/>
+<garanti>
+<garant>
+<typGaranta>predseda odborovej komisie</typGaranta>
+<plneMeno>prof. RNDr. Branislav Rovan, PhD.</plneMeno>
+</garant>
+<garant>
+<typGaranta>garant</typGaranta>
+<plneMeno>prof. RNDr. Rastislav Kráľovič, PhD.</plneMeno>
+</garant>
+</garanti>
+<sposobyVyucbyRozsahMetoda/>
+<podmienujucePredmetyStrukt/>
+<vylucujucePredmetyStrukt/>
+<alternujucePredmetyStrukt/>
+<kodyTypovVyucby>
+<kodtypVyucby>A</kodtypVyucby>
+</kodyTypovVyucby>
+<studijneProgramy>
+<studijnyProgram>
+<id>900</id>
+<skratka>dINF/x</skratka>
+<popis>informatika</popis>
+<kodSemester/>
+<rokRocnik>2</rokRocnik>
+<metodaStudia>prezenčná</metodaStudia>
+<semesterPoradie>3, 4</semesterPoradie>
+</studijnyProgram>
+<studijnyProgram>
+<id>899</id>
+<skratka>dINF</skratka>
+<popis>informatika</popis>
+<kodSemester/>
+<rokRocnik>2</rokRocnik>
+<metodaStudia>prezenčná</metodaStudia>
+<semesterPoradie>3, 4</semesterPoradie>
+</studijnyProgram>
+</studijneProgramy>
+<stupneStudijnychProgramov>III.</stupneStudijnychProgramov>
+<metodyStudia>
+<metodaStudia>prezenčná</metodaStudia>
+</metodyStudia>
+<jeZaradenyVStudijnomPlane>true</jeZaradenyVStudijnomPlane>
+<stupenPredmetu>III.</stupenPredmetu>
+<vyucujuciAll/>
+<rocniky>
+<semester/>
+<rocnik>
+<semesterPoradie>3., 4.</semesterPoradie>
+</rocnik>
+</rocniky>
+<_PA_>
+<popisTypuTextu>Podmienky na absolvovanie predmetu</popisTypuTextu>
+<texty>
+<p>Skúška: dizertačná skúška</p>
+</texty>
+</_PA_>
+<_PJ_>
+<popisTypuTextu>Jazyk, ktorého znalosť je potrebná na absolvovanie predmetu</popisTypuTextu>
+<texty>
+<p>slovenský, anglický</p>
+</texty>
+</_PJ_>
+<_SO_>
+<popisTypuTextu>Stručná osnova predmetu</popisTypuTextu>
+<texty>
+<p>Študent predkladá písomnú prácu, ktorá obsahuje zhrnutie súčasného stavu oblasti dizertačnej práce a projekt dizertačnej práce. Skúška pozostáva z otázok komisie a rozpravy.</p>
+</texty>
+</_SO_>
+<_VH_>
+<popisTypuTextu>Váha hodnotenia predmetu (priebežné/záverečné)</popisTypuTextu>
+<texty>
+<p>0/100</p>
+</texty>
+</_VH_>
+<_VV_>
+<popisTypuTextu>Výsledky vzdelávania</popisTypuTextu>
+<texty>
+<p>Študent dokumentuje rozhľadenosť v oblasti dizertačnej práce a schopnosť odpovedať na otázky zo širokého okruhu tém súvisiachich s jeho študijným plánom. Zároveň získa spätnú väzbu k predloženému projektu dizertačnej práce.</p>
+</texty>
+</_VV_>
+<hodnoteniaPredmetu>
+<hodnoteniePredmetu>
+<kod>A</kod>
+<pocetHodnoteni>0</pocetHodnoteni>
+<percentualneVyjadrenieZCelkPoctuHodnoteni>0.0</percentualneVyjadrenieZCelkPoctuHodnoteni>
+</hodnoteniePredmetu>
+<hodnoteniePredmetu>
+<kod>B</kod>
+<pocetHodnoteni>0</pocetHodnoteni>
+<percentualneVyjadrenieZCelkPoctuHodnoteni>0.0</percentualneVyjadrenieZCelkPoctuHodnoteni>
+</hodnoteniePredmetu>
+<hodnoteniePredmetu>
+<kod>C</kod>
+<pocetHodnoteni>0</pocetHodnoteni>
+<percentualneVyjadrenieZCelkPoctuHodnoteni>0.0</percentualneVyjadrenieZCelkPoctuHodnoteni>
+</hodnoteniePredmetu>
+<hodnoteniePredmetu>
+<kod>D</kod>
+<pocetHodnoteni>0</pocetHodnoteni>
+<percentualneVyjadrenieZCelkPoctuHodnoteni>0.0</percentualneVyjadrenieZCelkPoctuHodnoteni>
+</hodnoteniePredmetu>
+<hodnoteniePredmetu>
+<kod>E</kod>
+<pocetHodnoteni>0</pocetHodnoteni>
+<percentualneVyjadrenieZCelkPoctuHodnoteni>0.0</percentualneVyjadrenieZCelkPoctuHodnoteni>
+</hodnoteniePredmetu>
+<hodnoteniePredmetu>
+<kod>FX</kod>
+<pocetHodnoteni>0</pocetHodnoteni>
+<percentualneVyjadrenieZCelkPoctuHodnoteni>0.0</percentualneVyjadrenieZCelkPoctuHodnoteni>
+</hodnoteniePredmetu>
+<celkovyPocetHodnotenychStudentov>0</celkovyPocetHodnotenychStudentov>
+<pocetTypovHodnoteni>6</pocetTypovHodnoteni>
+</hodnoteniaPredmetu>
+</informacnyList>
+<informacnyList>
+<id>105502</id>
+<kodTypPredmetu>O</kodTypPredmetu>
+<skratka>3-INF-990</skratka>
+<kod>FMFI.KI/3-INF-990/15</kod>
 <nazov>Obhajoba dizertačnej práce</nazov>
-<aktualnost/>
 <kredit>30</kredit>
-<rozsah/>
-<ukoncenie>OB</ukoncenie>
-<rocnik>4</rocnik>
-<semester/>
-<maxPocetPrihlStudentov/>
-<vyucujuciAll/>
+<sposobUkoncenia>Štátna skúška - obhajoba</sposobUkoncenia>
+<obdobie>7, 8</obdobie>
+<doplnujuceUdaje>(Jednoodborové štúdium, doktorandské III. st., denná forma)</doplnujuceUdaje>
+<rokRocnikStudPlan>4</rokRocnikStudPlan>
+<datumSchvalenia>28.04.2015</datumSchvalenia>
 <podmienujucePredmety/>
-</predmet>
-</predmety>
-<obmedzenie>
-<kredit>0</kredit>
-<poznamkaPredKontrola/>
-<poznamkaZaKontrola/>
-</obmedzenie>
-</blok>
-</bloky>
-</typ>
-<typ>
-<skratka>B</skratka>
-<nazov>Povinne voliteľné predmety</nazov>
-<obmedzenie/>
-</typ>
-</typyVyucby>
-</cast>
-</castiStudijnehoPlanu>
-</studijnyPlan>
-</studijnePlany>
-<rozsahy>
-<rozsah>
-<popis>dní za semester</popis>
-<skratka>d</skratka>
-</rozsah>
-<rozsah>
-<popis>hodín za týždeň</popis>
-<skratka>h</skratka>
-</rozsah>
-<rozsah>
-<popis>hodín za semester</popis>
-<skratka>s</skratka>
-</rozsah>
-<rozsah>
-<popis>týždňov za semester</popis>
-<skratka>t</skratka>
-</rozsah>
-</rozsahy>
-<aktualnosti>
-<aktualnost>
-<popis>v danom akademickom roku sa predmet nerealizuje</popis>
-<skratka>!</skratka>
-</aktualnost>
-<aktualnost>
-<popis>predmet sa nerealizuje, možno od nasledujúceho akademického roku</popis>
-<skratka>+</skratka>
-</aktualnost>
-<aktualnost>
-<popis>predmet sa realizuje ostatný krát</popis>
-<skratka>-</skratka>
-</aktualnost>
-</aktualnosti>
+<podmienujucePredmetyNazov/>
+<podmPredmetyKodNazov/>
+<vylucujucePredmety/>
+<vylucujucePredmetyNazov/>
+<vylucujucePredmetyKodNazov/>
+<alternujucePredmety/>
+<alternujucePredmetyNazov/>
+<alternujucePredmetyKodNazov/>
+<garanti>
+<garant>
+<typGaranta>predseda odborovej komisie</typGaranta>
+<plneMeno>prof. RNDr. Branislav Rovan, PhD.</plneMeno>
+</garant>
+<garant>
+<typGaranta>garant</typGaranta>
+<plneMeno>prof. RNDr. Rastislav Kráľovič, PhD.</plneMeno>
+</garant>
+</garanti>
+<sposobyVyucbyRozsahMetoda/>
+<podmienujucePredmetyStrukt/>
+<vylucujucePredmetyStrukt/>
+<alternujucePredmetyStrukt/>
+<kodyTypovVyucby>
+<kodtypVyucby>A</kodtypVyucby>
+</kodyTypovVyucby>
+<studijneProgramy>
+<studijnyProgram>
+<id>900</id>
+<skratka>dINF/x</skratka>
+<popis>informatika</popis>
+<kodSemester/>
+<rokRocnik>4</rokRocnik>
+<metodaStudia>prezenčná</metodaStudia>
+<semesterPoradie>7, 8</semesterPoradie>
+</studijnyProgram>
+<studijnyProgram>
+<id>899</id>
+<skratka>dINF</skratka>
+<popis>informatika</popis>
+<kodSemester/>
+<rokRocnik>4</rokRocnik>
+<metodaStudia>prezenčná</metodaStudia>
+<semesterPoradie>7, 8</semesterPoradie>
+</studijnyProgram>
+</studijneProgramy>
+<stupneStudijnychProgramov>III.</stupneStudijnychProgramov>
+<metodyStudia>
+<metodaStudia>prezenčná</metodaStudia>
+</metodyStudia>
+<jeZaradenyVStudijnomPlane>true</jeZaradenyVStudijnomPlane>
+<stupenPredmetu>III.</stupenPredmetu>
+<vyucujuciAll/>
+<rocniky>
+<semester/>
+<rocnik>
+<semesterPoradie>7., 8.</semesterPoradie>
+</rocnik>
+</rocniky>
+<_PA_>
+<popisTypuTextu>Podmienky na absolvovanie predmetu</popisTypuTextu>
+<texty>
+<p>Skúška: obhajoba</p>
+</texty>
+</_PA_>
+<_PJ_>
+<popisTypuTextu>Jazyk, ktorého znalosť je potrebná na absolvovanie predmetu</popisTypuTextu>
+<texty>
+<p>slovenský, anglický</p>
+</texty>
+</_PJ_>
+<_SO_>
+<popisTypuTextu>Stručná osnova predmetu</popisTypuTextu>
+<texty>
+<p>Obhajoba pozostáva z prezentácie, v ktorej študent zhrnie výsledky svojej práce, diskusie k oponentským posudkom a všeobecnej rozpravy.</p>
+</texty>
+</_SO_>
+<_VH_>
+<popisTypuTextu>Váha hodnotenia predmetu (priebežné/záverečné)</popisTypuTextu>
+<texty>
+<p>0/100</p>
+</texty>
+</_VH_>
+<_VV_>
+<popisTypuTextu>Výsledky vzdelávania</popisTypuTextu>
+<texty>
+<p>Obhájením dizertačnej práce sa završuje doktorandské štúdium.</p>
+</texty>
+</_VV_>
+<hodnoteniaPredmetu>
+<hodnoteniePredmetu>
+<kod>A</kod>
+<pocetHodnoteni>0</pocetHodnoteni>
+<percentualneVyjadrenieZCelkPoctuHodnoteni>0.0</percentualneVyjadrenieZCelkPoctuHodnoteni>
+</hodnoteniePredmetu>
+<hodnoteniePredmetu>
+<kod>B</kod>
+<pocetHodnoteni>0</pocetHodnoteni>
+<percentualneVyjadrenieZCelkPoctuHodnoteni>0.0</percentualneVyjadrenieZCelkPoctuHodnoteni>
+</hodnoteniePredmetu>
+<hodnoteniePredmetu>
+<kod>C</kod>
+<pocetHodnoteni>0</pocetHodnoteni>
+<percentualneVyjadrenieZCelkPoctuHodnoteni>0.0</percentualneVyjadrenieZCelkPoctuHodnoteni>
+</hodnoteniePredmetu>
+<hodnoteniePredmetu>
+<kod>D</kod>
+<pocetHodnoteni>0</pocetHodnoteni>
+<percentualneVyjadrenieZCelkPoctuHodnoteni>0.0</percentualneVyjadrenieZCelkPoctuHodnoteni>
+</hodnoteniePredmetu>
+<hodnoteniePredmetu>
+<kod>E</kod>
+<pocetHodnoteni>0</pocetHodnoteni>
+<percentualneVyjadrenieZCelkPoctuHodnoteni>0.0</percentualneVyjadrenieZCelkPoctuHodnoteni>
+</hodnoteniePredmetu>
+<hodnoteniePredmetu>
+<kod>FX</kod>
+<pocetHodnoteni>0</pocetHodnoteni>
+<percentualneVyjadrenieZCelkPoctuHodnoteni>0.0</percentualneVyjadrenieZCelkPoctuHodnoteni>
+</hodnoteniePredmetu>
+<celkovyPocetHodnotenychStudentov>0</celkovyPocetHodnotenychStudentov>
+<pocetTypovHodnoteni>6</pocetTypovHodnoteni>
+</hodnoteniaPredmetu>
+</informacnyList>
+<informacnyList>
+<id>105590</id>
+<kodTypPredmetu>B</kodTypPredmetu>
+<skratka>3-MXX-101</skratka>
+<kod>FMFI.KJP/3-MXX-101/15</kod>
+<nazov>Anglický jazyk pre doktorandov (1)</nazov>
+<kredit>5</kredit>
+<sposobUkoncenia>Hodnotenie</sposobUkoncenia>
+<sposobVyucby>Cvičenie</sposobVyucby>
+<rozsahTyzdenny>2</rozsahTyzdenny>
+<rozsahSemestranly>28</rozsahSemestranly>
+<doplnujuceUdaje>(Jednoodborové štúdium, doktorandské III. st., denná forma)</doplnujuceUdaje>
+<kodSemesterStudPlan>Z</kodSemesterStudPlan>
+<zabezpecuju>PhDr. Alena Zemanová</zabezpecuju>
+<datumSchvalenia>28.04.2015</datumSchvalenia>
+<podmienujucePredmety/>
+<podmienujucePredmetyNazov/>
+<podmPredmetyKodNazov/>
+<vylucujucePredmety/>
+<vylucujucePredmetyNazov/>
+<vylucujucePredmetyKodNazov/>
+<alternujucePredmety/>
+<alternujucePredmetyNazov/>
+<alternujucePredmetyKodNazov/>
+<garanti>
+<garant>
+<typGaranta>predseda odborovej komisie</typGaranta>
+<plneMeno>prof. RNDr. Branislav Rovan, PhD.</plneMeno>
+</garant>
+<garant>
+<typGaranta>garant</typGaranta>
+<plneMeno>prof. RNDr. Rastislav Kráľovič, PhD.</plneMeno>
+</garant>
+</garanti>
+<sposobyVyucbyRozsahMetoda>
+<sposobVyucbyRozsahMetoda>
+<sposobVyucby>Cvičenie</sposobVyucby>
+<rozsahTyzdenny>2</rozsahTyzdenny>
+<rozsahSemestralny>28</rozsahSemestralny>
+<metodaStudia>dištančná,prezenčná</metodaStudia>
+</sposobVyucbyRozsahMetoda>
+</sposobyVyucbyRozsahMetoda>
+<podmienujucePredmetyStrukt/>
+<vylucujucePredmetyStrukt/>
+<alternujucePredmetyStrukt/>
+<kodyTypovVyucby>
+<kodtypVyucby>C</kodtypVyucby>
+</kodyTypovVyucby>
+<studijneProgramy>
+<studijnyProgram>
+<id>891</id>
+<skratka>dNAV</skratka>
+<popis>numerická analýza a vedecko-technické výpočty</popis>
+<kodSemester>Z</kodSemester>
+<rokRocnik>1</rokRocnik>
+<metodaStudia>prezenčná</metodaStudia>
+<semesterPoradie>1</semesterPoradie>
+</studijnyProgram>
+<studijnyProgram>
+<id>3655</id>
+<skratka>dAAF_AU</skratka>
+<popis>astronómia a astrofyzika</popis>
+<kodSemester>Z</kodSemester>
+<rokRocnik>1</rokRocnik>
+<metodaStudia>prezenčná</metodaStudia>
+<semesterPoradie>1</semesterPoradie>
+</studijnyProgram>
+<studijnyProgram>
+<id>886</id>
+<skratka>dTVF/x</skratka>
+<popis>teória vyučovania fyziky</popis>
+<kodSemester>Z</kodSemester>
+<rokRocnik>-1</rokRocnik>
+<metodaStudia>prezenčná</metodaStudia>
+<semesterPoradie/>
+</studijnyProgram>
+<studijnyProgram>
+<id>3909</id>
+<skratka>dVMF_FU/x</skratka>
+<popis>všeobecná fyzika a matematická fyzika</popis>
+<kodSemester>Z</kodSemester>
+<rokRocnik>-1</rokRocnik>
+<metodaStudia>prezenčná</metodaStudia>
+<semesterPoradie/>
+</studijnyProgram>
+<studijnyProgram>
+<id>3967</id>
+<skratka>dTMF</skratka>
+<popis>teoretická fyzika a matematická fyzika</popis>
+<kodSemester>Z</kodSemester>
+<rokRocnik>-1</rokRocnik>
+<metodaStudia>prezenčná</metodaStudia>
+<semesterPoradie/>
+</studijnyProgram>
+<studijnyProgram>
+<id>2981</id>
+<skratka>dKES</skratka>
+<popis>kvantová elektronika, optika a optická spektroskopia</popis>
+<kodSemester>Z</kodSemester>
+<rokRocnik>1</rokRocnik>
+<metodaStudia>prezenčná</metodaStudia>
+<semesterPoradie>1</semesterPoradie>
+</studijnyProgram>
+<studijnyProgram>
+<id>3908</id>
+<skratka>dKES_FU/x</skratka>
+<popis>kvantová elektronika a optika</popis>
+<kodSemester>Z</kodSemester>
+<rokRocnik>1</rokRocnik>
+<metodaStudia>prezenčná</metodaStudia>
+<semesterPoradie>1</semesterPoradie>
+</studijnyProgram>
+<studijnyProgram>
+<id>3657</id>
+<skratka>dFKA_FU</skratka>
+<popis>fyzika kondenzovaných látok a akustika</popis>
+<kodSemester>Z</kodSemester>
+<rokRocnik>1</rokRocnik>
+<metodaStudia>prezenčná</metodaStudia>
+<semesterPoradie>1</semesterPoradie>
+</studijnyProgram>
+<studijnyProgram>
+<id>2984</id>
+<skratka>dENF</skratka>
+<popis>environmentálna fyzika</popis>
+<kodSemester>Z</kodSemester>
+<rokRocnik>1</rokRocnik>
+<metodaStudia>prezenčná</metodaStudia>
+<semesterPoradie>1</semesterPoradie>
+</studijnyProgram>
+<studijnyProgram>
+<id>1080</id>
+<skratka>dGTL/x</skratka>
+<popis>geometria a topológia</popis>
+<kodSemester>Z</kodSemester>
+<rokRocnik>1</rokRocnik>
+<metodaStudia>prezenčná</metodaStudia>
+<semesterPoradie>1</semesterPoradie>
+</studijnyProgram>
+<studijnyProgram>
+<id>3658</id>
+<skratka>dJSF_FU</skratka>
+<popis>jadrová a subjadrová fyzika</popis>
+<kodSemester>Z</kodSemester>
+<rokRocnik>1</rokRocnik>
+<metodaStudia>prezenčná</metodaStudia>
+<semesterPoradie>1</semesterPoradie>
+</studijnyProgram>
+<studijnyProgram>
+<id>905</id>
+<skratka>dFPL/x</skratka>
+<popis>fyzika plazmy</popis>
+<kodSemester>Z</kodSemester>
+<rokRocnik>1</rokRocnik>
+<metodaStudia>prezenčná</metodaStudia>
+<semesterPoradie>1</semesterPoradie>
+</studijnyProgram>
+<studijnyProgram>
+<id>884</id>
+<skratka>dTVM/x</skratka>
+<popis>teória vyučovania matematiky</popis>
+<kodSemester>Z</kodSemester>
+<rokRocnik>1</rokRocnik>
+<metodaStudia>prezenčná</metodaStudia>
+<semesterPoradie>1</semesterPoradie>
+</studijnyProgram>
+<studijnyProgram>
+<id>887</id>
+<skratka>dTVM</skratka>
+<popis>teória vyučovania matematiky</popis>
+<kodSemester>Z</kodSemester>
+<rokRocnik>1</rokRocnik>
+<metodaStudia>prezenčná</metodaStudia>
+<semesterPoradie>1</semesterPoradie>
+</studijnyProgram>
+<studijnyProgram>
+<id>2982</id>
+<skratka>dKES/x</skratka>
+<popis>kvantová elektronika, optika a optická spektroskopia</popis>
+<kodSemester>Z</kodSemester>
+<rokRocnik>1</rokRocnik>
+<metodaStudia>dištančná</metodaStudia>
+<semesterPoradie>1</semesterPoradie>
+</studijnyProgram>
+<studijnyProgram>
+<id>896</id>
+<skratka>dMAN</skratka>
+<popis>matematická analýza</popis>
+<kodSemester>Z</kodSemester>
+<rokRocnik>1</rokRocnik>
+<metodaStudia>prezenčná</metodaStudia>
+<semesterPoradie>1</semesterPoradie>
+</studijnyProgram>
+<studijnyProgram>
+<id>1078</id>
+<skratka>dGTL</skratka>
+<popis>geometria a topológia</popis>
+<kodSemester>Z</kodSemester>
+<rokRocnik>1</rokRocnik>
+<metodaStudia>prezenčná</metodaStudia>
+<semesterPoradie>1</semesterPoradie>
+</studijnyProgram>
+<studijnyProgram>
+<id>908</id>
+<skratka>dDMA/x</skratka>
+<popis>diskrétna matematika</popis>
+<kodSemester>Z</kodSemester>
+<rokRocnik>-1</rokRocnik>
+<metodaStudia>prezenčná</metodaStudia>
+<semesterPoradie/>
+</studijnyProgram>
+<studijnyProgram>
+<id>914</id>
+<skratka>dAPM</skratka>
+<popis>aplikovaná matematika</popis>
+<kodSemester>Z</kodSemester>
+<rokRocnik>1</rokRocnik>
+<metodaStudia>prezenčná</metodaStudia>
+<semesterPoradie>1</semesterPoradie>
+</studijnyProgram>
+<studijnyProgram>
+<id>904</id>
+<skratka>dFPL</skratka>
+<popis>fyzika plazmy</popis>
+<kodSemester>Z</kodSemester>
+<rokRocnik>1</rokRocnik>
+<metodaStudia>prezenčná</metodaStudia>
+<semesterPoradie>1</semesterPoradie>
+</studijnyProgram>
+<studijnyProgram>
+<id>2598</id>
+<skratka>dFKA/x</skratka>
+<popis>fyzika kondenzovaných látok a akustika</popis>
+<kodSemester>Z</kodSemester>
+<rokRocnik>1</rokRocnik>
+<metodaStudia>prezenčná</metodaStudia>
+<semesterPoradie>1</semesterPoradie>
+</studijnyProgram>
+<studijnyProgram>
+<id>2985</id>
+<skratka>dENF/x</skratka>
+<popis>environmentálna fyzika</popis>
+<kodSemester>Z</kodSemester>
+<rokRocnik>1</rokRocnik>
+<metodaStudia>dištančná</metodaStudia>
+<semesterPoradie>1</semesterPoradie>
+</studijnyProgram>
+<studijnyProgram>
+<id>2586</id>
+<skratka>dNAV/x</skratka>
+<popis>numerická analýza a vedecko-technické výpočty</popis>
+<kodSemester>Z</kodSemester>
+<rokRocnik>1</rokRocnik>
+<metodaStudia>prezenčná</metodaStudia>
+<semesterPoradie>1</semesterPoradie>
+</studijnyProgram>
+<studijnyProgram>
+<id>900</id>
+<skratka>dINF/x</skratka>
+<popis>informatika</popis>
+<kodSemester>Z</kodSemester>
+<rokRocnik>-1</rokRocnik>
+<metodaStudia>prezenčná</metodaStudia>
+<semesterPoradie/>
+</studijnyProgram>
+<studijnyProgram>
+<id>3659</id>
+<skratka>dVMF_FU</skratka>
+<popis>všeobecná fyzika a matematická fyzika</popis>
+<kodSemester>Z</kodSemester>
+<rokRocnik>-1</rokRocnik>
+<metodaStudia>prezenčná</metodaStudia>
+<semesterPoradie/>
+</studijnyProgram>
+<studijnyProgram>
+<id>3907</id>
+<skratka>dFKA_FU/x</skratka>
+<popis>fyzika kondenzovaných látok a akustika</popis>
+<kodSemester>Z</kodSemester>
+<rokRocnik>1</rokRocnik>
+<metodaStudia>prezenčná</metodaStudia>
+<semesterPoradie>1</semesterPoradie>
+</studijnyProgram>
+<studijnyProgram>
+<id>901</id>
+<skratka>dXEF</skratka>
+<popis>chemická fyzika</popis>
+<kodSemester>Z</kodSemester>
+<rokRocnik>1</rokRocnik>
+<metodaStudia>prezenčná</metodaStudia>
+<semesterPoradie>1</semesterPoradie>
+</studijnyProgram>
+<studijnyProgram>
+<id>3902</id>
+<skratka>dAAF_AU/x</skratka>
+<popis>astronómia a astrofyzika</popis>
+<kodSemester>Z</kodSemester>
+<rokRocnik>1</rokRocnik>
+<metodaStudia>prezenčná</metodaStudia>
+<semesterPoradie>1</semesterPoradie>
+</studijnyProgram>
+<studijnyProgram>
+<id>910</id>
+<skratka>dBIF/x</skratka>
+<popis>biofyzika</popis>
+<kodSemester>Z</kodSemester>
+<rokRocnik>1</rokRocnik>
+<metodaStudia>prezenčná</metodaStudia>
+<semesterPoradie>1</semesterPoradie>
+</studijnyProgram>
+<studijnyProgram>
+<id>899</id>
+<skratka>dINF</skratka>
+<popis>informatika</popis>
+<kodSemester>Z</kodSemester>
+<rokRocnik>-1</rokRocnik>
+<metodaStudia>prezenčná</metodaStudia>
+<semesterPoradie/>
+</studijnyProgram>
+<studijnyProgram>
+<id>898</id>
+<skratka>dJSF/x</skratka>
+<popis>jadrová a subjadrová fyzika</popis>
+<kodSemester>Z</kodSemester>
+<rokRocnik>1</rokRocnik>
+<metodaStudia>prezenčná</metodaStudia>
+<semesterPoradie>1</semesterPoradie>
+</studijnyProgram>
+<studijnyProgram>
+<id>3968</id>
+<skratka>dTMF/x</skratka>
+<popis>teoretická fyzika a matematická fyzika</popis>
+<kodSemester>Z</kodSemester>
+<rokRocnik>-1</rokRocnik>
+<metodaStudia>prezenčná</metodaStudia>
+<semesterPoradie/>
+</studijnyProgram>
+<studijnyProgram>
+<id>888</id>
+<skratka>dTVF</skratka>
+<popis>teória vyučovania fyziky</popis>
+<kodSemester>Z</kodSemester>
+<rokRocnik>-1</rokRocnik>
+<metodaStudia>prezenčná</metodaStudia>
+<semesterPoradie/>
+</studijnyProgram>
+<studijnyProgram>
+<id>913</id>
+<skratka>dAPM/x</skratka>
+<popis>aplikovaná matematika</popis>
+<kodSemester>Z</kodSemester>
+<rokRocnik>1</rokRocnik>
+<metodaStudia>prezenčná</metodaStudia>
+<semesterPoradie>1</semesterPoradie>
+</studijnyProgram>
+<studijnyProgram>
+<id>897</id>
+<skratka>dJSF</skratka>
+<popis>jadrová a subjadrová fyzika</popis>
+<kodSemester>Z</kodSemester>
+<rokRocnik>1</rokRocnik>
+<metodaStudia>prezenčná</metodaStudia>
+<semesterPoradie>1</semesterPoradie>
+</studijnyProgram>
+<studijnyProgram>
+<id>893</id>
+<skratka>dMAN/x</skratka>
+<popis>matematická analýza</popis>
+<kodSemester>Z</kodSemester>
+<rokRocnik>1</rokRocnik>
+<metodaStudia>prezenčná</metodaStudia>
+<semesterPoradie>1</semesterPoradie>
+</studijnyProgram>
+<studijnyProgram>
+<id>912</id>
+<skratka>dAAF/x</skratka>
+<popis>astronómia a astrofyzika</popis>
+<kodSemester>Z</kodSemester>
+<rokRocnik>1</rokRocnik>
+<metodaStudia>prezenčná</metodaStudia>
+<semesterPoradie>1</semesterPoradie>
+</studijnyProgram>
+<studijnyProgram>
+<id>906</id>
+<skratka>dFKA</skratka>
+<popis>fyzika kondenzovaných látok a akustika</popis>
+<kodSemester>Z</kodSemester>
+<rokRocnik>1</rokRocnik>
+<metodaStudia>prezenčná</metodaStudia>
+<semesterPoradie>1</semesterPoradie>
+</studijnyProgram>
+<studijnyProgram>
+<id>2593</id>
+<skratka>dXEF/x</skratka>
+<popis>chemická fyzika</popis>
+<kodSemester>Z</kodSemester>
+<rokRocnik>1</rokRocnik>
+<metodaStudia>prezenčná</metodaStudia>
+<semesterPoradie>1</semesterPoradie>
+</studijnyProgram>
+<studijnyProgram>
+<id>911</id>
+<skratka>dAAF</skratka>
+<popis>astronómia a astrofyzika</popis>
+<kodSemester>Z</kodSemester>
+<rokRocnik>1</rokRocnik>
+<metodaStudia>prezenčná</metodaStudia>
+<semesterPoradie>1</semesterPoradie>
+</studijnyProgram>
+<studijnyProgram>
+<id>909</id>
+<skratka>dBIF</skratka>
+<popis>biofyzika</popis>
+<kodSemester>Z</kodSemester>
+<rokRocnik>1</rokRocnik>
+<metodaStudia>prezenčná</metodaStudia>
+<semesterPoradie>1</semesterPoradie>
+</studijnyProgram>
+<studijnyProgram>
+<id>907</id>
+<skratka>dDMA</skratka>
+<popis>diskrétna matematika</popis>
+<kodSemester>Z</kodSemester>
+<rokRocnik>-1</rokRocnik>
+<metodaStudia>prezenčná</metodaStudia>
+<semesterPoradie/>
+</studijnyProgram>
+<studijnyProgram>
+<id>3903</id>
+<skratka>dJSF_FU/x</skratka>
+<popis>jadrová a subjadrová fyzika</popis>
+<kodSemester>Z</kodSemester>
+<rokRocnik>1</rokRocnik>
+<metodaStudia>prezenčná</metodaStudia>
+<semesterPoradie>1</semesterPoradie>
+</studijnyProgram>
+<studijnyProgram>
+<id>3660</id>
+<skratka>dKES_FU</skratka>
+<popis>kvantová elektronika a optika</popis>
+<kodSemester>Z</kodSemester>
+<rokRocnik>1</rokRocnik>
+<metodaStudia>prezenčná</metodaStudia>
+<semesterPoradie>1</semesterPoradie>
+</studijnyProgram>
+</studijneProgramy>
+<stupneStudijnychProgramov>III.</stupneStudijnychProgramov>
+<metodyStudia>
+<metodaStudia>prezenčná</metodaStudia>
+<metodaStudia>dištančná</metodaStudia>
+</metodyStudia>
+<jeZaradenyVStudijnomPlane>true</jeZaradenyVStudijnomPlane>
+<stupenPredmetu>III.</stupenPredmetu>
+<vyucujuciAll>
+<vyucujuci>
+<idOsoby>1039986</idOsoby>
+<poradie>1</poradie>
+<typ>C</typ>
+<typPopis>cvičiaci</typPopis>
+<meno>Alena</meno>
+<priezvisko>Zemanová</priezvisko>
+<plneMeno>PhDr. Alena Zemanová</plneMeno>
+<jazykyPredmetu>slovenský</jazykyPredmetu>
+<identifikacneCisla>
+<identifikacneCislo>
+<typ>UOC</typ>
+<cislo>79243627</cislo>
+</identifikacneCislo>
+<identifikacneCislo>
+<typ>PIK</typ>
+<cislo>8605494</cislo>
+</identifikacneCislo>
+</identifikacneCisla>
+</vyucujuci>
+</vyucujuciAll>
+<_L_>
+<popisTypuTextu>Odporúčaná literatúra</popisTypuTextu>
+<texty>
+<p>Vlastné elektronické texty vyučujúceho predmetu zverejňované prostredníctvom web stránky predmetu.Výber aktuálnych článkov z oblasti</p>
+</texty>
+</_L_>
+<_PA_>
+<popisTypuTextu>Podmienky na absolvovanie predmetu</popisTypuTextu>
+<texty>
+<p>Priebežné hodnotenie: aktívna účasť na 80 % cvičeniach, odborný článok v angličtine</p>
+<p>Orientačná stupnica hodnotenia: A 90%, B 80%, C 70%, D 60%, E 50%</p>
+</texty>
+</_PA_>
+<_PJ_>
+<popisTypuTextu>Jazyk, ktorého znalosť je potrebná na absolvovanie predmetu</popisTypuTextu>
+<texty>
+<p>slovenský, anglický</p>
+</texty>
+</_PJ_>
+<_SO_>
+<popisTypuTextu>Stručná osnova predmetu</popisTypuTextu>
+<texty>
+<p>revízia gramatiky anglického jazyka, špecifiká odborného textu v angličtine, nácvik terminológie a frazeológie anglického odborného textu, nácvik tvorby anglického odborného textu, písanie abstraktu,  životopisu a motivačného listu v angličtine, nácvik pracovného pohovoru v angličtine</p>
+</texty>
+</_SO_>
+<_VH_>
+<popisTypuTextu>Váha hodnotenia predmetu (priebežné/záverečné)</popisTypuTextu>
+<texty>
+<p>100/0</p>
+</texty>
+</_VH_>
+<_VV_>
+<popisTypuTextu>Výsledky vzdelávania</popisTypuTextu>
+<texty>
+<p>po absolvovaní predmetu doktorandi získajú vyššiu úroveň vedomostí a zručností v oblasti tvorby gramaticky, štrukturálne a terminologicky správneho odborného textu v anglickom jazyku s cieľom publikovať v odborných časopisoch</p>
+</texty>
+</_VV_>
+<hodnoteniaPredmetu>
+<hodnoteniePredmetu>
+<kod>A</kod>
+<pocetHodnoteni>0</pocetHodnoteni>
+<percentualneVyjadrenieZCelkPoctuHodnoteni>0.0</percentualneVyjadrenieZCelkPoctuHodnoteni>
+</hodnoteniePredmetu>
+<hodnoteniePredmetu>
+<kod>B</kod>
+<pocetHodnoteni>0</pocetHodnoteni>
+<percentualneVyjadrenieZCelkPoctuHodnoteni>0.0</percentualneVyjadrenieZCelkPoctuHodnoteni>
+</hodnoteniePredmetu>
+<hodnoteniePredmetu>
+<kod>C</kod>
+<pocetHodnoteni>0</pocetHodnoteni>
+<percentualneVyjadrenieZCelkPoctuHodnoteni>0.0</percentualneVyjadrenieZCelkPoctuHodnoteni>
+</hodnoteniePredmetu>
+<hodnoteniePredmetu>
+<kod>D</kod>
+<pocetHodnoteni>0</pocetHodnoteni>
+<percentualneVyjadrenieZCelkPoctuHodnoteni>0.0</percentualneVyjadrenieZCelkPoctuHodnoteni>
+</hodnoteniePredmetu>
+<hodnoteniePredmetu>
+<kod>E</kod>
+<pocetHodnoteni>0</pocetHodnoteni>
+<percentualneVyjadrenieZCelkPoctuHodnoteni>0.0</percentualneVyjadrenieZCelkPoctuHodnoteni>
+</hodnoteniePredmetu>
+<hodnoteniePredmetu>
+<kod>FX</kod>
+<pocetHodnoteni>0</pocetHodnoteni>
+<percentualneVyjadrenieZCelkPoctuHodnoteni>0.0</percentualneVyjadrenieZCelkPoctuHodnoteni>
+</hodnoteniePredmetu>
+<celkovyPocetHodnotenychStudentov>0</celkovyPocetHodnotenychStudentov>
+<pocetTypovHodnoteni>6</pocetTypovHodnoteni>
+</hodnoteniaPredmetu>
+</informacnyList>
+<informacnyList>
+<id>105591</id>
+<kodTypPredmetu>B</kodTypPredmetu>
+<skratka>3-MXX-102</skratka>
+<kod>FMFI.KJP/3-MXX-102/15</kod>
+<nazov>Anglický jazyk pre doktorandov (2)</nazov>
+<kredit>5</kredit>
+<sposobUkoncenia>Hodnotenie</sposobUkoncenia>
+<sposobVyucby>Cvičenie</sposobVyucby>
+<rozsahTyzdenny>2</rozsahTyzdenny>
+<rozsahSemestranly>28</rozsahSemestranly>
+<doplnujuceUdaje>(Jednoodborové štúdium, doktorandské III. st., denná forma)</doplnujuceUdaje>
+<kodSemesterStudPlan>L</kodSemesterStudPlan>
+<zabezpecuju>PhDr. Alena Zemanová</zabezpecuju>
+<datumSchvalenia>28.04.2015</datumSchvalenia>
+<podmienujucePredmety>FMFI.KJP/3-MXX-101/15</podmienujucePredmety>
+<podmienujucePredmetyNazov>FMFI.KJP/3-MXX-101/15 - Anglický jazyk pre doktorandov (1)</podmienujucePredmetyNazov>
+<podmPredmetyKodNazov>3-MXX-101 - Anglický jazyk pre doktorandov (1)</podmPredmetyKodNazov>
+<vylucujucePredmety/>
+<vylucujucePredmetyNazov/>
+<vylucujucePredmetyKodNazov/>
+<alternujucePredmety/>
+<alternujucePredmetyNazov/>
+<alternujucePredmetyKodNazov/>
+<garanti>
+<garant>
+<typGaranta>predseda odborovej komisie</typGaranta>
+<plneMeno>prof. RNDr. Branislav Rovan, PhD.</plneMeno>
+</garant>
+<garant>
+<typGaranta>garant</typGaranta>
+<plneMeno>prof. RNDr. Rastislav Kráľovič, PhD.</plneMeno>
+</garant>
+</garanti>
+<sposobyVyucbyRozsahMetoda>
+<sposobVyucbyRozsahMetoda>
+<sposobVyucby>Cvičenie</sposobVyucby>
+<rozsahTyzdenny>2</rozsahTyzdenny>
+<rozsahSemestralny>28</rozsahSemestralny>
+<metodaStudia>dištančná,prezenčná</metodaStudia>
+</sposobVyucbyRozsahMetoda>
+</sposobyVyucbyRozsahMetoda>
+<podmienujucePredmetyStrukt>
+<podmienujuciPredmet>
+<idPredmet>105590</idPredmet>
+<textPred/>
+<skratka>FMFI.KJP/3-MXX-101/15</skratka>
+<kod>3-MXX-101</kod>
+<nazov>Anglický jazyk pre doktorandov (1)</nazov>
+<textZa/>
+</podmienujuciPredmet>
+</podmienujucePredmetyStrukt>
+<vylucujucePredmetyStrukt/>
+<alternujucePredmetyStrukt/>
+<kodyTypovVyucby>
+<kodtypVyucby>C</kodtypVyucby>
+</kodyTypovVyucby>
+<studijneProgramy>
+<studijnyProgram>
+<id>891</id>
+<skratka>dNAV</skratka>
+<popis>numerická analýza a vedecko-technické výpočty</popis>
+<kodSemester>L</kodSemester>
+<rokRocnik>1</rokRocnik>
+<metodaStudia>prezenčná</metodaStudia>
+<semesterPoradie>2</semesterPoradie>
+</studijnyProgram>
+<studijnyProgram>
+<id>1078</id>
+<skratka>dGTL</skratka>
+<popis>geometria a topológia</popis>
+<kodSemester>L</kodSemester>
+<rokRocnik>1</rokRocnik>
+<metodaStudia>prezenčná</metodaStudia>
+<semesterPoradie>2</semesterPoradie>
+</studijnyProgram>
+<studijnyProgram>
+<id>910</id>
+<skratka>dBIF/x</skratka>
+<popis>biofyzika</popis>
+<kodSemester>L</kodSemester>
+<rokRocnik>1</rokRocnik>
+<metodaStudia>prezenčná</metodaStudia>
+<semesterPoradie>2</semesterPoradie>
+</studijnyProgram>
+<studijnyProgram>
+<id>900</id>
+<skratka>dINF/x</skratka>
+<popis>informatika</popis>
+<kodSemester>L</kodSemester>
+<rokRocnik>-1</rokRocnik>
+<metodaStudia>prezenčná</metodaStudia>
+<semesterPoradie/>
+</studijnyProgram>
+<studijnyProgram>
+<id>907</id>
+<skratka>dDMA</skratka>
+<popis>diskrétna matematika</popis>
+<kodSemester>L</kodSemester>
+<rokRocnik>-1</rokRocnik>
+<metodaStudia>prezenčná</metodaStudia>
+<semesterPoradie/>
+</studijnyProgram>
+<studijnyProgram>
+<id>3659</id>
+<skratka>dVMF_FU</skratka>
+<popis>všeobecná fyzika a matematická fyzika</popis>
+<kodSemester>L</kodSemester>
+<rokRocnik>-1</rokRocnik>
+<metodaStudia>prezenčná</metodaStudia>
+<semesterPoradie/>
+</studijnyProgram>
+<studijnyProgram>
+<id>3967</id>
+<skratka>dTMF</skratka>
+<popis>teoretická fyzika a matematická fyzika</popis>
+<kodSemester>L</kodSemester>
+<rokRocnik>-1</rokRocnik>
+<metodaStudia>prezenčná</metodaStudia>
+<semesterPoradie/>
+</studijnyProgram>
+<studijnyProgram>
+<id>887</id>
+<skratka>dTVM</skratka>
+<popis>teória vyučovania matematiky</popis>
+<kodSemester>L</kodSemester>
+<rokRocnik>1</rokRocnik>
+<metodaStudia>prezenčná</metodaStudia>
+<semesterPoradie>2</semesterPoradie>
+</studijnyProgram>
+<studijnyProgram>
+<id>888</id>
+<skratka>dTVF</skratka>
+<popis>teória vyučovania fyziky</popis>
+<kodSemester>L</kodSemester>
+<rokRocnik>-1</rokRocnik>
+<metodaStudia>prezenčná</metodaStudia>
+<semesterPoradie/>
+</studijnyProgram>
+<studijnyProgram>
+<id>3660</id>
+<skratka>dKES_FU</skratka>
+<popis>kvantová elektronika a optika</popis>
+<kodSemester>L</kodSemester>
+<rokRocnik>1</rokRocnik>
+<metodaStudia>prezenčná</metodaStudia>
+<semesterPoradie>2</semesterPoradie>
+</studijnyProgram>
+<studijnyProgram>
+<id>2598</id>
+<skratka>dFKA/x</skratka>
+<popis>fyzika kondenzovaných látok a akustika</popis>
+<kodSemester>L</kodSemester>
+<rokRocnik>1</rokRocnik>
+<metodaStudia>prezenčná</metodaStudia>
+<semesterPoradie>2</semesterPoradie>
+</studijnyProgram>
+<studijnyProgram>
+<id>2985</id>
+<skratka>dENF/x</skratka>
+<popis>environmentálna fyzika</popis>
+<kodSemester>L</kodSemester>
+<rokRocnik>1</rokRocnik>
+<metodaStudia>dištančná</metodaStudia>
+<semesterPoradie>2</semesterPoradie>
+</studijnyProgram>
+<studijnyProgram>
+<id>913</id>
+<skratka>dAPM/x</skratka>
+<popis>aplikovaná matematika</popis>
+<kodSemester>L</kodSemester>
+<rokRocnik>1</rokRocnik>
+<metodaStudia>prezenčná</metodaStudia>
+<semesterPoradie>2</semesterPoradie>
+</studijnyProgram>
+<studijnyProgram>
+<id>914</id>
+<skratka>dAPM</skratka>
+<popis>aplikovaná matematika</popis>
+<kodSemester>L</kodSemester>
+<rokRocnik>1</rokRocnik>
+<metodaStudia>prezenčná</metodaStudia>
+<semesterPoradie>2</semesterPoradie>
+</studijnyProgram>
+<studijnyProgram>
+<id>3909</id>
+<skratka>dVMF_FU/x</skratka>
+<popis>všeobecná fyzika a matematická fyzika</popis>
+<kodSemester>L</kodSemester>
+<rokRocnik>-1</rokRocnik>
+<metodaStudia>prezenčná</metodaStudia>
+<semesterPoradie/>
+</studijnyProgram>
+<studijnyProgram>
+<id>2593</id>
+<skratka>dXEF/x</skratka>
+<popis>chemická fyzika</popis>
+<kodSemester>L</kodSemester>
+<rokRocnik>1</rokRocnik>
+<metodaStudia>prezenčná</metodaStudia>
+<semesterPoradie>2</semesterPoradie>
+</studijnyProgram>
+<studijnyProgram>
+<id>3655</id>
+<skratka>dAAF_AU</skratka>
+<popis>astronómia a astrofyzika</popis>
+<kodSemester>L</kodSemester>
+<rokRocnik>1</rokRocnik>
+<metodaStudia>prezenčná</metodaStudia>
+<semesterPoradie>2</semesterPoradie>
+</studijnyProgram>
+<studijnyProgram>
+<id>909</id>
+<skratka>dBIF</skratka>
+<popis>biofyzika</popis>
+<kodSemester>L</kodSemester>
+<rokRocnik>1</rokRocnik>
+<metodaStudia>prezenčná</metodaStudia>
+<semesterPoradie>2</semesterPoradie>
+</studijnyProgram>
+<studijnyProgram>
+<id>2982</id>
+<skratka>dKES/x</skratka>
+<popis>kvantová elektronika, optika a optická spektroskopia</popis>
+<kodSemester>L</kodSemester>
+<rokRocnik>1</rokRocnik>
+<metodaStudia>dištančná</metodaStudia>
+<semesterPoradie>2</semesterPoradie>
+</studijnyProgram>
+<studijnyProgram>
+<id>2984</id>
+<skratka>dENF</skratka>
+<popis>environmentálna fyzika</popis>
+<kodSemester>L</kodSemester>
+<rokRocnik>1</rokRocnik>
+<metodaStudia>prezenčná</metodaStudia>
+<semesterPoradie>2</semesterPoradie>
+</studijnyProgram>
+<studijnyProgram>
+<id>901</id>
+<skratka>dXEF</skratka>
+<popis>chemická fyzika</popis>
+<kodSemester>L</kodSemester>
+<rokRocnik>1</rokRocnik>
+<metodaStudia>prezenčná</metodaStudia>
+<semesterPoradie>2</semesterPoradie>
+</studijnyProgram>
+<studijnyProgram>
+<id>893</id>
+<skratka>dMAN/x</skratka>
+<popis>matematická analýza</popis>
+<kodSemester>L</kodSemester>
+<rokRocnik>1</rokRocnik>
+<metodaStudia>prezenčná</metodaStudia>
+<semesterPoradie>2</semesterPoradie>
+</studijnyProgram>
+<studijnyProgram>
+<id>1080</id>
+<skratka>dGTL/x</skratka>
+<popis>geometria a topológia</popis>
+<kodSemester>L</kodSemester>
+<rokRocnik>1</rokRocnik>
+<metodaStudia>prezenčná</metodaStudia>
+<semesterPoradie>2</semesterPoradie>
+</studijnyProgram>
+<studijnyProgram>
+<id>3903</id>
+<skratka>dJSF_FU/x</skratka>
+<popis>jadrová a subjadrová fyzika</popis>
+<kodSemester>L</kodSemester>
+<rokRocnik>1</rokRocnik>
+<metodaStudia>prezenčná</metodaStudia>
+<semesterPoradie>2</semesterPoradie>
+</studijnyProgram>
+<studijnyProgram>
+<id>905</id>
+<skratka>dFPL/x</skratka>
+<popis>fyzika plazmy</popis>
+<kodSemester>L</kodSemester>
+<rokRocnik>1</rokRocnik>
+<metodaStudia>prezenčná</metodaStudia>
+<semesterPoradie>2</semesterPoradie>
+</studijnyProgram>
+<studijnyProgram>
+<id>884</id>
+<skratka>dTVM/x</skratka>
+<popis>teória vyučovania matematiky</popis>
+<kodSemester>L</kodSemester>
+<rokRocnik>1</rokRocnik>
+<metodaStudia>prezenčná</metodaStudia>
+<semesterPoradie>2</semesterPoradie>
+</studijnyProgram>
+<studijnyProgram>
+<id>3908</id>
+<skratka>dKES_FU/x</skratka>
+<popis>kvantová elektronika a optika</popis>
+<kodSemester>L</kodSemester>
+<rokRocnik>1</rokRocnik>
+<metodaStudia>prezenčná</metodaStudia>
+<semesterPoradie>2</semesterPoradie>
+</studijnyProgram>
+<studijnyProgram>
+<id>906</id>
+<skratka>dFKA</skratka>
+<popis>fyzika kondenzovaných látok a akustika</popis>
+<kodSemester>L</kodSemester>
+<rokRocnik>1</rokRocnik>
+<metodaStudia>prezenčná</metodaStudia>
+<semesterPoradie>2</semesterPoradie>
+</studijnyProgram>
+<studijnyProgram>
+<id>898</id>
+<skratka>dJSF/x</skratka>
+<popis>jadrová a subjadrová fyzika</popis>
+<kodSemester>L</kodSemester>
+<rokRocnik>1</rokRocnik>
+<metodaStudia>prezenčná</metodaStudia>
+<semesterPoradie>2</semesterPoradie>
+</studijnyProgram>
+<studijnyProgram>
+<id>3968</id>
+<skratka>dTMF/x</skratka>
+<popis>teoretická fyzika a matematická fyzika</popis>
+<kodSemester>L</kodSemester>
+<rokRocnik>-1</rokRocnik>
+<metodaStudia>prezenčná</metodaStudia>
+<semesterPoradie/>
+</studijnyProgram>
+<studijnyProgram>
+<id>3657</id>
+<skratka>dFKA_FU</skratka>
+<popis>fyzika kondenzovaných látok a akustika</popis>
+<kodSemester>L</kodSemester>
+<rokRocnik>1</rokRocnik>
+<metodaStudia>prezenčná</metodaStudia>
+<semesterPoradie>2</semesterPoradie>
+</studijnyProgram>
+<studijnyProgram>
+<id>2586</id>
+<skratka>dNAV/x</skratka>
+<popis>numerická analýza a vedecko-technické výpočty</popis>
+<kodSemester>L</kodSemester>
+<rokRocnik>1</rokRocnik>
+<metodaStudia>prezenčná</metodaStudia>
+<semesterPoradie>2</semesterPoradie>
+</studijnyProgram>
+<studijnyProgram>
+<id>896</id>
+<skratka>dMAN</skratka>
+<popis>matematická analýza</popis>
+<kodSemester>L</kodSemester>
+<rokRocnik>1</rokRocnik>
+<metodaStudia>prezenčná</metodaStudia>
+<semesterPoradie>2</semesterPoradie>
+</studijnyProgram>
+<studijnyProgram>
+<id>899</id>
+<skratka>dINF</skratka>
+<popis>informatika</popis>
+<kodSemester>L</kodSemester>
+<rokRocnik>-1</rokRocnik>
+<metodaStudia>prezenčná</metodaStudia>
+<semesterPoradie/>
+</studijnyProgram>
+<studijnyProgram>
+<id>897</id>
+<skratka>dJSF</skratka>
+<popis>jadrová a subjadrová fyzika</popis>
+<kodSemester>L</kodSemester>
+<rokRocnik>1</rokRocnik>
+<metodaStudia>prezenčná</metodaStudia>
+<semesterPoradie>2</semesterPoradie>
+</studijnyProgram>
+<studijnyProgram>
+<id>3658</id>
+<skratka>dJSF_FU</skratka>
+<popis>jadrová a subjadrová fyzika</popis>
+<kodSemester>L</kodSemester>
+<rokRocnik>1</rokRocnik>
+<metodaStudia>prezenčná</metodaStudia>
+<semesterPoradie>2</semesterPoradie>
+</studijnyProgram>
+<studijnyProgram>
+<id>2981</id>
+<skratka>dKES</skratka>
+<popis>kvantová elektronika, optika a optická spektroskopia</popis>
+<kodSemester>L</kodSemester>
+<rokRocnik>1</rokRocnik>
+<metodaStudia>prezenčná</metodaStudia>
+<semesterPoradie>2</semesterPoradie>
+</studijnyProgram>
+<studijnyProgram>
+<id>3907</id>
+<skratka>dFKA_FU/x</skratka>
+<popis>fyzika kondenzovaných látok a akustika</popis>
+<kodSemester>L</kodSemester>
+<rokRocnik>1</rokRocnik>
+<metodaStudia>prezenčná</metodaStudia>
+<semesterPoradie>2</semesterPoradie>
+</studijnyProgram>
+<studijnyProgram>
+<id>911</id>
+<skratka>dAAF</skratka>
+<popis>astronómia a astrofyzika</popis>
+<kodSemester>L</kodSemester>
+<rokRocnik>1</rokRocnik>
+<metodaStudia>prezenčná</metodaStudia>
+<semesterPoradie>2</semesterPoradie>
+</studijnyProgram>
+<studijnyProgram>
+<id>912</id>
+<skratka>dAAF/x</skratka>
+<popis>astronómia a astrofyzika</popis>
+<kodSemester>L</kodSemester>
+<rokRocnik>1</rokRocnik>
+<metodaStudia>prezenčná</metodaStudia>
+<semesterPoradie>2</semesterPoradie>
+</studijnyProgram>
+<studijnyProgram>
+<id>3902</id>
+<skratka>dAAF_AU/x</skratka>
+<popis>astronómia a astrofyzika</popis>
+<kodSemester>L</kodSemester>
+<rokRocnik>1</rokRocnik>
+<metodaStudia>prezenčná</metodaStudia>
+<semesterPoradie>2</semesterPoradie>
+</studijnyProgram>
+<studijnyProgram>
+<id>886</id>
+<skratka>dTVF/x</skratka>
+<popis>teória vyučovania fyziky</popis>
+<kodSemester>L</kodSemester>
+<rokRocnik>-1</rokRocnik>
+<metodaStudia>prezenčná</metodaStudia>
+<semesterPoradie/>
+</studijnyProgram>
+<studijnyProgram>
+<id>908</id>
+<skratka>dDMA/x</skratka>
+<popis>diskrétna matematika</popis>
+<kodSemester>L</kodSemester>
+<rokRocnik>-1</rokRocnik>
+<metodaStudia>prezenčná</metodaStudia>
+<semesterPoradie/>
+</studijnyProgram>
+<studijnyProgram>
+<id>904</id>
+<skratka>dFPL</skratka>
+<popis>fyzika plazmy</popis>
+<kodSemester>L</kodSemester>
+<rokRocnik>1</rokRocnik>
+<metodaStudia>prezenčná</metodaStudia>
+<semesterPoradie>2</semesterPoradie>
+</studijnyProgram>
+</studijneProgramy>
+<stupneStudijnychProgramov>III.</stupneStudijnychProgramov>
+<metodyStudia>
+<metodaStudia>prezenčná</metodaStudia>
+<metodaStudia>dištančná</metodaStudia>
+</metodyStudia>
+<jeZaradenyVStudijnomPlane>true</jeZaradenyVStudijnomPlane>
+<stupenPredmetu>III.</stupenPredmetu>
+<vyucujuciAll>
+<vyucujuci>
+<idOsoby>1039986</idOsoby>
+<poradie>1</poradie>
+<typ>C</typ>
+<typPopis>cvičiaci</typPopis>
+<meno>Alena</meno>
+<priezvisko>Zemanová</priezvisko>
+<plneMeno>PhDr. Alena Zemanová</plneMeno>
+<jazykyPredmetu>slovenský</jazykyPredmetu>
+<identifikacneCisla>
+<identifikacneCislo>
+<typ>UOC</typ>
+<cislo>79243627</cislo>
+</identifikacneCislo>
+<identifikacneCislo>
+<typ>PIK</typ>
+<cislo>8605494</cislo>
+</identifikacneCislo>
+</identifikacneCisla>
+</vyucujuci>
+</vyucujuciAll>
+<_L_>
+<popisTypuTextu>Odporúčaná literatúra</popisTypuTextu>
+<texty>
+<p>Vlastné elektronické texty vyučujúceho predmetu zverejňované prostredníctvom web stránky predmetu.Výber aktuálnych článkov z oblasti</p>
+<p>Podľa odporúčania vedúceho záverečnej práce a vlastného výberu. Všetku použitú literatúru uvedie študent v zozname použitej literatúry.</p>
+</texty>
+</_L_>
+<_PA_>
+<popisTypuTextu>Podmienky na absolvovanie predmetu</popisTypuTextu>
+<texty>
+<p>Priebežné hodnotenie: aktívna účasť na 80 % cvičeniach, prezentácia vlastného výskumu alebo témy dizertačnej práce v angličtine</p>
+<p>Orientačná stupnica hodnotenia: A 90%, B 80%, C 70%, D 60%, E 50%</p>
+</texty>
+</_PA_>
+<_PJ_>
+<popisTypuTextu>Jazyk, ktorého znalosť je potrebná na absolvovanie predmetu</popisTypuTextu>
+<texty>
+<p>slovenský, anglický</p>
+</texty>
+</_PJ_>
+<_SO_>
+<popisTypuTextu>Stručná osnova predmetu</popisTypuTextu>
+<texty>
+<p>aktivácia hovorenej angličtiny, konverzácia na akademické témy, teoretická a praktická príprava prezentácie alebo prednášky, nácvik relevantnej slovnej zásoby (interpretácia štatistických údajov, porovnanie dát, popis schémy a grafu, vyjadrenie súvislosti, vyvodenie záveru, a pod.)</p>
+</texty>
+</_SO_>
+<_VH_>
+<popisTypuTextu>Váha hodnotenia predmetu (priebežné/záverečné)</popisTypuTextu>
+<texty>
+<p>100/0</p>
+</texty>
+</_VH_>
+<_VV_>
+<popisTypuTextu>Výsledky vzdelávania</popisTypuTextu>
+<texty>
+<p>po absolvovaní predmetu budú doktorandi schopní pripravovať prezentácie vedeckej témy v angličtine s cieľom aktívnej účasti na medzinárodnej konferencii, konverzovať na odborné témy</p>
+</texty>
+</_VV_>
+<hodnoteniaPredmetu>
+<hodnoteniePredmetu>
+<kod>A</kod>
+<pocetHodnoteni>0</pocetHodnoteni>
+<percentualneVyjadrenieZCelkPoctuHodnoteni>0.0</percentualneVyjadrenieZCelkPoctuHodnoteni>
+</hodnoteniePredmetu>
+<hodnoteniePredmetu>
+<kod>B</kod>
+<pocetHodnoteni>0</pocetHodnoteni>
+<percentualneVyjadrenieZCelkPoctuHodnoteni>0.0</percentualneVyjadrenieZCelkPoctuHodnoteni>
+</hodnoteniePredmetu>
+<hodnoteniePredmetu>
+<kod>C</kod>
+<pocetHodnoteni>0</pocetHodnoteni>
+<percentualneVyjadrenieZCelkPoctuHodnoteni>0.0</percentualneVyjadrenieZCelkPoctuHodnoteni>
+</hodnoteniePredmetu>
+<hodnoteniePredmetu>
+<kod>D</kod>
+<pocetHodnoteni>0</pocetHodnoteni>
+<percentualneVyjadrenieZCelkPoctuHodnoteni>0.0</percentualneVyjadrenieZCelkPoctuHodnoteni>
+</hodnoteniePredmetu>
+<hodnoteniePredmetu>
+<kod>E</kod>
+<pocetHodnoteni>0</pocetHodnoteni>
+<percentualneVyjadrenieZCelkPoctuHodnoteni>0.0</percentualneVyjadrenieZCelkPoctuHodnoteni>
+</hodnoteniePredmetu>
+<hodnoteniePredmetu>
+<kod>FX</kod>
+<pocetHodnoteni>0</pocetHodnoteni>
+<percentualneVyjadrenieZCelkPoctuHodnoteni>0.0</percentualneVyjadrenieZCelkPoctuHodnoteni>
+</hodnoteniePredmetu>
+<celkovyPocetHodnotenychStudentov>0</celkovyPocetHodnotenychStudentov>
+<pocetTypovHodnoteni>6</pocetTypovHodnoteni>
+</hodnoteniaPredmetu>
+</informacnyList>
+</informacneListy>
 </obsah>

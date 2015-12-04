@@ -160,6 +160,7 @@ def render_HTML(data, tpl_name, output_path=None, courses=None, lang='sk', mode=
         html = html_tpl.render(course)
 
 	filename = '%s.html' % kod_predmetu
+        filename = filename.replace("/","_")
         if output_path is not None:
 	    path = os.path.join(output_path, filename)
             if not os.path.exists(output_path):

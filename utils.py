@@ -15,7 +15,7 @@ def parse_code(code):
     else:
         newcode = ''
 
-    newcode = newcode.replace("/","_")
+    # newcode = newcode.replace("/","_")
 
     return newcode
 
@@ -24,7 +24,7 @@ def replace_codes(text, lang='sk', add_links=False, courses={}, and_symbol=', ')
     Replace all occurences of full course codes with short course codes.
     """
     def repl(m):
-        code = m.group(1).replace("/","_")
+        code = m.group(1)
         if not add_links:
             return code
         title = '%s %s' % (code, courses[code]) if code in courses else code
@@ -44,11 +44,11 @@ def get_text(node):
     return ''.join('<p>'+n.text+'</p>' for n in node.findall('p'))
 
 def get_url(code, lang='sk'):
-    lang = lang.upper()
-    if code == '' or not lang in ['SK', 'EN']:
+    if code == '' or not lang in ['sk', 'en']:
         return False
     # return "https://sluzby.fmph.uniba.sk/infolist/%s/%s.html" % (lang, code)
-    return "%s.html" % (code)
+    link = code.replace("/","_")
+    return "%s.html" % (link)
 
 def make_link_from_code(code, title='', lang='sk'):
     url = get_url(code, lang)
