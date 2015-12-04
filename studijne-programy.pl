@@ -127,7 +127,7 @@ sub vypis_blok {
 
     my $skratka = $ref->{'skratka'};
     my $st = $ref->{'skratka_typu'};
-    return if ($skratka =~ /MXX/) && !($st eq "A");
+    return if ($skratka =~ /MXX/) && !($st eq "A") && !($xmlfile =~ /MXX/);
     
     my $kredit = $ref->{'obmedzenie'}{'kredit'};
     my $nazov = $ref->{'nazov'};

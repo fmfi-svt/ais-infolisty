@@ -12,6 +12,7 @@ my $season = shift or die $usage;
 my $fakulta = "FMFI";
 my $target_directory = shift or die $usage;
 my $xmlurl = "https://ais2.uniba.sk/repo2/repository/default/ais/studijneplany";
+my $xmlurlpodprogramy = "https://ais2.uniba.sk/repo2/repository/default/ais/studijneplanypodprogramov";
 
 my $tempdir = tempdir( CLEANUP=>1 );
 
@@ -50,13 +51,25 @@ sub download_data {
     my $xmldir="$datadir/xml_files_$lang";
 
     my $lynxcmd = "lynx --dump \"$xmlurl/$season/$fakulta/$LANG/\" | awk '/http/{print \$2}' | grep xml > \"$filelist\"";
-    my $wgetcmd = "wget -N -q -i \"$filelist\" -P \"$xmldir\"";
+    # my $wgetcmd = "wget -N -q -i \"$filelist\" -P \"$xmldir\"";
 
 
     my_run("mkdir -p $datadir");
     my_run("mkdir -p $xmldir");
     my_run($lynxcmd);
-    my_run($wgetcmd);
+    open OUT,">>$filelist";
+    print OUT "$xmlurlpodprogramy/$season/$fakulta/$LANG/1MXX.xml\n";
+    print OUT "$xmlurlpodprogramy/$season/$fakulta/$LANG/2MXX.xml\n";
+    close OUT;
+
+    open IN,"<$filelist";
+    while (my $file = <IN>) {
+	## download file by file because wget has memory leak
+	chomp $file;
+	my $wgetcmd = "wget -N -q \"$file\" -P \"$xmldir\"";
+	my_run($wgetcmd);
+    }
+    close IN;
 }
 
 sub my_run

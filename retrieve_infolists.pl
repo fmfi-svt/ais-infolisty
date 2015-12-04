@@ -63,13 +63,20 @@ sub download_data {
     my $xmldir="$datadir/xml_files_$lang";
 
     my $lynxcmd = "lynx --dump \"$xmlurl/$season/$fakulta/$LANG/\" | awk '/http/{print \$2}' | grep xml > \"$filelist\"";
-    my $wgetcmd = "wget -N -q -i \"$filelist\" -P \"$xmldir\"";
 
 
     my_run("mkdir -p $datadir");
     my_run("mkdir -p $xmldir");
     my_run($lynxcmd);
-    my_run($wgetcmd);
+
+    open IN,"<$filelist";
+    while (my $file = <IN>) {
+	## download file by file because wget has memory leak
+	chomp $file;
+	my $wgetcmd = "wget -N -q \"$file\" -P \"$xmldir\"";
+	my_run($wgetcmd);
+    }
+    close IN;
 }
 
 sub my_run
