@@ -101,6 +101,14 @@
 	   {{ strucnaOsnova }}
 	   </td></tr>
 
+            {% if obsahovaNapln %}
+            <tr><td colspan="2">
+            <strong>Obsahová náplň štátnej skúšky:</strong>
+                {{ obsahovaNapln }}
+            </td></tr>
+            {% endif %}
+
+
 	   <tr><td colspan="2" id="literatura">
 	   <strong>Odporúčaná literatúra:</strong><br>
 	   {{ literatura }}
