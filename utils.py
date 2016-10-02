@@ -1,6 +1,7 @@
 import re
 
-code_regexp = r'[\w+-\.]+/([^/]*/[\d]{2})'
+# code_regexp = r'[\w+-\.]+/([^/]*/[\d]{2})'
+code_regexp = r'[^/]+/([^/]*/[\d]{2})'
 
 def parse_code(code):
     """
