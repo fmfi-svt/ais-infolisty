@@ -12,7 +12,7 @@
 <nazov>Teoretické základy informatiky</nazov>
 <kredit>8</kredit>
 <sposobUkoncenia>Hodnotenie</sposobUkoncenia>
-<sposobVyucby>Seminár</sposobVyucby>
+<sposobVyucby>seminár</sposobVyucby>
 <rozsahTyzdenny>2</rozsahTyzdenny>
 <rozsahSemestranly>28</rozsahSemestranly>
 <obdobie>1</obdobie>
@@ -20,7 +20,8 @@
 <kodSemesterStudPlan>Z</kodSemesterStudPlan>
 <rokRocnikStudPlan>1</rokRocnikStudPlan>
 <zabezpecuju>prof. RNDr. Pavol Ďuriš, CSc., prof. RNDr. Branislav Rovan, PhD.</zabezpecuju>
-<datumSchvalenia>28.04.2015</datumSchvalenia>
+<datumSchvalenia>01.03.2016</datumSchvalenia>
+<datumPoslednejZmeny>02.06.2015</datumPoslednejZmeny>
 <podmienujucePredmety/>
 <podmienujucePredmetyNazov/>
 <podmPredmetyKodNazov/>
@@ -33,7 +34,7 @@
 <garanti>
 <garant>
 <typGaranta>predseda odborovej komisie</typGaranta>
-<plneMeno>prof. RNDr. Branislav Rovan, PhD.</plneMeno>
+<plneMeno>prof. RNDr. Rastislav Kráľovič, PhD.</plneMeno>
 </garant>
 <garant>
 <typGaranta>garant</typGaranta>
@@ -42,7 +43,7 @@
 </garanti>
 <sposobyVyucbyRozsahMetoda>
 <sposobVyucbyRozsahMetoda>
-<sposobVyucby>Seminár</sposobVyucby>
+<sposobVyucby>seminár</sposobVyucby>
 <rozsahTyzdenny>2</rozsahTyzdenny>
 <rozsahSemestralny>28</rozsahSemestralny>
 <metodaStudia>prezenčná</metodaStudia>
@@ -184,7 +185,7 @@
 <hodnoteniaPredmetu>
 <hodnoteniePredmetu>
 <kod>A</kod>
-<pocetHodnoteni>45</pocetHodnoteni>
+<pocetHodnoteni>48</pocetHodnoteni>
 <percentualneVyjadrenieZCelkPoctuHodnoteni>100.0</percentualneVyjadrenieZCelkPoctuHodnoteni>
 </hodnoteniePredmetu>
 <hodnoteniePredmetu>
@@ -212,7 +213,7 @@
 <pocetHodnoteni>0</pocetHodnoteni>
 <percentualneVyjadrenieZCelkPoctuHodnoteni>0.0</percentualneVyjadrenieZCelkPoctuHodnoteni>
 </hodnoteniePredmetu>
-<celkovyPocetHodnotenychStudentov>45</celkovyPocetHodnotenychStudentov>
+<celkovyPocetHodnotenychStudentov>48</celkovyPocetHodnotenychStudentov>
 <pocetTypovHodnoteni>6</pocetTypovHodnoteni>
 </hodnoteniaPredmetu>
 </informacnyList>
@@ -224,14 +225,15 @@
 <nazov>Teória a metodológia informatiky</nazov>
 <kredit>10</kredit>
 <sposobUkoncenia>Hodnotenie</sposobUkoncenia>
-<sposobVyucby>Kurz</sposobVyucby>
+<sposobVyucby>kurz</sposobVyucby>
 <rozsahTyzdenny>4</rozsahTyzdenny>
 <rozsahSemestranly>56</rozsahSemestranly>
 <obdobie>2</obdobie>
 <doplnujuceUdaje>(Jednoodborové štúdium, doktorandské III. st., denná forma)</doplnujuceUdaje>
 <kodSemesterStudPlan>L</kodSemesterStudPlan>
 <rokRocnikStudPlan>1</rokRocnikStudPlan>
-<datumSchvalenia>28.04.2015</datumSchvalenia>
+<datumSchvalenia>01.03.2016</datumSchvalenia>
+<datumPoslednejZmeny>02.06.2015</datumPoslednejZmeny>
 <podmienujucePredmety/>
 <podmienujucePredmetyNazov/>
 <podmPredmetyKodNazov/>
@@ -244,7 +246,7 @@
 <garanti>
 <garant>
 <typGaranta>predseda odborovej komisie</typGaranta>
-<plneMeno>prof. RNDr. Branislav Rovan, PhD.</plneMeno>
+<plneMeno>prof. RNDr. Rastislav Kráľovič, PhD.</plneMeno>
 </garant>
 <garant>
 <typGaranta>garant</typGaranta>
@@ -253,7 +255,7 @@
 </garanti>
 <sposobyVyucbyRozsahMetoda>
 <sposobVyucbyRozsahMetoda>
-<sposobVyucby>Kurz</sposobVyucby>
+<sposobVyucby>kurz</sposobVyucby>
 <rozsahTyzdenny>4</rozsahTyzdenny>
 <rozsahSemestralny>56</rozsahSemestralny>
 <metodaStudia>prezenčná</metodaStudia>
@@ -350,13 +352,13 @@
 <hodnoteniaPredmetu>
 <hodnoteniePredmetu>
 <kod>A</kod>
-<pocetHodnoteni>49</pocetHodnoteni>
-<percentualneVyjadrenieZCelkPoctuHodnoteni>85.96</percentualneVyjadrenieZCelkPoctuHodnoteni>
+<pocetHodnoteni>53</pocetHodnoteni>
+<percentualneVyjadrenieZCelkPoctuHodnoteni>86.89</percentualneVyjadrenieZCelkPoctuHodnoteni>
 </hodnoteniePredmetu>
 <hodnoteniePredmetu>
 <kod>B</kod>
 <pocetHodnoteni>6</pocetHodnoteni>
-<percentualneVyjadrenieZCelkPoctuHodnoteni>10.53</percentualneVyjadrenieZCelkPoctuHodnoteni>
+<percentualneVyjadrenieZCelkPoctuHodnoteni>9.84</percentualneVyjadrenieZCelkPoctuHodnoteni>
 </hodnoteniePredmetu>
 <hodnoteniePredmetu>
 <kod>C</kod>
@@ -366,19 +368,19 @@
 <hodnoteniePredmetu>
 <kod>D</kod>
 <pocetHodnoteni>1</pocetHodnoteni>
-<percentualneVyjadrenieZCelkPoctuHodnoteni>1.75</percentualneVyjadrenieZCelkPoctuHodnoteni>
+<percentualneVyjadrenieZCelkPoctuHodnoteni>1.64</percentualneVyjadrenieZCelkPoctuHodnoteni>
 </hodnoteniePredmetu>
 <hodnoteniePredmetu>
 <kod>E</kod>
 <pocetHodnoteni>1</pocetHodnoteni>
-<percentualneVyjadrenieZCelkPoctuHodnoteni>1.75</percentualneVyjadrenieZCelkPoctuHodnoteni>
+<percentualneVyjadrenieZCelkPoctuHodnoteni>1.64</percentualneVyjadrenieZCelkPoctuHodnoteni>
 </hodnoteniePredmetu>
 <hodnoteniePredmetu>
 <kod>FX</kod>
 <pocetHodnoteni>0</pocetHodnoteni>
 <percentualneVyjadrenieZCelkPoctuHodnoteni>0.0</percentualneVyjadrenieZCelkPoctuHodnoteni>
 </hodnoteniePredmetu>
-<celkovyPocetHodnotenychStudentov>57</celkovyPocetHodnotenychStudentov>
+<celkovyPocetHodnotenychStudentov>61</celkovyPocetHodnotenychStudentov>
 <pocetTypovHodnoteni>6</pocetTypovHodnoteni>
 </hodnoteniaPredmetu>
 </informacnyList>
@@ -390,13 +392,14 @@
 <nazov>Predmet špecializácie</nazov>
 <kredit>20</kredit>
 <sposobUkoncenia>Hodnotenie</sposobUkoncenia>
-<sposobVyucby>Seminár</sposobVyucby>
+<sposobVyucby>seminár</sposobVyucby>
 <rozsahTyzdenny>4</rozsahTyzdenny>
 <rozsahSemestranly>56</rozsahSemestranly>
 <obdobie>1, 2</obdobie>
 <doplnujuceUdaje>(Jednoodborové štúdium, doktorandské III. st., denná forma)</doplnujuceUdaje>
 <rokRocnikStudPlan>1</rokRocnikStudPlan>
-<datumSchvalenia>10.11.2014</datumSchvalenia>
+<datumSchvalenia>01.03.2016</datumSchvalenia>
+<datumPoslednejZmeny>02.06.2015</datumPoslednejZmeny>
 <podmienujucePredmety/>
 <podmienujucePredmetyNazov/>
 <podmPredmetyKodNazov/>
@@ -409,7 +412,7 @@
 <garanti>
 <garant>
 <typGaranta>predseda odborovej komisie</typGaranta>
-<plneMeno>prof. RNDr. Branislav Rovan, PhD.</plneMeno>
+<plneMeno>prof. RNDr. Rastislav Kráľovič, PhD.</plneMeno>
 </garant>
 <garant>
 <typGaranta>garant</typGaranta>
@@ -418,7 +421,7 @@
 </garanti>
 <sposobyVyucbyRozsahMetoda>
 <sposobVyucbyRozsahMetoda>
-<sposobVyucby>Seminár</sposobVyucby>
+<sposobVyucby>seminár</sposobVyucby>
 <rozsahTyzdenny>4</rozsahTyzdenny>
 <rozsahSemestralny>56</rozsahSemestralny>
 <metodaStudia>prezenčná</metodaStudia>
@@ -493,18 +496,18 @@
 <hodnoteniaPredmetu>
 <hodnoteniePredmetu>
 <kod>A</kod>
-<pocetHodnoteni>44</pocetHodnoteni>
-<percentualneVyjadrenieZCelkPoctuHodnoteni>89.8</percentualneVyjadrenieZCelkPoctuHodnoteni>
+<pocetHodnoteni>45</pocetHodnoteni>
+<percentualneVyjadrenieZCelkPoctuHodnoteni>90.0</percentualneVyjadrenieZCelkPoctuHodnoteni>
 </hodnoteniePredmetu>
 <hodnoteniePredmetu>
 <kod>B</kod>
 <pocetHodnoteni>1</pocetHodnoteni>
-<percentualneVyjadrenieZCelkPoctuHodnoteni>2.04</percentualneVyjadrenieZCelkPoctuHodnoteni>
+<percentualneVyjadrenieZCelkPoctuHodnoteni>2.0</percentualneVyjadrenieZCelkPoctuHodnoteni>
 </hodnoteniePredmetu>
 <hodnoteniePredmetu>
 <kod>C</kod>
 <pocetHodnoteni>3</pocetHodnoteni>
-<percentualneVyjadrenieZCelkPoctuHodnoteni>6.12</percentualneVyjadrenieZCelkPoctuHodnoteni>
+<percentualneVyjadrenieZCelkPoctuHodnoteni>6.0</percentualneVyjadrenieZCelkPoctuHodnoteni>
 </hodnoteniePredmetu>
 <hodnoteniePredmetu>
 <kod>D</kod>
@@ -514,14 +517,14 @@
 <hodnoteniePredmetu>
 <kod>E</kod>
 <pocetHodnoteni>1</pocetHodnoteni>
-<percentualneVyjadrenieZCelkPoctuHodnoteni>2.04</percentualneVyjadrenieZCelkPoctuHodnoteni>
+<percentualneVyjadrenieZCelkPoctuHodnoteni>2.0</percentualneVyjadrenieZCelkPoctuHodnoteni>
 </hodnoteniePredmetu>
 <hodnoteniePredmetu>
 <kod>FX</kod>
 <pocetHodnoteni>0</pocetHodnoteni>
 <percentualneVyjadrenieZCelkPoctuHodnoteni>0.0</percentualneVyjadrenieZCelkPoctuHodnoteni>
 </hodnoteniePredmetu>
-<celkovyPocetHodnotenychStudentov>49</celkovyPocetHodnotenychStudentov>
+<celkovyPocetHodnotenychStudentov>50</celkovyPocetHodnotenychStudentov>
 <pocetTypovHodnoteni>6</pocetTypovHodnoteni>
 </hodnoteniaPredmetu>
 </informacnyList>
@@ -533,13 +536,14 @@
 <nazov>Sledovanie a spracovanie literatúry</nazov>
 <kredit>10</kredit>
 <sposobUkoncenia>Hodnotenie</sposobUkoncenia>
-<sposobVyucby>Samostatná práca</sposobVyucby>
+<sposobVyucby>samostatná práca</sposobVyucby>
 <rozsahTyzdenny>10</rozsahTyzdenny>
 <rozsahSemestranly>140</rozsahSemestranly>
 <obdobie>1, 2</obdobie>
 <doplnujuceUdaje>(Jednoodborové štúdium, doktorandské III. st., denná forma)</doplnujuceUdaje>
 <rokRocnikStudPlan>1</rokRocnikStudPlan>
-<datumSchvalenia>28.04.2015</datumSchvalenia>
+<datumSchvalenia>01.03.2016</datumSchvalenia>
+<datumPoslednejZmeny>02.06.2015</datumPoslednejZmeny>
 <podmienujucePredmety/>
 <podmienujucePredmetyNazov/>
 <podmPredmetyKodNazov/>
@@ -552,7 +556,7 @@
 <garanti>
 <garant>
 <typGaranta>predseda odborovej komisie</typGaranta>
-<plneMeno>prof. RNDr. Branislav Rovan, PhD.</plneMeno>
+<plneMeno>prof. RNDr. Rastislav Kráľovič, PhD.</plneMeno>
 </garant>
 <garant>
 <typGaranta>garant</typGaranta>
@@ -561,7 +565,7 @@
 </garanti>
 <sposobyVyucbyRozsahMetoda>
 <sposobVyucbyRozsahMetoda>
-<sposobVyucby>Samostatná práca</sposobVyucby>
+<sposobVyucby>samostatná práca</sposobVyucby>
 <rozsahTyzdenny>10</rozsahTyzdenny>
 <rozsahSemestralny>140</rozsahSemestralny>
 <metodaStudia>prezenčná</metodaStudia>
@@ -658,13 +662,13 @@
 <hodnoteniaPredmetu>
 <hodnoteniePredmetu>
 <kod>A</kod>
-<pocetHodnoteni>0</pocetHodnoteni>
-<percentualneVyjadrenieZCelkPoctuHodnoteni>0.0</percentualneVyjadrenieZCelkPoctuHodnoteni>
+<pocetHodnoteni>4</pocetHodnoteni>
+<percentualneVyjadrenieZCelkPoctuHodnoteni>80.0</percentualneVyjadrenieZCelkPoctuHodnoteni>
 </hodnoteniePredmetu>
 <hodnoteniePredmetu>
 <kod>B</kod>
-<pocetHodnoteni>0</pocetHodnoteni>
-<percentualneVyjadrenieZCelkPoctuHodnoteni>0.0</percentualneVyjadrenieZCelkPoctuHodnoteni>
+<pocetHodnoteni>1</pocetHodnoteni>
+<percentualneVyjadrenieZCelkPoctuHodnoteni>20.0</percentualneVyjadrenieZCelkPoctuHodnoteni>
 </hodnoteniePredmetu>
 <hodnoteniePredmetu>
 <kod>C</kod>
@@ -686,7 +690,7 @@
 <pocetHodnoteni>0</pocetHodnoteni>
 <percentualneVyjadrenieZCelkPoctuHodnoteni>0.0</percentualneVyjadrenieZCelkPoctuHodnoteni>
 </hodnoteniePredmetu>
-<celkovyPocetHodnotenychStudentov>0</celkovyPocetHodnotenychStudentov>
+<celkovyPocetHodnotenychStudentov>5</celkovyPocetHodnotenychStudentov>
 <pocetTypovHodnoteni>6</pocetTypovHodnoteni>
 </hodnoteniaPredmetu>
 </informacnyList>
@@ -698,14 +702,15 @@
 <nazov>Oblasť špecializácie</nazov>
 <kredit>14</kredit>
 <sposobUkoncenia>Hodnotenie</sposobUkoncenia>
-<sposobVyucby>Kurz</sposobVyucby>
+<sposobVyucby>kurz</sposobVyucby>
 <rozsahTyzdenny>4</rozsahTyzdenny>
 <rozsahSemestranly>56</rozsahSemestranly>
 <obdobie>1</obdobie>
 <doplnujuceUdaje>(Jednoodborové štúdium, doktorandské III. st., denná forma)</doplnujuceUdaje>
 <kodSemesterStudPlan>Z</kodSemesterStudPlan>
 <rokRocnikStudPlan>1</rokRocnikStudPlan>
-<datumSchvalenia>28.04.2015</datumSchvalenia>
+<datumSchvalenia>01.03.2016</datumSchvalenia>
+<datumPoslednejZmeny>02.06.2015</datumPoslednejZmeny>
 <podmienujucePredmety/>
 <podmienujucePredmetyNazov/>
 <podmPredmetyKodNazov/>
@@ -718,7 +723,7 @@
 <garanti>
 <garant>
 <typGaranta>predseda odborovej komisie</typGaranta>
-<plneMeno>prof. RNDr. Branislav Rovan, PhD.</plneMeno>
+<plneMeno>prof. RNDr. Rastislav Kráľovič, PhD.</plneMeno>
 </garant>
 <garant>
 <typGaranta>garant</typGaranta>
@@ -727,7 +732,7 @@
 </garanti>
 <sposobyVyucbyRozsahMetoda>
 <sposobVyucbyRozsahMetoda>
-<sposobVyucby>Kurz</sposobVyucby>
+<sposobVyucby>kurz</sposobVyucby>
 <rozsahTyzdenny>4</rozsahTyzdenny>
 <rozsahSemestralny>56</rozsahSemestralny>
 <metodaStudia>prezenčná</metodaStudia>
@@ -806,8 +811,8 @@
 <hodnoteniaPredmetu>
 <hodnoteniePredmetu>
 <kod>A</kod>
-<pocetHodnoteni>0</pocetHodnoteni>
-<percentualneVyjadrenieZCelkPoctuHodnoteni>0.0</percentualneVyjadrenieZCelkPoctuHodnoteni>
+<pocetHodnoteni>3</pocetHodnoteni>
+<percentualneVyjadrenieZCelkPoctuHodnoteni>100.0</percentualneVyjadrenieZCelkPoctuHodnoteni>
 </hodnoteniePredmetu>
 <hodnoteniePredmetu>
 <kod>B</kod>
@@ -834,7 +839,7 @@
 <pocetHodnoteni>0</pocetHodnoteni>
 <percentualneVyjadrenieZCelkPoctuHodnoteni>0.0</percentualneVyjadrenieZCelkPoctuHodnoteni>
 </hodnoteniePredmetu>
-<celkovyPocetHodnotenychStudentov>0</celkovyPocetHodnotenychStudentov>
+<celkovyPocetHodnotenychStudentov>3</celkovyPocetHodnotenychStudentov>
 <pocetTypovHodnoteni>6</pocetTypovHodnoteni>
 </hodnoteniaPredmetu>
 </informacnyList>
@@ -846,11 +851,12 @@
 <nazov>Štúdium literatúry</nazov>
 <kredit>4</kredit>
 <sposobUkoncenia>Hodnotenie</sposobUkoncenia>
-<sposobVyucby>Samostatná práca</sposobVyucby>
+<sposobVyucby>samostatná práca</sposobVyucby>
 <rozsahTyzdenny>5</rozsahTyzdenny>
 <rozsahSemestranly>70</rozsahSemestranly>
 <doplnujuceUdaje>(Jednoodborové štúdium, doktorandské III. st., denná forma)</doplnujuceUdaje>
-<datumSchvalenia>28.04.2015</datumSchvalenia>
+<datumSchvalenia>01.03.2016</datumSchvalenia>
+<datumPoslednejZmeny>02.06.2015</datumPoslednejZmeny>
 <podmienujucePredmety/>
 <podmienujucePredmetyNazov/>
 <podmPredmetyKodNazov/>
@@ -863,7 +869,7 @@
 <garanti>
 <garant>
 <typGaranta>predseda odborovej komisie</typGaranta>
-<plneMeno>prof. RNDr. Branislav Rovan, PhD.</plneMeno>
+<plneMeno>prof. RNDr. Rastislav Kráľovič, PhD.</plneMeno>
 </garant>
 <garant>
 <typGaranta>garant</typGaranta>
@@ -872,7 +878,7 @@
 </garanti>
 <sposobyVyucbyRozsahMetoda>
 <sposobVyucbyRozsahMetoda>
-<sposobVyucby>Samostatná práca</sposobVyucby>
+<sposobVyucby>samostatná práca</sposobVyucby>
 <rozsahTyzdenny>5</rozsahTyzdenny>
 <rozsahSemestralny>70</rozsahSemestralny>
 <metodaStudia>prezenčná</metodaStudia>
@@ -963,8 +969,8 @@
 <hodnoteniaPredmetu>
 <hodnoteniePredmetu>
 <kod>A</kod>
-<pocetHodnoteni>0</pocetHodnoteni>
-<percentualneVyjadrenieZCelkPoctuHodnoteni>0.0</percentualneVyjadrenieZCelkPoctuHodnoteni>
+<pocetHodnoteni>4</pocetHodnoteni>
+<percentualneVyjadrenieZCelkPoctuHodnoteni>80.0</percentualneVyjadrenieZCelkPoctuHodnoteni>
 </hodnoteniePredmetu>
 <hodnoteniePredmetu>
 <kod>B</kod>
@@ -988,10 +994,10 @@
 </hodnoteniePredmetu>
 <hodnoteniePredmetu>
 <kod>FX</kod>
-<pocetHodnoteni>0</pocetHodnoteni>
-<percentualneVyjadrenieZCelkPoctuHodnoteni>0.0</percentualneVyjadrenieZCelkPoctuHodnoteni>
+<pocetHodnoteni>1</pocetHodnoteni>
+<percentualneVyjadrenieZCelkPoctuHodnoteni>20.0</percentualneVyjadrenieZCelkPoctuHodnoteni>
 </hodnoteniePredmetu>
-<celkovyPocetHodnotenychStudentov>0</celkovyPocetHodnotenychStudentov>
+<celkovyPocetHodnotenychStudentov>5</celkovyPocetHodnotenychStudentov>
 <pocetTypovHodnoteni>6</pocetTypovHodnoteni>
 </hodnoteniaPredmetu>
 </informacnyList>
@@ -1004,7 +1010,8 @@
 <kredit>6</kredit>
 <sposobUkoncenia>Hodnotenie</sposobUkoncenia>
 <doplnujuceUdaje>(Jednoodborové štúdium, doktorandské III. st., denná forma)</doplnujuceUdaje>
-<datumSchvalenia>28.04.2015</datumSchvalenia>
+<datumSchvalenia>01.03.2016</datumSchvalenia>
+<datumPoslednejZmeny>02.06.2015</datumPoslednejZmeny>
 <podmienujucePredmety/>
 <podmienujucePredmetyNazov/>
 <podmPredmetyKodNazov/>
@@ -1017,7 +1024,7 @@
 <garanti>
 <garant>
 <typGaranta>predseda odborovej komisie</typGaranta>
-<plneMeno>prof. RNDr. Branislav Rovan, PhD.</plneMeno>
+<plneMeno>prof. RNDr. Rastislav Kráľovič, PhD.</plneMeno>
 </garant>
 <garant>
 <typGaranta>garant</typGaranta>
@@ -1112,13 +1119,13 @@
 <hodnoteniaPredmetu>
 <hodnoteniePredmetu>
 <kod>A</kod>
-<pocetHodnoteni>0</pocetHodnoteni>
-<percentualneVyjadrenieZCelkPoctuHodnoteni>0.0</percentualneVyjadrenieZCelkPoctuHodnoteni>
+<pocetHodnoteni>4</pocetHodnoteni>
+<percentualneVyjadrenieZCelkPoctuHodnoteni>80.0</percentualneVyjadrenieZCelkPoctuHodnoteni>
 </hodnoteniePredmetu>
 <hodnoteniePredmetu>
 <kod>B</kod>
-<pocetHodnoteni>0</pocetHodnoteni>
-<percentualneVyjadrenieZCelkPoctuHodnoteni>0.0</percentualneVyjadrenieZCelkPoctuHodnoteni>
+<pocetHodnoteni>1</pocetHodnoteni>
+<percentualneVyjadrenieZCelkPoctuHodnoteni>20.0</percentualneVyjadrenieZCelkPoctuHodnoteni>
 </hodnoteniePredmetu>
 <hodnoteniePredmetu>
 <kod>C</kod>
@@ -1140,7 +1147,7 @@
 <pocetHodnoteni>0</pocetHodnoteni>
 <percentualneVyjadrenieZCelkPoctuHodnoteni>0.0</percentualneVyjadrenieZCelkPoctuHodnoteni>
 </hodnoteniePredmetu>
-<celkovyPocetHodnotenychStudentov>0</celkovyPocetHodnotenychStudentov>
+<celkovyPocetHodnotenychStudentov>5</celkovyPocetHodnotenychStudentov>
 <pocetTypovHodnoteni>6</pocetTypovHodnoteni>
 </hodnoteniaPredmetu>
 </informacnyList>
@@ -1153,7 +1160,8 @@
 <kredit>10</kredit>
 <sposobUkoncenia>Hodnotenie</sposobUkoncenia>
 <doplnujuceUdaje>(Jednoodborové štúdium, doktorandské III. st., denná forma)</doplnujuceUdaje>
-<datumSchvalenia>28.04.2015</datumSchvalenia>
+<datumSchvalenia>01.03.2016</datumSchvalenia>
+<datumPoslednejZmeny>02.06.2015</datumPoslednejZmeny>
 <podmienujucePredmety/>
 <podmienujucePredmetyNazov/>
 <podmPredmetyKodNazov/>
@@ -1166,7 +1174,7 @@
 <garanti>
 <garant>
 <typGaranta>predseda odborovej komisie</typGaranta>
-<plneMeno>prof. RNDr. Branislav Rovan, PhD.</plneMeno>
+<plneMeno>prof. RNDr. Rastislav Kráľovič, PhD.</plneMeno>
 </garant>
 <garant>
 <typGaranta>garant</typGaranta>
@@ -1261,8 +1269,8 @@
 <hodnoteniaPredmetu>
 <hodnoteniePredmetu>
 <kod>A</kod>
-<pocetHodnoteni>0</pocetHodnoteni>
-<percentualneVyjadrenieZCelkPoctuHodnoteni>0.0</percentualneVyjadrenieZCelkPoctuHodnoteni>
+<pocetHodnoteni>3</pocetHodnoteni>
+<percentualneVyjadrenieZCelkPoctuHodnoteni>100.0</percentualneVyjadrenieZCelkPoctuHodnoteni>
 </hodnoteniePredmetu>
 <hodnoteniePredmetu>
 <kod>B</kod>
@@ -1289,7 +1297,7 @@
 <pocetHodnoteni>0</pocetHodnoteni>
 <percentualneVyjadrenieZCelkPoctuHodnoteni>0.0</percentualneVyjadrenieZCelkPoctuHodnoteni>
 </hodnoteniePredmetu>
-<celkovyPocetHodnotenychStudentov>0</celkovyPocetHodnotenychStudentov>
+<celkovyPocetHodnotenychStudentov>3</celkovyPocetHodnotenychStudentov>
 <pocetTypovHodnoteni>6</pocetTypovHodnoteni>
 </hodnoteniaPredmetu>
 </informacnyList>
@@ -1302,7 +1310,8 @@
 <kredit>20</kredit>
 <sposobUkoncenia>Hodnotenie</sposobUkoncenia>
 <doplnujuceUdaje>(Jednoodborové štúdium, doktorandské III. st., denná forma)</doplnujuceUdaje>
-<datumSchvalenia>28.04.2015</datumSchvalenia>
+<datumSchvalenia>01.03.2016</datumSchvalenia>
+<datumPoslednejZmeny>02.06.2015</datumPoslednejZmeny>
 <podmienujucePredmety/>
 <podmienujucePredmetyNazov/>
 <podmPredmetyKodNazov/>
@@ -1315,7 +1324,7 @@
 <garanti>
 <garant>
 <typGaranta>predseda odborovej komisie</typGaranta>
-<plneMeno>prof. RNDr. Branislav Rovan, PhD.</plneMeno>
+<plneMeno>prof. RNDr. Rastislav Kráľovič, PhD.</plneMeno>
 </garant>
 <garant>
 <typGaranta>garant</typGaranta>
@@ -1410,8 +1419,8 @@
 <hodnoteniaPredmetu>
 <hodnoteniePredmetu>
 <kod>A</kod>
-<pocetHodnoteni>0</pocetHodnoteni>
-<percentualneVyjadrenieZCelkPoctuHodnoteni>0.0</percentualneVyjadrenieZCelkPoctuHodnoteni>
+<pocetHodnoteni>8</pocetHodnoteni>
+<percentualneVyjadrenieZCelkPoctuHodnoteni>100.0</percentualneVyjadrenieZCelkPoctuHodnoteni>
 </hodnoteniePredmetu>
 <hodnoteniePredmetu>
 <kod>B</kod>
@@ -1438,7 +1447,7 @@
 <pocetHodnoteni>0</pocetHodnoteni>
 <percentualneVyjadrenieZCelkPoctuHodnoteni>0.0</percentualneVyjadrenieZCelkPoctuHodnoteni>
 </hodnoteniePredmetu>
-<celkovyPocetHodnotenychStudentov>0</celkovyPocetHodnotenychStudentov>
+<celkovyPocetHodnotenychStudentov>8</celkovyPocetHodnotenychStudentov>
 <pocetTypovHodnoteni>6</pocetTypovHodnoteni>
 </hodnoteniaPredmetu>
 </informacnyList>
@@ -1450,11 +1459,12 @@
 <nazov>Seminár pracoviska</nazov>
 <kredit>3</kredit>
 <sposobUkoncenia>Hodnotenie</sposobUkoncenia>
-<sposobVyucby>Seminár</sposobVyucby>
+<sposobVyucby>seminár</sposobVyucby>
 <rozsahTyzdenny>2</rozsahTyzdenny>
 <rozsahSemestranly>28</rozsahSemestranly>
 <doplnujuceUdaje>(Jednoodborové štúdium, doktorandské III. st., denná forma)</doplnujuceUdaje>
-<datumSchvalenia>28.04.2015</datumSchvalenia>
+<datumSchvalenia>01.03.2016</datumSchvalenia>
+<datumPoslednejZmeny>02.06.2015</datumPoslednejZmeny>
 <podmienujucePredmety/>
 <podmienujucePredmetyNazov/>
 <podmPredmetyKodNazov/>
@@ -1467,7 +1477,7 @@
 <garanti>
 <garant>
 <typGaranta>predseda odborovej komisie</typGaranta>
-<plneMeno>prof. RNDr. Branislav Rovan, PhD.</plneMeno>
+<plneMeno>prof. RNDr. Rastislav Kráľovič, PhD.</plneMeno>
 </garant>
 <garant>
 <typGaranta>garant</typGaranta>
@@ -1476,7 +1486,7 @@
 </garanti>
 <sposobyVyucbyRozsahMetoda>
 <sposobVyucbyRozsahMetoda>
-<sposobVyucby>Seminár</sposobVyucby>
+<sposobVyucby>seminár</sposobVyucby>
 <rozsahTyzdenny>2</rozsahTyzdenny>
 <rozsahSemestralny>28</rozsahSemestralny>
 <metodaStudia>prezenčná</metodaStudia>
@@ -1549,7 +1559,7 @@
 <hodnoteniaPredmetu>
 <hodnoteniePredmetu>
 <kod>A</kod>
-<pocetHodnoteni>49</pocetHodnoteni>
+<pocetHodnoteni>69</pocetHodnoteni>
 <percentualneVyjadrenieZCelkPoctuHodnoteni>100.0</percentualneVyjadrenieZCelkPoctuHodnoteni>
 </hodnoteniePredmetu>
 <hodnoteniePredmetu>
@@ -1577,7 +1587,7 @@
 <pocetHodnoteni>0</pocetHodnoteni>
 <percentualneVyjadrenieZCelkPoctuHodnoteni>0.0</percentualneVyjadrenieZCelkPoctuHodnoteni>
 </hodnoteniePredmetu>
-<celkovyPocetHodnotenychStudentov>49</celkovyPocetHodnotenychStudentov>
+<celkovyPocetHodnotenychStudentov>69</celkovyPocetHodnotenychStudentov>
 <pocetTypovHodnoteni>6</pocetTypovHodnoteni>
 </hodnoteniaPredmetu>
 </informacnyList>
@@ -1590,7 +1600,8 @@
 <kredit>10</kredit>
 <sposobUkoncenia>Hodnotenie</sposobUkoncenia>
 <doplnujuceUdaje>(Jednoodborové štúdium, doktorandské III. st., denná forma)</doplnujuceUdaje>
-<datumSchvalenia>28.04.2015</datumSchvalenia>
+<datumSchvalenia>01.03.2016</datumSchvalenia>
+<datumPoslednejZmeny>02.06.2015</datumPoslednejZmeny>
 <podmienujucePredmety/>
 <podmienujucePredmetyNazov/>
 <podmPredmetyKodNazov/>
@@ -1603,7 +1614,7 @@
 <garanti>
 <garant>
 <typGaranta>predseda odborovej komisie</typGaranta>
-<plneMeno>prof. RNDr. Branislav Rovan, PhD.</plneMeno>
+<plneMeno>prof. RNDr. Rastislav Kráľovič, PhD.</plneMeno>
 </garant>
 <garant>
 <typGaranta>garant</typGaranta>
@@ -1669,8 +1680,8 @@
 <hodnoteniaPredmetu>
 <hodnoteniePredmetu>
 <kod>A</kod>
-<pocetHodnoteni>0</pocetHodnoteni>
-<percentualneVyjadrenieZCelkPoctuHodnoteni>0.0</percentualneVyjadrenieZCelkPoctuHodnoteni>
+<pocetHodnoteni>1</pocetHodnoteni>
+<percentualneVyjadrenieZCelkPoctuHodnoteni>100.0</percentualneVyjadrenieZCelkPoctuHodnoteni>
 </hodnoteniePredmetu>
 <hodnoteniePredmetu>
 <kod>B</kod>
@@ -1697,7 +1708,7 @@
 <pocetHodnoteni>0</pocetHodnoteni>
 <percentualneVyjadrenieZCelkPoctuHodnoteni>0.0</percentualneVyjadrenieZCelkPoctuHodnoteni>
 </hodnoteniePredmetu>
-<celkovyPocetHodnotenychStudentov>0</celkovyPocetHodnotenychStudentov>
+<celkovyPocetHodnotenychStudentov>1</celkovyPocetHodnotenychStudentov>
 <pocetTypovHodnoteni>6</pocetTypovHodnoteni>
 </hodnoteniaPredmetu>
 </informacnyList>
@@ -1709,11 +1720,12 @@
 <nazov>Pedagogická činnosť</nazov>
 <kredit>6</kredit>
 <sposobUkoncenia>Hodnotenie</sposobUkoncenia>
-<sposobVyucby>Iná</sposobVyucby>
+<sposobVyucby>iná</sposobVyucby>
 <rozsahTyzdenny>4</rozsahTyzdenny>
 <rozsahSemestranly>56</rozsahSemestranly>
 <doplnujuceUdaje>(Jednoodborové štúdium, doktorandské III. st., denná forma)</doplnujuceUdaje>
-<datumSchvalenia>28.04.2015</datumSchvalenia>
+<datumSchvalenia>01.03.2016</datumSchvalenia>
+<datumPoslednejZmeny>02.06.2015</datumPoslednejZmeny>
 <podmienujucePredmety/>
 <podmienujucePredmetyNazov/>
 <podmPredmetyKodNazov/>
@@ -1726,7 +1738,7 @@
 <garanti>
 <garant>
 <typGaranta>predseda odborovej komisie</typGaranta>
-<plneMeno>prof. RNDr. Branislav Rovan, PhD.</plneMeno>
+<plneMeno>prof. RNDr. Rastislav Kráľovič, PhD.</plneMeno>
 </garant>
 <garant>
 <typGaranta>garant</typGaranta>
@@ -1735,7 +1747,7 @@
 </garanti>
 <sposobyVyucbyRozsahMetoda>
 <sposobVyucbyRozsahMetoda>
-<sposobVyucby>Iná</sposobVyucby>
+<sposobVyucby>iná</sposobVyucby>
 <rozsahTyzdenny>4</rozsahTyzdenny>
 <rozsahSemestralny>56</rozsahSemestralny>
 <metodaStudia>prezenčná</metodaStudia>
@@ -1829,8 +1841,8 @@
 <hodnoteniaPredmetu>
 <hodnoteniePredmetu>
 <kod>A</kod>
-<pocetHodnoteni>0</pocetHodnoteni>
-<percentualneVyjadrenieZCelkPoctuHodnoteni>0.0</percentualneVyjadrenieZCelkPoctuHodnoteni>
+<pocetHodnoteni>19</pocetHodnoteni>
+<percentualneVyjadrenieZCelkPoctuHodnoteni>100.0</percentualneVyjadrenieZCelkPoctuHodnoteni>
 </hodnoteniePredmetu>
 <hodnoteniePredmetu>
 <kod>B</kod>
@@ -1857,7 +1869,7 @@
 <pocetHodnoteni>0</pocetHodnoteni>
 <percentualneVyjadrenieZCelkPoctuHodnoteni>0.0</percentualneVyjadrenieZCelkPoctuHodnoteni>
 </hodnoteniePredmetu>
-<celkovyPocetHodnotenychStudentov>0</celkovyPocetHodnotenychStudentov>
+<celkovyPocetHodnotenychStudentov>19</celkovyPocetHodnotenychStudentov>
 <pocetTypovHodnoteni>6</pocetTypovHodnoteni>
 </hodnoteniaPredmetu>
 </informacnyList>
@@ -1870,7 +1882,8 @@
 <kredit>2</kredit>
 <sposobUkoncenia>Hodnotenie</sposobUkoncenia>
 <doplnujuceUdaje>(Jednoodborové štúdium, doktorandské III. st., denná forma)</doplnujuceUdaje>
-<datumSchvalenia>28.04.2015</datumSchvalenia>
+<datumSchvalenia>01.03.2016</datumSchvalenia>
+<datumPoslednejZmeny>02.06.2015</datumPoslednejZmeny>
 <podmienujucePredmety/>
 <podmienujucePredmetyNazov/>
 <podmPredmetyKodNazov/>
@@ -1883,7 +1896,7 @@
 <garanti>
 <garant>
 <typGaranta>predseda odborovej komisie</typGaranta>
-<plneMeno>prof. RNDr. Branislav Rovan, PhD.</plneMeno>
+<plneMeno>prof. RNDr. Rastislav Kráľovič, PhD.</plneMeno>
 </garant>
 <garant>
 <typGaranta>garant</typGaranta>
@@ -1992,10 +2005,10 @@
 </hodnoteniePredmetu>
 <hodnoteniePredmetu>
 <kod>FX</kod>
-<pocetHodnoteni>0</pocetHodnoteni>
-<percentualneVyjadrenieZCelkPoctuHodnoteni>0.0</percentualneVyjadrenieZCelkPoctuHodnoteni>
+<pocetHodnoteni>1</pocetHodnoteni>
+<percentualneVyjadrenieZCelkPoctuHodnoteni>100.0</percentualneVyjadrenieZCelkPoctuHodnoteni>
 </hodnoteniePredmetu>
-<celkovyPocetHodnotenychStudentov>0</celkovyPocetHodnotenychStudentov>
+<celkovyPocetHodnotenychStudentov>1</celkovyPocetHodnotenychStudentov>
 <pocetTypovHodnoteni>6</pocetTypovHodnoteni>
 </hodnoteniaPredmetu>
 </informacnyList>
@@ -2008,7 +2021,7 @@
 <kredit>5</kredit>
 <sposobUkoncenia>Hodnotenie</sposobUkoncenia>
 <doplnujuceUdaje>(Jednoodborové štúdium, doktorandské III. st., denná forma)</doplnujuceUdaje>
-<datumSchvalenia>28.04.2015</datumSchvalenia>
+<datumSchvalenia>01.03.2016</datumSchvalenia>
 <podmienujucePredmety/>
 <podmienujucePredmetyNazov/>
 <podmPredmetyKodNazov/>
@@ -2021,7 +2034,7 @@
 <garanti>
 <garant>
 <typGaranta>predseda odborovej komisie</typGaranta>
-<plneMeno>prof. RNDr. Branislav Rovan, PhD.</plneMeno>
+<plneMeno>prof. RNDr. Rastislav Kráľovič, PhD.</plneMeno>
 </garant>
 <garant>
 <typGaranta>garant</typGaranta>
@@ -2081,8 +2094,8 @@
 <hodnoteniaPredmetu>
 <hodnoteniePredmetu>
 <kod>A</kod>
-<pocetHodnoteni>0</pocetHodnoteni>
-<percentualneVyjadrenieZCelkPoctuHodnoteni>0.0</percentualneVyjadrenieZCelkPoctuHodnoteni>
+<pocetHodnoteni>2</pocetHodnoteni>
+<percentualneVyjadrenieZCelkPoctuHodnoteni>100.0</percentualneVyjadrenieZCelkPoctuHodnoteni>
 </hodnoteniePredmetu>
 <hodnoteniePredmetu>
 <kod>B</kod>
@@ -2109,7 +2122,7 @@
 <pocetHodnoteni>0</pocetHodnoteni>
 <percentualneVyjadrenieZCelkPoctuHodnoteni>0.0</percentualneVyjadrenieZCelkPoctuHodnoteni>
 </hodnoteniePredmetu>
-<celkovyPocetHodnotenychStudentov>0</celkovyPocetHodnotenychStudentov>
+<celkovyPocetHodnotenychStudentov>2</celkovyPocetHodnotenychStudentov>
 <pocetTypovHodnoteni>6</pocetTypovHodnoteni>
 </hodnoteniaPredmetu>
 </informacnyList>
@@ -2124,7 +2137,8 @@
 <obdobie>3, 4</obdobie>
 <doplnujuceUdaje>(Jednoodborové štúdium, doktorandské III. st., denná forma)</doplnujuceUdaje>
 <rokRocnikStudPlan>2</rokRocnikStudPlan>
-<datumSchvalenia>28.04.2015</datumSchvalenia>
+<datumSchvalenia>01.03.2016</datumSchvalenia>
+<datumPoslednejZmeny>02.06.2015</datumPoslednejZmeny>
 <podmienujucePredmety/>
 <podmienujucePredmetyNazov/>
 <podmPredmetyKodNazov/>
@@ -2137,7 +2151,7 @@
 <garanti>
 <garant>
 <typGaranta>predseda odborovej komisie</typGaranta>
-<plneMeno>prof. RNDr. Branislav Rovan, PhD.</plneMeno>
+<plneMeno>prof. RNDr. Rastislav Kráľovič, PhD.</plneMeno>
 </garant>
 <garant>
 <typGaranta>garant</typGaranta>
@@ -2217,18 +2231,18 @@
 <hodnoteniaPredmetu>
 <hodnoteniePredmetu>
 <kod>A</kod>
-<pocetHodnoteni>0</pocetHodnoteni>
-<percentualneVyjadrenieZCelkPoctuHodnoteni>0.0</percentualneVyjadrenieZCelkPoctuHodnoteni>
+<pocetHodnoteni>1</pocetHodnoteni>
+<percentualneVyjadrenieZCelkPoctuHodnoteni>33.33</percentualneVyjadrenieZCelkPoctuHodnoteni>
 </hodnoteniePredmetu>
 <hodnoteniePredmetu>
 <kod>B</kod>
-<pocetHodnoteni>0</pocetHodnoteni>
-<percentualneVyjadrenieZCelkPoctuHodnoteni>0.0</percentualneVyjadrenieZCelkPoctuHodnoteni>
+<pocetHodnoteni>1</pocetHodnoteni>
+<percentualneVyjadrenieZCelkPoctuHodnoteni>33.33</percentualneVyjadrenieZCelkPoctuHodnoteni>
 </hodnoteniePredmetu>
 <hodnoteniePredmetu>
 <kod>C</kod>
-<pocetHodnoteni>0</pocetHodnoteni>
-<percentualneVyjadrenieZCelkPoctuHodnoteni>0.0</percentualneVyjadrenieZCelkPoctuHodnoteni>
+<pocetHodnoteni>1</pocetHodnoteni>
+<percentualneVyjadrenieZCelkPoctuHodnoteni>33.33</percentualneVyjadrenieZCelkPoctuHodnoteni>
 </hodnoteniePredmetu>
 <hodnoteniePredmetu>
 <kod>D</kod>
@@ -2245,7 +2259,7 @@
 <pocetHodnoteni>0</pocetHodnoteni>
 <percentualneVyjadrenieZCelkPoctuHodnoteni>0.0</percentualneVyjadrenieZCelkPoctuHodnoteni>
 </hodnoteniePredmetu>
-<celkovyPocetHodnotenychStudentov>0</celkovyPocetHodnotenychStudentov>
+<celkovyPocetHodnotenychStudentov>3</celkovyPocetHodnotenychStudentov>
 <pocetTypovHodnoteni>6</pocetTypovHodnoteni>
 </hodnoteniaPredmetu>
 </informacnyList>
@@ -2260,7 +2274,8 @@
 <obdobie>7, 8</obdobie>
 <doplnujuceUdaje>(Jednoodborové štúdium, doktorandské III. st., denná forma)</doplnujuceUdaje>
 <rokRocnikStudPlan>4</rokRocnikStudPlan>
-<datumSchvalenia>28.04.2015</datumSchvalenia>
+<datumSchvalenia>01.03.2016</datumSchvalenia>
+<datumPoslednejZmeny>02.06.2015</datumPoslednejZmeny>
 <podmienujucePredmety/>
 <podmienujucePredmetyNazov/>
 <podmPredmetyKodNazov/>
@@ -2273,7 +2288,7 @@
 <garanti>
 <garant>
 <typGaranta>predseda odborovej komisie</typGaranta>
-<plneMeno>prof. RNDr. Branislav Rovan, PhD.</plneMeno>
+<plneMeno>prof. RNDr. Rastislav Kráľovič, PhD.</plneMeno>
 </garant>
 <garant>
 <typGaranta>garant</typGaranta>
@@ -2358,8 +2373,8 @@
 </hodnoteniePredmetu>
 <hodnoteniePredmetu>
 <kod>B</kod>
-<pocetHodnoteni>0</pocetHodnoteni>
-<percentualneVyjadrenieZCelkPoctuHodnoteni>0.0</percentualneVyjadrenieZCelkPoctuHodnoteni>
+<pocetHodnoteni>1</pocetHodnoteni>
+<percentualneVyjadrenieZCelkPoctuHodnoteni>33.33</percentualneVyjadrenieZCelkPoctuHodnoteni>
 </hodnoteniePredmetu>
 <hodnoteniePredmetu>
 <kod>C</kod>
@@ -2368,20 +2383,20 @@
 </hodnoteniePredmetu>
 <hodnoteniePredmetu>
 <kod>D</kod>
-<pocetHodnoteni>0</pocetHodnoteni>
-<percentualneVyjadrenieZCelkPoctuHodnoteni>0.0</percentualneVyjadrenieZCelkPoctuHodnoteni>
+<pocetHodnoteni>1</pocetHodnoteni>
+<percentualneVyjadrenieZCelkPoctuHodnoteni>33.33</percentualneVyjadrenieZCelkPoctuHodnoteni>
 </hodnoteniePredmetu>
 <hodnoteniePredmetu>
 <kod>E</kod>
-<pocetHodnoteni>0</pocetHodnoteni>
-<percentualneVyjadrenieZCelkPoctuHodnoteni>0.0</percentualneVyjadrenieZCelkPoctuHodnoteni>
+<pocetHodnoteni>1</pocetHodnoteni>
+<percentualneVyjadrenieZCelkPoctuHodnoteni>33.33</percentualneVyjadrenieZCelkPoctuHodnoteni>
 </hodnoteniePredmetu>
 <hodnoteniePredmetu>
 <kod>FX</kod>
 <pocetHodnoteni>0</pocetHodnoteni>
 <percentualneVyjadrenieZCelkPoctuHodnoteni>0.0</percentualneVyjadrenieZCelkPoctuHodnoteni>
 </hodnoteniePredmetu>
-<celkovyPocetHodnotenychStudentov>0</celkovyPocetHodnotenychStudentov>
+<celkovyPocetHodnotenychStudentov>3</celkovyPocetHodnotenychStudentov>
 <pocetTypovHodnoteni>6</pocetTypovHodnoteni>
 </hodnoteniaPredmetu>
 </informacnyList>
@@ -2393,13 +2408,14 @@
 <nazov>Anglický jazyk pre doktorandov (1)</nazov>
 <kredit>5</kredit>
 <sposobUkoncenia>Hodnotenie</sposobUkoncenia>
-<sposobVyucby>Cvičenie</sposobVyucby>
+<sposobVyucby>cvičenie</sposobVyucby>
 <rozsahTyzdenny>2</rozsahTyzdenny>
 <rozsahSemestranly>28</rozsahSemestranly>
 <doplnujuceUdaje>(Jednoodborové štúdium, doktorandské III. st., denná forma)</doplnujuceUdaje>
 <kodSemesterStudPlan>Z</kodSemesterStudPlan>
 <zabezpecuju>PhDr. Alena Zemanová</zabezpecuju>
-<datumSchvalenia>28.04.2015</datumSchvalenia>
+<datumSchvalenia>01.03.2016</datumSchvalenia>
+<datumPoslednejZmeny>02.06.2015</datumPoslednejZmeny>
 <podmienujucePredmety/>
 <podmienujucePredmetyNazov/>
 <podmPredmetyKodNazov/>
@@ -2412,7 +2428,7 @@
 <garanti>
 <garant>
 <typGaranta>predseda odborovej komisie</typGaranta>
-<plneMeno>prof. RNDr. Branislav Rovan, PhD.</plneMeno>
+<plneMeno>prof. RNDr. Rastislav Kráľovič, PhD.</plneMeno>
 </garant>
 <garant>
 <typGaranta>garant</typGaranta>
@@ -2421,7 +2437,7 @@
 </garanti>
 <sposobyVyucbyRozsahMetoda>
 <sposobVyucbyRozsahMetoda>
-<sposobVyucby>Cvičenie</sposobVyucby>
+<sposobVyucby>cvičenie</sposobVyucby>
 <rozsahTyzdenny>2</rozsahTyzdenny>
 <rozsahSemestralny>28</rozsahSemestralny>
 <metodaStudia>dištančná,prezenčná</metodaStudia>
@@ -2435,15 +2451,6 @@
 </kodyTypovVyucby>
 <studijneProgramy>
 <studijnyProgram>
-<id>891</id>
-<skratka>dNAV</skratka>
-<popis>numerická analýza a vedecko-technické výpočty</popis>
-<kodSemester>Z</kodSemester>
-<rokRocnik>1</rokRocnik>
-<metodaStudia>prezenčná</metodaStudia>
-<semesterPoradie>1</semesterPoradie>
-</studijnyProgram>
-<studijnyProgram>
 <id>3655</id>
 <skratka>dAAF_AU</skratka>
 <popis>astronómia a astrofyzika</popis>
@@ -2451,33 +2458,6 @@
 <rokRocnik>1</rokRocnik>
 <metodaStudia>prezenčná</metodaStudia>
 <semesterPoradie>1</semesterPoradie>
-</studijnyProgram>
-<studijnyProgram>
-<id>886</id>
-<skratka>dTVF/x</skratka>
-<popis>teória vyučovania fyziky</popis>
-<kodSemester>Z</kodSemester>
-<rokRocnik>-1</rokRocnik>
-<metodaStudia>prezenčná</metodaStudia>
-<semesterPoradie/>
-</studijnyProgram>
-<studijnyProgram>
-<id>3909</id>
-<skratka>dVMF_FU/x</skratka>
-<popis>všeobecná fyzika a matematická fyzika</popis>
-<kodSemester>Z</kodSemester>
-<rokRocnik>-1</rokRocnik>
-<metodaStudia>prezenčná</metodaStudia>
-<semesterPoradie/>
-</studijnyProgram>
-<studijnyProgram>
-<id>3967</id>
-<skratka>dTMF</skratka>
-<popis>teoretická fyzika a matematická fyzika</popis>
-<kodSemester>Z</kodSemester>
-<rokRocnik>-1</rokRocnik>
-<metodaStudia>prezenčná</metodaStudia>
-<semesterPoradie/>
 </studijnyProgram>
 <studijnyProgram>
 <id>2981</id>
@@ -2498,9 +2478,45 @@
 <semesterPoradie>1</semesterPoradie>
 </studijnyProgram>
 <studijnyProgram>
-<id>3657</id>
-<skratka>dFKA_FU</skratka>
-<popis>fyzika kondenzovaných látok a akustika</popis>
+<id>3909</id>
+<skratka>dVMF_FU/x</skratka>
+<popis>všeobecná fyzika a matematická fyzika</popis>
+<kodSemester>Z</kodSemester>
+<rokRocnik>-1</rokRocnik>
+<metodaStudia>prezenčná</metodaStudia>
+<semesterPoradie/>
+</studijnyProgram>
+<studijnyProgram>
+<id>3967</id>
+<skratka>dTMF</skratka>
+<popis>teoretická fyzika a matematická fyzika</popis>
+<kodSemester>Z</kodSemester>
+<rokRocnik>-1</rokRocnik>
+<metodaStudia>prezenčná</metodaStudia>
+<semesterPoradie/>
+</studijnyProgram>
+<studijnyProgram>
+<id>4581</id>
+<skratka>dTMF_FU</skratka>
+<popis>teoretická fyzika a matematická fyzika</popis>
+<kodSemester>Z</kodSemester>
+<rokRocnik>-1</rokRocnik>
+<metodaStudia>prezenčná</metodaStudia>
+<semesterPoradie/>
+</studijnyProgram>
+<studijnyProgram>
+<id>886</id>
+<skratka>dTVF/x</skratka>
+<popis>teória vyučovania fyziky</popis>
+<kodSemester>Z</kodSemester>
+<rokRocnik>-1</rokRocnik>
+<metodaStudia>prezenčná</metodaStudia>
+<semesterPoradie/>
+</studijnyProgram>
+<studijnyProgram>
+<id>891</id>
+<skratka>dNAV</skratka>
+<popis>numerická analýza a vedecko-technické výpočty</popis>
 <kodSemester>Z</kodSemester>
 <rokRocnik>1</rokRocnik>
 <metodaStudia>prezenčná</metodaStudia>
@@ -2516,9 +2532,9 @@
 <semesterPoradie>1</semesterPoradie>
 </studijnyProgram>
 <studijnyProgram>
-<id>1080</id>
-<skratka>dGTL/x</skratka>
-<popis>geometria a topológia</popis>
+<id>905</id>
+<skratka>dFPL/x</skratka>
+<popis>fyzika plazmy</popis>
 <kodSemester>Z</kodSemester>
 <rokRocnik>1</rokRocnik>
 <metodaStudia>prezenčná</metodaStudia>
@@ -2534,9 +2550,27 @@
 <semesterPoradie>1</semesterPoradie>
 </studijnyProgram>
 <studijnyProgram>
-<id>905</id>
-<skratka>dFPL/x</skratka>
-<popis>fyzika plazmy</popis>
+<id>3657</id>
+<skratka>dFKA_FU</skratka>
+<popis>fyzika kondenzovaných látok a akustika</popis>
+<kodSemester>Z</kodSemester>
+<rokRocnik>1</rokRocnik>
+<metodaStudia>prezenčná</metodaStudia>
+<semesterPoradie>1</semesterPoradie>
+</studijnyProgram>
+<studijnyProgram>
+<id>2982</id>
+<skratka>dKES/x</skratka>
+<popis>kvantová elektronika, optika a optická spektroskopia</popis>
+<kodSemester>Z</kodSemester>
+<rokRocnik>1</rokRocnik>
+<metodaStudia>dištančná</metodaStudia>
+<semesterPoradie>1</semesterPoradie>
+</studijnyProgram>
+<studijnyProgram>
+<id>1080</id>
+<skratka>dGTL/x</skratka>
+<popis>geometria a topológia</popis>
 <kodSemester>Z</kodSemester>
 <rokRocnik>1</rokRocnik>
 <metodaStudia>prezenčná</metodaStudia>
@@ -2561,27 +2595,18 @@
 <semesterPoradie>1</semesterPoradie>
 </studijnyProgram>
 <studijnyProgram>
-<id>2982</id>
-<skratka>dKES/x</skratka>
-<popis>kvantová elektronika, optika a optická spektroskopia</popis>
-<kodSemester>Z</kodSemester>
-<rokRocnik>1</rokRocnik>
-<metodaStudia>dištančná</metodaStudia>
-<semesterPoradie>1</semesterPoradie>
-</studijnyProgram>
-<studijnyProgram>
-<id>896</id>
-<skratka>dMAN</skratka>
-<popis>matematická analýza</popis>
+<id>904</id>
+<skratka>dFPL</skratka>
+<popis>fyzika plazmy</popis>
 <kodSemester>Z</kodSemester>
 <rokRocnik>1</rokRocnik>
 <metodaStudia>prezenčná</metodaStudia>
 <semesterPoradie>1</semesterPoradie>
 </studijnyProgram>
 <studijnyProgram>
-<id>1078</id>
-<skratka>dGTL</skratka>
-<popis>geometria a topológia</popis>
+<id>914</id>
+<skratka>dAPM</skratka>
+<popis>aplikovaná matematika</popis>
 <kodSemester>Z</kodSemester>
 <rokRocnik>1</rokRocnik>
 <metodaStudia>prezenčná</metodaStudia>
@@ -2597,27 +2622,18 @@
 <semesterPoradie/>
 </studijnyProgram>
 <studijnyProgram>
-<id>914</id>
-<skratka>dAPM</skratka>
-<popis>aplikovaná matematika</popis>
+<id>1078</id>
+<skratka>dGTL</skratka>
+<popis>geometria a topológia</popis>
 <kodSemester>Z</kodSemester>
 <rokRocnik>1</rokRocnik>
 <metodaStudia>prezenčná</metodaStudia>
 <semesterPoradie>1</semesterPoradie>
 </studijnyProgram>
 <studijnyProgram>
-<id>904</id>
-<skratka>dFPL</skratka>
-<popis>fyzika plazmy</popis>
-<kodSemester>Z</kodSemester>
-<rokRocnik>1</rokRocnik>
-<metodaStudia>prezenčná</metodaStudia>
-<semesterPoradie>1</semesterPoradie>
-</studijnyProgram>
-<studijnyProgram>
-<id>2598</id>
-<skratka>dFKA/x</skratka>
-<popis>fyzika kondenzovaných látok a akustika</popis>
+<id>896</id>
+<skratka>dMAN</skratka>
+<popis>matematická analýza</popis>
 <kodSemester>Z</kodSemester>
 <rokRocnik>1</rokRocnik>
 <metodaStudia>prezenčná</metodaStudia>
@@ -2633,22 +2649,13 @@
 <semesterPoradie>1</semesterPoradie>
 </studijnyProgram>
 <studijnyProgram>
-<id>2586</id>
-<skratka>dNAV/x</skratka>
-<popis>numerická analýza a vedecko-technické výpočty</popis>
+<id>2598</id>
+<skratka>dFKA/x</skratka>
+<popis>fyzika kondenzovaných látok a akustika</popis>
 <kodSemester>Z</kodSemester>
 <rokRocnik>1</rokRocnik>
 <metodaStudia>prezenčná</metodaStudia>
 <semesterPoradie>1</semesterPoradie>
-</studijnyProgram>
-<studijnyProgram>
-<id>900</id>
-<skratka>dINF/x</skratka>
-<popis>informatika</popis>
-<kodSemester>Z</kodSemester>
-<rokRocnik>-1</rokRocnik>
-<metodaStudia>prezenčná</metodaStudia>
-<semesterPoradie/>
 </studijnyProgram>
 <studijnyProgram>
 <id>3659</id>
@@ -2660,9 +2667,18 @@
 <semesterPoradie/>
 </studijnyProgram>
 <studijnyProgram>
-<id>3907</id>
-<skratka>dFKA_FU/x</skratka>
-<popis>fyzika kondenzovaných látok a akustika</popis>
+<id>900</id>
+<skratka>dINF/x</skratka>
+<popis>informatika</popis>
+<kodSemester>Z</kodSemester>
+<rokRocnik>-1</rokRocnik>
+<metodaStudia>prezenčná</metodaStudia>
+<semesterPoradie/>
+</studijnyProgram>
+<studijnyProgram>
+<id>2586</id>
+<skratka>dNAV/x</skratka>
+<popis>numerická analýza a vedecko-technické výpočty</popis>
 <kodSemester>Z</kodSemester>
 <rokRocnik>1</rokRocnik>
 <metodaStudia>prezenčná</metodaStudia>
@@ -2672,6 +2688,24 @@
 <id>901</id>
 <skratka>dXEF</skratka>
 <popis>chemická fyzika</popis>
+<kodSemester>Z</kodSemester>
+<rokRocnik>1</rokRocnik>
+<metodaStudia>prezenčná</metodaStudia>
+<semesterPoradie>1</semesterPoradie>
+</studijnyProgram>
+<studijnyProgram>
+<id>898</id>
+<skratka>dJSF/x</skratka>
+<popis>jadrová a subjadrová fyzika</popis>
+<kodSemester>Z</kodSemester>
+<rokRocnik>1</rokRocnik>
+<metodaStudia>prezenčná</metodaStudia>
+<semesterPoradie>1</semesterPoradie>
+</studijnyProgram>
+<studijnyProgram>
+<id>3907</id>
+<skratka>dFKA_FU/x</skratka>
+<popis>fyzika kondenzovaných látok a akustika</popis>
 <kodSemester>Z</kodSemester>
 <rokRocnik>1</rokRocnik>
 <metodaStudia>prezenčná</metodaStudia>
@@ -2696,6 +2730,15 @@
 <semesterPoradie>1</semesterPoradie>
 </studijnyProgram>
 <studijnyProgram>
+<id>3968</id>
+<skratka>dTMF/x</skratka>
+<popis>teoretická fyzika a matematická fyzika</popis>
+<kodSemester>Z</kodSemester>
+<rokRocnik>-1</rokRocnik>
+<metodaStudia>prezenčná</metodaStudia>
+<semesterPoradie/>
+</studijnyProgram>
+<studijnyProgram>
 <id>899</id>
 <skratka>dINF</skratka>
 <popis>informatika</popis>
@@ -2705,22 +2748,13 @@
 <semesterPoradie/>
 </studijnyProgram>
 <studijnyProgram>
-<id>898</id>
-<skratka>dJSF/x</skratka>
+<id>897</id>
+<skratka>dJSF</skratka>
 <popis>jadrová a subjadrová fyzika</popis>
 <kodSemester>Z</kodSemester>
 <rokRocnik>1</rokRocnik>
 <metodaStudia>prezenčná</metodaStudia>
 <semesterPoradie>1</semesterPoradie>
-</studijnyProgram>
-<studijnyProgram>
-<id>3968</id>
-<skratka>dTMF/x</skratka>
-<popis>teoretická fyzika a matematická fyzika</popis>
-<kodSemester>Z</kodSemester>
-<rokRocnik>-1</rokRocnik>
-<metodaStudia>prezenčná</metodaStudia>
-<semesterPoradie/>
 </studijnyProgram>
 <studijnyProgram>
 <id>888</id>
@@ -2741,13 +2775,22 @@
 <semesterPoradie>1</semesterPoradie>
 </studijnyProgram>
 <studijnyProgram>
-<id>897</id>
-<skratka>dJSF</skratka>
-<popis>jadrová a subjadrová fyzika</popis>
+<id>912</id>
+<skratka>dAAF/x</skratka>
+<popis>astronómia a astrofyzika</popis>
 <kodSemester>Z</kodSemester>
 <rokRocnik>1</rokRocnik>
 <metodaStudia>prezenčná</metodaStudia>
 <semesterPoradie>1</semesterPoradie>
+</studijnyProgram>
+<studijnyProgram>
+<id>4582</id>
+<skratka>dTMF_FU/x</skratka>
+<popis>teoretická fyzika a matematická fyzika</popis>
+<kodSemester>Z</kodSemester>
+<rokRocnik>-1</rokRocnik>
+<metodaStudia>dištančná</metodaStudia>
+<semesterPoradie/>
 </studijnyProgram>
 <studijnyProgram>
 <id>893</id>
@@ -2759,9 +2802,18 @@
 <semesterPoradie>1</semesterPoradie>
 </studijnyProgram>
 <studijnyProgram>
-<id>912</id>
-<skratka>dAAF/x</skratka>
-<popis>astronómia a astrofyzika</popis>
+<id>2593</id>
+<skratka>dXEF/x</skratka>
+<popis>chemická fyzika</popis>
+<kodSemester>Z</kodSemester>
+<rokRocnik>1</rokRocnik>
+<metodaStudia>prezenčná</metodaStudia>
+<semesterPoradie>1</semesterPoradie>
+</studijnyProgram>
+<studijnyProgram>
+<id>3903</id>
+<skratka>dJSF_FU/x</skratka>
+<popis>jadrová a subjadrová fyzika</popis>
 <kodSemester>Z</kodSemester>
 <rokRocnik>1</rokRocnik>
 <metodaStudia>prezenčná</metodaStudia>
@@ -2771,15 +2823,6 @@
 <id>906</id>
 <skratka>dFKA</skratka>
 <popis>fyzika kondenzovaných látok a akustika</popis>
-<kodSemester>Z</kodSemester>
-<rokRocnik>1</rokRocnik>
-<metodaStudia>prezenčná</metodaStudia>
-<semesterPoradie>1</semesterPoradie>
-</studijnyProgram>
-<studijnyProgram>
-<id>2593</id>
-<skratka>dXEF/x</skratka>
-<popis>chemická fyzika</popis>
 <kodSemester>Z</kodSemester>
 <rokRocnik>1</rokRocnik>
 <metodaStudia>prezenčná</metodaStudia>
@@ -2804,24 +2847,6 @@
 <semesterPoradie>1</semesterPoradie>
 </studijnyProgram>
 <studijnyProgram>
-<id>907</id>
-<skratka>dDMA</skratka>
-<popis>diskrétna matematika</popis>
-<kodSemester>Z</kodSemester>
-<rokRocnik>-1</rokRocnik>
-<metodaStudia>prezenčná</metodaStudia>
-<semesterPoradie/>
-</studijnyProgram>
-<studijnyProgram>
-<id>3903</id>
-<skratka>dJSF_FU/x</skratka>
-<popis>jadrová a subjadrová fyzika</popis>
-<kodSemester>Z</kodSemester>
-<rokRocnik>1</rokRocnik>
-<metodaStudia>prezenčná</metodaStudia>
-<semesterPoradie>1</semesterPoradie>
-</studijnyProgram>
-<studijnyProgram>
 <id>3660</id>
 <skratka>dKES_FU</skratka>
 <popis>kvantová elektronika a optika</popis>
@@ -2829,6 +2854,15 @@
 <rokRocnik>1</rokRocnik>
 <metodaStudia>prezenčná</metodaStudia>
 <semesterPoradie>1</semesterPoradie>
+</studijnyProgram>
+<studijnyProgram>
+<id>907</id>
+<skratka>dDMA</skratka>
+<popis>diskrétna matematika</popis>
+<kodSemester>Z</kodSemester>
+<rokRocnik>-1</rokRocnik>
+<metodaStudia>prezenčná</metodaStudia>
+<semesterPoradie/>
 </studijnyProgram>
 </studijneProgramy>
 <stupneStudijnychProgramov>III.</stupneStudijnychProgramov>
@@ -2900,8 +2934,8 @@
 <hodnoteniaPredmetu>
 <hodnoteniePredmetu>
 <kod>A</kod>
-<pocetHodnoteni>0</pocetHodnoteni>
-<percentualneVyjadrenieZCelkPoctuHodnoteni>0.0</percentualneVyjadrenieZCelkPoctuHodnoteni>
+<pocetHodnoteni>15</pocetHodnoteni>
+<percentualneVyjadrenieZCelkPoctuHodnoteni>100.0</percentualneVyjadrenieZCelkPoctuHodnoteni>
 </hodnoteniePredmetu>
 <hodnoteniePredmetu>
 <kod>B</kod>
@@ -2928,7 +2962,7 @@
 <pocetHodnoteni>0</pocetHodnoteni>
 <percentualneVyjadrenieZCelkPoctuHodnoteni>0.0</percentualneVyjadrenieZCelkPoctuHodnoteni>
 </hodnoteniePredmetu>
-<celkovyPocetHodnotenychStudentov>0</celkovyPocetHodnotenychStudentov>
+<celkovyPocetHodnotenychStudentov>15</celkovyPocetHodnotenychStudentov>
 <pocetTypovHodnoteni>6</pocetTypovHodnoteni>
 </hodnoteniaPredmetu>
 </informacnyList>
@@ -2940,13 +2974,14 @@
 <nazov>Anglický jazyk pre doktorandov (2)</nazov>
 <kredit>5</kredit>
 <sposobUkoncenia>Hodnotenie</sposobUkoncenia>
-<sposobVyucby>Cvičenie</sposobVyucby>
+<sposobVyucby>cvičenie</sposobVyucby>
 <rozsahTyzdenny>2</rozsahTyzdenny>
 <rozsahSemestranly>28</rozsahSemestranly>
 <doplnujuceUdaje>(Jednoodborové štúdium, doktorandské III. st., denná forma)</doplnujuceUdaje>
 <kodSemesterStudPlan>L</kodSemesterStudPlan>
 <zabezpecuju>PhDr. Alena Zemanová</zabezpecuju>
-<datumSchvalenia>28.04.2015</datumSchvalenia>
+<datumSchvalenia>01.03.2016</datumSchvalenia>
+<datumPoslednejZmeny>02.06.2015</datumPoslednejZmeny>
 <podmienujucePredmety>FMFI.KJP/3-MXX-101/15</podmienujucePredmety>
 <podmienujucePredmetyNazov>FMFI.KJP/3-MXX-101/15 - Anglický jazyk pre doktorandov (1)</podmienujucePredmetyNazov>
 <podmPredmetyKodNazov>3-MXX-101 - Anglický jazyk pre doktorandov (1)</podmPredmetyKodNazov>
@@ -2959,7 +2994,7 @@
 <garanti>
 <garant>
 <typGaranta>predseda odborovej komisie</typGaranta>
-<plneMeno>prof. RNDr. Branislav Rovan, PhD.</plneMeno>
+<plneMeno>prof. RNDr. Rastislav Kráľovič, PhD.</plneMeno>
 </garant>
 <garant>
 <typGaranta>garant</typGaranta>
@@ -2968,7 +3003,7 @@
 </garanti>
 <sposobyVyucbyRozsahMetoda>
 <sposobVyucbyRozsahMetoda>
-<sposobVyucby>Cvičenie</sposobVyucby>
+<sposobVyucby>cvičenie</sposobVyucby>
 <rozsahTyzdenny>2</rozsahTyzdenny>
 <rozsahSemestralny>28</rozsahSemestralny>
 <metodaStudia>dištančná,prezenčná</metodaStudia>
@@ -2991,24 +3026,6 @@
 </kodyTypovVyucby>
 <studijneProgramy>
 <studijnyProgram>
-<id>891</id>
-<skratka>dNAV</skratka>
-<popis>numerická analýza a vedecko-technické výpočty</popis>
-<kodSemester>L</kodSemester>
-<rokRocnik>1</rokRocnik>
-<metodaStudia>prezenčná</metodaStudia>
-<semesterPoradie>2</semesterPoradie>
-</studijnyProgram>
-<studijnyProgram>
-<id>1078</id>
-<skratka>dGTL</skratka>
-<popis>geometria a topológia</popis>
-<kodSemester>L</kodSemester>
-<rokRocnik>1</rokRocnik>
-<metodaStudia>prezenčná</metodaStudia>
-<semesterPoradie>2</semesterPoradie>
-</studijnyProgram>
-<studijnyProgram>
 <id>910</id>
 <skratka>dBIF/x</skratka>
 <popis>biofyzika</popis>
@@ -3016,24 +3033,6 @@
 <rokRocnik>1</rokRocnik>
 <metodaStudia>prezenčná</metodaStudia>
 <semesterPoradie>2</semesterPoradie>
-</studijnyProgram>
-<studijnyProgram>
-<id>900</id>
-<skratka>dINF/x</skratka>
-<popis>informatika</popis>
-<kodSemester>L</kodSemester>
-<rokRocnik>-1</rokRocnik>
-<metodaStudia>prezenčná</metodaStudia>
-<semesterPoradie/>
-</studijnyProgram>
-<studijnyProgram>
-<id>907</id>
-<skratka>dDMA</skratka>
-<popis>diskrétna matematika</popis>
-<kodSemester>L</kodSemester>
-<rokRocnik>-1</rokRocnik>
-<metodaStudia>prezenčná</metodaStudia>
-<semesterPoradie/>
 </studijnyProgram>
 <studijnyProgram>
 <id>3659</id>
@@ -3054,6 +3053,42 @@
 <semesterPoradie/>
 </studijnyProgram>
 <studijnyProgram>
+<id>900</id>
+<skratka>dINF/x</skratka>
+<popis>informatika</popis>
+<kodSemester>L</kodSemester>
+<rokRocnik>-1</rokRocnik>
+<metodaStudia>prezenčná</metodaStudia>
+<semesterPoradie/>
+</studijnyProgram>
+<studijnyProgram>
+<id>907</id>
+<skratka>dDMA</skratka>
+<popis>diskrétna matematika</popis>
+<kodSemester>L</kodSemester>
+<rokRocnik>-1</rokRocnik>
+<metodaStudia>prezenčná</metodaStudia>
+<semesterPoradie/>
+</studijnyProgram>
+<studijnyProgram>
+<id>1078</id>
+<skratka>dGTL</skratka>
+<popis>geometria a topológia</popis>
+<kodSemester>L</kodSemester>
+<rokRocnik>1</rokRocnik>
+<metodaStudia>prezenčná</metodaStudia>
+<semesterPoradie>2</semesterPoradie>
+</studijnyProgram>
+<studijnyProgram>
+<id>891</id>
+<skratka>dNAV</skratka>
+<popis>numerická analýza a vedecko-technické výpočty</popis>
+<kodSemester>L</kodSemester>
+<rokRocnik>1</rokRocnik>
+<metodaStudia>prezenčná</metodaStudia>
+<semesterPoradie>2</semesterPoradie>
+</studijnyProgram>
+<studijnyProgram>
 <id>887</id>
 <skratka>dTVM</skratka>
 <popis>teória vyučovania matematiky</popis>
@@ -3061,6 +3096,24 @@
 <rokRocnik>1</rokRocnik>
 <metodaStudia>prezenčná</metodaStudia>
 <semesterPoradie>2</semesterPoradie>
+</studijnyProgram>
+<studijnyProgram>
+<id>3660</id>
+<skratka>dKES_FU</skratka>
+<popis>kvantová elektronika a optika</popis>
+<kodSemester>L</kodSemester>
+<rokRocnik>1</rokRocnik>
+<metodaStudia>prezenčná</metodaStudia>
+<semesterPoradie>2</semesterPoradie>
+</studijnyProgram>
+<studijnyProgram>
+<id>4581</id>
+<skratka>dTMF_FU</skratka>
+<popis>teoretická fyzika a matematická fyzika</popis>
+<kodSemester>L</kodSemester>
+<rokRocnik>-1</rokRocnik>
+<metodaStudia>prezenčná</metodaStudia>
+<semesterPoradie/>
 </studijnyProgram>
 <studijnyProgram>
 <id>888</id>
@@ -3072,12 +3125,12 @@
 <semesterPoradie/>
 </studijnyProgram>
 <studijnyProgram>
-<id>3660</id>
-<skratka>dKES_FU</skratka>
-<popis>kvantová elektronika a optika</popis>
+<id>2985</id>
+<skratka>dENF/x</skratka>
+<popis>environmentálna fyzika</popis>
 <kodSemester>L</kodSemester>
 <rokRocnik>1</rokRocnik>
-<metodaStudia>prezenčná</metodaStudia>
+<metodaStudia>dištančná</metodaStudia>
 <semesterPoradie>2</semesterPoradie>
 </studijnyProgram>
 <studijnyProgram>
@@ -3090,13 +3143,13 @@
 <semesterPoradie>2</semesterPoradie>
 </studijnyProgram>
 <studijnyProgram>
-<id>2985</id>
-<skratka>dENF/x</skratka>
-<popis>environmentálna fyzika</popis>
+<id>3909</id>
+<skratka>dVMF_FU/x</skratka>
+<popis>všeobecná fyzika a matematická fyzika</popis>
 <kodSemester>L</kodSemester>
-<rokRocnik>1</rokRocnik>
-<metodaStudia>dištančná</metodaStudia>
-<semesterPoradie>2</semesterPoradie>
+<rokRocnik>-1</rokRocnik>
+<metodaStudia>prezenčná</metodaStudia>
+<semesterPoradie/>
 </studijnyProgram>
 <studijnyProgram>
 <id>913</id>
@@ -3115,15 +3168,6 @@
 <rokRocnik>1</rokRocnik>
 <metodaStudia>prezenčná</metodaStudia>
 <semesterPoradie>2</semesterPoradie>
-</studijnyProgram>
-<studijnyProgram>
-<id>3909</id>
-<skratka>dVMF_FU/x</skratka>
-<popis>všeobecná fyzika a matematická fyzika</popis>
-<kodSemester>L</kodSemester>
-<rokRocnik>-1</rokRocnik>
-<metodaStudia>prezenčná</metodaStudia>
-<semesterPoradie/>
 </studijnyProgram>
 <studijnyProgram>
 <id>2593</id>
@@ -3171,27 +3215,18 @@
 <semesterPoradie>2</semesterPoradie>
 </studijnyProgram>
 <studijnyProgram>
+<id>905</id>
+<skratka>dFPL/x</skratka>
+<popis>fyzika plazmy</popis>
+<kodSemester>L</kodSemester>
+<rokRocnik>1</rokRocnik>
+<metodaStudia>prezenčná</metodaStudia>
+<semesterPoradie>2</semesterPoradie>
+</studijnyProgram>
+<studijnyProgram>
 <id>901</id>
 <skratka>dXEF</skratka>
 <popis>chemická fyzika</popis>
-<kodSemester>L</kodSemester>
-<rokRocnik>1</rokRocnik>
-<metodaStudia>prezenčná</metodaStudia>
-<semesterPoradie>2</semesterPoradie>
-</studijnyProgram>
-<studijnyProgram>
-<id>893</id>
-<skratka>dMAN/x</skratka>
-<popis>matematická analýza</popis>
-<kodSemester>L</kodSemester>
-<rokRocnik>1</rokRocnik>
-<metodaStudia>prezenčná</metodaStudia>
-<semesterPoradie>2</semesterPoradie>
-</studijnyProgram>
-<studijnyProgram>
-<id>1080</id>
-<skratka>dGTL/x</skratka>
-<popis>geometria a topológia</popis>
 <kodSemester>L</kodSemester>
 <rokRocnik>1</rokRocnik>
 <metodaStudia>prezenčná</metodaStudia>
@@ -3207,9 +3242,36 @@
 <semesterPoradie>2</semesterPoradie>
 </studijnyProgram>
 <studijnyProgram>
-<id>905</id>
-<skratka>dFPL/x</skratka>
-<popis>fyzika plazmy</popis>
+<id>3908</id>
+<skratka>dKES_FU/x</skratka>
+<popis>kvantová elektronika a optika</popis>
+<kodSemester>L</kodSemester>
+<rokRocnik>1</rokRocnik>
+<metodaStudia>prezenčná</metodaStudia>
+<semesterPoradie>2</semesterPoradie>
+</studijnyProgram>
+<studijnyProgram>
+<id>4582</id>
+<skratka>dTMF_FU/x</skratka>
+<popis>teoretická fyzika a matematická fyzika</popis>
+<kodSemester>L</kodSemester>
+<rokRocnik>-1</rokRocnik>
+<metodaStudia>dištančná</metodaStudia>
+<semesterPoradie/>
+</studijnyProgram>
+<studijnyProgram>
+<id>1080</id>
+<skratka>dGTL/x</skratka>
+<popis>geometria a topológia</popis>
+<kodSemester>L</kodSemester>
+<rokRocnik>1</rokRocnik>
+<metodaStudia>prezenčná</metodaStudia>
+<semesterPoradie>2</semesterPoradie>
+</studijnyProgram>
+<studijnyProgram>
+<id>893</id>
+<skratka>dMAN/x</skratka>
+<popis>matematická analýza</popis>
 <kodSemester>L</kodSemester>
 <rokRocnik>1</rokRocnik>
 <metodaStudia>prezenčná</metodaStudia>
@@ -3225,9 +3287,9 @@
 <semesterPoradie>2</semesterPoradie>
 </studijnyProgram>
 <studijnyProgram>
-<id>3908</id>
-<skratka>dKES_FU/x</skratka>
-<popis>kvantová elektronika a optika</popis>
+<id>898</id>
+<skratka>dJSF/x</skratka>
+<popis>jadrová a subjadrová fyzika</popis>
 <kodSemester>L</kodSemester>
 <rokRocnik>1</rokRocnik>
 <metodaStudia>prezenčná</metodaStudia>
@@ -3243,54 +3305,9 @@
 <semesterPoradie>2</semesterPoradie>
 </studijnyProgram>
 <studijnyProgram>
-<id>898</id>
-<skratka>dJSF/x</skratka>
-<popis>jadrová a subjadrová fyzika</popis>
-<kodSemester>L</kodSemester>
-<rokRocnik>1</rokRocnik>
-<metodaStudia>prezenčná</metodaStudia>
-<semesterPoradie>2</semesterPoradie>
-</studijnyProgram>
-<studijnyProgram>
 <id>3968</id>
 <skratka>dTMF/x</skratka>
 <popis>teoretická fyzika a matematická fyzika</popis>
-<kodSemester>L</kodSemester>
-<rokRocnik>-1</rokRocnik>
-<metodaStudia>prezenčná</metodaStudia>
-<semesterPoradie/>
-</studijnyProgram>
-<studijnyProgram>
-<id>3657</id>
-<skratka>dFKA_FU</skratka>
-<popis>fyzika kondenzovaných látok a akustika</popis>
-<kodSemester>L</kodSemester>
-<rokRocnik>1</rokRocnik>
-<metodaStudia>prezenčná</metodaStudia>
-<semesterPoradie>2</semesterPoradie>
-</studijnyProgram>
-<studijnyProgram>
-<id>2586</id>
-<skratka>dNAV/x</skratka>
-<popis>numerická analýza a vedecko-technické výpočty</popis>
-<kodSemester>L</kodSemester>
-<rokRocnik>1</rokRocnik>
-<metodaStudia>prezenčná</metodaStudia>
-<semesterPoradie>2</semesterPoradie>
-</studijnyProgram>
-<studijnyProgram>
-<id>896</id>
-<skratka>dMAN</skratka>
-<popis>matematická analýza</popis>
-<kodSemester>L</kodSemester>
-<rokRocnik>1</rokRocnik>
-<metodaStudia>prezenčná</metodaStudia>
-<semesterPoradie>2</semesterPoradie>
-</studijnyProgram>
-<studijnyProgram>
-<id>899</id>
-<skratka>dINF</skratka>
-<popis>informatika</popis>
 <kodSemester>L</kodSemester>
 <rokRocnik>-1</rokRocnik>
 <metodaStudia>prezenčná</metodaStudia>
@@ -3315,9 +3332,54 @@
 <semesterPoradie>2</semesterPoradie>
 </studijnyProgram>
 <studijnyProgram>
+<id>3657</id>
+<skratka>dFKA_FU</skratka>
+<popis>fyzika kondenzovaných látok a akustika</popis>
+<kodSemester>L</kodSemester>
+<rokRocnik>1</rokRocnik>
+<metodaStudia>prezenčná</metodaStudia>
+<semesterPoradie>2</semesterPoradie>
+</studijnyProgram>
+<studijnyProgram>
 <id>2981</id>
 <skratka>dKES</skratka>
 <popis>kvantová elektronika, optika a optická spektroskopia</popis>
+<kodSemester>L</kodSemester>
+<rokRocnik>1</rokRocnik>
+<metodaStudia>prezenčná</metodaStudia>
+<semesterPoradie>2</semesterPoradie>
+</studijnyProgram>
+<studijnyProgram>
+<id>899</id>
+<skratka>dINF</skratka>
+<popis>informatika</popis>
+<kodSemester>L</kodSemester>
+<rokRocnik>-1</rokRocnik>
+<metodaStudia>prezenčná</metodaStudia>
+<semesterPoradie/>
+</studijnyProgram>
+<studijnyProgram>
+<id>896</id>
+<skratka>dMAN</skratka>
+<popis>matematická analýza</popis>
+<kodSemester>L</kodSemester>
+<rokRocnik>1</rokRocnik>
+<metodaStudia>prezenčná</metodaStudia>
+<semesterPoradie>2</semesterPoradie>
+</studijnyProgram>
+<studijnyProgram>
+<id>2586</id>
+<skratka>dNAV/x</skratka>
+<popis>numerická analýza a vedecko-technické výpočty</popis>
+<kodSemester>L</kodSemester>
+<rokRocnik>1</rokRocnik>
+<metodaStudia>prezenčná</metodaStudia>
+<semesterPoradie>2</semesterPoradie>
+</studijnyProgram>
+<studijnyProgram>
+<id>904</id>
+<skratka>dFPL</skratka>
+<popis>fyzika plazmy</popis>
 <kodSemester>L</kodSemester>
 <rokRocnik>1</rokRocnik>
 <metodaStudia>prezenčná</metodaStudia>
@@ -3376,15 +3438,6 @@
 <rokRocnik>-1</rokRocnik>
 <metodaStudia>prezenčná</metodaStudia>
 <semesterPoradie/>
-</studijnyProgram>
-<studijnyProgram>
-<id>904</id>
-<skratka>dFPL</skratka>
-<popis>fyzika plazmy</popis>
-<kodSemester>L</kodSemester>
-<rokRocnik>1</rokRocnik>
-<metodaStudia>prezenčná</metodaStudia>
-<semesterPoradie>2</semesterPoradie>
 </studijnyProgram>
 </studijneProgramy>
 <stupneStudijnychProgramov>III.</stupneStudijnychProgramov>
@@ -3457,8 +3510,8 @@
 <hodnoteniaPredmetu>
 <hodnoteniePredmetu>
 <kod>A</kod>
-<pocetHodnoteni>0</pocetHodnoteni>
-<percentualneVyjadrenieZCelkPoctuHodnoteni>0.0</percentualneVyjadrenieZCelkPoctuHodnoteni>
+<pocetHodnoteni>15</pocetHodnoteni>
+<percentualneVyjadrenieZCelkPoctuHodnoteni>100.0</percentualneVyjadrenieZCelkPoctuHodnoteni>
 </hodnoteniePredmetu>
 <hodnoteniePredmetu>
 <kod>B</kod>
@@ -3485,7 +3538,7 @@
 <pocetHodnoteni>0</pocetHodnoteni>
 <percentualneVyjadrenieZCelkPoctuHodnoteni>0.0</percentualneVyjadrenieZCelkPoctuHodnoteni>
 </hodnoteniePredmetu>
-<celkovyPocetHodnotenychStudentov>0</celkovyPocetHodnotenychStudentov>
+<celkovyPocetHodnotenychStudentov>15</celkovyPocetHodnotenychStudentov>
 <pocetTypovHodnoteni>6</pocetTypovHodnoteni>
 </hodnoteniaPredmetu>
 </informacnyList>

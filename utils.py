@@ -7,34 +7,40 @@ def parse_code(code):
     """
     Get the short course code from the full course code.
     """
-    newcode = ''
-
-    m = re.match(code_regexp, code)
-
-    if m:
-        newcode = m.group(1)
+    if re.search(r'/.+/', code):
+        # ak obsahuje FMFI, tak skracuj
+        m=re.match(r'[^/]*FMFI[^/]*/([^/]+/[\d]{2})',code)
+        if m:
+            return m.group(1)
+        else:
+            return code
     else:
-        newcode = ''
+        return False
 
-    # newcode = newcode.replace("/","_")
-
-    return newcode
 
 def replace_codes(text, lang='sk', add_links=False, courses={}, and_symbol=', '):
     """
     Replace all occurences of full course codes with short course codes.
     """
-    def repl(m):
-        code = m.group(1)
-        if not add_links:
-            return code
-        title = '%s %s' % (code, courses[code]) if code in courses else code
-        return make_link_from_code(code, lang=lang, title=title)
 
-    if text is None or len(text) == 0:
-        return ''
+    if not text:
+        return ""
+    
+    m=re.split('([()\s]+)',text,flags=re.UNICODE)
+    result=""
+    for w in m:
+        shortcode = parse_code(w)
+        if shortcode:
+            if add_links:
+                title = '%s %s' % (shortcode, courses[shortcode]) if shortcode in courses else shortcode
+                result+=make_link_from_code(shortcode, lang=lang, title=title)
+            else:
+                result+=shortcode
+        else:
+            result+=w
 
-    return re.sub(code_regexp, repl, text).replace(',', and_symbol)
+    return result
+
 
 def get_text(node):
     """

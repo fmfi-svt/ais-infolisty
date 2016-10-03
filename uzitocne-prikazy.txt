@@ -1,0 +1,4 @@
+./retrieve_infolists.pl 2016-2017 outdir/
+./retrieve_study_programs.pl 2016-2017 outdir/ 
+mkdir -p outdir//2016-2017/sk
+python AIS_XML2HTML.py --lang sk --mode regular testin/ outdir//2016-2017/sk templates/template_2015_sk.html

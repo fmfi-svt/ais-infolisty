@@ -189,9 +189,7 @@ sub vypis_predmet {
 sub uprav_kod {
     my ($kod) = @_;
 
-    if ($kod =~ /^(.*)\/(.*)\/(.*)\/(\d*)$/) {
-	return ("$2/$4","$2.html");
-    } elsif ($kod =~ /^(.*)\/(.*)\/(\d*)$/) {
+    if ($kod =~ /^([^\/]*FMFI[^\/]*)\/([^\/]*)\/(\d*)$/) {
 	return ("$2/$3","$2_$3.html");
     } else {
 	my $subor = $kod;
