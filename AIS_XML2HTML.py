@@ -88,6 +88,7 @@ def extract_infolists(filename, lang='sk', mode='regular', verbose=True):
                 'doplujuceUdaje': 'doplujuceUdaje',
                 'zabezpecuju': 'zabezpecuju',
                 'strucnaOsnova': '_SO_/texty',
+                'webstranka': '_URL_/texty/p',
                 'ciel': '_C_/texty',
                 'zaverecneHodnotenie': '_Z_/texty/p',
                 'literatura': '_L_/texty',
@@ -100,7 +101,8 @@ def extract_infolists(filename, lang='sk', mode='regular', verbose=True):
                 'jazyk': '_PJ_/texty/p',
                 'obsahovaNapln': '_ON_/texty',
                 'podmienkyAbsolvovania': '_PA_/texty',
-                'vysledkyVzdelavania': '_VV_/texty'   }
+                'vysledkyVzdelavania': '_VV_/texty',
+                'poznamky': '_PZ_/texty'}
     data = []
 
     # spracovanie informacnych listov jednotlivych predmetov
@@ -131,6 +133,10 @@ def extract_infolists(filename, lang='sk', mode='regular', verbose=True):
         # uprava kodov predmetov
         d['kod'] = utils.parse_code(d['kod'])
 
+        # uprava URL
+        if d['webstranka']:
+            d['webstranka'] = utils.make_link(d['webstranka'],d['webstranka'])
+            
         data.append(d)
 
     return data

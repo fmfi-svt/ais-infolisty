@@ -38,7 +38,13 @@
                 <td><strong>Kód</strong>: {{ kod }}</td>
                 <td><strong>Názov predmetu</strong>: {{ nazov }}</td>
             </tr>
-
+	    {% if webstranka %}
+	    <tr>
+	      <td colspan="2">
+		<strong>Web stránka predmetu</strong>: {{ webstranka }}
+	      </td>
+	    </tr>
+	    {% endif %}
             <tr>
                <td colspan="2">
                <strong>Druh, rozsah a metóda vzdelávacích činností:</strong>
@@ -121,7 +127,7 @@
 
 	   <tr><td colspan="2">
 	   <strong>Poznámky:</strong><br>
-
+	   {{ poznamky }}  
 	   </td></tr>
 
 	   <tr><td colspan="2">
