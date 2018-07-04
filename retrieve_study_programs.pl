@@ -67,7 +67,7 @@ sub download_data {
 	## download file by file because wget has memory leak
 	chomp $file;
 	my $wgetcmd = "wget -N -q \"$file\" -P \"$xmldir\"";
-	my_run($wgetcmd);
+	my_run($wgetcmd,0);
     }
     close IN;
 }
