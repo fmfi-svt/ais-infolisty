@@ -5,13 +5,16 @@ use Data::Dumper;
 use utf8;
 
 my $usage = "
-$0 <xml_subor> <html_subor>
+$0 <xml_subor> <html_subor> <prehlad>
 ";
 
 my $xmlfile = shift or die $usage;
 my $htmlfile = shift or die $usage;
+my $prehlad = shift;
 
 my $pocetStlpcov = 6;
+
+my %vyucujuciprogramu;
 
 my $ref = XMLin($xmlfile) or die "Cannot read XML file $xmlfile";
 my $out;
@@ -54,8 +57,23 @@ foreach my $blok (@{$bloky}) {
 }
 
 print $out "</table>";
+
+if ($prehlad) {
+    print $out "<p>&nbsp;</p>";
+    print $out "<p><b>Prehľad vyučujúcich:</b></p>\n";
+    print $out "<p><table>\n";
+    foreach my $v (sort(keys(%vyucujuciprogramu))) {
+	print $out "<tr><td>";
+	print $out join("</td><td>",$vyucujuciprogramu{$v}{'meno'},$vyucujuciprogramu{$v}{'email'},$vyucujuciprogramu{$v}{'url'});
+	print $out "</td></tr>\n";
+    }
+}
+
 print $out "</body></html>";
 close $out;
+
+
+
 
 sub hlavicka_sp {
     my ($out,$ref) = @_;
@@ -71,6 +89,8 @@ sub hlavicka_sp {
 	    $garant->{'meno'};
 	}
     }
+
+    print $out "<p><b>akademický rok:</b> ",$ref->{'akademickyRok'};
 
 }
 
@@ -164,12 +184,45 @@ sub vypis_blok {
 
 }
 
+
+sub daj_vyucujucich {
+    my ($ref) = @_;
+
+    my $vyucujuci = "";
+    my $sep = "";
+    foreach my $vref (@{$ref}) {
+	my $email = soe($vref->{'pridelenyEmail'});
+	my $link = "";
+	if ($email =~ /^(.+)\@uniba\.sk$/) {
+	    $link = "https://sluzby.fmph.uniba.sk/ludia/$1";
+	}
+
+	my $osoba = soe($vref->{'meno'})." ".soe($vref->{'priezvisko'});
+	if ($link) {
+	    $osoba = "<a href=\"$link\">$osoba</a>";
+	}
+	
+	$vyucujuci .= $sep.$osoba;
+	$sep = ", ";
+
+	# vybuduj index vyucujucich
+	my $index = soe($vref->{'priezvisko'}).', '.soe($vref->{'meno'});
+	$vyucujuciprogramu{$index}{'meno'} = soe($vref->{'plneMeno'});
+	$vyucujuciprogramu{$index}{'url'} = $link;
+	$vyucujuciprogramu{$index}{'email'} = $email;
+    }
+
+    return $vyucujuci;
+
+}
+
 sub vypis_predmet {
     my ($out,$ref) = @_;
 
     my ($kod,$subor) = uprav_kod($ref->{'skratka'});
     my $nazov = $ref->{'nazov'};
-    my $vyucujuci = soe($ref->{'vyucujuci2'});
+    # my $vyucujuci = soe($ref->{'vyucujuci2'});
+    my $vyucujuci = daj_vyucujucich(aoe($ref->{'vyucujuciAll'}{'vyucujuci'}));
     my $konanie = soe($ref->{'rocnik'}).'/'.soe($ref->{'semester'});
     my $rozsah = soe($ref->{'rozsah'});
     my $aktualnost = soe($ref->{'aktualnost'});
@@ -180,7 +233,7 @@ sub vypis_predmet {
     print $out
 	"<tr><td>$kod</td><td>$aktualnost</td>
         <td width=60%><a href=\"$subor\">$nazov</a>"; 
-    print $out " - $vyucujuci" if ($vyucujuci);
+    print $out "<i> - $vyucujuci</i>" if ($vyucujuci);
     print $out "<br>Prerekvizity: $prerekvizity" if ($prerekvizity);
     print $out "</td>
              <td>$konanie</td><td>$rozsah</td><td>$kreditov</td></tr>\n";
