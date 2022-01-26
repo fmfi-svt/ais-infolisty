@@ -19,6 +19,7 @@ import glob
 import os.path
 
 import utils
+import pprint
 
 
 # translations
@@ -47,12 +48,12 @@ def extract_courses(filename, courses):
                 kod = utils.parse_code(kod)
                 courses[kod] = nazov
     except:
-        print "Error: ", sys.exc_value
+        print("Error: ", sys.exc_value)
     finally:
         return courses
 
 
-def extract_infolists(filename, lang='sk', mode='regular', verbose=True):
+def extract_infolists(filename, lang='sk', mode='regular', year='xxx', verbose=True):
     """Extract all infolists with all of their courses from a study program XML file.
 
     Params:
@@ -69,7 +70,7 @@ def extract_infolists(filename, lang='sk', mode='regular', verbose=True):
     fakulta = root.find('fakulta').text
     ilisty = root.find('informacneListy')
     if verbose:
-        print "  Nasiel som %d informacnych listov." % len(ilisty.findall('informacnyList'))
+        print("  Nasiel som %d informacnych listov." % len(ilisty.findall('informacnyList')))
 
     # elementy, ktore sa budu parsovat z XML-ka
     # kluc => XPath (kluc sa pouziva neskor v template)
@@ -82,6 +83,8 @@ def extract_infolists(filename, lang='sk', mode='regular', verbose=True):
                 'rokRocnikStudPlan': 'rokRocnikStudPlan',
                 'kodSemesterStudPlan': 'kodSemesterStudPlan',
                 'sposobUkoncenia': 'sposobUkoncenia',
+                'studijneProgramy': 'studijneProgramy/studijnyProgram',
+                'stupenPredmetu': 'stupenPredmetu',
                 'studijnyProgram': 'studijneProgramy/studijnyProgram/popis',
                 'podmienujucePredmety': 'podmienujucePredmety',
                 'vylucujucePredmety': 'vylucujucePredmety',
@@ -102,7 +105,11 @@ def extract_infolists(filename, lang='sk', mode='regular', verbose=True):
                 'obsahovaNapln': '_ON_/texty',
                 'podmienkyAbsolvovania': '_PA_/texty',
                 'vysledkyVzdelavania': '_VV_/texty',
-                'poznamky': '_PZ_/texty'}
+                'poznamky': '_PZ_/texty',
+                'hodnotenia': 'hodnoteniaPredmetu/hodnoteniePredmetu',
+                'pocetHodnoteni': 'hodnoteniaPredmetu/celkovyPocetHodnotenychStudentov',
+                'vyucujuci': 'vyucujuciAll/vyucujuci',
+    }
     data = []
 
     # spracovanie informacnych listov jednotlivych predmetov
@@ -121,7 +128,14 @@ def extract_infolists(filename, lang='sk', mode='regular', verbose=True):
             if il.find(path) is not None:
                 if key != 'vahaHodnotenia' and path.startswith('_'):
                     d[key] = utils.get_text(il.find(path))
-                elif key in ['studijnyProgram', 'jazyk']:
+                elif key in ['studijneProgramy','hodnotenia','vyucujuci']:
+                    d[key]=[]
+                    for el in il.findall(path):
+                        strct = {}
+                        for subel in el:
+                            strct[subel.tag]=subel.text
+                        d[key].append(strct)
+                elif key in ['studijnyProgram', 'jazyk', 'studijneProgramy']:
                     d[key] = [el.text for el in il.findall(path)]
                     if key == 'jazyk':
                         d[key] = list(set(d[key]))
@@ -132,17 +146,26 @@ def extract_infolists(filename, lang='sk', mode='regular', verbose=True):
 
         # uprava kodov predmetov
         d['kod'] = utils.parse_code(d['kod'])
+        d['year'] = year
 
         # uprava URL
         if d['webstranka']:
             d['webstranka'] = utils.make_link(d['webstranka'],d['webstranka'])
+
+        # URL pre vyucujucich
+        for v in d['vyucujuci']:
+            email = v.get('pridelenyEmail')
+            if email!=None:
+                login = re.search('^(.*)\@uniba\.sk$',email)
+                if login!=None:
+                    v['url']='https://sluzby.fmph.uniba.sk/ludia/'+login.group(1)
             
         data.append(d)
 
     return data
 
 
-def render_HTML(data, tpl_name, output_path=None, courses=None, lang='sk', mode='regular'):
+def render_HTML(data, tpl_name, output_path=None, courses=None, lang='sk', mode='regular', year='xxx'):
     """Render the course data into separate HTML files named by the course codes.
 
     Params:
@@ -165,35 +188,35 @@ def render_HTML(data, tpl_name, output_path=None, courses=None, lang='sk', mode=
 
         html = html_tpl.render(course)
 
-	filename = '%s.html' % kod_predmetu
+        filename = '%s.html' % kod_predmetu
         filename = filename.replace("/","_")
         if output_path is not None:
-	    path = os.path.join(output_path, filename)
+            path = os.path.join(output_path, filename)
             if not os.path.exists(output_path):
                 os.mkdir(output_path)
         else:
-	    path = filename
+            path = filename
         with open(path, 'w') as f:
             f.write(html.encode('utf8'))
 
 
-def main(filenames, tpl_name, output_path=None, lang='sk', mode='regular', verbose=True):
+def main(filenames, tpl_name, output_path=None, lang='sk', mode='regular', year='xxx', verbose=True):
     if verbose:
-        print "Extrahujem nazvy predmetov...",
+        print("Extrahujem nazvy predmetov...",)
     courses = {}
     # extrahuj vsetky predmety
     for f in filenames:
         courses = extract_courses(f, courses)
     if verbose:
-        print "Hotovo."
+        print("Hotovo.")
 
     for f in filenames:
         if verbose:
-            print "Spracuvam subor '%s'..." % f
-        data = extract_infolists(f, lang=lang, mode=mode, verbose=verbose)
-        render_HTML(data, tpl_name, output_path, courses, mode=mode, lang=lang)
+            print("Spracuvam subor '%s'..." % f)
+        data = extract_infolists(f, lang=lang, mode=mode, year=year, verbose=verbose)
+        render_HTML(data, tpl_name, output_path, courses, mode=mode, lang=lang, year=year)
     if verbose:
-        print "Hotovo."
+        print("Hotovo.")
 
 
 if __name__ == "__main__":
@@ -204,11 +227,12 @@ if __name__ == "__main__":
     parser.add_argument('output_path', metavar='output-path', help='path for HTML files to be stored')
     parser.add_argument('tpl_name', metavar='tpl-name', help='file with template')
     parser.add_argument('--lang', dest='lang', nargs='?', default='sk', help='language')
+    parser.add_argument('--year', dest='year', nargs='?', default='2022-2023', help='academic year')
     parser.add_argument('--mode', dest='mode', nargs='?', default='regular', help='mode of work regular/statnice')
 
     args = parser.parse_args()
 
     xml_path = os.path.join(args.input_path, '*.xml')
     filenames = glob.glob(xml_path)
-    main(filenames, args.tpl_name, args.output_path, lang=args.lang, mode=args.mode)
+    main(filenames, args.tpl_name, args.output_path, lang=args.lang, mode=args.mode, year=args.year)
 

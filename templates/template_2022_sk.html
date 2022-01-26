@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="{{ lang }}" lang="{{ lang }}">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>Informačný list predmetu {{ nazov }} ({{ kod }}) ({{ year }})</title>
+        <style type="text/css">
+            body {font-family: serif; max-width: 50em;}
+            h1 {
+                font-size: 110%;
+                text-align: center;
+            }
+            table {width: 100%; border-collapse: collapse;}
+            table td {padding: 0.3em; border: thin solid black;}
+            table tr + tr > td:first-child {width: 30%;}
+            p, dl {margin: 0;}
+            h1 + p {margin-bottom: 1.5em;}
+            dl dt {font-weight: bold; float: left; clear: left; margin-right: 0.5em;}
+            dt:after {content: ":";}
+            #literatura p {text-indent: -1em; padding-left: 1em;}
+            #skola {text-align: center; margin-bottom: 1em;}
+            #kredity {width: 22%;}
+        </style>
+    </head>
+    <body>
+        <h1>INFORMAČNÝ LIST PREDMETU</h1>
+
+        <table>
+        <tbody>
+	    <tr>
+	    <td colspan="2"><strong>Vysoká škola:</strong> {{ vysokaSkola }}
+	    </tr>
+	    <tr>
+	    <td colspan="2"><strong>Fakulta:</strong> {{ fakulta }}
+	    </tr>
+	    <tr>
+	    <td colspan="2"><strong>Akademický rok:</strong> {{ year }}
+	    </tr>
+            <tr>
+                <td><strong>Kód</strong>: {{ kod }}</td>
+                <td><strong>Názov predmetu</strong>: {{ nazov }}</td>
+            </tr>
+	    {% if webstranka %}
+	    <tr>
+	      <td colspan="2">
+		<strong>Web stránka predmetu</strong>: {{ webstranka }}
+	      </td>
+	    </tr>
+	    {% endif %}
+            <tr>
+               <td colspan="2">
+               <strong>Druh, rozsah a metóda vzdelávacích činností:</strong>
+	       {{ rozsahTyzdenny }} ({{ sposobVyucby }}) 
+               </td>
+            </tr>
+
+	    <tr>
+	      <td colspan="2">
+              <strong>Počet kreditov:</strong> {{ kredit }}
+	      </td>
+	    </tr>
+
+	    <tr>
+	      <td colspan="2">
+		<strong>Odporúčaný semester štúdia:</strong><br>
+		  {% for sp in studijneProgramy %}
+		  {{ sp['skratka'] }} {{ sp['popis'] }} {{ sp['rokRocnik'] }}/{{ sp['kodSemester'] }}<br>
+		  {% endfor %}
+	      </td>
+            </tr>
+	    
+	    <tr>
+	      <td colspan="2">
+		<strong>Stupeň štúdia:</strong>
+		{{ stupenPredmetu }}
+              </td>
+            </tr>
+
+	    <tr>
+	      <td colspan="2">
+              <strong>Podmieňujúce predmety:</strong> <br>
+              {{ podmienujucePredmety }} 
+            {% if vylucujucePredmety %}
+	       <p>
+               <strong>Vylučujúce predmety:</strong> <br>
+               {{ vylucujucePredmety }}
+            {% endif %}
+            {% if obsahovaPrerekvizita %}
+               <p>
+              <strong>Obsahová prerekvizita:</strong> <br> 
+               {{ obsahovaPrerekvizita }}
+            {% endif %}
+	   </td></tr>
+  
+	   <tr><td colspan="2">
+	   <strong>Podmienky absolvovania predmetu</strong>: <br>
+	   {{ podmienkyAbsolvovania }}
+           {% if vahaHodnotenia %} 
+	   <p>  
+           Váha priebežného / záverečného hodnotenia: {{ vahaHodnotenia }}
+	   {% endif %}
+	   </td></tr>
+
+	   <tr><td colspan="2">
+	   <strong>Výsledky vzdelávania:</strong><br>
+           {{ vysledkyVzdelavania }}
+	   </td></tr>
+
+	   <tr><td colspan="2">
+	   <strong>Stručná osnova predmetu:</strong><br>
+	   {{ strucnaOsnova }}
+	   </td></tr>
+
+            {% if obsahovaNapln %}
+            <tr><td colspan="2">
+            <strong>Obsahová náplň štátnej skúšky:</strong>
+                {{ obsahovaNapln }}
+            </td></tr>
+            {% endif %}
+
+
+	   <tr><td colspan="2" id="literatura">
+	   <strong>Odporúčaná literatúra:</strong><br>
+	   {{ literatura }}
+	   </td></tr>
+
+	   <tr><td colspan="2">
+	   <strong>Jazyk, ktorého znalosť je potrebná na absolvovanie predmetu:</strong> {{ jazyk }}
+
+	   </td></tr>
+
+	   <tr><td colspan="2">
+	   <strong>Poznámky:</strong><br>
+	   {{ poznamky }}  
+	   </td></tr>
+
+	   {% if pocetHodnoteni|int > 10 %}  
+	   <tr><td colspan="2">
+	       <strong>Prehľad hodnotení:</strong><br>
+
+	       {% for h in hodnotenia %}
+	       {{ h['kod'] }}: {{ h['percentualneVyjadrenieZCelkPoctuHodnoteni'] }}%
+	       {% endfor %}
+
+	       <p>Celkový počet hodnotení: {{ pocetHodnoteni }}
+
+	    </tr>
+	    {% endif %}    
+	       
+	   <tr><td colspan="2">
+	   <strong>Vyučujúci:</strong><br>
+             {% for v in vyucujuci %}
+	     {% if v['url'] %}
+	     <a href="{{v['url']}}">{{ v['plneMeno'] }}</a>
+	     {% else %}
+	     {{ v['plneMeno'] }}
+	     {% endif %}
+	     ({{ v['typPopis'] }})<br>
+	     {% endfor %}
+	   </td></tr>
+
+
+	   <tr><td colspan="2">
+	   <strong>Dátum poslednej zmeny:</strong>
+	   {{ datumSchvalenia }}  
+	   </td></tr>
+
+	   <tr><td colspan="2">
+	   <strong>Schválil:</strong>
+           {{ garanti }}
+	   </td></tr>
+            </tbody>
+        </table>
+    </body>
+</html>
