@@ -17,10 +17,10 @@ my $tempdir = tempdir( CLEANUP=>1 );
 
 download_data("sk");
 download_data("en");
-process_data("sk","regular","template_2015_sk.html");
-process_data("en","regular","template_2015_en.html");
-process_data("sk","statnice","template_2015_sk.html");
-process_data("en","statnice","template_2015_en.html");
+process_data("sk","regular","template_2022_sk.html");
+process_data("en","regular","template_2022_en.html");
+process_data("sk","statnice","template_2022_sk.html");
+process_data("en","statnice","template_2022_en.html");
 create_links("sk");
 create_links("en");
 
@@ -47,7 +47,7 @@ sub process_data {
     print STDERR "Processing $lang/$mode into $ultimatetarget...\n";
 
     my_run("mkdir -p $ultimatetarget");
-    my_run("python $Bin/AIS_XML2HTML.py --lang $lang --mode $mode $tempdir/$fakulta/xml_files_$lang $ultimatetarget templates/$sablona");
+    my_run("python $Bin/AIS_XML2HTML.py --lang $lang --mode $mode --year $season $tempdir/$fakulta/xml_files_$lang $ultimatetarget templates/$sablona");
 
 }
 
