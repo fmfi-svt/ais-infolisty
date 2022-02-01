@@ -34,7 +34,7 @@ sub process_data {
     my @allfiles = glob("$ultimatesource/*.xml");
     foreach my $f (@allfiles) {
 	my ($basename) = fileparse($f,".xml");
-	my_run("$Bin/studijne-programy.pl $ultimatesource/$basename.xml $ultimatetarget/sp_$basename.html",0);
+	my_run("$Bin/studijne-programy.pl $ultimatesource/$basename.xml $ultimatetarget/sp_$basename.html $ultimatetarget/sp_$basename-vyucujuci.html $Bin/portal-vs/portal-vs.tsv",0);
     }
     
 }

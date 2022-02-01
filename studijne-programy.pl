@@ -3,14 +3,24 @@ use strict;
 use XML::Simple;
 use Data::Dumper;
 use utf8;
+use Unicode::Collate;
+
+binmode STDOUT,":utf8";
+binmode STDERR,":utf8";
+
 
 my $usage = "
-$0 <xml_subor> <html_subor> <prehlad>
+$0 <xml_subor> <html_subor> <prehlad-ucitelov>
 ";
 
 my $xmlfile = shift or die $usage;
 my $htmlfile = shift or die $usage;
 my $prehlad = shift;
+my $portal = shift;
+my %portalvsindex;
+if ($portal) {
+    citaj_portalvs()
+}
 
 my $pocetStlpcov = 6;
 
@@ -57,20 +67,37 @@ foreach my $blok (@{$bloky}) {
 }
 
 print $out "</table>";
-
-if ($prehlad) {
-    print $out "<p>&nbsp;</p>";
-    print $out "<p><b>Prehľad vyučujúcich:</b></p>\n";
-    print $out "<p><table>\n";
-    foreach my $v (sort(keys(%vyucujuciprogramu))) {
-	print $out "<tr><td>";
-	print $out join("</td><td>",$vyucujuciprogramu{$v}{'meno'},$vyucujuciprogramu{$v}{'email'},$vyucujuciprogramu{$v}{'url'});
-	print $out "</td></tr>\n";
-    }
-}
-
 print $out "</body></html>";
 close $out;
+
+if ($prehlad) {
+    open $out,">:encoding(UTF-8)", $prehlad or die "Cannot open $prehlad for writing!";
+
+    print $out "<html><body>\n";
+
+    my $uc = Unicode::Collate->new();
+
+    print $out "<h1>Prehľad vyučujúcich profilových predmetov</h1>\n";
+
+    foreach my $v ($uc->sort(keys(%vyucujuciprogramu))) {
+	next unless defined $vyucujuciprogramu{$v}{'profpredmety'};
+	print $out join("; ","<b>".$vyucujuciprogramu{$v}{'meno'}."</b>",$vyucujuciprogramu{$v}{'email'},soe($vyucujuciprogramu{$v}{'portal'}));
+	print $out "<br>\n";
+	print $out "<i>",join("; ",@{$vyucujuciprogramu{$v}{'profpredmety'}}),"</i><br>\n";
+    }
+
+
+    print $out "<h1>Prehľad vyučujúcich</h1>\n";
+    
+    foreach my $v ($uc->sort(keys(%vyucujuciprogramu))) {
+	print $out join("; ","<b>".$vyucujuciprogramu{$v}{'meno'}."</b>",$vyucujuciprogramu{$v}{'email'},soe($vyucujuciprogramu{$v}{'portal'}));
+	print $out "<br>\n";
+	print $out "<i>",join("; ",@{$vyucujuciprogramu{$v}{'predmety'}}),"</i><br>\n";
+    }
+
+    print $out "</body></html>";
+    close $out;
+}
 
 
 
@@ -184,9 +211,26 @@ sub vypis_blok {
 
 }
 
+sub citaj_portalvs {
+    open my $portalf,"<:encoding(UTF-8)",$portal;
+
+    my %count;
+    while (my $line = <$portalf>) {
+	chomp $line;
+	my @parts = split "\t",$line;
+	$count{$parts[0]}++;
+	if ($count{$parts[0]} > 1) {	    
+	    $portalvsindex{$parts[0]} = "!" unless $portalvsindex{$parts[0]} eq $parts[1];
+	} else {
+	    $portalvsindex{$parts[0]}=$parts[1];
+	}
+    }
+
+    close $portalf;
+}
 
 sub daj_vyucujucich {
-    my ($ref) = @_;
+    my ($ref,$predmet,$jeprof) = @_;
 
     my $vyucujuci = "";
     my $sep = "";
@@ -207,13 +251,32 @@ sub daj_vyucujucich {
 
 	# vybuduj index vyucujucich
 	my $index = soe($vref->{'priezvisko'}).', '.soe($vref->{'meno'});
+	my $portalindex = lc(soe($vref->{'priezvisko'}).' '.soe($vref->{'meno'}));
 	$vyucujuciprogramu{$index}{'meno'} = soe($vref->{'plneMeno'});
 	$vyucujuciprogramu{$index}{'url'} = $link;
 	$vyucujuciprogramu{$index}{'email'} = $email;
+	push @{$vyucujuciprogramu{$index}{'predmety'}}, $predmet;
+	push @{$vyucujuciprogramu{$index}{'profpredmety'}}, $predmet if $jeprof;	
+	if (defined $portalvsindex{$portalindex}) {
+	    $vyucujuciprogramu{$index}{'portal'}="https://portalvs.sk".$portalvsindex{$portalindex};
+	}
     }
 
     return $vyucujuci;
 
+}
+
+sub jeprofilovy {
+    my ($ref) = @_;
+
+    my $priznaky = aoe($ref->{'priznak'});
+    foreach my $p (@{$priznaky}) {
+	if ($p eq "P") {
+	    return "P";
+	}
+    }
+
+    return "";
 }
 
 sub vypis_predmet {
@@ -221,17 +284,18 @@ sub vypis_predmet {
 
     my ($kod,$subor) = uprav_kod($ref->{'skratka'});
     my $nazov = $ref->{'nazov'};
+    my $jeprof = jeprofilovy($ref);
     # my $vyucujuci = soe($ref->{'vyucujuci2'});
-    my $vyucujuci = daj_vyucujucich(aoe($ref->{'vyucujuciAll'}{'vyucujuci'}));
+    my $vyucujuci = daj_vyucujucich(aoe($ref->{'vyucujuciAll'}{'vyucujuci'}),$nazov,$jeprof);
     my $konanie = soe($ref->{'rocnik'}).'/'.soe($ref->{'semester'});
     my $rozsah = soe($ref->{'rozsah'});
     my $aktualnost = soe($ref->{'aktualnost'});
     my $kreditov = $ref->{'kredit'}."kr";
     my $prerekvizity = soe($ref->{'podmienujucePredmety'});
     $prerekvizity =~ s/([\w\.\+]+)\/(\S+)\/(\d+)/$2\/$3/g;
-
+    
     print $out
-	"<tr><td>$kod</td><td>$aktualnost</td>
+	"<tr><td>$kod</td><td>$jeprof$aktualnost</td>
         <td width=60%><a href=\"$subor\">$nazov</a>"; 
     print $out "<i> - $vyucujuci</i>" if ($vyucujuci);
     print $out "<br>Prerekvizity: $prerekvizity" if ($prerekvizity);
