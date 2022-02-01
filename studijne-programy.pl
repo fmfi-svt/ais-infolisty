@@ -73,7 +73,7 @@ close $out;
 if ($prehlad) {
     open $out,">:encoding(UTF-8)", $prehlad or die "Cannot open $prehlad for writing!";
 
-    print $out "<html><body>\n";
+    print $out "<html><meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\" /><body>\n";
 
     my $uc = Unicode::Collate->new();
 
