@@ -25,6 +25,10 @@ def replace_codes(text, lang='sk', add_links=False, courses={}, and_symbol=', ')
 
     if not text:
         return ""
+
+    # AIS2 bugs
+    text=text.replace('alebo',' alebo ')
+    text=text.replace('and lebo',' or ')
     
     m=re.split('([()\s]+)',text,flags=re.UNICODE)
     result=""
