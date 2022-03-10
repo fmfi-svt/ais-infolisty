@@ -4,7 +4,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="{{ lang }}" lang="{{ lang }}">
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-        <title>Course Description {{ nazov }} ({{ kod }})</title>
+        <title>Course Description {{ nazov }} ({{ kod }}) ({{ year }})</title>
         <style type="text/css">
             body {font-family: serif; max-width: 50em;}
             h1 {
@@ -34,20 +34,20 @@
 	    <tr>
 	    <td colspan="2"><strong>Faculty:</strong> {{ fakulta }}
 	    </tr>
+	    <tr>
+	    <td colspan="2"><strong>Academic year:</strong> {{ year }}
+	    </tr>
             <tr>
                 <td><strong>Course ID</strong>: {{ kod }}</td>
-                <td><strong>Course name</strong>: {{ nazov }}</td>
+                <td><strong>Course title</strong>: {{ nazov }}</td>
             </tr>
-
-           {% if webstranka %}
-            <tr>
-              <td colspan="2">
-                <strong>Course web page</strong>: {{ webstranka }}
-              </td>
-            </tr>
-            {% endif %}
-
-	    
+	    {% if webstranka %}
+	    <tr>
+	      <td colspan="2">
+		<strong>Web page</strong>: {{ webstranka }}
+	      </td>
+	    </tr>
+	    {% endif %}
             <tr>
                <td colspan="2">
                <strong>Educational activities:</strong>
@@ -63,21 +63,23 @@
 
 	    <tr>
 	      <td colspan="2">
-	      <strong>Recommended semester:</strong><br>
-              {{ studijnyProgram|join('<br>') }} <br>
-              {{ rokRocnikStudPlan }}/{{ kodSemesterStudPlan }}
+		<strong>Recommended semester:</strong><br>
+		  {% for sp in studijneProgramy %}
+		  {{ sp['skratka'] }} {{ sp['popis'] }} {{ sp['rokRocnik'] }}/{{ sp['kodSemester'] }}<br>
+		  {% endfor %}
 	      </td>
             </tr>
 	    
 	    <tr>
 	      <td colspan="2">
-	      <strong>Educational level:</strong> 
+		<strong>Educational level:</strong>
+		{{ stupenPredmetu }}
               </td>
             </tr>
 
 	    <tr>
 	      <td colspan="2">
-              <strong>Prerequisites:</strong> <br>
+              <strong>Required prerequisites:</strong> <br>
               {{ podmienujucePredmety }} 
             {% if vylucujucePredmety %}
 	       <p>
@@ -86,7 +88,7 @@
             {% endif %}
             {% if obsahovaPrerekvizita %}
                <p>
-              <strong>Recommendations:</strong> <br> 
+              <strong>Recommended prerequisites:</strong> <br> 
                {{ obsahovaPrerekvizita }}
             {% endif %}
 	   </td></tr>
@@ -96,7 +98,7 @@
 	   {{ podmienkyAbsolvovania }}
            {% if vahaHodnotenia %} 
 	   <p>  
-           Weight of the course work / exam: {{ vahaHodnotenia }}
+           Weight of work during semester / final exam: {{ vahaHodnotenia }}
 	   {% endif %}
 	   </td></tr>
 
@@ -106,13 +108,13 @@
 	   </td></tr>
 
 	   <tr><td colspan="2">
-	   <strong>Class syllabus:</strong><br>
+	   <strong>Syllabus:</strong><br>
 	   {{ strucnaOsnova }}
 	   </td></tr>
 
-           {% if obsahovaNapln %}
+            {% if obsahovaNapln %}
             <tr><td colspan="2">
-            <strong>Detailed state exam syllabus:</strong>
+            <strong>State exam requirements:</strong>
                 {{ obsahovaNapln }}
             </td></tr>
             {% endif %}
@@ -124,18 +126,38 @@
 	   </td></tr>
 
 	   <tr><td colspan="2">
-	   <strong>Languages necessary to complete the course:</strong> {{ jazyk }}
+	   <strong>Languages required to complete the course:</strong> {{ jazyk }}
 
 	   </td></tr>
 
 	   <tr><td colspan="2">
 	   <strong>Notes:</strong><br>
-	   {{ poznamky }}
+	   {{ poznamky }}  
 	   </td></tr>
 
+	   {% if pocetHodnoteni|int > 10 %}  
+	   <tr><td colspan="2">
+	       <strong>Grade overview:</strong><br>
+
+	       {% for h in hodnotenia %}
+	       {{ h['kod'] }}: {{ h['percentualneVyjadrenieZCelkPoctuHodnoteni'] }}%
+	       {% endfor %}
+
+	       <p>Total number of assigned grades: {{ pocetHodnoteni }}
+
+	    </tr>
+	    {% endif %}    
+	       
 	   <tr><td colspan="2">
 	   <strong>Lecturers:</strong><br>
-           {{ zabezpecuju }}
+             {% for v in vyucujuci %}
+	     {% if v['url'] %}
+	     <a href="{{v['url']}}">{{ v['plneMeno'] }}</a>
+	     {% else %}
+	     {{ v['plneMeno'] }}
+	     {% endif %}
+	     ({{ v['typPopis'] }})<br>
+	     {% endfor %}
 	   </td></tr>
 
 
@@ -143,11 +165,12 @@
 	   <strong>Last change:</strong>
 	   {{ datumSchvalenia }}  
 	   </td></tr>
-
+	   <!--
 	   <tr><td colspan="2">
-	   <strong>Approved by:</strong>
+	   <strong>Schválil:</strong>
            {{ garanti }}
 	   </td></tr>
+	   -->
             </tbody>
         </table>
     </body>
