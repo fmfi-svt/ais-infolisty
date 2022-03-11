@@ -63,7 +63,12 @@ def extract_infolists(filename, lang='sk', mode='regular', year='xxx', verbose=T
     Returns:
         list of infolists with cou dics
     """
-    xmldoc = ET.parse(filename)
+    try:
+        xmldoc = ET.parse(filename)
+    except:
+        print("Error: ", sys.exc_value)        
+        return
+    
     root = xmldoc.getroot()
     organizacnaJednotka = root.find('organizacnaJednotka').text
     vysokaSkola = root.find('vysokaSkola').text
@@ -214,7 +219,8 @@ def main(filenames, tpl_name, output_path=None, lang='sk', mode='regular', year=
         if verbose:
             print("Spracuvam subor '%s'..." % f)
         data = extract_infolists(f, lang=lang, mode=mode, year=year, verbose=verbose)
-        render_HTML(data, tpl_name, output_path, courses, mode=mode, lang=lang, year=year)
+        if data is not None:
+            render_HTML(data, tpl_name, output_path, courses, mode=mode, lang=lang, year=year)
     if verbose:
         print("Hotovo.")
 
