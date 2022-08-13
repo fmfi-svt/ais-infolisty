@@ -107,17 +107,19 @@ sub hlavicka_sp {
 
     print $out "<h1>".$ref->{'co'}{'nazov'}."</h1>\n";
 
+    print $out "<p><b>Akademický rok:</b> ",$ref->{'akademickyRok'};
+    
     my $odbory = aoe($ref->{'studijneOdbory'}{'studijnyOdbor'});
     foreach my $odbor (@{$odbory}) {
-        print $out "<p><b>študijný odbor:</b> ",$odbor->{'nazov'};
-	my $garanti = aoe($odbor->{'garanti'}{'garant'});
+        print $out "<p><b>Študijný odbor:</b> ",$odbor->{'nazov'};
+	my $garanti = aoe($odbor->{'osobyZodpovedneZaRealizaciuSP'}{'zodpovednaOsoba'});
 	foreach my $garant (@{$garanti}) {
-	    print $out "<br><b>",$garant->{'typGaranta'},":</b> ",
+	    #print $out "<br><b>",$garant->{'typGaranta'},":</b> ",
+	    print $out "<br><b>Garant:</b> ",
 	    $garant->{'meno'};
 	}
     }
 
-    print $out "<p><b>akademický rok:</b> ",$ref->{'akademickyRok'};
 
 }
 
