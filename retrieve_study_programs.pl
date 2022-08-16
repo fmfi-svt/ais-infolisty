@@ -3,13 +3,18 @@ use strict;
 use File::Temp qw/ tempfile tempdir /;
 use File::Basename;
 use FindBin qw($Bin);
+use Getopt::Std;
 
 my $usage = "
-$0 season target_directory
+$0 [-f faculty] season target_directory
 ";
+
+my %opts;
+getopts('f:',\%opts);
 
 my $season = shift or die $usage;
 my $fakulta = "FMFI";
+my $fakulta = $opts{'f'} if defined $opts{'f'};
 my $target_directory = shift or die $usage;
 my $xmlurl = "https://ais2.uniba.sk/repo2/repository/default/ais/studijneplany";
 my $xmlurlpodprogramy = "https://ais2.uniba.sk/repo2/repository/default/ais/studijneplanypodprogramov";

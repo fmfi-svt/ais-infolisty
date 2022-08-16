@@ -313,7 +313,7 @@ sub uprav_kod {
     } else {
 	my $subor = $kod;
 	$subor =~ s/\//_/g;
-	return ($kod,$subor);
+	return ($kod,"$subor.html");
     }
 }
 
