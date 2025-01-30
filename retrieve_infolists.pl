@@ -67,7 +67,8 @@ sub download_data {
     my $filelist="$datadir/files_$lang.txt";
     my $xmldir="$datadir/xml_files_$lang";
 
-    my $lynxcmd = "lynx --dump \"$xmlurl/$season/$fakulta/$LANG/\" | awk '/http/{print \$2}' | grep xml > \"$filelist\"";
+    #my $lynxcmd = "lynx --dump \"$xmlurl/$season/$fakulta/$LANG/\" | awk '/http/{print \$2}' | grep xml > \"$filelist\"";
+    my $lynxcmd = "wget -O - \"$xmlurl/$season/$fakulta/$LANG/\" | awk 'BEGIN{ RS=\"<a *href *= *\\\"\"} NR>2 {sub(/\".*/,\"\");print; }' | grep xml > \"$filelist\"";
 
 
     my_run("mkdir -p $datadir");
